@@ -5,6 +5,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import Layout from "./components/Layout";
 
 const SectionsPage = React.lazy(() => import("./pages/SectionsPage"));
 const BooksPage = React.lazy(() => import("./pages/BooksPage"));
@@ -16,28 +17,33 @@ function App() {
   return (
     <Router>
       <Suspense fallback={<div>Завантаження...</div>}>
-        <Routes>
-          <Route path="/sections" element={<SectionsPage />} />
+        <Layout>
+          <Routes>
+            <Route path="/sections" element={<SectionsPage />} />
 
-          <Route path="/sections/:sectionName/books" element={<BooksPage />} />
+            <Route
+              path="/sections/:sectionName/books"
+              element={<BooksPage />}
+            />
 
-          <Route
-            path="/sections/:sectionName/books/:bookName/chapters"
-            element={<ChaptersPage />}
-          />
+            <Route
+              path="/sections/:sectionName/books/:bookName/chapters"
+              element={<ChaptersPage />}
+            />
 
-          <Route
-            path="/sections/:sectionName/books/:bookName/chapters/:chapterId/verses"
-            element={<VersesPage />}
-          />
+            <Route
+              path="/sections/:sectionName/books/:bookName/chapters/:chapterId/verses"
+              element={<VersesPage />}
+            />
 
-          <Route
-            path="/sections/:sectionName/search/:query"
-            element={<SearchPage />}
-          />
+            <Route
+              path="/sections/:sectionName/search/:query"
+              element={<SearchPage />}
+            />
 
-          <Route path="*" element={<Navigate to="/sections" />} />
-        </Routes>
+            <Route path="*" element={<Navigate to="/sections" />} />
+          </Routes>
+        </Layout>
       </Suspense>
     </Router>
   );
