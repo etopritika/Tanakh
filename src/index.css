@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap&subset=latin,cyrillic,hebrew");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #faf3e8;
+  --brown-dark: #781d19;
+  --brown-light: #c29b77;
+  --white: #ffffff;
+  --black: #000;
+  --text: #28180a;
+  --muted: #a29e8c;
+  --danger: #c40700;
+}
+
+body {
+  @apply bg-[var(--background)] text-[var(--text)] font-sans;
+}
+
+.font-sans {
+  font-family: "Noto Sans", Arial, sans-serif;
+}
