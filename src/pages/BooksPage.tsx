@@ -16,10 +16,10 @@ type BooksBySection = {
 const books: BooksBySection = {
   tora: [
     {
-      id: "bereshit",
+      id: "beresheet",
       name: "Берешит",
-      file: "/tora/obj-bereshit.js",
-      href: "/sections/tora/books/bereshit/chapters/1",
+      file: "/tora/obj-beresheet.js",
+      href: "/sections/tora/books/beresheet/chapters/1",
     },
     {
       id: "schmot",
