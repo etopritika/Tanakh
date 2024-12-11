@@ -16,8 +16,8 @@ const SearchPage = React.lazy(() => import("./pages/SearchPage"));
 function App() {
   return (
     <Router>
-      <Suspense fallback={<div>Завантаження...</div>}>
-        <Layout>
+      <Layout>
+        <Suspense fallback={<div>Завантаження...</div>}>
           <Routes>
             <Route path="/sections" element={<SectionsPage />} />
 
@@ -27,24 +27,24 @@ function App() {
             />
 
             <Route
-              path="/sections/:sectionName/books/:bookName/chapters"
+              path="/sections/:sectionName/books/:bookName/chapters/:pageNumber"
               element={<ChaptersPage />}
             />
 
             <Route
-              path="/sections/:sectionName/books/:bookName/chapters/:chapterId/verses"
+              path="/sections/:sectionName/books/:bookName/chapter/:chapterId/verses/:poemNumber"
               element={<VersesPage />}
             />
 
             <Route
-              path="/sections/:sectionName/search/:query"
+              path="/sections/:sectionName/search"
               element={<SearchPage />}
             />
 
             <Route path="*" element={<Navigate to="/sections" />} />
           </Routes>
-        </Layout>
-      </Suspense>
+        </Suspense>
+      </Layout>
     </Router>
   );
 }
