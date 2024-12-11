@@ -1,4 +1,3 @@
-import useCurrentBookStore from "@/store/current-book";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router";
 
@@ -61,15 +60,10 @@ const books: BooksBySection = {
 
 export default function BooksPage() {
   const { sectionName } = useParams<{ sectionName: string }>();
-  const setBook = useCurrentBookStore((state) => state.setBook);
 
   if (!sectionName) {
     return <p className="text-red-500">Книга не найдена</p>;
   }
-
-  const handleSelectBook = (id: string, file: string) => {
-    setBook(id, file);
-  };
 
   return (
     <section className="py-6">
@@ -79,7 +73,6 @@ export default function BooksPage() {
             <Link
               to={book.href}
               className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg min-w-[150px] text-center"
-              onClick={() => handleSelectBook(book.id, book.file)}
             >
               {book.name}
             </Link>
