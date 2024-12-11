@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { Breadcrumbs } from "./Breadcrumbs";
+import { Breadcrumbs } from "./breadcrumbs";
 import SearchButton from "./search-button";
 
 export default function Header() {
