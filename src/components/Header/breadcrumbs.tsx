@@ -71,7 +71,7 @@ export function Breadcrumbs({ pathSegments }: BreadcrumbsProps) {
                 {isLast ? (
                   <span>{segment.label}</span>
                 ) : (
-                  <BreadcrumbLink href={href}>{segment.label}</BreadcrumbLink>
+                  <BreadcrumbLink to={href}>{segment.label}</BreadcrumbLink>
                 )}
               </BreadcrumbItem>
             </React.Fragment>
