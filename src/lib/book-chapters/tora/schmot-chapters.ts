@@ -1,4 +1,4 @@
-export const schmotChapters = [
+const schmotChapters = [
   {
     key: 1,
     start: 0,
@@ -240,3 +240,5 @@ export const schmotChapters = [
     verses: 37,
   },
 ];
+
+export default schmotChapters;

@@ -1,4 +1,4 @@
-export const vaikraChapters = [
+const vaikraChapters = [
   {
     key: 1,
     start: 0,
@@ -162,3 +162,5 @@ export const vaikraChapters = [
     verses: 34,
   },
 ];
+
+export default vaikraChapters;

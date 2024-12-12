@@ -1,4 +1,4 @@
-export const beresheetChapters = [
+const beresheetChapters = [
   {
     key: 1,
     start: 0,
@@ -300,3 +300,5 @@ export const beresheetChapters = [
     verses: 26,
   },
 ];
+
+export default beresheetChapters;

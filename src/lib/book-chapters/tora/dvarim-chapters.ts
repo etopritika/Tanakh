@@ -1,4 +1,4 @@
-export const dvarimChapters = [
+const dvarimChapters = [
   {
     key: 1,
     start: 0,
@@ -42,3 +42,5 @@ export const dvarimChapters = [
     verses: 11,
   },
 ];
+
+export default dvarimChapters;

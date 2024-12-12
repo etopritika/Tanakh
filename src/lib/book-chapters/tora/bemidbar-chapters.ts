@@ -1,4 +1,4 @@
-export const bemidbarChapters = [
+const bemidbarChapters = [
   {
     key: 1,
     start: 0,
@@ -216,3 +216,5 @@ export const bemidbarChapters = [
     verses: 13,
   },
 ];
+
+export default bemidbarChapters;
