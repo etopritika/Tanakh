@@ -1,4 +1,4 @@
-import { beresheetChapters } from "@/lib/books/beresheet-chapters";
+import { beresheetChapters } from "@/lib/book-chapters/tora/beresheet-chapters";
 import { Link, useParams } from "react-router-dom";
 
 export default function ChaptersPage() {
