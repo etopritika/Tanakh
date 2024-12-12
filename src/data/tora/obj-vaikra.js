@@ -253,7 +253,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 3,
     verse:
@@ -279,7 +279,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 5,
     verse:
@@ -305,7 +305,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 7,
     verse:
@@ -331,7 +331,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 9,
     verse:
@@ -357,7 +357,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 11,
     verse:
@@ -383,7 +383,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 13,
     verse:
@@ -409,7 +409,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 2,
     id_chapter_two: 1,
     poemNumber: 15,
     verse:
@@ -464,7 +464,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 3,
     verse:
@@ -490,7 +490,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 5,
     verse:
@@ -516,7 +516,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 7,
     verse:
@@ -542,7 +542,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 9,
     verse:
@@ -568,7 +568,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 11,
     verse:
@@ -592,7 +592,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 13,
     verse:
@@ -618,7 +618,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 15,
     verse:
@@ -644,7 +644,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ВАИКРА(И призвал)",
     id_book: 2,
-    id_chapter: 1,
+    id_chapter: 3,
     id_chapter_two: 1,
     poemNumber: 17,
     verse:
@@ -1486,7 +1486,7 @@ const objVaikra = [
     name: "ВАИКРА",
     chapter: "ЦАВ(Прикажи)",
     id_book: 2,
-    id_chapter: 7,
+    id_chapter: 6,
     id_chapter_two: 1,
     poemNumber: 4,
     verse:
@@ -6331,7 +6331,7 @@ const objVaikra = [
     main: 1,
     main_name: "vaikra",
     id_book: 2,
-    id_chapter: 15,
+    id_chapter: 17,
     id_chapter_two: 1,
     poemNumber: 1,
     verse: "Господь сказал Моше:",

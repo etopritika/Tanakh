@@ -3908,7 +3908,7 @@ const objBeresheet = [
     name: "БЕРЕШИТ",
     chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
     id_book: 0,
-    id_chapter: 12,
+    id_chapter: 13,
     id_chapter_two: 1,
     poemNumber: 8,
     verse:
