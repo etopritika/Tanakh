@@ -27,12 +27,12 @@ function App() {
             />
 
             <Route
-              path="/sections/:sectionName/books/:bookName/chapters/:pageNumber"
+              path="/sections/:sectionName/books/:bookName/chapters/:chapterPage"
               element={<ChaptersPage />}
             />
 
             <Route
-              path="/sections/:sectionName/books/:bookName/chapter/:chapterId/verses/:poemNumber"
+              path="/sections/:sectionName/books/:bookName/chapter/:chapterId/verses/:poemPage"
               element={<VersesPage />}
             />
 
