@@ -61,7 +61,7 @@ export default function AppPagination({
       className={additionalClass}
     >
       <PaginationLink
-        href={getPageHref(page)}
+        to={getPageHref(page)}
         isActive={isActive}
         className={isActive ? activeClass : inactiveClass}
       >
@@ -141,7 +141,7 @@ export default function AppPagination({
       <PaginationContent>
         <PaginationItem>
           <PaginationPrevious
-            href={!isFirstPage ? getPageHref(currentPage - 1) : undefined}
+            to={!isFirstPage ? getPageHref(currentPage - 1) : "#"}
             className={buttonClassName(isFirstPage)}
           />
         </PaginationItem>
@@ -150,7 +150,7 @@ export default function AppPagination({
 
         <PaginationItem>
           <PaginationNext
-            href={!isLastPage ? getPageHref(currentPage + 1) : undefined}
+            to={!isLastPage ? getPageHref(currentPage + 1) : "#"}
             className={buttonClassName(isLastPage)}
           />
         </PaginationItem>
