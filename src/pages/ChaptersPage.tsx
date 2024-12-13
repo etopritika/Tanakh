@@ -1,8 +1,10 @@
-import beresheetChapters from "@/lib/book-chapters/tora/beresheet-chapters";
-import bemidbarChapters from "@/lib/book-chapters/tora/bemidbar-chapters";
-import dvarimChapters from "@/lib/book-chapters/tora/dvarim-chapters";
-import schmotChapters from "@/lib/book-chapters/tora/schmot-chapters";
-import vaikraChapters from "@/lib/book-chapters/tora/vaikra-chapters";
+import {
+  beresheetChapters,
+  bemidbarChapters,
+  dvarimChapters,
+  schmotChapters,
+  vaikraChapters,
+} from "@/lib/book-chapters/tora";
 import { useParams } from "react-router-dom";
 import AppPagination from "@/components/App-pagination";
 import { ChapterList } from "@/components/Chapter-list";
