@@ -1,4 +1,4 @@
-export const fetchChapterData = async (
+export const fetchVersesData = async (
   section: string,
   book: string,
   chapterId: string
@@ -17,10 +17,10 @@ export const fetchChapterData = async (
         String(ch.key) === chapterId
     );
 
-    const chapterData = bookData.slice(chapter.start, chapter.end + 1);
-    return chapterData;
+    const versesData = bookData.slice(chapter.start, chapter.end + 1);
+    return versesData;
   } catch (error) {
-    console.error("Помилка завантаження глави:", error);
+    console.error("Ошибка загрузки стихов:", error);
     return [];
   }
 };
