@@ -3,8 +3,10 @@ import bemidbarChapters from "@/lib/book-chapters/tora/bemidbar-chapters";
 import dvarimChapters from "@/lib/book-chapters/tora/dvarim-chapters";
 import schmotChapters from "@/lib/book-chapters/tora/schmot-chapters";
 import vaikraChapters from "@/lib/book-chapters/tora/vaikra-chapters";
-import { Link, useParams } from "react-router-dom";
-import BookPagination from "@/components/Book-pagination";
+import { useParams } from "react-router-dom";
+import AppPagination from "@/components/App-pagination";
+import { ChapterList } from "@/components/Chapter-list";
+import { NoChapters } from "@/components/No-chapters";
 
 const chaptersMap: Record<
   string,
@@ -25,25 +27,13 @@ const chaptersMap: Record<
 
 export default function ChaptersPage() {
   const { chapterPage, bookName, sectionName } = useParams<{
-    chapterPage: string;
-    bookName: string;
-    sectionName: string;
+    chapterPage: string | undefined;
+    bookName: string | undefined;
+    sectionName: string | undefined;
   }>();
 
   if (!bookName || !chaptersMap[bookName]) {
-    return (
-      <section className="py-6">
-        <div className="flex space-y-2 flex-col items-center">
-          <span className="text-danger">Главы отсутствуют</span>
-          <Link
-            className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg min-w-[150px] text-center"
-            to={`/sections/${sectionName}/books`}
-          >
-            Назад
-          </Link>
-        </div>
-      </section>
-    );
+    return <NoChapters sectionName={sectionName || ""} />;
   }
 
   const chapters = chaptersMap[bookName];
@@ -61,22 +51,15 @@ export default function ChaptersPage() {
 
   return (
     <section className="py-6 space-y-6 h-full">
-      <ul className="space-y-4">
-        {chaptersToRender.map((chapter) => (
-          <li key={chapter.key}>
-            <Link
-              to={`/sections/${sectionName}/books/${bookName}/chapter/${chapter.key}/verses/1`}
-              className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg w-full text-center"
-            >
-              {chapter.chapterName} | {chapter.key}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <BookPagination
+      <ChapterList
+        chapters={chaptersToRender}
+        sectionName={sectionName || ""}
+        bookName={bookName}
+      />
+      <AppPagination
         currentPage={page}
         totalPages={totalPages}
-        sectionName={sectionName}
+        sectionName={sectionName || ""}
         bookName={bookName}
       />
     </section>
