@@ -1,8 +1,10 @@
-import BookPagination from "@/components/Book-pagination";
+import AppPagination from "@/components/App-pagination";
 import { Card, CardContent } from "@/components/ui/card";
-import { fetchChapterData } from "@/lib/api";
+import { fetchVersesData } from "@/lib/api";
+import { getChapterPage } from "@/lib/helpers/get-chapter-page";
+import { Verse } from "@/lib/types";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function VersesPage() {
   const { bookName, sectionName, chapterId, poemPage } = useParams<{
@@ -12,13 +14,30 @@ export default function VersesPage() {
     chapterId: string | undefined;
   }>();
 
-  const [verses, setVerses] = useState([]);
+  const [verses, setVerses] = useState<Verse[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
   const poemsPerPage = 5;
 
   useEffect(() => {
     const loadChapter = async () => {
-      const data = await fetchChapterData(sectionName, bookName, chapterId);
-      setVerses(data);
+      if (!sectionName || !bookName || !chapterId) {
+        setError("Отсутствуют обязательные параметры");
+        setIsLoading(false);
+        return;
+      }
+
+      setIsLoading(true);
+
+      const { result, error } = await fetchVersesData(
+        sectionName,
+        bookName,
+        chapterId
+      );
+
+      setVerses(result);
+      setError(error);
+      setIsLoading(false);
     };
 
     loadChapter();
@@ -32,6 +51,33 @@ export default function VersesPage() {
   const totalPages = Math.ceil(totalVerses / poemsPerPage);
 
   const versesToRender = verses.slice(startIndex, endIndex);
+
+  if (isLoading) {
+    return (
+      <section className="py-6">
+        <p>Загрузка...</p>
+      </section>
+    );
+  }
+
+  if (!error) {
+    return (
+      <section className="py-6">
+        <div className="flex space-y-2 flex-col items-center">
+          <span className="text-danger">{error}</span>
+          <Link
+            className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg min-w-[150px] text-center"
+            to={`/sections/${sectionName}/books/${bookName}/chapters/${getChapterPage(
+              bookName || "",
+              chapterId || "1"
+            )}`}
+          >
+            Назад
+          </Link>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="py-6 space-y-4">
@@ -48,11 +94,11 @@ export default function VersesPage() {
           </li>
         ))}
       </ul>
-      <BookPagination
+      <AppPagination
         currentPage={page}
         totalPages={totalPages}
-        sectionName={sectionName}
-        bookName={bookName}
+        sectionName={sectionName || ""}
+        bookName={bookName || ""}
         chapterId={chapterId}
       />
     </section>

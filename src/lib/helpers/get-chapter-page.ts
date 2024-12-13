@@ -19,7 +19,7 @@ export function getChapterPage(bookName: string, chapterId: string): number {
   const chaptersPerPage = 10;
 
   if (!chapters) {
-    console.error(`Книга з іменем ${bookName} не знайдена`);
+    console.error(`Книга с именем ${bookName} не найдена`);
     return 1;
   }
 
@@ -29,7 +29,7 @@ export function getChapterPage(bookName: string, chapterId: string): number {
 
   if (chapterIndex === -1) {
     console.error(
-      `Глава з ідентифікатором ${chapterId} не знайдена у книзі ${bookName}`
+      `Глава с идентификатором ${chapterId} не найдена в книге ${bookName}`
     );
     return 1;
   }

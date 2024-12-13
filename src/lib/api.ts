@@ -1,8 +1,10 @@
+import { Verse } from "./types";
+
 export const fetchVersesData = async (
   section: string,
   book: string,
   chapterId: string
-) => {
+): Promise<{ result: Verse[]; error: string | null }> => {
   try {
     const module = await import(`../data/${section}/obj-${book}.js`);
     const bookData = module.default;
@@ -17,10 +19,16 @@ export const fetchVersesData = async (
         String(ch.key) === chapterId
     );
 
+    if (!chapter) {
+      throw new Error(`Глава ${chapterId} не найдена.`);
+    }
+
     const versesData = bookData.slice(chapter.start, chapter.end + 1);
-    return versesData;
+    return { result: versesData, error: null };
   } catch (error) {
-    console.error("Ошибка загрузки стихов:", error);
-    return [];
+    return {
+      result: [],
+      error: error instanceof Error ? error.message : "Неизвестная ошибка.",
+    };
   }
 };
