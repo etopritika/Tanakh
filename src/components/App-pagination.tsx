@@ -17,7 +17,7 @@ interface MoviePaginationProps {
   chapterId?: string;
 }
 
-export default function BookPagination({
+export default function AppPagination({
   currentPage,
   totalPages,
   sectionName,
