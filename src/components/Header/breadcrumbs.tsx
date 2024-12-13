@@ -6,6 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "../ui/breadcrumb";
+import { getChapterPage } from "@/lib/helpers/get-chapter-page";
 
 type BreadcrumbSegment = {
   label: string;
@@ -34,10 +35,13 @@ const segmentMap: Record<string, BreadcrumbSegment> = {
   },
   chapter: {
     label: "Главы",
-    href: (segments) =>
-      `/sections/${segments[1]}/books/${segments[3]}/chapters/${
-        segments[5] || 1
-      }`,
+    href: (segments) => {
+      const chapterId = segments[5];
+      const bookName = segments[3];
+      const currentPage = getChapterPage(bookName, chapterId);
+
+      return `/sections/${segments[1]}/books/${bookName}/chapters/${currentPage}`;
+    },
   },
   verses: {
     label: "Стихи",
