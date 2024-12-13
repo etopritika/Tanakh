@@ -22,3 +22,15 @@ export type Chapter = {
   end: number;
   verses: number;
 };
+
+export type Verse = {
+  name: string;
+  chapter: string;
+  id_book: number;
+  id_chapter: number;
+  id_chapter_two: number;
+  poemNumber: number;
+  verse: string;
+  verse_ivrit: string;
+  comment: string;
+};
