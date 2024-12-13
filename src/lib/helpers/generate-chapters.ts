@@ -1,4 +1,4 @@
-import { Verse } from "./types";
+import { Verse } from "../types";
 
 export default function generateChaptersByPoemNumber(bookData: Verse[]) {
   const indexedChapters = [];
