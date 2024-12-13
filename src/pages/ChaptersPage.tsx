@@ -4,10 +4,17 @@ import dvarimChapters from "@/lib/book-chapters/tora/dvarim-chapters";
 import schmotChapters from "@/lib/book-chapters/tora/schmot-chapters";
 import vaikraChapters from "@/lib/book-chapters/tora/vaikra-chapters";
 import { Link, useParams } from "react-router-dom";
+import BookPagination from "@/components/Book-pagination";
 
 const chaptersMap: Record<
   string,
-  { key: number; start: number; end: number; verses: number }[]
+  {
+    key: number;
+    start: number;
+    end: number;
+    verses: number;
+    chapterName: string;
+  }[]
 > = {
   beresheet: beresheetChapters,
   bemidbar: bemidbarChapters,
@@ -45,6 +52,7 @@ export default function ChaptersPage() {
 
   const chaptersPerPage = 10;
   const totalChapters = chapters.length;
+  const totalPages = Math.ceil(totalChapters / chaptersPerPage);
 
   const startIndex = (page - 1) * chaptersPerPage;
   const endIndex = Math.min(startIndex + chaptersPerPage, totalChapters);
@@ -52,19 +60,25 @@ export default function ChaptersPage() {
   const chaptersToRender = chapters.slice(startIndex, endIndex);
 
   return (
-    <section className="py-6">
+    <section className="py-6 space-y-6 h-full">
       <ul className="space-y-4">
         {chaptersToRender.map((chapter) => (
           <li key={chapter.key}>
             <Link
               to={`/sections/${sectionName}/books/${bookName}/chapter/${chapter.key}/verses/1`}
-              className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg min-w-[150px] text-center"
+              className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg w-full text-center"
             >
-              Глава {chapter.key}
+              {chapter.chapterName} | {chapter.key}
             </Link>
           </li>
         ))}
       </ul>
+      <BookPagination
+        currentPage={page}
+        totalPages={totalPages}
+        sectionName={sectionName}
+        bookName={bookName}
+      />
     </section>
   );
 }
