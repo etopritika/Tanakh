@@ -17,7 +17,13 @@ function App() {
   return (
     <Router>
       <Layout>
-        <Suspense fallback={<div>Завантаження...</div>}>
+        <Suspense
+          fallback={
+            <section className="py-6 flex items-center justify-center h-full">
+              <p>Зазрузка страницы...</p>
+            </section>
+          }
+        >
           <Routes>
             <Route path="/sections" element={<SectionsPage />} />
 
