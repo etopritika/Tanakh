@@ -1,10 +1,10 @@
 import AppPagination from "@/components/App-pagination";
-import { Card, CardContent } from "@/components/ui/card";
+import { NoVerses } from "@/components/No-verses";
+import VerseList from "@/components/Verse-List";
 import { fetchVersesData } from "@/lib/api";
-import { getChapterPage } from "@/lib/helpers/get-chapter-page";
 import { Verse } from "@/lib/types";
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 export default function VersesPage() {
   const { bookName, sectionName, chapterId, poemPage } = useParams<{
@@ -54,46 +54,27 @@ export default function VersesPage() {
 
   if (isLoading) {
     return (
-      <section className="py-6">
-        <p>Загрузка...</p>
+      <section className="py-6 flex items-center justify-center h-full">
+        <p>Загрузка стихов...</p>
       </section>
     );
   }
 
-  if (!error) {
+  if (error) {
     return (
-      <section className="py-6">
-        <div className="flex space-y-2 flex-col items-center">
-          <span className="text-danger">{error}</span>
-          <Link
-            className="inline-block bg-brown-dark text-white py-2 px-4 rounded-lg min-w-[150px] text-center"
-            to={`/sections/${sectionName}/books/${bookName}/chapters/${getChapterPage(
-              bookName || "",
-              chapterId || "1"
-            )}`}
-          >
-            Назад
-          </Link>
-        </div>
-      </section>
+      <NoVerses
+        error={error}
+        sectionName={sectionName || ""}
+        bookName={bookName || ""}
+        chapterId={chapterId || ""}
+      />
     );
   }
 
   return (
     <section className="py-6 space-y-4">
       <h1>{verses[0]?.chapter}</h1>
-      <ul className="space-y-4">
-        {versesToRender.map((verse, index) => (
-          <li key={startIndex + index}>
-            <Card className="bg-white">
-              <CardContent className="pt-6 space-y-2">
-                <p>{verse.verse}</p>
-                <p>{verse.verse_ivrit}</p>
-              </CardContent>
-            </Card>
-          </li>
-        ))}
-      </ul>
+      <VerseList verses={versesToRender} />
       <AppPagination
         currentPage={page}
         totalPages={totalPages}
