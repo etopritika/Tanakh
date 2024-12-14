@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="container mx-auto px-4">
-      <div className="flex items-center space-x-8">
+      <div className="flex items-center justify-between">
         <Breadcrumbs pathSegments={pathSegments} />
         <SearchButton pathSegments={pathSegments} />
       </div>

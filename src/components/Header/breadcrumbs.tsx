@@ -62,7 +62,7 @@ export function Breadcrumbs({ pathSegments }: BreadcrumbsProps) {
     .filter((segment): segment is BreadcrumbSegment => !!segment);
 
   return (
-    <Breadcrumb>
+    <Breadcrumb className="py-2.5">
       <BreadcrumbList>
         {breadcrumbSegments.map((segment, index) => {
           const href = segment.href(pathSegments);
