@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card";
 
 export default function VerseList({ verses }: { verses: Verse[] }) {
   if (!verses.length) {
-    return <p>Список стихов пуст.</p>;
+    return <p className="text-center text-danger">Список стихов пуст.</p>;
   }
   return (
     <ul className="space-y-4">
