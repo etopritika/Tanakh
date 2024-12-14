@@ -72,9 +72,13 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="py-6 space-y-4">
-      <h1>{verses[0]?.chapter}</h1>
-      <VerseList verses={versesToRender} />
+    <section className="py-6 space-y-6 flex flex-col justify-between">
+      <div className="space-y-2">
+        <h1>
+          Глава {chapterId} | {verses[0]?.chapter}
+        </h1>
+        <VerseList verses={versesToRender} />
+      </div>
       <AppPagination
         currentPage={page}
         totalPages={totalPages}
