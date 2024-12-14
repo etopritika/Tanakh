@@ -7,8 +7,8 @@ import {
 } from "@/lib/book-chapters/tora";
 import { useParams } from "react-router-dom";
 import AppPagination from "@/components/App-pagination";
-import { ChapterList } from "@/components/Chapter-list";
 import { NoChapters } from "@/components/No-chapters";
+import { ChapterList } from "@/components/Chapter-list";
 
 const chaptersMap: Record<
   string,
@@ -34,7 +34,7 @@ export default function ChaptersPage() {
     sectionName: string | undefined;
   }>();
 
-  if (!bookName || !chaptersMap[bookName]) {
+  if (!bookName || !chaptersMap[bookName] || !sectionName) {
     return <NoChapters sectionName={sectionName || ""} />;
   }
 
@@ -55,13 +55,13 @@ export default function ChaptersPage() {
     <section className="py-6 space-y-6 h-full">
       <ChapterList
         chapters={chaptersToRender}
-        sectionName={sectionName || ""}
+        sectionName={sectionName}
         bookName={bookName}
       />
       <AppPagination
         currentPage={page}
         totalPages={totalPages}
-        sectionName={sectionName || ""}
+        sectionName={sectionName}
         bookName={bookName}
       />
     </section>

@@ -6,7 +6,7 @@ interface NoChaptersProps {
 
 export function NoChapters({ sectionName }: NoChaptersProps) {
   return (
-    <section className="py-6">
+    <section className="py-6 flex items-center justify-center h-full">
       <div className="flex space-y-2 flex-col items-center">
         <span className="text-danger">Главы отсутствуют</span>
         <Link
