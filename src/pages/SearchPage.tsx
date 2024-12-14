@@ -77,15 +77,13 @@ export default function SearchPage() {
       <ul className="space-y-4">
         {results.map((verse) => {
           const bookName = BookNameMap[verse.id_book];
-
-          const to = `/sections/${sectionName}/books/${bookName}/chapter/${
-            verse.id_chapter
-          }/verses/${getVersePage(
+          const versePage = getVersePage(
             sectionName,
             bookName,
             verse.id_chapter,
             verse.poemNumber
-          )}#verse-${verse.poemNumber}`;
+          );
+          const to = `/sections/${sectionName}/books/${bookName}/chapter/${verse.id_chapter}/verses/${versePage}#verse-${verse.poemNumber}`;
 
           return (
             <li key={`${verse.id_chapter}-${verse.poemNumber}`}>
