@@ -1,12 +1,13 @@
 import { useParams } from "react-router";
-import BooksList from "@/components/Book-list";
 import { books } from "@/lib/routes";
+import BooksList from "@/components/Book-list";
+import NoBooks from "@/components/No-books";
 
 export default function BooksPage() {
-  const { sectionName } = useParams<{ sectionName: string }>();
+  const { sectionName } = useParams<{ sectionName: string | undefined }>();
 
   if (!sectionName) {
-    return <p className="text-red-500">Книга не найдена</p>;
+    return <NoBooks />;
   }
 
   return (
