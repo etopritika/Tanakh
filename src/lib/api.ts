@@ -6,7 +6,7 @@ export const fetchVersesData = async (
   chapterId: string
 ): Promise<{ result: Verse[]; error: string | null }> => {
   try {
-    const module = await import(`../data/${section}/obj-${book}.js`);
+    const module = await import(`../data/${section}/obj-${book}.ts`);
     const bookData = module.default;
 
     const chaptersModule = await import(
