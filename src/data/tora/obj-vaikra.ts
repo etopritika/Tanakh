@@ -1,4 +1,6 @@
-const objVaikra = [
+import { Verse } from "@/lib/types";
+
+const objVaikra: Verse[] = [
   ///////////////////////////        1111111111111111111111111          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",

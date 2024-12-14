@@ -1,4 +1,6 @@
-const objBeresheet = [
+import { Verse } from "@/lib/types";
+
+const objBeresheet: Verse[] = [
   {
     name: "БЕРЕШИТ",
     chapter: "БЕРЕШИТ(В начале)",

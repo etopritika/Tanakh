@@ -1,4 +1,6 @@
-const objSchmot = [
+import { Verse } from "@/lib/types";
+
+const objSchmot: Verse[] = [
   {
     name: "ШМОТ",
     chapter: "ШМОТ(Имена)",
@@ -9344,7 +9346,8 @@ const objSchmot = [
     chapter: "ТРУМА(Приношение)",
     id_book: 1,
     id_chapter: 26,
-    id_chapter_tw: 28,
+    id_chapter_two: 28,
+    poemNumber: 28,
     verse:
       "Средний же стержень должен проходить внутри брусьев — от одного конца до другого.",
     verse_ivrit:

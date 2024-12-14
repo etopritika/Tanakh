@@ -26,11 +26,13 @@ export type Chapter = {
 export type Verse = {
   name: string;
   chapter: string;
+  main?: number;
+  main_name?: string;
   id_book: number;
   id_chapter: number;
-  id_chapter_two: number;
+  id_chapter_two?: number;
   poemNumber: number;
   verse: string;
-  verse_ivrit: string;
-  comment: string;
+  verse_ivrit?: string;
+  comment?: string;
 };

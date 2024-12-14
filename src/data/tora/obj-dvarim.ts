@@ -1,4 +1,6 @@
-const objBemitbar = [
+import { Verse } from "@/lib/types";
+
+const objBemitbar: Verse[] = [
   /////////////////////////////////           1111111111111111111111111         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
@@ -1082,7 +1084,7 @@ const objBemitbar = [
   },
   {
     name: "БЕМИДБАР",
-    chaptr: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ(Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,

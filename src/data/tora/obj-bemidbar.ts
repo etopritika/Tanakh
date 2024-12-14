@@ -1,4 +1,6 @@
-const objBemitbar = [
+import { Verse } from "@/lib/types";
+
+const objBemidbar: Verse[] = [
   /////////////////////////////////           111111111111111111111111111111111         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
@@ -16426,4 +16428,4 @@ const objBemitbar = [
   },
 ];
 
-export default objBemitbar;
+export default objBemidbar;
