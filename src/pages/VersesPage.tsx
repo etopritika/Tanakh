@@ -1,6 +1,6 @@
 import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/No-verses";
-import VerseList from "@/components/Verse-List";
+import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
 import { poemsPerPage } from "@/lib/settings";
 import { Verse } from "@/lib/types";
