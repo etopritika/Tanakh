@@ -73,7 +73,7 @@ export default function AppPagination({
   const renderPageLinks = () => {
     const pages = [];
 
-    if (totalPages <= 8) {
+    if (totalPages <= 5) {
       for (let i = 1; i <= totalPages; i++) {
         pages.push(createPageLink(i, i === currentPage));
       }
@@ -92,8 +92,8 @@ export default function AppPagination({
       }
 
       for (
-        let i = Math.max(2, currentPage - 2);
-        i <= Math.min(totalPages - 1, currentPage + 2);
+        let i = Math.max(2, currentPage - 1);
+        i <= Math.min(totalPages - 1, currentPage + 1);
         i++
       ) {
         pages.push(createPageLink(i, i === currentPage));
@@ -103,7 +103,7 @@ export default function AppPagination({
         pages.unshift(createPageLink(1, currentPage === 1, "sm:hidden"));
       }
 
-      if (currentPage < totalPages - 3) {
+      if (currentPage < totalPages - 2) {
         pages.push(
           <PaginationEllipsis
             key={`end-ellipsis-${currentPage}`}
@@ -121,7 +121,7 @@ export default function AppPagination({
         )
       );
 
-      if (currentPage >= totalPages - 3) {
+      if (currentPage >= totalPages - 2) {
         pages.push(
           createPageLink(totalPages, currentPage === totalPages, "sm:hidden")
         );
