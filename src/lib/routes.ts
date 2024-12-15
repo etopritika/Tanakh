@@ -1,4 +1,5 @@
-import { BooksBySection } from "./types";
+import { getChapterPage } from "./helpers/get-chapter-page";
+import { BooksBySection, BreadcrumbSegment } from "./types";
 
 export const sections = [
   { name: "Тора", href: "/sections/tora/books" },
@@ -62,4 +63,43 @@ export const books: BooksBySection = {
       disabled: true,
     },
   ],
+};
+
+export const segmentMap: Record<string, BreadcrumbSegment> = {
+  sections: {
+    label: "Главная",
+    href: () => "/sections",
+  },
+  books: {
+    label: "Книги",
+    href: (segments) => `/sections/${segments[1]}/books`,
+  },
+  chapters: {
+    label: "Главы",
+    href: (segments) =>
+      `/sections/${segments[1]}/books/${segments[3]}/chapters/${
+        segments[5] || 1
+      }`,
+  },
+  chapter: {
+    label: "Главы",
+    href: (segments) => {
+      const chapterId = segments[5];
+      const bookName = segments[3];
+      const currentPage = getChapterPage(bookName, chapterId);
+
+      return `/sections/${segments[1]}/books/${bookName}/chapters/${currentPage}`;
+    },
+  },
+  verses: {
+    label: "Стихи",
+    href: (segments) =>
+      `/sections/${segments[1]}/books/${segments[3]}/chapter/${
+        segments[5]
+      }/verses/${segments[7] || 1}`,
+  },
+  search: {
+    label: "Поиск",
+    href: (segments) => `/sections/${segments[1]}/search`,
+  },
 };

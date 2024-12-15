@@ -36,3 +36,8 @@ export type Verse = {
   verse_ivrit?: string;
   comment?: string;
 };
+
+export type BreadcrumbSegment = {
+  label: string;
+  href: (segments: string[]) => string;
+};

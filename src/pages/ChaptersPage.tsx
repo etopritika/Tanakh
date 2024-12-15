@@ -8,7 +8,7 @@ import {
 import { useParams } from "react-router-dom";
 import AppPagination from "@/components/App-pagination";
 import { NoChapters } from "@/components/No-chapters";
-import { ChapterList } from "@/components/Chapter-list";
+import { ChapterList } from "@/components/Chapter-List";
 
 const chaptersMap: Record<
   string,

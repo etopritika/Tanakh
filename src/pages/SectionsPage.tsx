@@ -1,4 +1,4 @@
-import { SectionList } from "@/components/Section-list";
+import { SectionList } from "@/components/Section-List";
 import { sections } from "@/lib/routes";
 
 export default function SectionsPage() {
