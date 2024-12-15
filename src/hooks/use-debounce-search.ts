@@ -45,7 +45,7 @@ export const useDebouncedSearch = (
 
     setResults(results);
     setError(null);
-  }, 300);
+  }, 1000);
 
   useEffect(() => {
     return () => {

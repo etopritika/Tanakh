@@ -9,12 +9,13 @@ import {
   FormItem,
   FormLabel,
 } from "@/components/ui/form";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Verse } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getVersePage } from "@/lib/helpers/get-verse-page";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
+import ScrollUpButton from "@/components/Scroll-up-button";
 
 const BookNameMap: Record<number, string> = {
   0: "beresheet",
@@ -36,7 +37,7 @@ export default function SearchPage() {
     resolver: zodResolver(searchSchema),
     defaultValues: { query: "" },
   });
-
+  const containerRef = useRef<HTMLElement>(null);
   const [results, setResults] = useState<Verse[]>([]);
   const [error, setError] = useState<string | null>(null);
 
@@ -47,11 +48,18 @@ export default function SearchPage() {
     debouncedSearch({ query: value });
   };
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+  };
+
   return (
-    <section className="py-6 space-y-4">
+    <section
+      className="py-6 space-y-4 h-full overflow-y-auto"
+      ref={containerRef}
+    >
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
-        <form className="space-y-4">
+        <form className="space-y-4" onSubmit={handleSubmit}>
           <FormField
             name="query"
             control={form.control}
@@ -102,6 +110,7 @@ export default function SearchPage() {
           );
         })}
       </ul>
+      <ScrollUpButton containerRef={containerRef} />
     </section>
   );
 }
