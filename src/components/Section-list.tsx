@@ -1,4 +1,6 @@
 import { Section } from "@/lib/types";
+import { useReadingStore } from "@/store/use-reading-store";
+import { Album } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface SectionListProps {
@@ -6,6 +8,8 @@ interface SectionListProps {
 }
 
 export function SectionList({ sections }: SectionListProps) {
+  const { pathname, chapterName } = useReadingStore((state) => state.lastRead);
+
   return (
     <ul className="space-y-4 flex flex-col items-center">
       {sections.map((section) => (
@@ -18,6 +22,17 @@ export function SectionList({ sections }: SectionListProps) {
           </Link>
         </li>
       ))}
+      {pathname && chapterName && (
+        <li key={pathname} className="w-full md:w-1/2">
+          <Link
+            to={pathname}
+            className="bg-brown-light text-white py-2 px-4 rounded-lg min-w-[100px] flex items-center justify-center"
+          >
+            {chapterName}
+            <Album className="ml-3" />
+          </Link>
+        </li>
+      )}
     </ul>
   );
 }
