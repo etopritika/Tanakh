@@ -73,7 +73,7 @@ export default function AppPagination({
   const renderPageLinks = () => {
     const pages = [];
 
-    if (totalPages <= 5) {
+    if (totalPages <= 4) {
       for (let i = 1; i <= totalPages; i++) {
         pages.push(createPageLink(i, i === currentPage));
       }
