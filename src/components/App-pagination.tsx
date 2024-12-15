@@ -47,7 +47,7 @@ export default function AppPagination({
   };
 
   const activeClass =
-    "pointer-events-none bg-white text-black border-none rounded-md";
+    "pointer-events-none bg-white text-black border-[1px] border-brown-dark rounded-md";
   const inactiveClass = "bg-brown-dark transition-colors";
 
   const createPageLink = (
