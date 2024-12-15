@@ -9,7 +9,7 @@ interface SearchButtonProps {
 export default function SearchButton({ pathSegments }: SearchButtonProps) {
   const navigate = useNavigate();
 
-  if (pathSegments[2] === "search") {
+  if (pathSegments[2] === "search" || pathSegments.length === 1) {
     return null;
   }
 

@@ -6,6 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Layout from "./components/Layout";
+import { LoaderCircle } from "lucide-react";
 
 const SectionsPage = React.lazy(() => import("./pages/SectionsPage"));
 const BooksPage = React.lazy(() => import("./pages/BooksPage"));
@@ -17,7 +18,16 @@ function App() {
   return (
     <Router>
       <Layout>
-        <Suspense fallback={<div>Завантаження...</div>}>
+        <Suspense
+          fallback={
+            <section className="py-6 flex items-center justify-center h-full">
+              <div className="flex space-x-2">
+                <LoaderCircle className="animate-spin" />
+                <p>Загрузка страницы...</p>
+              </div>
+            </section>
+          }
+        >
           <Routes>
             <Route path="/sections" element={<SectionsPage />} />
 
@@ -27,12 +37,12 @@ function App() {
             />
 
             <Route
-              path="/sections/:sectionName/books/:bookName/chapters/:pageNumber"
+              path="/sections/:sectionName/books/:bookName/chapters/:chapterPage"
               element={<ChaptersPage />}
             />
 
             <Route
-              path="/sections/:sectionName/books/:bookName/chapter/:chapterId/verses/:poemNumber"
+              path="/sections/:sectionName/books/:bookName/chapter/:chapterId/verses/:poemPage"
               element={<VersesPage />}
             />
 

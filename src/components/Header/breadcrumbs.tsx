@@ -6,51 +6,12 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "../ui/breadcrumb";
-
-type BreadcrumbSegment = {
-  label: string;
-  href: (segments: string[]) => string;
-};
+import { segmentMap } from "@/lib/routes";
+import { BreadcrumbSegment } from "@/lib/types";
 
 interface BreadcrumbsProps {
   pathSegments: string[];
 }
-
-const segmentMap: Record<string, BreadcrumbSegment> = {
-  sections: {
-    label: "Главная",
-    href: () => "/sections",
-  },
-  books: {
-    label: "Книги",
-    href: (segments) => `/sections/${segments[1]}/books`,
-  },
-  chapters: {
-    label: "Главы",
-    href: (segments) =>
-      `/sections/${segments[1]}/books/${segments[3]}/chapters/${
-        segments[5] || 1
-      }`,
-  },
-  chapter: {
-    label: "Главы",
-    href: (segments) =>
-      `/sections/${segments[1]}/books/${segments[3]}/chapters/${
-        segments[5] || 1
-      }`,
-  },
-  verses: {
-    label: "Стихи",
-    href: (segments) =>
-      `/sections/${segments[1]}/books/${segments[3]}/chapter/${
-        segments[5]
-      }/verses/${segments[7] || 1}`,
-  },
-  search: {
-    label: "Поиск",
-    href: (segments) => `/sections/${segments[1]}/search`,
-  },
-};
 
 export function Breadcrumbs({ pathSegments }: BreadcrumbsProps) {
   const breadcrumbSegments = pathSegments
@@ -58,7 +19,7 @@ export function Breadcrumbs({ pathSegments }: BreadcrumbsProps) {
     .filter((segment): segment is BreadcrumbSegment => !!segment);
 
   return (
-    <Breadcrumb>
+    <Breadcrumb className="py-2.5">
       <BreadcrumbList>
         {breadcrumbSegments.map((segment, index) => {
           const href = segment.href(pathSegments);
@@ -71,7 +32,7 @@ export function Breadcrumbs({ pathSegments }: BreadcrumbsProps) {
                 {isLast ? (
                   <span>{segment.label}</span>
                 ) : (
-                  <BreadcrumbLink href={href}>{segment.label}</BreadcrumbLink>
+                  <BreadcrumbLink to={href}>{segment.label}</BreadcrumbLink>
                 )}
               </BreadcrumbItem>
             </React.Fragment>
