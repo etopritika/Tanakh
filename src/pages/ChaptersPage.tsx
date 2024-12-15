@@ -9,6 +9,7 @@ import { useParams } from "react-router-dom";
 import AppPagination from "@/components/App-pagination";
 import { NoChapters } from "@/components/No-chapters";
 import { ChapterList } from "@/components/Chapter-List";
+import { chaptersPerPage } from "@/lib/settings";
 
 const chaptersMap: Record<
   string,
@@ -42,7 +43,6 @@ export default function ChaptersPage() {
 
   const page = parseInt(chapterPage || "1", 10);
 
-  const chaptersPerPage = 10;
   const totalChapters = chapters.length;
   const totalPages = Math.ceil(totalChapters / chaptersPerPage);
 

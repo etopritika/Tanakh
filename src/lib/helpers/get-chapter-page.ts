@@ -5,6 +5,7 @@ import {
   schmotChapters,
   vaikraChapters,
 } from "@/lib/book-chapters/tora";
+import { chaptersPerPage } from "../settings";
 
 const chaptersMap: Record<string, { key: number | string }[]> = {
   beresheet: beresheetChapters,
@@ -16,7 +17,6 @@ const chaptersMap: Record<string, { key: number | string }[]> = {
 
 export function getChapterPage(bookName: string, chapterId: string): number {
   const chapters = chaptersMap[bookName];
-  const chaptersPerPage = 10;
 
   if (!chapters) {
     console.error(`Книга с именем ${bookName} не найдена`);

@@ -2,6 +2,7 @@ import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/No-verses";
 import VerseList from "@/components/Verse-List";
 import { fetchVersesData } from "@/lib/api";
+import { poemsPerPage } from "@/lib/settings";
 import { Verse } from "@/lib/types";
 import { useReadingStore } from "@/store/use-reading-store";
 import { LoaderCircle } from "lucide-react";
@@ -21,7 +22,7 @@ export default function VersesPage() {
   const [verses, setVerses] = useState<Verse[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const poemsPerPage = 5;
+
   const chapterName = `Глава ${chapterId} | ${verses[0]?.chapter}`;
 
   useEffect(() => {
