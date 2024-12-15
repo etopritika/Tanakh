@@ -15,6 +15,7 @@ import { Verse } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getVersePage } from "@/lib/helpers/get-verse-page";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
+import { X } from "lucide-react";
 
 const BookNameMap: Record<number, string> = {
   0: "beresheet",
@@ -47,6 +48,11 @@ export default function SearchPage() {
     debouncedSearch({ query: value });
   };
 
+  const handleClear = () => {
+    form.setValue("query", "");
+    setResults([]);
+  };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   };
@@ -63,12 +69,24 @@ export default function SearchPage() {
               <FormItem>
                 <FormLabel>Введите запрос:</FormLabel>
                 <FormControl>
-                  <Input
-                    placeholder="Поиск..."
-                    className="bg-white"
-                    {...field}
-                    onChange={(e) => handleChange(e.target.value)}
-                  />
+                  <div className="relative">
+                    <Input
+                      placeholder="Поиск..."
+                      className="bg-white pr-10"
+                      {...field}
+                      onChange={(e) => handleChange(e.target.value)}
+                    />
+                    {form.getValues("query") && (
+                      <button
+                        type="button"
+                        onClick={handleClear}
+                        className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
+                        aria-label="Очистить поле ввода"
+                      >
+                        <X size={20} />
+                      </button>
+                    )}
+                  </div>
                 </FormControl>
               </FormItem>
             )}
