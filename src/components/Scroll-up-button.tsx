@@ -2,50 +2,33 @@ import { useState, useEffect } from "react";
 import { ChevronsUp } from "lucide-react";
 import { Button } from "./ui/button";
 
-interface ScrollUpButtonProps {
-  containerRef?: React.RefObject<HTMLElement>;
-}
-
-export default function ScrollUpButton({ containerRef }: ScrollUpButtonProps) {
+export default function ScrollUpButton() {
   const [isVisible, setIsVisible] = useState(false);
 
+  const toggleVisibility = () => {
+    setIsVisible(window.scrollY > 300);
+  };
+
   const handleScrollUp = () => {
-    if (containerRef?.current) {
-      containerRef.current.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    } else {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   useEffect(() => {
-    const scrollTarget = containerRef?.current || window;
-
-    const toggleVisibility = () => {
-      const scrollTop = containerRef?.current
-        ? containerRef.current.scrollTop
-        : window.scrollY;
-      setIsVisible(scrollTop > 300);
-    };
-
-    scrollTarget.addEventListener("scroll", toggleVisibility);
-
+    window.addEventListener("scroll", toggleVisibility);
     return () => {
-      scrollTarget.removeEventListener("scroll", toggleVisibility);
+      window.removeEventListener("scroll", toggleVisibility);
     };
-  }, [containerRef]);
+  }, []);
 
   return (
     isVisible && (
       <Button
         onClick={handleScrollUp}
         aria-label="Scroll to top"
-        className="fixed bottom-4 right-4 z-50 rounded-lg border-none bg-brown-dark p-4 md:p-6"
+        className="fixed bottom-2 right-2 z-50 rounded-lg border-none bg-brown-dark py-2 px-3 md:p-4"
       >
         <ChevronsUp className="text-white" />
       </Button>
