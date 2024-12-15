@@ -76,7 +76,7 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="py-6 space-y-6 flex flex-col justify-between h-full overflow-y-auto">
+    <section className="py-6 space-y-6 flex flex-col justify-between h-full">
       <div className="space-y-2">
         <h1>
           Глава {chapterId} | {verses[0]?.chapter}
