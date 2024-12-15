@@ -6,6 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Layout from "./components/Layout";
+import { LoaderCircle } from "lucide-react";
 
 const SectionsPage = React.lazy(() => import("./pages/SectionsPage"));
 const BooksPage = React.lazy(() => import("./pages/BooksPage"));
@@ -20,7 +21,10 @@ function App() {
         <Suspense
           fallback={
             <section className="py-6 flex items-center justify-center h-full">
-              <p>Зазрузка страницы...</p>
+              <div className="flex space-x-2">
+                <LoaderCircle className="animate-spin" />
+                <p>Загрузка страницы...</p>
+              </div>
             </section>
           }
         >

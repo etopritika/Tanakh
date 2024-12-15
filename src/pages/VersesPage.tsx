@@ -3,6 +3,7 @@ import { NoVerses } from "@/components/No-verses";
 import VerseList from "@/components/Verse-List";
 import { fetchVersesData } from "@/lib/api";
 import { Verse } from "@/lib/types";
+import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
@@ -55,7 +56,10 @@ export default function VersesPage() {
   if (isLoading) {
     return (
       <section className="py-6 flex items-center justify-center h-full">
-        <p>Загрузка стихов...</p>
+        <div className="flex space-x-2">
+          <LoaderCircle className="animate-spin" />
+          <p>Загрузка стихов...</p>
+        </div>
       </section>
     );
   }
