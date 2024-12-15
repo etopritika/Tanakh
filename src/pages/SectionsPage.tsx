@@ -1,3 +1,10 @@
+import { SectionList } from "@/components/Section-List";
+import { sections } from "@/lib/routes";
+
 export default function SectionsPage() {
-  return <span>SectionsPage</span>;
+  return (
+    <section className="py-6">
+      <SectionList sections={sections} />
+    </section>
+  );
 }
