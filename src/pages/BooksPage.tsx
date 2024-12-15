@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 import { books } from "@/lib/routes";
-import BooksList from "@/components/Book-List";
+import BooksList from "@/components/BookList";
 import NoBooks from "@/components/No-books";
 
 export default function BooksPage() {

@@ -19,7 +19,6 @@ export function getChapterPage(bookName: string, chapterId: string): number {
   const chapters = chaptersMap[bookName];
 
   if (!chapters) {
-    console.error(`Книга с именем ${bookName} не найдена`);
     return 1;
   }
 
@@ -28,9 +27,6 @@ export function getChapterPage(bookName: string, chapterId: string): number {
   );
 
   if (chapterIndex === -1) {
-    console.error(
-      `Глава с идентификатором ${chapterId} не найдена в книге ${bookName}`
-    );
     return 1;
   }
 
