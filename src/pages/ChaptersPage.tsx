@@ -52,7 +52,7 @@ export default function ChaptersPage() {
   const chaptersToRender = chapters.slice(startIndex, endIndex);
 
   return (
-    <section className="py-6 space-y-6 h-full flex flex-col justify-between">
+    <section className="py-6 space-y-6 h-full flex flex-col justify-between overflow-y-auto">
       <ChapterList
         chapters={chaptersToRender}
         sectionName={sectionName}
