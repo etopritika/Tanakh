@@ -2,7 +2,6 @@ import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/No-verses";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
-import { poemsPerPage } from "@/lib/settings";
 import { Verse } from "@/lib/types";
 import { useReadingStore } from "@/store/use-reading-store";
 import { LoaderCircle } from "lucide-react";
@@ -11,15 +10,15 @@ import { useLocation, useParams } from "react-router-dom";
 
 export default function VersesPage() {
   const { pathname } = useLocation();
-  const { bookName, sectionName, chapterId, poemPage } = useParams<{
+  const { bookName, sectionName, chapterId } = useParams<{
     bookName: string | undefined;
     sectionName: string | undefined;
-    poemPage: string | undefined;
     chapterId: string | undefined;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
 
   const [verses, setVerses] = useState<Verse[]>([]);
+  const [totalChapters, setTotalChapters] = useState(0);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -35,13 +34,14 @@ export default function VersesPage() {
 
       setIsLoading(true);
 
-      const { result, error } = await fetchVersesData(
+      const { result, totalChapters, error } = await fetchVersesData(
         sectionName,
         bookName,
         chapterId
       );
 
       setVerses(result);
+      setTotalChapters(totalChapters);
       setError(error);
       setIsLoading(false);
     };
@@ -55,14 +55,7 @@ export default function VersesPage() {
     };
   }, [pathname, setLastRead, chapterName]);
 
-  const page = parseInt(poemPage || "1", 10);
-  const startIndex = (page - 1) * poemsPerPage;
-  const endIndex = startIndex + poemsPerPage;
-
-  const totalVerses = verses.length;
-  const totalPages = Math.ceil(totalVerses / poemsPerPage);
-
-  const versesToRender = verses.slice(startIndex, endIndex);
+  const page = parseInt(chapterId || "1", 10);
 
   if (isLoading) {
     return (
@@ -87,17 +80,16 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="py-6 space-y-6 flex flex-col justify-between h-full">
+    <section className="space-y-6 flex flex-col justify-between h-full overflow-y-auto">
       <div className="space-y-2">
         <h1>{chapterName}</h1>
-        <VerseList verses={versesToRender} />
+        <VerseList verses={verses} />
       </div>
       <AppPagination
         currentPage={page}
-        totalPages={totalPages}
+        totalPages={totalChapters}
         sectionName={sectionName || ""}
         bookName={bookName || ""}
-        chapterId={chapterId}
       />
     </section>
   );
