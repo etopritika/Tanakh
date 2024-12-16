@@ -1,14 +1,12 @@
-import Header from "./Header";
 import ScrollUpButton from "./Scroll-up-button";
+import Sidebar from "./SideBar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      <Header />
-      <main className="container mx-auto px-4 h-[calc(100%-40px)]">
-        {children}
-      </main>
+    <div className="flex h-screen p-2">
+      <Sidebar />
+      <main className="container mx-auto px-4 h-full">{children}</main>
       <ScrollUpButton />
-    </>
+    </div>
   );
 }
