@@ -15,7 +15,7 @@
 }
 
 body {
-  @apply bg-[var(--background)] text-[var(--text)] font-sans h-screen overflow-y-auto;
+  @apply bg-[var(--background)] text-[var(--text)] font-sans;
 }
 
 .font-sans {
