@@ -1,11 +1,12 @@
 import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/No-verses";
+import ScrollUpButton from "@/components/Scroll-up-button";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
 import { Verse } from "@/lib/types";
 import { useReadingStore } from "@/store/use-reading-store";
 import { LoaderCircle } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
 export default function VersesPage() {
@@ -16,6 +17,7 @@ export default function VersesPage() {
     chapterId: string | undefined;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
+  const containerRef = useRef<HTMLElement | null>(null);
 
   const [verses, setVerses] = useState<Verse[]>([]);
   const [totalChapters, setTotalChapters] = useState(0);
@@ -80,7 +82,10 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="space-y-6 flex flex-col justify-between h-full overflow-y-auto">
+    <section
+      ref={containerRef}
+      className="space-y-6 flex flex-col justify-between h-full overflow-y-auto"
+    >
       <div className="space-y-2">
         <h1>{chapterName}</h1>
         <VerseList verses={verses} />
@@ -91,6 +96,7 @@ export default function VersesPage() {
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
+      <ScrollUpButton scrollRef={containerRef} />
     </section>
   );
 }
