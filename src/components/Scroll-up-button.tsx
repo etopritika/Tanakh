@@ -2,36 +2,39 @@ import { useState, useEffect } from "react";
 import { ChevronsUp } from "lucide-react";
 import { Button } from "./ui/button";
 
-export default function ScrollUpButton() {
+interface ScrollUpButtonProps {
+  scrollRef: React.RefObject<HTMLElement>;
+}
+
+export default function ScrollUpButton({ scrollRef }: ScrollUpButtonProps) {
   const [isVisible, setIsVisible] = useState(false);
 
-  const toggleVisibility = () => {
-    setIsVisible(window.scrollY > 300);
-  };
-
-  const handleScrollUp = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
-    };
-  }, []);
+    const container = scrollRef.current;
+    if (!container) {
+      console.warn("Scroll container is not yet available.");
+      return;
+    }
 
-  return (
-    isVisible && (
-      <Button
-        onClick={handleScrollUp}
-        aria-label="Scroll to top"
-        className="fixed bottom-2 right-2 z-50 rounded-lg border-none bg-brown-dark py-2 px-3 md:p-4"
-      >
-        <ChevronsUp className="text-white" />
-      </Button>
-    )
-  );
+    const toggleVisibility = () => {
+      setIsVisible((container.scrollTop ?? 0) > 300);
+    };
+
+    container.addEventListener("scroll", toggleVisibility);
+
+    return () => container.removeEventListener("scroll", toggleVisibility);
+  }, [scrollRef]);
+
+  const handleScrollUp = () =>
+    scrollRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+
+  return isVisible ? (
+    <Button
+      onClick={handleScrollUp}
+      aria-label="Scroll to top"
+      className="fixed bottom-2 right-2 z-50 rounded-lg border-none bg-brown-dark py-2 px-3 md:p-4"
+    >
+      <ChevronsUp className="text-white" />
+    </Button>
+  ) : null;
 }
