@@ -1,0 +1,62 @@
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
+import { books } from "@/lib/routes";
+import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
+import BookLinks from "./BookLinks";
+
+interface MobileSidebarProps {
+  currentBook: string | null;
+}
+
+export default function MobileSidebar({ currentBook }: MobileSidebarProps) {
+  return (
+    <Sheet>
+      <SheetHeader className="sr-only">
+        <SheetTitle>Навигация</SheetTitle>
+        <SheetDescription>Выберите нужную книгу</SheetDescription>
+      </SheetHeader>
+      <SheetTrigger asChild>
+        <button aria-label="Toggle Sidebar" className="p-2 md:hidden h-10 w-10">
+          <Menu size={24} />
+        </button>
+      </SheetTrigger>
+      <SheetContent side="left" className="w-64 p-4 bg-white">
+        <nav className="rounded-lg p-2">
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>Танах</AccordionTrigger>
+              <BookLinks
+                booksList={books.tora}
+                currentBook={currentBook}
+                closeOnClick={true}
+              />
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>Невиим</AccordionTrigger>
+              <BookLinks
+                booksList={books.neviim}
+                currentBook={currentBook}
+                closeOnClick={true}
+              />
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>Ктувим</AccordionTrigger>
+              <BookLinks
+                booksList={books.ketuvim}
+                currentBook={currentBook}
+                closeOnClick={true}
+              />
+            </AccordionItem>
+          </Accordion>
+        </nav>
+      </SheetContent>
+    </Sheet>
+  );
+}
