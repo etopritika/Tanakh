@@ -23,7 +23,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   return (
     <li id={`verse-${verse.poemNumber}`}>
       <Card
-        className={`bg-white ${
+        className={`bg-white shadow-lg ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
