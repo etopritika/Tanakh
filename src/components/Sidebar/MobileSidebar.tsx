@@ -10,12 +10,14 @@ import { Menu } from "lucide-react";
 import { books } from "@/lib/routes";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 import BookLinks from "./BookLinks";
+import { useLocation } from "react-router-dom";
 
-interface MobileSidebarProps {
-  currentBook: string | null;
-}
-
-export default function MobileSidebar({ currentBook }: MobileSidebarProps) {
+export default function MobileSidebar() {
+  const location = useLocation();
+  const pathSegments: string[] = location.pathname
+    .split("/")
+    .filter((segment) => segment);
+  const currentBook = pathSegments.at(1) || null;
   return (
     <Sheet>
       <SheetHeader className="sr-only">

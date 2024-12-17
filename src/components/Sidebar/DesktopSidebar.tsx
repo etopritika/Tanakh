@@ -1,12 +1,12 @@
 import { books } from "@/lib/routes";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 import BookLinks from "./BookLinks";
+import { useLocation } from "react-router-dom";
 
-interface DesktopSidebarProps {
-  currentBook: string | null;
-}
-
-export default function DesktopSidebar({ currentBook }: DesktopSidebarProps) {
+export default function DesktopSidebar() {
+  const { pathname } = useLocation();
+  const pathSegments = pathname.split("/").filter((segment) => segment);
+  const currentBook = pathSegments.at(1) || null;
   return (
     <aside className="hidden md:block md:max-w-80 w-full h-full p-4 shadow-lg rounded-lg bg-white">
       <nav className="rounded-lg p-2">
