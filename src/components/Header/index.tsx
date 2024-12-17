@@ -3,12 +3,9 @@ import { Input } from "../ui/input";
 
 export default function Header() {
   return (
-    <header className="container py-2 flex mx-auto px-4 border-b md:p-2 md:mx-0 md:justify-end">
+    <header className="container mx-auto md:mx-0 md:max-w-none border-b flex justify-between md:justify-end p-1">
       <MobileSidebar />
-      <Input
-        className="bg-white w-full max-w-80 ml-4 md:ml-0"
-        placeholder="Поиск..."
-      />
+      <Input className="bg-white w-full max-w-80" placeholder="Поиск..." />
     </header>
   );
 }
