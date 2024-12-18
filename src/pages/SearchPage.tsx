@@ -9,23 +9,22 @@ import {
   FormLabel,
 } from "@/components/ui/form";
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SearchFormData, searchSchema, Verse } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getVersePage } from "@/lib/helpers/get-verse-page";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
 import { X } from "lucide-react";
 
-const BookNameMap: Record<number, string> = {
-  0: "beresheet",
-  1: "schmot",
-  2: "vaikra",
-  3: "bemidbar",
-  4: "dvarim",
+const BookInfoMap: Record<number, { section: string; bookName: string }> = {
+  0: { section: "tora", bookName: "beresheet" },
+  1: { section: "tora", bookName: "schmot" },
+  2: { section: "tora", bookName: "vaikra" },
+  3: { section: "tora", bookName: "bemidbar" },
+  4: { section: "tora", bookName: "dvarim" },
+  5: { section: "neviim", bookName: "yehoshua" },
 };
 
 export default function SearchPage() {
-  const { sectionName = "" } = useParams<{ sectionName: string }>();
   const form = useForm<SearchFormData>({
     resolver: zodResolver(searchSchema),
     defaultValues: { query: "" },
@@ -34,7 +33,7 @@ export default function SearchPage() {
   const [results, setResults] = useState<Verse[]>([]);
   const [error, setError] = useState<string | null>(null);
 
-  const debouncedSearch = useDebouncedSearch(sectionName, setResults, setError);
+  const debouncedSearch = useDebouncedSearch("", setResults, setError);
 
   const handleChange = (value: string) => {
     form.setValue("query", value);
@@ -51,7 +50,7 @@ export default function SearchPage() {
   };
 
   return (
-    <section className="py-6 space-y-4 h-full">
+    <section className="py-6 space-y-4 h-full overflow-y-auto">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
         <form className="space-y-4" onSubmit={handleSubmit}>
@@ -91,14 +90,8 @@ export default function SearchPage() {
 
       <ul className="space-y-4">
         {results.map((verse) => {
-          const bookName = BookNameMap[verse.id_book];
-          const versePage = getVersePage(
-            sectionName,
-            bookName,
-            verse.id_chapter,
-            verse.poemNumber
-          );
-          const to = `/sections/${sectionName}/books/${bookName}/chapter/${verse.id_chapter}/verses/${versePage}#verse-${verse.poemNumber}`;
+          const bookInfo = BookInfoMap[verse.id_book];
+          const to = `/${bookInfo.section}/${bookInfo.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
 
           return (
             <li key={`${verse.id_chapter}-${verse.poemNumber}`}>

@@ -1,4 +1,11 @@
 import { z } from "zod";
+import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tora";
+import yehoshua from "@/data/neviim/obj-yehoshua";
+
+export const booksMap: Record<string, Verse[][]> = {
+  tora: [beresheet, schmot, vaikra, bemidbar, dvarim],
+  neviim: [yehoshua],
+};
 
 export type Section = {
   name: string;

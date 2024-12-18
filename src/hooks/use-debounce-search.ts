@@ -5,17 +5,13 @@ import { useEffect } from "react";
 export const useDebouncedSearch = (
   sectionName: string | undefined,
   setResults: (results: Verse[]) => void,
-  setError: (error: string | null) => void,
-  setLoading: (loading: boolean) => void
+  setError: (error: string | null) => void
 ) => {
   const debouncedSearch = debounce(async (data: SearchFormData) => {
     if (!data.query.trim()) {
       setResults([]);
-      setLoading(false);
       return;
     }
-
-    setLoading(true);
 
     const sectionsToSearch = sectionName
       ? booksMap[sectionName]
@@ -24,7 +20,6 @@ export const useDebouncedSearch = (
     if (!sectionsToSearch || sectionsToSearch.length === 0) {
       setError("Розділ не знайдено або розділи відсутні.");
       setResults([]);
-      setLoading(false);
       return;
     }
 
@@ -42,10 +37,8 @@ export const useDebouncedSearch = (
     } catch {
       setError("Сталася помилка під час пошуку.");
       setResults([]);
-    } finally {
-      setLoading(false);
     }
-  }, 1000);
+  }, 500);
 
   useEffect(() => {
     return () => {

@@ -14,41 +14,7 @@ import {
 } from "../ui/command";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
-
-const mockData: Verse[] = [
-  {
-    name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
-    id_book: 3,
-    id_chapter: 8,
-    poemNumber: 6,
-    verse: "Возьми левитов из среды сынов Израиля и очисти их.",
-    verse_ivrit:
-      "קַ֚ח אֶת-הַֽלְוִיִּ֔ם מִתּ֖וֹךְ בְּנֵ֣י יִשְׂרָאֵ֑ל וְטִֽהַרְתָּ֖ אֹתָֽם",
-  },
-  {
-    name: "ШМОТ",
-    chapter: "ВАЙЕХИ(И было)",
-    id_book: 2,
-    id_chapter: 10,
-    poemNumber: 12,
-    verse: "И поднялись они в землю свою...",
-    verse_ivrit: undefined,
-  },
-  {
-    name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
-    id_book: 4,
-    id_chapter: 1,
-    id_chapter_two: 1,
-    poemNumber: 3,
-    verse:
-      "На сороковой год, в первый день одиннадцатого месяца, Моше возвестил сынам Израиля все, что Господь велел ему [возвестить] им.",
-    verse_ivrit:
-      "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּי-עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל-בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶם",
-    comment: "",
-  },
-];
+import { useDebouncedSearch } from "@/hooks/use-debounce-search";
 
 export default function SearchInput() {
   const form = useForm<SearchFormData>({
@@ -57,21 +23,13 @@ export default function SearchInput() {
   });
 
   const [results, setResults] = useState<Verse[]>([]);
+  const [, setError] = useState<string | null>(null);
+
+  const debouncedSearch = useDebouncedSearch("", setResults, setError);
 
   const handleSearch = (value: string) => {
     form.setValue("query", value);
-    if (value.trim() === "") {
-      setResults([]);
-      return;
-    }
-
-    const matches = mockData.filter(
-      (verse: Verse) =>
-        verse.verse?.toLowerCase().includes(value.toLowerCase()) ||
-        (verse.verse_ivrit &&
-          verse.verse_ivrit.toLowerCase().includes(value.toLowerCase()))
-    );
-    setResults(matches);
+    debouncedSearch({ query: value });
   };
 
   const handleClear = () => {
