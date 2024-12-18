@@ -1,48 +1,50 @@
-import bemidbar from "@/data/tora/obj-bemidbar";
-import beresheet from "@/data/tora/obj-beresheet";
-import dvarim from "@/data/tora/obj-dvarim";
-import schmot from "@/data/tora/obj-schmot";
-import vaikra from "@/data/tora/obj-vaikra";
-import { SearchFormData, Verse } from "@/lib/types";
+import { booksMap, SearchFormData, Verse } from "@/lib/types";
 import debounce from "lodash.debounce";
 import { useEffect } from "react";
-
-const booksMap: Record<string, Verse[][]> = {
-  tora: [beresheet, schmot, vaikra, bemidbar, dvarim],
-};
 
 export const useDebouncedSearch = (
   sectionName: string | undefined,
   setResults: (results: Verse[]) => void,
-  setError: (error: string | null) => void
+  setError: (error: string | null) => void,
+  setLoading: (loading: boolean) => void
 ) => {
-  const debouncedSearch = debounce((data: SearchFormData) => {
+  const debouncedSearch = debounce(async (data: SearchFormData) => {
     if (!data.query.trim()) {
       setResults([]);
+      setLoading(false);
       return;
     }
 
-    if (!sectionName || !booksMap[sectionName]) {
-      setError("Некорректное имя раздела или раздел отсутствует.");
+    setLoading(true);
+
+    const sectionsToSearch = sectionName
+      ? booksMap[sectionName]
+      : Object.values(booksMap).flat(1);
+
+    if (!sectionsToSearch || sectionsToSearch.length === 0) {
+      setError("Розділ не знайдено або розділи відсутні.");
       setResults([]);
+      setLoading(false);
       return;
     }
 
-    const books = booksMap[sectionName];
-    const results = [];
-
-    for (const book of books) {
-      const matches = book.filter(
+    try {
+      const allVerses = sectionsToSearch.flat();
+      const results = allVerses.filter(
         (verse: Verse) =>
           verse.verse.toLowerCase().includes(data.query.toLowerCase()) ||
           (verse.verse_ivrit &&
             verse.verse_ivrit.toLowerCase().includes(data.query.toLowerCase()))
       );
-      results.push(...matches);
-    }
 
-    setResults(results);
-    setError(null);
+      setResults(results);
+      setError(null);
+    } catch {
+      setError("Сталася помилка під час пошуку.");
+      setResults([]);
+    } finally {
+      setLoading(false);
+    }
   }, 1000);
 
   useEffect(() => {
