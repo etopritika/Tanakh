@@ -7,7 +7,7 @@ const objYehoshua: Verse[] = [
     chapter: "ЙЕХОШУА (Иисус Навин)",
     main: 1,
     main_name: "yehoshua",
-    id_book: 6,
+    id_book: 5,
     id_chapter: 1,
     id_chapter_two: 1,
     poemNumber: 1,
@@ -20,7 +20,7 @@ const objYehoshua: Verse[] = [
   {
     name: "ЙЕХОШУА",
     chapter: "ЙЕХОШУА (Иисус Навин)",
-    id_book: 6,
+    id_book: 5,
     id_chapter: 1,
     id_chapter_two: 1,
     poemNumber: 2,
@@ -33,7 +33,7 @@ const objYehoshua: Verse[] = [
   {
     name: "ЙЕХОШУА",
     chapter: "ЙЕХОШУА (Иисус Навин)",
-    id_book: 6,
+    id_book: 5,
     id_chapter: 1,
     id_chapter_two: 1,
     poemNumber: 3,
@@ -46,7 +46,7 @@ const objYehoshua: Verse[] = [
   {
     name: "ЙЕХОШУА",
     chapter: "ЙЕХОШУА (Иисус Навин)",
-    id_book: 6,
+    id_book: 5,
     id_chapter: 1,
     id_chapter_two: 1,
     poemNumber: 4,
