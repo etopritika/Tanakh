@@ -1,56 +1,50 @@
 import { BooksBySection } from "./types";
 
-export const sections = [
-  { name: "Тора", href: "/sections/tora/books" },
-  { name: "Невиим", href: "/sections/neviim/books" },
-  { name: "Ктувим", href: "/sections/ketuvim/books" },
-];
-
 export const books: BooksBySection = {
   tora: [
     {
       id: "beresheet",
       name: "Берешит",
-      file: "/tora/obj-beresheet.js",
+      file: "/tora/obj-beresheet.ts",
       href: "/tora/beresheet/1",
       disabled: false,
     },
     {
       id: "schmot",
       name: "Шмот",
-      file: "/tora/obj-schmot.js",
+      file: "/tora/obj-schmot.ts",
       href: "/tora/schmot/1",
       disabled: false,
     },
     {
       id: "vaikra",
       name: "Ваикра",
-      file: "/tora/obj-vaikra.js",
+      file: "/tora/obj-vaikra.ts",
       href: "/tora/vaikra/1",
       disabled: false,
     },
     {
       id: "bemidbar",
       name: "Бемидбар",
-      file: "/tora/obj-bemidbar.js",
+      file: "/tora/obj-bemidbar.ts",
       href: "/tora/bemidbar/1",
       disabled: false,
     },
     {
       id: "dvarim",
       name: "Дварим",
-      file: "/tora/obj-dvarim.js",
+      file: "/tora/obj-dvarim.ts",
       href: "/tora/dvarim/1",
       disabled: false,
     },
   ],
   neviim: [
     {
-      id: "neviim",
-      name: "Йешуа",
-      file: "",
-      href: "#",
-      disabled: true,
+      id: "yehoshua",
+      name: "Йехошуа",
+      file: "/neviim/obj-yehoshua.ts",
+      href: "/neviim/yehoshua/1",
+      disabled: false,
     },
   ],
   ketuvim: [
