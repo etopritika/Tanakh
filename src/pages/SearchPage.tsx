@@ -1,6 +1,5 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
 import { Input } from "@/components/ui/input";
 import {
   Form,
@@ -11,7 +10,7 @@ import {
 } from "@/components/ui/form";
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { Verse } from "@/lib/types";
+import { SearchFormData, searchSchema, Verse } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getVersePage } from "@/lib/helpers/get-verse-page";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
@@ -24,12 +23,6 @@ const BookNameMap: Record<number, string> = {
   3: "bemidbar",
   4: "dvarim",
 };
-
-const searchSchema = z.object({
-  query: z.string(),
-});
-
-export type SearchFormData = z.infer<typeof searchSchema>;
 
 export default function SearchPage() {
   const { sectionName = "" } = useParams<{ sectionName: string }>();

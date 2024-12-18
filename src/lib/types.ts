@@ -1,3 +1,5 @@
+import { z } from "zod";
+
 export type Section = {
   name: string;
   href: string;
@@ -41,3 +43,9 @@ export type BreadcrumbSegment = {
   label: string;
   href: (segments: string[]) => string;
 };
+
+export const searchSchema = z.object({
+  query: z.string(),
+});
+
+export type SearchFormData = z.infer<typeof searchSchema>;

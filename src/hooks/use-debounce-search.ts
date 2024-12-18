@@ -3,9 +3,7 @@ import beresheet from "@/data/tora/obj-beresheet";
 import dvarim from "@/data/tora/obj-dvarim";
 import schmot from "@/data/tora/obj-schmot";
 import vaikra from "@/data/tora/obj-vaikra";
-
-import { Verse } from "@/lib/types";
-import { SearchFormData } from "@/pages/SearchPage";
+import { SearchFormData, Verse } from "@/lib/types";
 import debounce from "lodash.debounce";
 import { useEffect } from "react";
 
