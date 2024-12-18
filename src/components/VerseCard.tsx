@@ -2,23 +2,41 @@ import { useEffect, useState } from "react";
 import { Verse } from "@/lib/types";
 import { Card, CardContent } from "./ui/card";
 
-export default function VerseCard({ verse }: { verse: Verse }) {
+export default function VerseCard({
+  verse,
+  scrollRef,
+}: {
+  verse: Verse;
+  scrollRef: React.RefObject<HTMLElement>;
+}) {
   const [isHighlighted, setIsHighlighted] = useState(false);
 
   useEffect(() => {
     const hash = window.location.hash;
     if (hash === `#verse-${verse.poemNumber}`) {
       setIsHighlighted(true);
-
+      const container = scrollRef.current;
       const element = document.getElementById(`verse-${verse.poemNumber}`);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (container && element) {
+        const containerTop = container.getBoundingClientRect().top;
+        const elementTop = element.getBoundingClientRect().top;
+
+        const offset =
+          elementTop -
+          containerTop -
+          container.clientHeight / 2 +
+          element.clientHeight / 2;
+
+        container.scrollTo({
+          top: container.scrollTop + offset,
+          behavior: "smooth",
+        });
       }
 
       const timer = setTimeout(() => setIsHighlighted(false), 3000);
       return () => clearTimeout(timer);
     }
-  }, [verse.poemNumber]);
+  }, [verse.poemNumber, scrollRef]);
 
   return (
     <li id={`verse-${verse.poemNumber}`}>

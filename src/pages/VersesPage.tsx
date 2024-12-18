@@ -88,7 +88,7 @@ export default function VersesPage() {
     >
       <div className="space-y-2">
         <h1>{chapterName}</h1>
-        <VerseList verses={verses} />
+        <VerseList verses={verses} scrollRef={containerRef} />
       </div>
       <AppPagination
         currentPage={page}
