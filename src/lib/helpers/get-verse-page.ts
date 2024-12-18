@@ -1,8 +1,4 @@
-import bemidbar from "@/data/tora/obj-bemidbar";
-import beresheet from "@/data/tora/obj-beresheet";
-import dvarim from "@/data/tora/obj-dvarim";
-import schmot from "@/data/tora/obj-schmot";
-import vaikra from "@/data/tora/obj-vaikra";
+import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tora";
 import { Verse } from "@/lib/types";
 import { poemsPerPage } from "../settings";
 
