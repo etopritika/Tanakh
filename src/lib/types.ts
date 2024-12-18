@@ -39,11 +39,6 @@ export type Verse = {
   comment?: string;
 };
 
-export type BreadcrumbSegment = {
-  label: string;
-  href: (segments: string[]) => string;
-};
-
 export const searchSchema = z.object({
   query: z.string(),
 });
