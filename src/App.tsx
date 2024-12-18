@@ -48,10 +48,7 @@ function App() {
               element={<VersesPage />}
             />
 
-            <Route
-              path="/sections/:sectionName/search"
-              element={<SearchPage />}
-            />
+            <Route path="/search" element={<SearchPage />} />
 
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
