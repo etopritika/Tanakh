@@ -5,7 +5,7 @@ import { AccordionContent } from "../ui/accordion";
 interface BookLinksProps {
   booksList: { id: string; name: string; href: string; disabled?: boolean }[];
   currentBook: string | null;
-  closeOnClick?: boolean; // Опціональний параметр для Sheet
+  closeOnClick?: boolean;
 }
 
 export default function BookLinks({
