@@ -11,19 +11,10 @@ import {
 } from "@/components/ui/form";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { SearchFormData, searchSchema, Verse } from "@/lib/types";
+import { BookInfoMap, SearchFormData, searchSchema, Verse } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
 import { X } from "lucide-react";
-
-const BookInfoMap: Record<number, { section: string; bookName: string }> = {
-  0: { section: "tora", bookName: "beresheet" },
-  1: { section: "tora", bookName: "schmot" },
-  2: { section: "tora", bookName: "vaikra" },
-  3: { section: "tora", bookName: "bemidbar" },
-  4: { section: "tora", bookName: "dvarim" },
-  5: { section: "neviim", bookName: "yehoshua" },
-};
 
 export default function SearchPage() {
   const form = useForm<SearchFormData>({
@@ -34,10 +25,19 @@ export default function SearchPage() {
 
   const [results, setResults] = useState<Verse[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [isSearchComplete, setIsSearchComplete] = useState(false);
 
-  const debouncedSearch = useDebouncedSearch("", setResults, setError);
+  const debouncedSearch = useDebouncedSearch(
+    "",
+    (res) => {
+      setResults(res);
+      setIsSearchComplete(true);
+    },
+    setError
+  );
 
   const handleChange = (value: string) => {
+    setIsSearchComplete(false);
     form.setValue("query", value);
     debouncedSearch({ query: value });
   };
@@ -45,10 +45,11 @@ export default function SearchPage() {
   const handleClear = () => {
     form.setValue("query", "");
     setResults([]);
+    setIsSearchComplete(false);
   };
 
   return (
-    <section className="py-6 space-y-4 h-full overflow-y-auto">
+    <section className="px-1 space-y-4 h-full overflow-y-auto">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
@@ -65,8 +66,8 @@ export default function SearchPage() {
                       className="bg-white pr-10"
                       {...field}
                       onChange={(e) => {
-                        field.onChange(e); // Запускає валідацію RHF
-                        handleChange(e.target.value); // Викликає вашу кастомну логіку пошуку
+                        field.onChange(e);
+                        handleChange(e.target.value);
                       }}
                     />
                     {form.getValues("query") && (
@@ -89,7 +90,9 @@ export default function SearchPage() {
       </Form>
 
       {error && <p className="text-red-500">{error}</p>}
-
+      {isSearchComplete && results.length === 0 && (
+        <span>Нет результатов.</span>
+      )}
       <ul className="space-y-4">
         {results.map((verse) => {
           const bookInfo = BookInfoMap[verse.id_book];
@@ -98,11 +101,14 @@ export default function SearchPage() {
           return (
             <li key={`${verse.id_chapter}-${verse.poemNumber}`}>
               <Link to={to}>
-                <Card className="bg-white">
+                <Card className="bg-white relative shadow-md">
                   <CardHeader>
-                    <CardTitle>{verse.chapter}</CardTitle>
+                    <CardTitle className="text-base">{verse.chapter}</CardTitle>
+                    <span className="absolute top-2 right-3">
+                      {verse.poemNumber}
+                    </span>
                   </CardHeader>
-                  <CardContent className="space-y-2">
+                  <CardContent className="space-y-2 text-sm">
                     <p>{verse.verse}</p>
                     <p>{verse.verse_ivrit}</p>
                   </CardContent>

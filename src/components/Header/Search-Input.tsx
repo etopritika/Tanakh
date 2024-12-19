@@ -7,11 +7,12 @@ import {
   FormMessage,
 } from "../ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { SearchFormData, searchSchema, Verse } from "@/lib/types";
+import { BookInfoMap, SearchFormData, searchSchema, Verse } from "@/lib/types";
 import { SlidersHorizontal, X } from "lucide-react";
 import { useState } from "react";
 import {
   Command,
+  CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
@@ -30,10 +31,19 @@ export default function SearchInput() {
 
   const [results, setResults] = useState<Verse[]>([]);
   const [, setError] = useState<string | null>(null);
+  const [isSearchComplete, setIsSearchComplete] = useState(false);
 
-  const debouncedSearch = useDebouncedSearch("", setResults, setError);
+  const debouncedSearch = useDebouncedSearch(
+    "",
+    (res) => {
+      setResults(res);
+      setIsSearchComplete(true);
+    },
+    setError
+  );
 
   const handleChange = (value: string) => {
+    setIsSearchComplete(false);
     form.setValue("query", value);
     debouncedSearch({ query: value });
   };
@@ -41,6 +51,7 @@ export default function SearchInput() {
   const handleClear = () => {
     form.setValue("query", "");
     setResults([]);
+    setIsSearchComplete(false);
   };
 
   return (
@@ -75,38 +86,53 @@ export default function SearchInput() {
                     )}
 
                     <CommandList className="absolute top-full left-0 w-full z-50 bg-white shadow-lg rounded-md">
+                      {isSearchComplete && results.length === 0 && (
+                        <div>
+                          <Link
+                            to={"/search"}
+                            className="cursor-pointer flex justify-center items-center text-sm hover:underline px-2 py-1.5"
+                          >
+                            Расширенный поиск
+                            <SlidersHorizontal className="ml-2" size={15} />
+                          </Link>
+                          <CommandEmpty>Нет результатов.</CommandEmpty>
+                        </div>
+                      )}
                       {results.length > 0 && (
                         <CommandGroup>
-                          <div className="px-2 py-1.5">
-                            <Link
-                              to={"/search"}
-                              className="cursor-pointer flex justify-center items-center text-sm hover:underline"
-                            >
-                              Расширенный поиск
-                              <SlidersHorizontal className="ml-2" size={15} />
-                            </Link>
-                          </div>
-                          {results.map((item) => (
-                            <CommandItem
-                              key={`${item.verse}-${item.poemNumber}`}
-                              value={item.verse || ""}
-                              className="flex flex-col items-start"
-                            >
-                              <Link to={"#"} className="w-full">
-                                <Card className="bg-white">
-                                  <CardHeader className="p-4">
-                                    <CardTitle className="text-sm">
-                                      {item.chapter}
-                                    </CardTitle>
-                                  </CardHeader>
-                                  <CardContent className="space-y-2 p-4 pt-0">
-                                    <p>{item.verse}</p>
-                                    <p>{item.verse_ivrit}</p>
-                                  </CardContent>
-                                </Card>
-                              </Link>
-                            </CommandItem>
-                          ))}
+                          <Link
+                            to={"/search"}
+                            className="cursor-pointer flex justify-center items-center text-sm hover:underline px-2 py-1.5"
+                          >
+                            Расширенный поиск
+                            <SlidersHorizontal className="ml-2" size={15} />
+                          </Link>
+
+                          {results.map((item) => {
+                            const bookInfo = BookInfoMap[item.id_book];
+                            const to = `/${bookInfo.section}/${bookInfo.bookName}/${item.id_chapter}#verse-${item.poemNumber}`;
+                            return (
+                              <CommandItem
+                                key={`${item.verse}-${item.poemNumber}`}
+                                value={item.verse || ""}
+                                className="flex flex-col items-start"
+                              >
+                                <Link to={to} className="w-full">
+                                  <Card className="bg-white">
+                                    <CardHeader className="p-4">
+                                      <CardTitle className="text-sm">
+                                        {item.chapter}
+                                      </CardTitle>
+                                    </CardHeader>
+                                    <CardContent className="space-y-2 p-4 pt-0">
+                                      <p>{item.verse}</p>
+                                      <p>{item.verse_ivrit}</p>
+                                    </CardContent>
+                                  </Card>
+                                </Link>
+                              </CommandItem>
+                            );
+                          })}
                         </CommandGroup>
                       )}
                     </CommandList>

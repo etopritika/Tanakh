@@ -7,6 +7,18 @@ export const booksMap: Record<string, Verse[][]> = {
   neviim: [yehoshua],
 };
 
+export const BookInfoMap: Record<
+  number,
+  { section: string; bookName: string }
+> = {
+  0: { section: "tora", bookName: "beresheet" },
+  1: { section: "tora", bookName: "schmot" },
+  2: { section: "tora", bookName: "vaikra" },
+  3: { section: "tora", bookName: "bemidbar" },
+  4: { section: "tora", bookName: "dvarim" },
+  5: { section: "neviim", bookName: "yehoshua" },
+};
+
 export type Section = {
   name: string;
   href: string;
@@ -49,8 +61,7 @@ export type Verse = {
 export const searchSchema = z.object({
   query: z
     .string()
-    .min(4, "Запрос должен содержать не менее 4 символов.")
-    .max(50, "Запрос не должен превышать 50 символов")
+    .min(5, "Запрос должен содержать не менее 5 символов.")
     .trim(),
 });
 

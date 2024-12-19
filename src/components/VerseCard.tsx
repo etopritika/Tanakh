@@ -9,10 +9,10 @@ export default function VerseCard({
   verse: Verse;
   scrollRef: React.RefObject<HTMLElement>;
 }) {
+  const hash = window.location.hash;
   const [isHighlighted, setIsHighlighted] = useState(false);
 
   useEffect(() => {
-    const hash = window.location.hash;
     if (hash === `#verse-${verse.poemNumber}`) {
       setIsHighlighted(true);
       const container = scrollRef.current;
@@ -36,12 +36,12 @@ export default function VerseCard({
       const timer = setTimeout(() => setIsHighlighted(false), 3000);
       return () => clearTimeout(timer);
     }
-  }, [verse.poemNumber, scrollRef]);
+  }, [verse.poemNumber, scrollRef, hash]);
 
   return (
     <li id={`verse-${verse.poemNumber}`}>
       <Card
-        className={`bg-white shadow-lg ${
+        className={`bg-white shadow-md ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
