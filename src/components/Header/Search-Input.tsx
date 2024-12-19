@@ -70,7 +70,7 @@ export default function SearchInput() {
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <div className="relative w-80">
+                <div className="relative max-w-52">
                   <Command className="rounded-lg border bg-white shadow-md">
                     <CommandInput
                       placeholder="Поиск..."
