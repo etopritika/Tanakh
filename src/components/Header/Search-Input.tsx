@@ -1,12 +1,17 @@
 import { useForm } from "react-hook-form";
-import { Form, FormControl, FormField, FormItem } from "../ui/form";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormMessage,
+} from "../ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { SearchFormData, searchSchema, Verse } from "@/lib/types";
 import { X } from "lucide-react";
 import { useState } from "react";
 import {
   Command,
-  CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
@@ -20,6 +25,7 @@ export default function SearchInput() {
   const form = useForm<SearchFormData>({
     resolver: zodResolver(searchSchema),
     defaultValues: { query: "" },
+    mode: "onChange",
   });
 
   const [results, setResults] = useState<Verse[]>([]);
@@ -27,7 +33,7 @@ export default function SearchInput() {
 
   const debouncedSearch = useDebouncedSearch("", setResults, setError);
 
-  const handleSearch = (value: string) => {
+  const handleChange = (value: string) => {
     form.setValue("query", value);
     debouncedSearch({ query: value });
   };
@@ -51,7 +57,10 @@ export default function SearchInput() {
                     <CommandInput
                       placeholder="Поиск..."
                       value={field.value}
-                      onValueChange={handleSearch}
+                      onValueChange={(value) => {
+                        field.onChange(value);
+                        handleChange(value);
+                      }}
                       className="w-full border-none focus:ring-0"
                     />
                     {field.value && (
@@ -66,11 +75,23 @@ export default function SearchInput() {
                     )}
 
                     <CommandList className="absolute top-full left-0 w-full z-50 bg-white shadow-lg rounded-md">
-                      {results.length > 0 ? (
-                        <CommandGroup heading="Результаты">
+                      {results.length > 0 && (
+                        <CommandGroup>
+                          <div className="px-2 py-1.5">
+                            <Link
+                              to={"/search"}
+                              className="w-full cursor-pointer"
+                            >
+                              <Card className="bg-white">
+                                <CardContent className="p-3">
+                                  Расширенный поиск
+                                </CardContent>
+                              </Card>
+                            </Link>
+                          </div>
                           {results.map((item) => (
                             <CommandItem
-                              key={`${item.id_chapter}-${item.poemNumber}`}
+                              key={`${item.verse}-${item.poemNumber}`}
                               value={item.verse || ""}
                               className="flex flex-col items-start"
                             >
@@ -89,33 +110,13 @@ export default function SearchInput() {
                               </Link>
                             </CommandItem>
                           ))}
-                          <CommandItem
-                            value="Расширенный поиск"
-                            className="flex flex-col items-start"
-                          >
-                            <Link to={"/search"} className="w-full">
-                              <Card className="bg-white">
-                                <CardHeader className="sr-only">
-                                  <CardTitle className="text-sm">
-                                    Расширенный поиск
-                                  </CardTitle>
-                                </CardHeader>
-                                <CardContent className="space-y-2 p-4">
-                                  Расширенный поиск
-                                </CardContent>
-                              </Card>
-                            </Link>
-                          </CommandItem>
                         </CommandGroup>
-                      ) : field.value.trim() !== "" ? (
-                        <CommandEmpty className="p-2">
-                          Ничего не найдено.
-                        </CommandEmpty>
-                      ) : null}
+                      )}
                     </CommandList>
                   </Command>
                 </div>
               </FormControl>
+              <FormMessage />
             </FormItem>
           )}
         />

@@ -7,6 +7,7 @@ import {
   FormField,
   FormItem,
   FormLabel,
+  FormMessage,
 } from "@/components/ui/form";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -28,6 +29,7 @@ export default function SearchPage() {
   const form = useForm<SearchFormData>({
     resolver: zodResolver(searchSchema),
     defaultValues: { query: "" },
+    mode: "onChange",
   });
 
   const [results, setResults] = useState<Verse[]>([]);
@@ -45,15 +47,11 @@ export default function SearchPage() {
     setResults([]);
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-  };
-
   return (
     <section className="py-6 space-y-4 h-full overflow-y-auto">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
           <FormField
             name="query"
             control={form.control}
@@ -66,7 +64,10 @@ export default function SearchPage() {
                       placeholder="Поиск..."
                       className="bg-white pr-10"
                       {...field}
-                      onChange={(e) => handleChange(e.target.value)}
+                      onChange={(e) => {
+                        field.onChange(e); // Запускає валідацію RHF
+                        handleChange(e.target.value); // Викликає вашу кастомну логіку пошуку
+                      }}
                     />
                     {form.getValues("query") && (
                       <button
@@ -80,6 +81,7 @@ export default function SearchPage() {
                     )}
                   </div>
                 </FormControl>
+                <FormMessage />
               </FormItem>
             )}
           />

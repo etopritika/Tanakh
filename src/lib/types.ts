@@ -47,7 +47,11 @@ export type Verse = {
 };
 
 export const searchSchema = z.object({
-  query: z.string(),
+  query: z
+    .string()
+    .min(4, "Запрос должен содержать не менее 4 символов.")
+    .max(50, "Запрос не должен превышать 50 символов")
+    .trim(),
 });
 
 export type SearchFormData = z.infer<typeof searchSchema>;
