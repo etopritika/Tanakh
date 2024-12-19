@@ -22,6 +22,8 @@ export default function SearchPage() {
     defaultValues: { query: "" },
     mode: "onChange",
   });
+  const queryValue = form.getValues("query");
+  const isFieldFilled = queryValue?.trim();
 
   const [results, setResults] = useState<Verse[]>([]);
   const [error, setError] = useState<string | null>(null);
@@ -37,9 +39,14 @@ export default function SearchPage() {
   );
 
   const handleChange = (value: string) => {
-    setIsSearchComplete(false);
     form.setValue("query", value);
-    debouncedSearch({ query: value });
+    if (!form.formState.errors.query) {
+      setIsSearchComplete(false);
+      debouncedSearch({ query: value });
+    } else {
+      setResults([]);
+      setIsSearchComplete(false);
+    }
   };
 
   const handleClear = () => {
@@ -82,7 +89,7 @@ export default function SearchPage() {
                     )}
                   </div>
                 </FormControl>
-                <FormMessage />
+                {isFieldFilled && <FormMessage className="text-danger" />}
               </FormItem>
             )}
           />
@@ -91,7 +98,9 @@ export default function SearchPage() {
 
       {error && <p className="text-red-500">{error}</p>}
       {isSearchComplete && results.length === 0 && (
-        <span>Нет результатов.</span>
+        <div className="flex justify-center">
+          <span>Нет результатов.</span>
+        </div>
       )}
       <ul className="space-y-4">
         {results.map((verse) => {

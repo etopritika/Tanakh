@@ -28,6 +28,8 @@ export default function SearchInput() {
     defaultValues: { query: "" },
     mode: "onChange",
   });
+  const queryValue = form.getValues("query");
+  const isFieldFilled = queryValue?.trim();
 
   const [results, setResults] = useState<Verse[]>([]);
   const [, setError] = useState<string | null>(null);
@@ -43,9 +45,14 @@ export default function SearchInput() {
   );
 
   const handleChange = (value: string) => {
-    setIsSearchComplete(false);
     form.setValue("query", value);
-    debouncedSearch({ query: value });
+    if (!form.formState.errors.query) {
+      setIsSearchComplete(false);
+      debouncedSearch({ query: value });
+    } else {
+      setResults([]);
+      setIsSearchComplete(false);
+    }
   };
 
   const handleClear = () => {
@@ -118,11 +125,14 @@ export default function SearchInput() {
                                 className="flex flex-col items-start"
                               >
                                 <Link to={to} className="w-full">
-                                  <Card className="bg-white">
+                                  <Card className="bg-white relative">
                                     <CardHeader className="p-4">
                                       <CardTitle className="text-sm">
                                         {item.chapter}
                                       </CardTitle>
+                                      <span className="absolute top-2 right-3">
+                                        {item.poemNumber}
+                                      </span>
                                     </CardHeader>
                                     <CardContent className="space-y-2 p-4 pt-0">
                                       <p>{item.verse}</p>
@@ -139,7 +149,7 @@ export default function SearchInput() {
                   </Command>
                 </div>
               </FormControl>
-              <FormMessage />
+              {isFieldFilled && <FormMessage className="text-danger" />}
             </FormItem>
           )}
         />
