@@ -71,14 +71,7 @@ export default function VersesPage() {
   }
 
   if (error) {
-    return (
-      <NoVerses
-        error={error}
-        sectionName={sectionName || ""}
-        bookName={bookName || ""}
-        chapterId={chapterId || ""}
-      />
-    );
+    return <NoVerses error={error} />;
   }
 
   return (
