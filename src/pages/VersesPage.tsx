@@ -84,7 +84,7 @@ export default function VersesPage() {
   return (
     <section
       ref={containerRef}
-      className="space-y-6 flex flex-col justify-between h-full overflow-y-auto"
+      className="space-y-6 px-1 flex flex-col justify-between h-full overflow-y-auto"
     >
       <div className="space-y-2">
         <h1>{chapterName}</h1>
