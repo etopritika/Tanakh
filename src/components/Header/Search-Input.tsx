@@ -8,7 +8,7 @@ import {
 } from "../ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { SearchFormData, searchSchema, Verse } from "@/lib/types";
-import { X } from "lucide-react";
+import { SlidersHorizontal, X } from "lucide-react";
 import { useState } from "react";
 import {
   Command,
@@ -80,13 +80,10 @@ export default function SearchInput() {
                           <div className="px-2 py-1.5">
                             <Link
                               to={"/search"}
-                              className="w-full cursor-pointer"
+                              className="cursor-pointer flex justify-center items-center text-sm hover:underline"
                             >
-                              <Card className="bg-white">
-                                <CardContent className="p-3">
-                                  Расширенный поиск
-                                </CardContent>
-                              </Card>
+                              Расширенный поиск
+                              <SlidersHorizontal className="ml-2" size={15} />
                             </Link>
                           </div>
                           {results.map((item) => (
