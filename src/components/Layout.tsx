@@ -1,6 +1,7 @@
 import DesktopSidebar from "./Sidebar/DesktopSidebar";
 import Header from "./Header";
 import { useLocation } from "react-router-dom";
+import ScrollUpButton from "./Scroll-up-button";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { pathname } = useLocation();
@@ -8,16 +9,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Header />
-      <div
-        className={`flex py-1 md:p-1 ${
-          isSearchPage
-            ? "h-[calc(100vh-55px)] md:h-screen"
-            : "h-[calc(100vh-55px)]"
-        }`}
-      >
+      <div className="container mx-auto px-4">
         <DesktopSidebar />
-        <main className="container mx-auto px-4 h-full">{children}</main>
+        <main
+          className={`md:ml-80 ${
+            isSearchPage ? "mt-14 py-2 md:mt-0" : "mt-14"
+          }`}
+        >
+          {children}
+        </main>
       </div>
+      <ScrollUpButton />
     </>
   );
 }
