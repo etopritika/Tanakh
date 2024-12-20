@@ -63,14 +63,14 @@ export default function SearchInput() {
 
   return (
     <Form {...form}>
-      <form onSubmit={(e) => e.preventDefault()}>
+      <form onSubmit={(e) => e.preventDefault()} className="w-full max-w-96">
         <FormField
           control={form.control}
           name="query"
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <div className="relative max-w-52">
+                <div className="relative">
                   <Command className="rounded-lg border bg-white shadow-md">
                     <CommandInput
                       placeholder="Поиск..."
