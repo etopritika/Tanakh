@@ -124,7 +124,11 @@ export default function SearchInput() {
                                 value={item.verse || ""}
                                 className="flex flex-col items-start"
                               >
-                                <Link to={to} className="w-full">
+                                <Link
+                                  to={to}
+                                  className="w-full"
+                                  onClick={handleClear}
+                                >
                                   <Card className="bg-white relative">
                                     <CardHeader className="p-4">
                                       <CardTitle className="text-sm">
