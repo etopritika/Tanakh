@@ -7,8 +7,13 @@ export default function DesktopSidebar() {
   const { pathname } = useLocation();
   const pathSegments = pathname.split("/").filter((segment) => segment);
   const currentBook = pathSegments.at(1) || null;
+  const isSearchPage = pathname.includes("/search");
   return (
-    <aside className="hidden md:block md:max-w-80 w-full h-full p-4 shadow-lg rounded-lg bg-white">
+    <aside
+      className={`hidden md:block md:fixed left-0 w-80 z-50 h-screen p-4 shadow-lg rounded-lg bg-white ${
+        isSearchPage ? "top-0" : "top-14"
+      }`}
+    >
       <nav className="rounded-lg p-2">
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
