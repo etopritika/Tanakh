@@ -15,7 +15,11 @@
 }
 
 body {
-  @apply bg-[var(--background)] text-[var(--text)] font-sans overflow-auto h-screen;
+  @apply bg-[var(--background)] text-[var(--text)] font-sans overflow-auto;
+}
+
+#root {
+  height: 100%;
 }
 
 .font-sans {
