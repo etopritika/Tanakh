@@ -56,7 +56,7 @@ export default function SearchPage() {
   };
 
   return (
-    <section className="px-1 space-y-4 h-full overflow-y-auto">
+    <section className="px-1 space-y-4">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
