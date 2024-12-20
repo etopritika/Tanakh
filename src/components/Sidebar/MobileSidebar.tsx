@@ -38,7 +38,7 @@ export default function MobileSidebar() {
             <AccordionItem value="item-1">
               <AccordionTrigger>Танах</AccordionTrigger>
               <BookLinks
-                booksList={books.tora}
+                booksList={books.tanah}
                 currentBook={currentBook}
                 closeOnClick={true}
               />

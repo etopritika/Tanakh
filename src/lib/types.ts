@@ -1,9 +1,9 @@
 import { z } from "zod";
-import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tora";
+import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tanah";
 import yehoshua from "@/data/neviim/obj-yehoshua";
 
 export const booksMap: Record<string, Verse[][]> = {
-  tora: [beresheet, schmot, vaikra, bemidbar, dvarim],
+  tanah: [beresheet, schmot, vaikra, bemidbar, dvarim],
   neviim: [yehoshua],
 };
 
@@ -11,11 +11,11 @@ export const BookInfoMap: Record<
   number,
   { section: string; bookName: string }
 > = {
-  0: { section: "tora", bookName: "beresheet" },
-  1: { section: "tora", bookName: "schmot" },
-  2: { section: "tora", bookName: "vaikra" },
-  3: { section: "tora", bookName: "bemidbar" },
-  4: { section: "tora", bookName: "dvarim" },
+  0: { section: "tanah", bookName: "beresheet" },
+  1: { section: "tanah", bookName: "schmot" },
+  2: { section: "tanah", bookName: "vaikra" },
+  3: { section: "tanah", bookName: "bemidbar" },
+  4: { section: "tanah", bookName: "dvarim" },
   5: { section: "neviim", bookName: "yehoshua" },
 };
 

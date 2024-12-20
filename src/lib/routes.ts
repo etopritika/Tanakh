@@ -1,40 +1,40 @@
 import { BooksBySection } from "./types";
 
 export const books: BooksBySection = {
-  tora: [
+  tanah: [
     {
       id: "beresheet",
       name: "Берешит",
-      file: "/tora/obj-beresheet.ts",
-      href: "/tora/beresheet/1",
+      file: "/tanah/obj-beresheet.ts",
+      href: "/tanah/beresheet/1",
       disabled: false,
     },
     {
       id: "schmot",
       name: "Шмот",
-      file: "/tora/obj-schmot.ts",
-      href: "/tora/schmot/1",
+      file: "/tanah/obj-schmot.ts",
+      href: "/tanah/schmot/1",
       disabled: false,
     },
     {
       id: "vaikra",
       name: "Ваикра",
-      file: "/tora/obj-vaikra.ts",
-      href: "/tora/vaikra/1",
+      file: "/tanah/obj-vaikra.ts",
+      href: "/tanah/vaikra/1",
       disabled: false,
     },
     {
       id: "bemidbar",
       name: "Бемидбар",
-      file: "/tora/obj-bemidbar.ts",
-      href: "/tora/bemidbar/1",
+      file: "/tanah/obj-bemidbar.ts",
+      href: "/tanah/bemidbar/1",
       disabled: false,
     },
     {
       id: "dvarim",
       name: "Дварим",
-      file: "/tora/obj-dvarim.ts",
-      href: "/tora/dvarim/1",
+      file: "/tanah/obj-dvarim.ts",
+      href: "/tanah/dvarim/1",
       disabled: false,
     },
   ],

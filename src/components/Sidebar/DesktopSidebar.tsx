@@ -18,7 +18,7 @@ export default function DesktopSidebar() {
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>Танах</AccordionTrigger>
-            <BookLinks booksList={books.tora} currentBook={currentBook} />
+            <BookLinks booksList={books.tanah} currentBook={currentBook} />
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger>Невиим</AccordionTrigger>
