@@ -92,7 +92,7 @@ export default function SearchInput() {
                       </button>
                     )}
 
-                    <CommandList className="absolute top-full left-0 w-full z-50 bg-white shadow-lg rounded-md">
+                    <CommandList className="absolute top-full left-0 w-full z-50 bg-white shadow-md rounded-md">
                       {isSearchComplete && results.length === 0 && (
                         <div>
                           <Link
@@ -149,7 +149,9 @@ export default function SearchInput() {
                   </Command>
                 </div>
               </FormControl>
-              {isFieldFilled && <FormMessage className="text-danger" />}
+              {isFieldFilled && (
+                <FormMessage className="text-danger bg-white p-4 rounded-md shadow-md" />
+              )}
             </FormItem>
           )}
         />
