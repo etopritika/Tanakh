@@ -17,7 +17,8 @@ export default function MobileSidebar() {
   const pathSegments: string[] = location.pathname
     .split("/")
     .filter((segment) => segment);
-  const currentBook = pathSegments.at(1) || null;
+  const currentSection = pathSegments.at(0) || "";
+  const currentBook = pathSegments.at(1) || "";
   return (
     <Sheet>
       <SheetHeader className="sr-only">
@@ -34,8 +35,8 @@ export default function MobileSidebar() {
       </SheetTrigger>
       <SheetContent side="left" className="w-64 p-4 bg-white">
         <nav className="rounded-lg p-2">
-          <Accordion type="single" collapsible>
-            <AccordionItem value="item-1">
+          <Accordion type="single" collapsible defaultValue={currentSection}>
+            <AccordionItem value="tanah">
               <AccordionTrigger>Танах</AccordionTrigger>
               <BookLinks
                 booksList={books.tanah}
@@ -43,7 +44,7 @@ export default function MobileSidebar() {
                 closeOnClick={true}
               />
             </AccordionItem>
-            <AccordionItem value="item-2">
+            <AccordionItem value="neviim">
               <AccordionTrigger>Невиим</AccordionTrigger>
               <BookLinks
                 booksList={books.neviim}
@@ -51,7 +52,7 @@ export default function MobileSidebar() {
                 closeOnClick={true}
               />
             </AccordionItem>
-            <AccordionItem value="item-3">
+            <AccordionItem value="ketuvim">
               <AccordionTrigger>Ктувим</AccordionTrigger>
               <BookLinks
                 booksList={books.ketuvim}
