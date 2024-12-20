@@ -1,5 +1,6 @@
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetHeader,
@@ -35,16 +36,18 @@ export default function MobileSidebar() {
       </SheetTrigger>
       <SheetContent side="left" className="w-64 p-4 bg-white">
         <nav className="rounded-lg p-2">
-          <Link
-            to="/"
-            className={`block py-4 border-b ${
-              currentSection === ""
-                ? "underline font-bold text-primary"
-                : "hover:underline"
-            }`}
-          >
-            Главная
-          </Link>
+          <SheetClose asChild>
+            <Link
+              to="/"
+              className={`block py-4 border-b ${
+                currentSection === ""
+                  ? "underline font-bold text-primary"
+                  : "hover:underline"
+              }`}
+            >
+              Главная
+            </Link>
+          </SheetClose>
           <Accordion type="single" collapsible defaultValue={currentSection}>
             <AccordionItem value="tanah">
               <AccordionTrigger>Танах</AccordionTrigger>
