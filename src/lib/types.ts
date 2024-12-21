@@ -1,3 +1,33 @@
+import { z } from "zod";
+import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tora";
+import yehoshua from "@/data/neviim/obj-yehoshua";
+
+export const booksMap: Record<string, Verse[][]> = {
+  tora: [beresheet, schmot, vaikra, bemidbar, dvarim],
+  neviim: [yehoshua],
+};
+
+export const bookNameMap: Record<string, string> = {
+  beresheet: "Берешит",
+  schmot: "Шемот",
+  vaikra: "Ваикра",
+  bemidbar: "Бемидбар",
+  dvarim: "Деварим",
+  yehoshua: "Йехошуа",
+};
+
+export const BookInfoMap: Record<
+  number,
+  { section: string; bookName: string }
+> = {
+  0: { section: "tora", bookName: "beresheet" },
+  1: { section: "tora", bookName: "schmot" },
+  2: { section: "tora", bookName: "vaikra" },
+  3: { section: "tora", bookName: "bemidbar" },
+  4: { section: "tora", bookName: "dvarim" },
+  5: { section: "neviim", bookName: "yehoshua" },
+};
+
 export type Section = {
   name: string;
   href: string;
@@ -37,7 +67,11 @@ export type Verse = {
   comment?: string;
 };
 
-export type BreadcrumbSegment = {
-  label: string;
-  href: (segments: string[]) => string;
-};
+export const searchSchema = z.object({
+  query: z
+    .string()
+    .min(5, "Запрос должен содержать не менее 5 символов.")
+    .trim(),
+});
+
+export type SearchFormData = z.infer<typeof searchSchema>;

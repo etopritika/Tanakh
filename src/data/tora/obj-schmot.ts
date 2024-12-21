@@ -2072,17 +2072,6 @@ const objSchmot: Verse[] = [
     id_chapter: 7,
     id_chapter_two: 1,
     poemNumber: 8,
-    verse: "",
-    verse_ivrit: "",
-    comment: "",
-  },
-  {
-    name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
-    id_book: 1,
-    id_chapter: 7,
-    id_chapter_two: 1,
-    poemNumber: 9,
     verse: "Господь сказал Моше и Аѓарону:",
     verse_ivrit: "וַיֹּאמֶר יְהוָה אֶל-מֹשֶׁה וְאֶל-אַהֲרֹן לֵאמֹר",
     comment: "",
@@ -2093,7 +2082,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
-    poemNumber: 10,
+    poemNumber: 9,
     verse:
       "— Когда фараон потребует от вас: “Дайте знамение о себе!” — то скажи Аѓарону: “Возьми свой посох и брось перед фараоном”, — и посох превратится в змея.",
     verse_ivrit:
@@ -2106,7 +2095,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
-    poemNumber: 11,
+    poemNumber: 10,
     verse:
       "Пришли Моше и Аѓарон к фараону и сделали так, как повелел Господь. Бросил Аѓарон свой посох перед фараоном и его слугами, и посох превратился в змея.",
     verse_ivrit:
@@ -2119,7 +2108,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
-    poemNumber: 12,
+    poemNumber: 11,
     verse:
       "Тогда фараон призвал мудрецов и колдунов, и они, волхвы египетские, сделали своими чарами то же самое.",
     verse_ivrit:
@@ -2132,7 +2121,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
-    poemNumber: 13,
+    poemNumber: 12,
     verse:
       "Каждый из них бросил свой посох, и их посохи стали змеями, но посох Аѓарона поглотил их посохи.",
     verse_ivrit:
@@ -2145,7 +2134,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
-    poemNumber: 14,
+    poemNumber: 13,
     verse:
       "Однако фараон ожесточился и не послушал [Моше и Аѓарона], как и предвещал Господь.",
     verse_ivrit:
@@ -4335,7 +4324,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
-    poemNumber: 21,
+    poemNumber: 51,
     verse:
       "В тот самый день Господь увел из земли египетской сынов Израиля, по воинствам их.",
     verse_ivrit:
@@ -4556,7 +4545,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 1,
+    poemNumber: 17,
     verse:
       "Когда фараон отпустил народ, Бог не повел их через страну филистимлян, хотя этот путь ближе, ибо сказал Бог: “Не передумал бы народ, увидев, [что ему предстоит] война, и не вернулся бы в Египет”.",
     verse_ivrit:
@@ -4569,7 +4558,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 2,
+    poemNumber: 18,
     verse:
       "Бог повел народ через пустыню, что у моря Суф. Сыны Израиля вышли из земли египетской вооруженными.",
     verse_ivrit:
@@ -4582,7 +4571,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 3,
+    poemNumber: 19,
     verse:
       "А кости Йосефа Моше взял с собой, ибо тот связал сынов Израиля клятвой, сказав: “Бог обязательно вспомнит о вас, и тогда унесите отсюда с собой мои кости”.",
     verse_ivrit:
@@ -4595,7 +4584,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 4,
+    poemNumber: 20,
     verse:
       "Они двинулись из Суккота и расположились станом в Этаме, на краю пустыни.",
     verse_ivrit: "וַיִּסְעוּ מִסֻּכֹּת וַיַּחֲנוּ בְאֵתָם בִּקְצֵה הַמִּדְבָּר",
@@ -4607,7 +4596,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 5,
+    poemNumber: 21,
     verse:
       "Господь шел перед ними, днем — в облачном столпе, указывая им дорогу, а ночью — в огненном столпе, освещая им [путь], чтобы они шли днем и ночью.",
     verse_ivrit:
@@ -4620,7 +4609,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 6,
+    poemNumber: 22,
     verse:
       "Не удалялся облачный столп днем и огненный столп ночью от народа [Израиля]. ",
     verse_ivrit:

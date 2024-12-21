@@ -4,32 +4,41 @@ import { Card, CardContent } from "./ui/card";
 
 export default function VerseCard({ verse }: { verse: Verse }) {
   const [isHighlighted, setIsHighlighted] = useState(false);
-
+  const hash = window.location.hash;
   useEffect(() => {
-    const hash = window.location.hash;
     if (hash === `#verse-${verse.poemNumber}`) {
       setIsHighlighted(true);
 
       const element = document.getElementById(`verse-${verse.poemNumber}`);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth", block: "center" });
+        const elementTop = element.getBoundingClientRect().top;
+        const offset =
+          elementTop - window.innerHeight / 2 + element.clientHeight / 2;
+
+        window.scrollTo({
+          top: window.scrollY + offset,
+          behavior: "smooth",
+        });
       }
 
       const timer = setTimeout(() => setIsHighlighted(false), 3000);
       return () => clearTimeout(timer);
     }
-  }, [verse.poemNumber]);
+  }, [verse.poemNumber, hash]);
 
   return (
     <li id={`verse-${verse.poemNumber}`}>
       <Card
-        className={`bg-white ${
+        className={`bg-white shadow-md ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
-        <CardContent className="pt-6 space-y-2">
-          <p>{verse.verse}</p>
-          <p>{verse.verse_ivrit}</p>
+        <CardContent className="pt-6 flex space-x-3">
+          <span className="font-bold">{verse.poemNumber}</span>
+          <div className="space-y-2">
+            <p>{verse.verse}</p>
+            <p>{verse.verse_ivrit}</p>
+          </div>
         </CardContent>
       </Card>
     </li>
