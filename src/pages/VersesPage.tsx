@@ -2,7 +2,7 @@ import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/No-verses";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
-import { Verse } from "@/lib/types";
+import { bookNameMap, Verse } from "@/lib/types";
 import { useReadingStore } from "@/store/use-reading-store";
 import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -22,8 +22,8 @@ export default function VersesPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const chapterName = verses[0]?.chapter || "";
-  const fullChapterName = `Глава ${chapterId} | ${chapterName}`;
+  const fullChapterName = `Глава ${chapterId} | ${verses[0]?.chapter || ""}`;
+  const lastReadChapter = `${bookNameMap[bookName || ""]} | Глава ${chapterId}`;
 
   useEffect(() => {
     const loadChapter = async () => {
@@ -52,11 +52,9 @@ export default function VersesPage() {
 
   useEffect(() => {
     return () => {
-      if (chapterName) {
-        setLastRead(fullChapterName, pathname);
-      }
+      setLastRead(lastReadChapter, pathname);
     };
-  }, [pathname, setLastRead, fullChapterName, chapterName]);
+  }, [pathname, setLastRead, lastReadChapter]);
 
   const page = parseInt(chapterId || "1", 10);
 

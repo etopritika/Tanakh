@@ -2,6 +2,8 @@ import { books } from "@/lib/routes";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 import BookLinks from "./BookLinks";
 import { Link, useLocation } from "react-router-dom";
+import { useReadingStore } from "@/store/use-reading-store";
+import { BookMarked } from "lucide-react";
 
 export default function DesktopSidebar() {
   const { pathname } = useLocation();
@@ -9,6 +11,10 @@ export default function DesktopSidebar() {
   const currentSection = pathSegments.at(0) || "";
   const currentBook = pathSegments.at(1) || "";
   const isSearchPage = pathname.includes("/search");
+
+  const { lastPathname, chapterName } = useReadingStore(
+    (state) => state.lastRead
+  );
 
   return (
     <aside
@@ -41,6 +47,18 @@ export default function DesktopSidebar() {
             <BookLinks booksList={books.ketuvim} currentBook={currentBook} />
           </AccordionItem>
         </Accordion>
+        {lastPathname && chapterName && (
+          <Link
+            to={lastPathname}
+            className={`flex items-center py-4 border-b text-sm ${
+              pathname === lastPathname
+                ? "underline font-bold text-primary"
+                : "hover:underline"
+            }`}
+          >
+            <BookMarked className="mr-2" size={16} /> {chapterName}
+          </Link>
+        )}
       </nav>
     </aside>
   );

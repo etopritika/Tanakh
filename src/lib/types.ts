@@ -7,6 +7,15 @@ export const booksMap: Record<string, Verse[][]> = {
   neviim: [yehoshua],
 };
 
+export const bookNameMap: Record<string, string> = {
+  beresheet: "Берешит",
+  schmot: "Шемот",
+  vaikra: "Ваикра",
+  bemidbar: "Бемидбар",
+  dvarim: "Деварим",
+  yehoshua: "Йехошуа",
+};
+
 export const BookInfoMap: Record<
   number,
   { section: string; bookName: string }

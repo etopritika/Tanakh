@@ -7,19 +7,25 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { BookMarked, Menu } from "lucide-react";
 import { books } from "@/lib/routes";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 import BookLinks from "./BookLinks";
 import { Link, useLocation } from "react-router-dom";
+import { useReadingStore } from "@/store/use-reading-store";
 
 export default function MobileSidebar() {
-  const location = useLocation();
-  const pathSegments: string[] = location.pathname
+  const { pathname } = useLocation();
+  const pathSegments: string[] = pathname
     .split("/")
     .filter((segment) => segment);
   const currentSection = pathSegments.at(0) || "";
   const currentBook = pathSegments.at(1) || "";
+
+  const { lastPathname, chapterName } = useReadingStore(
+    (state) => state.lastRead
+  );
+
   return (
     <Sheet>
       <SheetHeader className="sr-only">
@@ -74,6 +80,18 @@ export default function MobileSidebar() {
               />
             </AccordionItem>
           </Accordion>
+          {lastPathname && chapterName && (
+            <Link
+              to={lastPathname}
+              className={`flex items-center py-4 border-b text-sm ${
+                pathname === lastPathname
+                  ? "underline font-bold text-primary"
+                  : "hover:underline"
+              }`}
+            >
+              <BookMarked className="mr-2" size={16} /> {chapterName}
+            </Link>
+          )}
         </nav>
       </SheetContent>
     </Sheet>
