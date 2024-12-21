@@ -22,7 +22,8 @@ export default function VersesPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const chapterName = `Глава ${chapterId} | ${verses[0]?.chapter}`;
+  const chapterName = verses[0]?.chapter || "";
+  const fullChapterName = `Глава ${chapterId} | ${chapterName}`;
 
   useEffect(() => {
     const loadChapter = async () => {
@@ -51,9 +52,11 @@ export default function VersesPage() {
 
   useEffect(() => {
     return () => {
-      setLastRead(chapterName, pathname);
+      if (chapterName) {
+        setLastRead(fullChapterName, pathname);
+      }
     };
-  }, [pathname, setLastRead, chapterName]);
+  }, [pathname, setLastRead, fullChapterName, chapterName]);
 
   const page = parseInt(chapterId || "1", 10);
 
@@ -75,7 +78,7 @@ export default function VersesPage() {
   return (
     <section className="space-y-6 py-2 flex flex-col justify-between">
       <div className="space-y-2">
-        <h1>{chapterName}</h1>
+        <h1>{fullChapterName}</h1>
         <VerseList verses={verses} />
       </div>
       <AppPagination

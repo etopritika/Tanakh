@@ -33,8 +33,8 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
-        <CardContent className="pt-6 relative">
-          <span className="absolute top-2 right-3">{verse.poemNumber}</span>
+        <CardContent className="pt-6 flex space-x-3">
+          <span className="font-bold">{verse.poemNumber}</span>
           <div className="space-y-2">
             <p>{verse.verse}</p>
             <p>{verse.verse_ivrit}</p>
