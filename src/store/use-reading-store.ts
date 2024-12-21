@@ -3,18 +3,18 @@ import { persist } from "zustand/middleware";
 
 interface ReadingState {
   lastRead: {
-    pathname: string | null;
+    lastPathname: string | null;
     chapterName: string | null;
   };
-  setLastRead: (chapterName: string, pathname: string) => void;
+  setLastRead: (chapterName: string, lastPathname: string) => void;
 }
 
 export const useReadingStore = create<ReadingState>()(
   persist(
     (set) => ({
-      lastRead: { pathname: null, chapterName: null },
-      setLastRead: (chapterName, pathname) =>
-        set({ lastRead: { pathname, chapterName } }),
+      lastRead: { lastPathname: null, chapterName: null },
+      setLastRead: (chapterName, lastPathname) =>
+        set({ lastRead: { lastPathname, chapterName } }),
     }),
     { name: "reading-storage" }
   )

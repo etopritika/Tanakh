@@ -1,6 +1,5 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
 import { Input } from "@/components/ui/input";
 import {
   Form,
@@ -8,60 +7,59 @@ import {
   FormField,
   FormItem,
   FormLabel,
+  FormMessage,
 } from "@/components/ui/form";
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { Verse } from "@/lib/types";
+import { Link } from "react-router-dom";
+import { BookInfoMap, SearchFormData, searchSchema, Verse } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getVersePage } from "@/lib/helpers/get-verse-page";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
 import { X } from "lucide-react";
 
-const BookNameMap: Record<number, string> = {
-  0: "beresheet",
-  1: "schmot",
-  2: "vaikra",
-  3: "bemidbar",
-  4: "dvarim",
-};
-
-const searchSchema = z.object({
-  query: z.string(),
-});
-
-export type SearchFormData = z.infer<typeof searchSchema>;
-
 export default function SearchPage() {
-  const { sectionName = "" } = useParams<{ sectionName: string }>();
   const form = useForm<SearchFormData>({
     resolver: zodResolver(searchSchema),
     defaultValues: { query: "" },
+    mode: "onChange",
   });
+  const queryValue = form.getValues("query");
+  const isFieldFilled = queryValue?.trim();
 
   const [results, setResults] = useState<Verse[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [isSearchComplete, setIsSearchComplete] = useState(false);
 
-  const debouncedSearch = useDebouncedSearch(sectionName, setResults, setError);
+  const debouncedSearch = useDebouncedSearch(
+    "",
+    (res) => {
+      setResults(res);
+      setIsSearchComplete(true);
+    },
+    setError
+  );
 
   const handleChange = (value: string) => {
     form.setValue("query", value);
-    debouncedSearch({ query: value });
+    if (!form.formState.errors.query) {
+      setIsSearchComplete(false);
+      debouncedSearch({ query: value });
+    } else {
+      setResults([]);
+      setIsSearchComplete(false);
+    }
   };
 
   const handleClear = () => {
     form.setValue("query", "");
     setResults([]);
-  };
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+    setIsSearchComplete(false);
   };
 
   return (
-    <section className="py-6 space-y-4 h-full">
+    <section className="px-1 space-y-4">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
           <FormField
             name="query"
             control={form.control}
@@ -74,7 +72,10 @@ export default function SearchPage() {
                       placeholder="Поиск..."
                       className="bg-white pr-10"
                       {...field}
-                      onChange={(e) => handleChange(e.target.value)}
+                      onChange={(e) => {
+                        field.onChange(e);
+                        handleChange(e.target.value);
+                      }}
                     />
                     {form.getValues("query") && (
                       <button
@@ -88,6 +89,7 @@ export default function SearchPage() {
                     )}
                   </div>
                 </FormControl>
+                {isFieldFilled && <FormMessage className="text-danger" />}
               </FormItem>
             )}
           />
@@ -95,26 +97,27 @@ export default function SearchPage() {
       </Form>
 
       {error && <p className="text-red-500">{error}</p>}
-
+      {isSearchComplete && results.length === 0 && (
+        <div className="flex justify-center">
+          <span>Нет результатов.</span>
+        </div>
+      )}
       <ul className="space-y-4">
         {results.map((verse) => {
-          const bookName = BookNameMap[verse.id_book];
-          const versePage = getVersePage(
-            sectionName,
-            bookName,
-            verse.id_chapter,
-            verse.poemNumber
-          );
-          const to = `/sections/${sectionName}/books/${bookName}/chapter/${verse.id_chapter}/verses/${versePage}#verse-${verse.poemNumber}`;
+          const bookInfo = BookInfoMap[verse.id_book];
+          const to = `/${bookInfo.section}/${bookInfo.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
 
           return (
             <li key={`${verse.id_chapter}-${verse.poemNumber}`}>
               <Link to={to}>
-                <Card className="bg-white">
+                <Card className="bg-white relative shadow-md">
                   <CardHeader>
-                    <CardTitle>{verse.chapter}</CardTitle>
+                    <CardTitle className="text-base">{verse.chapter}</CardTitle>
+                    <span className="absolute top-2 right-3">
+                      {verse.poemNumber}
+                    </span>
                   </CardHeader>
-                  <CardContent className="space-y-2">
+                  <CardContent className="space-y-2 text-sm">
                     <p>{verse.verse}</p>
                     <p>{verse.verse_ivrit}</p>
                   </CardContent>

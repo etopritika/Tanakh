@@ -7,14 +7,12 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
-import { useLocation } from "react-router-dom";
 
-interface MoviePaginationProps {
+interface AppPagination {
   currentPage: number | 1;
   totalPages: number | 1;
   sectionName: string;
   bookName: string;
-  chapterId?: string;
 }
 
 export default function AppPagination({
@@ -22,29 +20,11 @@ export default function AppPagination({
   totalPages,
   sectionName,
   bookName,
-  chapterId = "1",
-}: MoviePaginationProps) {
-  const { pathname } = useLocation();
+}: AppPagination) {
   const isFirstPage = currentPage <= 1;
   const isLastPage = currentPage >= totalPages;
 
-  const routes = {
-    search: (page: number) => `/search/${page}`,
-    chapters: (page: number) =>
-      `/sections/${sectionName}/books/${bookName}/chapters/${page}`,
-    verses: (page: number) =>
-      `/sections/${sectionName}/books/${bookName}/chapter/${chapterId}/verses/${page}`,
-  };
-
-  const getPageHref = (page: number) => {
-    if (pathname.includes("search")) {
-      return routes.search(page);
-    }
-    if (pathname.includes("chapters")) {
-      return routes.chapters(page);
-    }
-    return routes.verses(page);
-  };
+  const getPageHref = (page: number) => `/${sectionName}/${bookName}/${page}`;
 
   const activeClass =
     "pointer-events-none bg-white text-black border-[1px] border-brown-dark rounded-md";

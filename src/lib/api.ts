@@ -4,7 +4,11 @@ export const fetchVersesData = async (
   section: string,
   book: string,
   chapterId: string
-): Promise<{ result: Verse[]; error: string | null }> => {
+): Promise<{
+  result: Verse[];
+  totalChapters: number;
+  error: string | null;
+}> => {
   try {
     const module = await import(`../data/${section}/obj-${book}.ts`);
     const bookData = module.default;
@@ -13,6 +17,7 @@ export const fetchVersesData = async (
       `../lib/book-chapters/${section}/${book}-chapters.ts`
     );
     const chapters = chaptersModule.default;
+    const totalChapters = chapters.length || 0;
 
     const chapter = chapters.find(
       (ch: { key: number; start: number; end: number; verses: number }) =>
@@ -24,10 +29,11 @@ export const fetchVersesData = async (
     }
 
     const versesData = bookData.slice(chapter.start, chapter.end + 1);
-    return { result: versesData, error: null };
+    return { result: versesData, totalChapters, error: null };
   } catch (error) {
     return {
       result: [],
+      totalChapters: 0,
       error: error instanceof Error ? error.message : "Неизвестная ошибка.",
     };
   }
