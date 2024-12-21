@@ -4335,7 +4335,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
-    poemNumber: 21,
+    poemNumber: 51,
     verse:
       "В тот самый день Господь увел из земли египетской сынов Израиля, по воинствам их.",
     verse_ivrit:
@@ -4554,7 +4554,7 @@ const objSchmot: Verse[] = [
     main: 1,
     main_name: "schmot",
     id_book: 1,
-    id_chapter: 13,
+    id_chapter: 14,
     id_chapter_two: 2,
     poemNumber: 1,
     verse:
@@ -4567,7 +4567,7 @@ const objSchmot: Verse[] = [
     name: "ШМОТ",
     chapter: "БЕШАЛАХ(Когда отпустил)",
     id_book: 1,
-    id_chapter: 13,
+    id_chapter: 14,
     id_chapter_two: 2,
     poemNumber: 2,
     verse:
@@ -4580,7 +4580,7 @@ const objSchmot: Verse[] = [
     name: "ШМОТ",
     chapter: "БЕШАЛАХ(Когда отпустил)",
     id_book: 1,
-    id_chapter: 13,
+    id_chapter: 14,
     id_chapter_two: 2,
     poemNumber: 3,
     verse:
@@ -4593,7 +4593,7 @@ const objSchmot: Verse[] = [
     name: "ШМОТ",
     chapter: "БЕШАЛАХ(Когда отпустил)",
     id_book: 1,
-    id_chapter: 13,
+    id_chapter: 14,
     id_chapter_two: 2,
     poemNumber: 4,
     verse:
@@ -4605,7 +4605,7 @@ const objSchmot: Verse[] = [
     name: "ШМОТ",
     chapter: "БЕШАЛАХ(Когда отпустил)",
     id_book: 1,
-    id_chapter: 13,
+    id_chapter: 14,
     id_chapter_two: 2,
     poemNumber: 5,
     verse:
@@ -4618,7 +4618,7 @@ const objSchmot: Verse[] = [
     name: "ШМОТ",
     chapter: "БЕШАЛАХ(Когда отпустил)",
     id_book: 1,
-    id_chapter: 13,
+    id_chapter: 14,
     id_chapter_two: 2,
     poemNumber: 6,
     verse:
@@ -4636,7 +4636,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 1,
+    poemNumber: 7,
     verse: "Господь сказал Моше:",
     verse_ivrit: "וַיְדַבֵּר יְהוָה אֶל-מֹשֶׁה לֵּאמֹר",
     comment: "",
@@ -4647,7 +4647,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 2,
+    poemNumber: 8,
     verse:
       "— Скажи сынам Израиля, чтобы они повернули назад и разбили стан у Пи-ѓа-Хирота, между Мигдолем и морем: расположитесь станом у моря, близ Бааль-Цефона.",
     verse_ivrit:
@@ -4660,7 +4660,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 3,
+    poemNumber: 9,
     verse:
       "Фараон подумает о сынах Израиля: “Они заблудились, пустыня стала у них на пути”.",
     verse_ivrit:
@@ -4674,7 +4674,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 4,
+    poemNumber: 10,
     verse:
       "Я ожесточу сердце фараона, и он погонится за ними. Тогда покажу Я свое величие над фараоном и над всем его войском, и узнают египтяне, что Я — Господь! Так они и сделали.",
     verse_ivrit:
@@ -4687,7 +4687,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 5,
+    poemNumber: 11,
     verse:
       "Царю Египта сообщили, что народ [Израиля] бежал. Фараон и его слуги пожалели, что [отпустили] народ, и сказали: “Что же мы наделали, [зачем] мы отпустили Израиль, который работал на нас?”",
     verse_ivrit:
@@ -4700,7 +4700,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 6,
+    poemNumber: 12,
     verse: "[Фараон] запряг свою колесницу и взял с собой свой народ,",
     verse_ivrit: "וַיֶּאְסֹר אֶת-רִכְבּוֹ וְאֶת-עַמּוֹ לָקַח עִמּוֹ",
     comment: "",
@@ -4711,7 +4711,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 7,
+    poemNumber: 13,
     verse:
       "взял шестьсот отборных колесниц и все [прочие] колесницы Египта, по три человека на каждой.",
     verse_ivrit:
@@ -4724,7 +4724,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 8,
+    poemNumber: 14,
     verse:
       "Господь ожесточил фараона, царя египетского, и тот погнался за сынами Израиля. А сыны Израиля шли не скрываясь.",
     verse_ivrit:
@@ -4737,7 +4737,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 9,
+    poemNumber: 15,
     verse:
       "И вот египтяне — вся конница фараона, колесницы, всадники и войско — пустились за ними в погоню и настигли их, когда они расположились станом у моря, у Пи-ѓа-Хирота, близ Бааль-Цефона.",
     verse_ivrit:
@@ -4750,7 +4750,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 10,
+    poemNumber: 16,
     verse:
       "Фараон приближался. Посмотрели сыны Израиля и видят: за ними гонятся египтяне! Ужаснулись сыны Израиля и воззвали к Господу.",
     verse_ivrit:
@@ -4763,7 +4763,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 11,
+    poemNumber: 17,
     verse:
       "— Разве нет могил в Египте, — сказали они Моше, — что ты привел нас погибать в пустыню? Что ты сделал с нами, [зачем] увел нас из Египта?",
     verse_ivrit:
@@ -4776,7 +4776,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 12,
+    poemNumber: 18,
     verse:
       "Мы же говорили тебе в Египте: “Оставь нас, мы будем работать на египтян!” Уж лучше бы нам служить египтянам, чем умереть в пустыне.",
     verse_ivrit:
@@ -4789,7 +4789,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 13,
+    poemNumber: 19,
     verse:
       "— Не бойтесь! — сказал Моше народу. — Стойте и смотрите, как Господь спасет вас сегодня. Египтян, которых вы видите ныне, вы больше не увидите никогда.",
     verse_ivrit:
@@ -4802,7 +4802,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 14,
+    poemNumber: 20,
     verse: "Господь будет воевать за вас, а вы должны хранить молчание. ",
     verse_ivrit: "יְהוָה יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִשׁוּן",
     comment: "",
@@ -4813,7 +4813,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 15,
+    poemNumber: 21,
     verse:
       "— Что ты взываешь ко Мне? — сказал Господь Моше. — Скажи сынам Израиля, чтобы они отправлялись в путь.",
     verse_ivrit:
@@ -4826,7 +4826,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 16,
+    poemNumber: 22,
     verse:
       "А ты подними свой посох, простри руку над морем и заставь [море] расступиться, чтобы сыны Израиля прошли по дну моря, как по суше.",
     verse_ivrit:
@@ -4839,7 +4839,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 17,
+    poemNumber: 23,
     verse:
       "Я же ожесточу египтян, и они бросятся за вами следом. И тут покажу Я величие Мое над фараоном и над всем его войском с колесницами и всадниками.",
     verse_ivrit:
@@ -4852,7 +4852,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 18,
+    poemNumber: 24,
     verse:
       "Когда явлю Я величие Мое над фараоном с его колесницами и всадниками, узнают египтяне, что Я — Господь!",
     verse_ivrit:
@@ -4865,7 +4865,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 19,
+    poemNumber: 25,
     verse:
       "Ангел Бога, шедший перед станом Израиля, переместился и пошел позади; облачный столп, [шедший] перед ними, переместился и встал позади них.",
     verse_ivrit:
@@ -4878,7 +4878,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 20,
+    poemNumber: 26,
     verse:
       "[Столп] встал между войском египтян и войском Израиля, сделавшись темным облаком — а ночью он светился. Всю ночь одно [войско] не [могло] приблизиться к другому.",
     verse_ivrit:
@@ -4891,7 +4891,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 21,
+    poemNumber: 27,
     verse:
       "Моше простер руку над морем, а Господь всю ночь гнал [воду] морскую сильным восточным ветром, обращая море в сушу, — и расступились воды.",
     verse_ivrit:
@@ -4904,7 +4904,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 22,
+    poemNumber: 28,
     verse:
       "Сыны Израиля пошли по дну моря, как по суше, а воды [стояли] стеной, справа и слева от них.",
     verse_ivrit:
@@ -4917,7 +4917,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 23,
+    poemNumber: 29,
     verse:
       "Все египтяне — конница фараона, его колесницы и всадники — погнались за ними и вошли в море.",
     verse_ivrit:
@@ -4930,7 +4930,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 24,
+    poemNumber: 30,
     verse:
       "И вот на рассвете взглянул Господь на египетское войско из столпа огня и тьмы — и привел войско египтян в смятение.",
     verse_ivrit:
@@ -4943,7 +4943,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 25,
+    poemNumber: 31,
     verse:
       "У колесниц застопорились колеса, и египтяне с трудом их тащили. “Бежим от Израиля! — сказали египтяне. — Это Господь воюет с Египтом за них!” ",
     verse_ivrit:
@@ -4956,7 +4956,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 26,
+    poemNumber: 32,
     verse:
       "— Простри руку над морем, — велел Господь Моше, — и обратятся воды на египтян, на их колесницы и всадников.",
     verse_ivrit:
@@ -4969,7 +4969,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 27,
+    poemNumber: 33,
     verse:
       "Моше простер руку над морем, и поутру море начало возвращаться на свое место; египтяне бежали ему навстречу, и Господь низверг египтян в морскую пучину.",
     verse_ivrit:
@@ -4982,7 +4982,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 28,
+    poemNumber: 34,
     verse:
       "Вернувшаяся вода поглотила все колесницы, а также всадников фараонова войска, вошедших в море вслед за ними; ни одного из них не осталось.",
     verse_ivrit:
@@ -4995,7 +4995,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 29,
+    poemNumber: 35,
     verse:
       "А сыны Израиля шли по дну моря, как по суше; справа и слева от них стеной [стояла] вода.",
     verse_ivrit:
@@ -5008,7 +5008,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 30,
+    poemNumber: 36,
     verse:
       "В тот день Господь спас Израиль от рук египтян, и увидел Израиль мертвых египтян на берегу моря.",
     verse_ivrit:
@@ -5021,7 +5021,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
-    poemNumber: 31,
+    poemNumber: 37,
     verse:
       "Израиль увидел великое деяние Господа над египтянами, и народ устрашился Господа, поверив Господу и рабу Его Моше. ",
     verse_ivrit:
