@@ -45,12 +45,12 @@ export default function MobileSidebar() {
                   : "hover:underline"
               }`}
             >
-              Главная
+              Танах
             </Link>
           </SheetClose>
           <Accordion type="single" collapsible defaultValue={currentSection}>
             <AccordionItem value="tora">
-              <AccordionTrigger>Танах</AccordionTrigger>
+              <AccordionTrigger>Тора</AccordionTrigger>
               <BookLinks
                 booksList={books.tora}
                 currentBook={currentBook}
