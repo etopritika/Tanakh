@@ -110,16 +110,16 @@ export default function SearchPage() {
           return (
             <li key={`${verse.id_chapter}-${verse.poemNumber}`}>
               <Link to={to}>
-                <Card className="bg-white relative shadow-md">
+                <Card className="bg-white shadow-md">
                   <CardHeader>
                     <CardTitle className="text-base">{verse.chapter}</CardTitle>
-                    <span className="absolute top-2 right-3">
-                      {verse.poemNumber}
-                    </span>
                   </CardHeader>
-                  <CardContent className="space-y-2 text-sm">
-                    <p>{verse.verse}</p>
-                    <p>{verse.verse_ivrit}</p>
+                  <CardContent className="space-x-2 flex text-sm">
+                    <span className="font-bold">{verse.poemNumber}</span>
+                    <div className="space-y-2 w-full">
+                      <p>{verse.verse}</p>
+                      <p className="rtl text-right">{verse.verse_ivrit}</p>
+                    </div>
                   </CardContent>
                 </Card>
               </Link>
