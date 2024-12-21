@@ -178,14 +178,14 @@ const vaikraChapters = [
     key: 26,
     chapterName: "БЕГАР (На горе)",
     start: 779,
-    end: 826,
-    verses: 48,
+    end: 824,
+    verses: 46,
   },
   {
     key: 27,
     chapterName: "БЕХУКОТАЙ (Если будете следовать Моим законам)",
-    start: 827,
-    end: 860,
+    start: 825,
+    end: 858,
     verses: 34,
   },
 ];
