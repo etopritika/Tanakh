@@ -35,9 +35,9 @@ export default function VerseCard({ verse }: { verse: Verse }) {
       >
         <CardContent className="pt-6 flex space-x-3">
           <span className="font-bold">{verse.poemNumber}</span>
-          <div className="space-y-2">
+          <div className="space-y-2 w-full">
             <p>{verse.verse}</p>
-            <p>{verse.verse_ivrit}</p>
+            <p className="rtl text-right">{verse.verse_ivrit}</p>
           </div>
         </CardContent>
       </Card>

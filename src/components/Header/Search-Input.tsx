@@ -129,18 +129,22 @@ export default function SearchInput() {
                                   className="w-full"
                                   onClick={handleClear}
                                 >
-                                  <Card className="bg-white relative">
+                                  <Card className="bg-white">
                                     <CardHeader className="p-4">
                                       <CardTitle className="text-sm">
                                         {item.chapter}
                                       </CardTitle>
-                                      <span className="absolute top-2 right-3">
+                                    </CardHeader>
+                                    <CardContent className="space-x-3 p-4 pt-0 flex">
+                                      <span className="font-bold">
                                         {item.poemNumber}
                                       </span>
-                                    </CardHeader>
-                                    <CardContent className="space-y-2 p-4 pt-0">
-                                      <p>{item.verse}</p>
-                                      <p>{item.verse_ivrit}</p>
+                                      <div className="space-y-2 w-full">
+                                        <p>{item.verse}</p>
+                                        <p className="rtl text-right">
+                                          {item.verse_ivrit}
+                                        </p>
+                                      </div>
                                     </CardContent>
                                   </Card>
                                 </Link>
