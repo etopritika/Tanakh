@@ -10089,7 +10089,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 1,
+    poemNumber: 3,
     verse:
       "Если вы будете поступать по Моим установлениям, соблюдать Мои заповеди и исполнять их,",
     verse_ivrit:
@@ -10102,7 +10102,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 2,
+    poemNumber: 4,
     verse:
       "то Я пошлю вам дожди вовремя, и земля даст урожай, и деревья в поле принесут плоды.",
     verse_ivrit:
@@ -10115,7 +10115,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 3,
+    poemNumber: 5,
     verse:
       "Молотьба будет у вас длиться до сбора винограда, а сбор винограда будет длиться до сева. Вы будете есть хлеб досыта и жить в вашей стране спокойно.",
     verse_ivrit:
@@ -10128,7 +10128,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 4,
+    poemNumber: 6,
     verse:
       "Я пошлю стране мир, и когда вы будете спать, никто вас не потревожит. Я удалю из страны хищных зверей, и меч не будет гулять по вашей стране.",
     verse_ivrit:
@@ -10141,7 +10141,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 5,
+    poemNumber: 7,
     verse: "Вы станете преследовать ваших врагов, и они падут от вашего меча.",
     verse_ivrit:
       "וּרְדַפְתֶּ֖ם אֶת-אֹֽיְבֵיכֶ֑ם וְנָֽפְל֥וּ לִפְנֵיכֶ֖ם לֶחָֽרֶב",
@@ -10153,7 +10153,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 6,
+    poemNumber: 8,
     verse:
       "Пятеро из вас будут преследовать сотню [врагов], а сто из вас будут преследовать десять тысяч. Ваши враги падут от вашего меча.",
     verse_ivrit:
@@ -10166,7 +10166,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 7,
+    poemNumber: 9,
     verse: "",
     verse_ivrit: "",
     comment: "",
@@ -10177,7 +10177,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 8,
+    poemNumber: 10,
     verse:
       "Я буду благосклонен к вам, сделаю вас плодовитыми и многочисленными и укреплю Мой союз с вами.",
     verse_ivrit:
@@ -10190,7 +10190,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 9,
+    poemNumber: 11,
     verse:
       "Вы будете есть старый урожай, а потом выбросите старый [урожай, чтобы освободить место] для нового.",
     verse_ivrit:
@@ -10203,7 +10203,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 10,
+    poemNumber: 12,
     verse:
       "Я установлю среди вас Мою Обитель, и душа Моя не станет гнушаться вами.",
     verse_ivrit:
@@ -10216,7 +10216,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 11,
+    poemNumber: 13,
     verse:
       "Я буду ходить среди вас и стану вашим Богом, а вы будете Моим народом.",
     verse_ivrit:
@@ -10229,7 +10229,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 12,
+    poemNumber: 14,
     verse:
       "Я — Господь, ваш Бог, Который вывел вас из земли египетской, чтобы вы не были рабами у [египтян]. Я сокрушил ваше ярмо, чтобы вы ходили выпрямившись. ",
     verse_ivrit:
@@ -10242,7 +10242,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 13,
+    poemNumber: 15,
     verse:
       "Но если вы не послушаетесь Меня и не будете исполнять все эти заповеди,",
     verse_ivrit:
@@ -10255,7 +10255,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 14,
+    poemNumber: 16,
     verse:
       "если будете пренебрегать Моими установлениями, если ваша душа станет гнушаться Моими законами и вы не будете исполнять всех Моих заповедей, нарушая тем самым союз со Мною, —",
     verse_ivrit:
@@ -10268,7 +10268,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 15,
+    poemNumber: 17,
     verse:
       "тогда Я сделаю с вами вот что. Я нашлю на вас смятение, а также чахотку и лихорадку, которые изнуряют взор и истощают душу. Напрасно будете вы сеять семена — [хлеб] съедят ваши враги.",
     verse_ivrit:
@@ -10281,7 +10281,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 16,
+    poemNumber: 18,
     verse:
       "Я обращу на вас Мой гнев — и враги победят вас, ваши недруги станут властвовать над вами. Вы побежите, хотя никто не будет за вами гнаться.",
     verse_ivrit:
@@ -10294,7 +10294,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 17,
+    poemNumber: 19,
     verse:
       "Если же вы и тогда не станете Меня слушаться, Я семикратно умножу наказание за ваши грехи",
     verse_ivrit:
@@ -10307,7 +10307,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 18,
+    poemNumber: 20,
     verse:
       "и сломлю вашу упрямую надменность. Я сделаю так, что ваше небо будет как железо, а ваша земля — как медь",
     verse_ivrit:
@@ -10320,7 +10320,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 19,
+    poemNumber: 21,
     verse: "",
     verse_ivrit: "",
     comment: "",
@@ -10331,7 +10331,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 20,
+    poemNumber: 22,
     verse:
       "Впустую будут истощаться ваши силы, ваша земля не даст урожая, а деревья на этой земле не дадут плодов.",
     verse_ivrit:
@@ -10344,7 +10344,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 21,
+    poemNumber: 23,
     verse:
       "Если вы и дальше будете враждовать со Мной и не захотите Меня слушаться, Я поражу вас за ваши грехи семикратно.",
     verse_ivrit:
@@ -10357,7 +10357,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 22,
+    poemNumber: 24,
     verse:
       "Я нашлю на вас зверей полевых, и они лишат вас детей, истребят ваш скот и уменьшат ваше число — и дороги ваши опустеют.",
     verse_ivrit:
@@ -10370,7 +10370,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 23,
+    poemNumber: 25,
     verse:
       "А если и после этого вы не исправитесь предо Мною и продолжите враждовать со Мной,",
     verse_ivrit:
@@ -10383,7 +10383,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 24,
+    poemNumber: 26,
     verse:
       "то и Я продолжу враждовать с вами: Я поражу вас за ваши грехи семикратно.",
     verse_ivrit:
@@ -10396,7 +10396,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 25,
+    poemNumber: 27,
     verse:
       "наведу на вас меч, который отомстит за нарушение союза. Если вы соберетесь в своих городах, то Я наведу на вас мор — и вы будете преданы в руки врага.",
     verse_ivrit:
@@ -10409,7 +10409,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 26,
+    poemNumber: 28,
     verse:
       "Когда Я сокрушу вашу хлебную опору, то десять женщин будут печь хлеб в одной печи. Хлеб будут делить по весу. Вы поедите, но не насытитесь.",
     verse_ivrit:
@@ -10422,7 +10422,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 27,
+    poemNumber: 29,
     verse:
       "Если же вы и после этого не будете слушаться Меня и продолжите враждовать со Мной,",
     verse_ivrit:
@@ -10435,7 +10435,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 28,
+    poemNumber: 30,
     verse:
       "то Я буду яростно враждовать с вами и накажу вас за ваши грехи семикратно!",
     verse_ivrit:
@@ -10448,7 +10448,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 29,
+    poemNumber: 31,
     verse:
       "Вы будете поедать плоть ваших сыновей, станете есть плоть ваших дочерей.",
     verse_ivrit:
@@ -10461,7 +10461,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 30,
+    poemNumber: 32,
     verse:
       "Я уничтожу ваши высоты, разрушу ваши кумирни, повергну ваши трупы на разбитых идолов ваших — и душа Моя будет гнушаться вами.",
     verse_ivrit:
@@ -10474,7 +10474,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 31,
+    poemNumber: 33,
     verse:
       "Я превращу ваши города в руины, опустошу ваши святилища и не стану вдыхать аромат ваших жертвоприношений.",
     verse_ivrit:
@@ -10487,7 +10487,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 32,
+    poemNumber: 34,
     verse:
       "Я так опустошу вашу страну, что ужаснутся ваши враги, которые поселятся в ней.",
     verse_ivrit:
@@ -10500,7 +10500,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 33,
+    poemNumber: 35,
     verse:
       "А вас Я рассею между народами и обнажу меч вслед вам; ваша страна будет пуста, ваши города станут руинами.",
     verse_ivrit:
@@ -10513,7 +10513,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 34,
+    poemNumber: 36,
     verse:
       "Пока будет длиться запустение, а вы будете [жить] в стране врагов, земля возместит свои [годы] отдох новения — земля будет покоиться и вернет себе [годы] отдохновения.",
     verse_ivrit:
@@ -10526,7 +10526,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 35,
+    poemNumber: 37,
     verse:
       "Во все время запустения она будет покоиться, ибо она не покоилась в те [годы] отдохновения, когда вы жили на ней.",
     verse_ivrit:
@@ -10539,7 +10539,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 36,
+    poemNumber: 38,
     verse:
       "А тем из вас, кто уцелеет [и будет жить] в странах врагов, Я вселю в сердце робость. Шелест колеблющегося листа обратит их в бегство. Они побегут, словно спасаясь от меча, и упадут — хотя никто не будет [за ними] гнаться.",
     verse_ivrit:
@@ -10552,7 +10552,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 37,
+    poemNumber: 39,
     verse:
       "Они будут наталкиваться друг на друга, словно [им грозит] меч, хотя никто не будет гнаться [за ними]. Вы не выстоите перед врагами и погибнете среди народов:",
     verse_ivrit:
@@ -10565,7 +10565,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 38,
+    poemNumber: 40,
     verse: "земля ваших врагов поглотит вас.",
     verse_ivrit:
       "וֽאֲבַדְתֶּ֖ם בַּגּוִֹי֑ם וְאָֽכְלָ֣ה אֶתְכֶ֔ם אֶ֖רֶץ אֹֽיְבֵיכֶֽם",
@@ -10577,7 +10577,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 39,
+    poemNumber: 41,
     verse:
       "А те из вас, кто уцелеет, зачахнут в странах ваших врагов из-за своей вины — и из-за вины отцов зачахнут они, вместе с ними.",
     verse_ivrit:
@@ -10590,7 +10590,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 40,
+    poemNumber: 42,
     verse:
       "Но если они признают свой грех и грех своих отцов, [признают,] что изменили Мне и враждовали со Мной",
     verse_ivrit:
@@ -10603,7 +10603,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 41,
+    poemNumber: 43,
     verse:
       "(так что и Я враждовал с ними и отправил их в страну врагов), — если их необрезанное сердце смирится и они искупят свою вину,",
     verse_ivrit:
@@ -10616,7 +10616,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 42,
+    poemNumber: 44,
     verse:
       "то Я вспомню Мой союз с Яаковом, Мой союз с Ицхаком и Мой союз с Авраѓамом, вспомню об этой земле.",
     verse_ivrit:
@@ -10629,7 +10629,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 43,
+    poemNumber: 45,
     verse:
       "Когда эта земля будет оставлена ими, то она, будучи безлюдной, возместит свои [годы] отдохновения — а они тем временем будут искупать свою вину: ведь они презирали Мои законы, душа их гнушалась Моими установлениями.",
     verse_ivrit:
@@ -10642,7 +10642,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 44,
+    poemNumber: 46,
     verse:
       "Но при всем том, когда они будут в стране своих врагов, Я не стану презирать их и гнушаться ими; Я не истреблю их, не нарушу Мой союз с ними, ибо Я — Господь, их Бог.",
     verse_ivrit:
@@ -10655,7 +10655,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 45,
+    poemNumber: 47,
     verse:
       "Я вспомню ради них союз с их предками, которых Я вывел из земли египетской на глазах у народов, чтобы быть их Богом. Я — Господь”.",
     verse_ivrit:
@@ -10668,7 +10668,7 @@ const objVaikra: Verse[] = [
     id_book: 2,
     id_chapter: 26,
     id_chapter_two: 2,
-    poemNumber: 46,
+    poemNumber: 48,
     verse:
       "Таковы установления, законы и наставления, которые Господь передал через Моше на горе Синай, [как условие Своего союза] с сынами Израиля. ",
     verse_ivrit:
