@@ -28,9 +28,9 @@ export default function DesktopSidebar() {
           Главная
         </Link>
         <Accordion type="single" collapsible defaultValue={currentSection}>
-          <AccordionItem value="tanah">
+          <AccordionItem value="tora">
             <AccordionTrigger>Танах</AccordionTrigger>
-            <BookLinks booksList={books.tanah} currentBook={currentBook} />
+            <BookLinks booksList={books.tora} currentBook={currentBook} />
           </AccordionItem>
           <AccordionItem value="neviim">
             <AccordionTrigger>Невиим</AccordionTrigger>

@@ -49,10 +49,10 @@ export default function MobileSidebar() {
             </Link>
           </SheetClose>
           <Accordion type="single" collapsible defaultValue={currentSection}>
-            <AccordionItem value="tanah">
+            <AccordionItem value="tora">
               <AccordionTrigger>Танах</AccordionTrigger>
               <BookLinks
-                booksList={books.tanah}
+                booksList={books.tora}
                 currentBook={currentBook}
                 closeOnClick={true}
               />
