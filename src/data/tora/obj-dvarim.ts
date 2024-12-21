@@ -1305,7 +1305,7 @@ const objBemitbar: Verse[] = [
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
-    poemNumber: 29,
+    poemNumber: 19,
     verse:
       "Только ваши жены, дети и скот (мне известно, что скота у вас много) пусть останутся в селениях, которые я отдал вам.",
     verse_ivrit:

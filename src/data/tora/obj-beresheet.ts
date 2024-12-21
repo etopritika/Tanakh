@@ -11155,7 +11155,7 @@ const objBeresheet: Verse[] = [
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
-    poemNumber: 15,
+    poemNumber: 16,
     verse:
       "Все добро, которое Бог отобрал у нашего отца, принадлежит нам и нашим детям. Поэтому исполни все, что велит тебе Бог.",
     verse_ivrit:
