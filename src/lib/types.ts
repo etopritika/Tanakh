@@ -70,7 +70,7 @@ export type Verse = {
 export const searchSchema = z.object({
   query: z
     .string()
-    .min(5, "Запрос должен содержать не менее 5 символов.")
+    .min(2, "Запрос должен содержать не менее 2 символов.")
     .trim(),
 });
 

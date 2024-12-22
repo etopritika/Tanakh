@@ -108,7 +108,9 @@ export default function SearchPage() {
           const to = `/${bookInfo.section}/${bookInfo.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
 
           return (
-            <li key={`${verse.id_chapter}-${verse.poemNumber}`}>
+            <li
+              key={`${verse.chapter}-${verse.id_chapter}-${verse.poemNumber}`}
+            >
               <Link to={to}>
                 <Card className="bg-white shadow-md">
                   <CardHeader>

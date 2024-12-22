@@ -22,8 +22,8 @@ export default function VersesPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fullChapterName = `Глава ${chapterId} | ${verses[0]?.chapter || ""}`;
-  const lastReadChapter = `${bookNameMap[bookName || ""]} | Глава ${chapterId}`;
+  const fullChapterName = `${verses[0]?.chapter || ""} : ${chapterId}`;
+  const lastReadChapter = `${bookNameMap[bookName || ""]} : ${chapterId}`;
 
   useEffect(() => {
     const loadChapter = async () => {
