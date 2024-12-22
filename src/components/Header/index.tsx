@@ -1,6 +1,6 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MobileSidebar from "../Sidebar/MobileSidebar";
-import SearchInput from "./Search-Input";
+import { Search } from "lucide-react";
 
 export default function Header() {
   const { pathname } = useLocation();
@@ -12,7 +12,11 @@ export default function Header() {
       }`}
     >
       <MobileSidebar />
-      {!isSearchPage && <SearchInput />}
+      {!isSearchPage && (
+        <Link to={"/search"} className="px-3 py-0.5 flex items-center">
+          <Search />
+        </Link>
+      )}
     </header>
   );
 }
