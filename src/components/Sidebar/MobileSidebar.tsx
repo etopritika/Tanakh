@@ -40,7 +40,7 @@ export default function MobileSidebar() {
           <Menu size={24} />
         </button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-64 p-4 bg-white">
+      <SheetContent side="left" className="w-full p-4 bg-white text-2xl">
         <nav className="rounded-lg p-2">
           <SheetClose asChild>
             <Link
@@ -81,16 +81,18 @@ export default function MobileSidebar() {
             </AccordionItem>
           </Accordion>
           {lastPathname && chapterName && (
-            <Link
-              to={lastPathname}
-              className={`flex items-center py-4 border-b text-sm ${
-                pathname === lastPathname
-                  ? "underline font-bold text-primary"
-                  : "hover:underline"
-              }`}
-            >
-              <BookMarked className="mr-2" size={16} /> {chapterName}
-            </Link>
+            <SheetClose asChild>
+              <Link
+                to={lastPathname}
+                className={`flex items-center py-4 border-b text-base ${
+                  pathname === lastPathname
+                    ? "underline font-bold text-primary"
+                    : "hover:underline"
+                }`}
+              >
+                <BookMarked className="mr-2" size={16} /> {chapterName}
+              </Link>
+            </SheetClose>
           )}
         </nav>
       </SheetContent>
