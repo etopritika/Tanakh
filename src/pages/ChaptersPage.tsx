@@ -61,7 +61,7 @@ export default function ChaptersPage() {
           const href = `/${sectionName}/${bookName}/${chapter.key}`;
           const isActive = lastPathname === href;
           const isLast = index === chapters.length - 1;
-          console.log(isLast);
+
           return (
             <li key={chapter.key}>
               <Link
