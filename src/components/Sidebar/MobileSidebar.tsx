@@ -33,10 +33,7 @@ export default function MobileSidebar() {
         <SheetDescription>Выберите нужную книгу</SheetDescription>
       </SheetHeader>
       <SheetTrigger asChild>
-        <button
-          aria-label="Toggle Sidebar"
-          className="p-2 h-10 w-10 md:hidden mr-2"
-        >
+        <button aria-label="Toggle Sidebar" className="p-2 h-10 w-10 md:hidden">
           <Menu size={24} />
         </button>
       </SheetTrigger>
