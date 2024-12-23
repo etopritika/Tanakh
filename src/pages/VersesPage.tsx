@@ -76,7 +76,7 @@ export default function VersesPage() {
   return (
     <section className="space-y-6 py-2 flex flex-col justify-between">
       <div className="space-y-2">
-        <h1>{fullChapterName}</h1>
+        <h1 className="font-bold">{fullChapterName}</h1>
         <VerseList verses={verses} />
       </div>
       <AppPagination
