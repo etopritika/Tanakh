@@ -10,7 +10,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="h-screen px-4">
       <Header />
       <DesktopSidebar />
-      <main className={`md:ml-80 h-full ${isSearchPage ? "py-2" : "pt-14"}`}>
+      <main
+        className={`md:ml-80 h-full ${isSearchPage ? "pt-14 py-2" : "pt-14"}`}
+      >
         {children}
       </main>
       <ScrollUpButton />
