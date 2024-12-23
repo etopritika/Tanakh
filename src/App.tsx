@@ -9,6 +9,7 @@ import Layout from "./components/Layout";
 import { LoaderCircle } from "lucide-react";
 
 const MainPage = React.lazy(() => import("./pages/MainPage"));
+const ChaptersPage = React.lazy(() => import("./pages/ChaptersPage"));
 const VersesPage = React.lazy(() => import("./pages/VersesPage"));
 const SearchPage = React.lazy(() => import("./pages/SearchPage"));
 
@@ -28,6 +29,8 @@ function App() {
         >
           <Routes>
             <Route path="/" element={<MainPage />} />
+
+            <Route path="/:sectionName/:bookName/" element={<ChaptersPage />} />
 
             <Route
               path="/:sectionName/:bookName/:chapterId"
