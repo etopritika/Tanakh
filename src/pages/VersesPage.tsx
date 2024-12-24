@@ -1,5 +1,5 @@
 import AppPagination from "@/components/App-pagination";
-import { NoVerses } from "@/components/No-verses";
+import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
 import { bookNameMap, Verse } from "@/lib/types";
