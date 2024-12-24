@@ -10,7 +10,6 @@ export default function DesktopSidebar() {
   const pathSegments = pathname.split("/").filter((segment) => segment);
   const currentSection = pathSegments.at(0) || "";
   const currentBook = pathSegments.at(1) || "";
-  const isSearchPage = pathname.includes("/search");
 
   const { lastPathname, chapterName } = useReadingStore(
     (state) => state.lastRead
@@ -18,9 +17,7 @@ export default function DesktopSidebar() {
 
   return (
     <aside
-      className={`hidden md:block md:fixed left-0 w-80 z-50 h-screen p-4 shadow-lg rounded-lg bg-white ${
-        isSearchPage ? "top-0" : "top-14"
-      }`}
+      className={`hidden md:block md:fixed left-0 top-0 w-80 z-50 h-screen bg-white p-4`}
     >
       <nav className="rounded-lg p-2">
         <Link

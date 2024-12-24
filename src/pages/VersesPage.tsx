@@ -1,5 +1,5 @@
 import AppPagination from "@/components/App-pagination";
-import { NoVerses } from "@/components/No-verses";
+import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
 import { bookNameMap, Verse } from "@/lib/types";
@@ -76,7 +76,7 @@ export default function VersesPage() {
   return (
     <section className="space-y-6 py-2 flex flex-col justify-between">
       <div className="space-y-2">
-        <h1>{fullChapterName}</h1>
+        <h1 className="font-bold">{fullChapterName}</h1>
         <VerseList verses={verses} />
       </div>
       <AppPagination
