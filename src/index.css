@@ -22,10 +22,6 @@ body {
   height: 100%;
 }
 
-#vercel-toolbar-container {
-  display: none !important;
-}
-
 .font-sans {
   font-family: "Noto Sans", Arial, sans-serif;
 }
