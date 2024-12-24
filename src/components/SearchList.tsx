@@ -4,7 +4,20 @@ import { BookInfoMap } from "@/lib/types";
 import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchList() {
-  const { storeResults } = useSearchStore();
+  const { storeResults, error, isSearchComplete } = useSearchStore();
+
+  if (error) {
+    return <p className="text-danger">{error}</p>;
+  }
+
+  if (storeResults.length === 0 && isSearchComplete) {
+    return (
+      <div className="flex justify-center">
+        <span>Нет результатов.</span>
+      </div>
+    );
+  }
+
   return (
     <ul className="space-y-4">
       {storeResults.map((verse) => {
