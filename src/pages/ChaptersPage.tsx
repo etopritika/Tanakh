@@ -1,16 +1,15 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { ChevronRight, LoaderCircle } from "lucide-react";
-import { useReadingStore } from "@/store/use-reading-store";
+import { LoaderCircle } from "lucide-react";
 import { Chapter } from "@/lib/types";
+import ChapterList from "@/components/ChapterList";
+import { NoChapters } from "@/components/NoChapters";
 
 export default function ChaptersPage() {
   const { sectionName, bookName } = useParams();
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
-
-  const { lastPathname } = useReadingStore((state) => state.lastRead);
 
   useEffect(() => {
     const loadChapters = async () => {
@@ -47,36 +46,16 @@ export default function ChaptersPage() {
   }
 
   if (error) {
-    return (
-      <section className="py-6 flex items-center justify-center h-full">
-        <span className="text-danger">{error}</span>
-      </section>
-    );
+    return <NoChapters error={error} />;
   }
 
   return (
     <section className="py-6">
-      <ul className="space-y-2">
-        {chapters.map((chapter, index) => {
-          const href = `/${sectionName}/${bookName}/${chapter.key}`;
-          const isActive = lastPathname === href;
-          const isLast = index === chapters.length - 1;
-
-          return (
-            <li key={chapter.key}>
-              <Link
-                to={href}
-                className={`flex px-4 py-2 rounded-lg text-text hover:underline ${
-                  isActive ? "underline font-bold" : ""
-                } ${isLast ? "" : "border-b"}`}
-              >
-                {chapter.chapterName} : {chapter.key}
-                <ChevronRight className="ml-auto" />
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+      <ChapterList
+        chapters={chapters}
+        sectionName={sectionName || ""}
+        bookName={bookName || ""}
+      />
     </section>
   );
 }
