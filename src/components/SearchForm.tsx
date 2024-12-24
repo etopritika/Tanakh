@@ -35,7 +35,6 @@ export default function SearchForm() {
   const debouncedSearch = useDebouncedSearch();
 
   const handleChange = (value: string) => {
-    console.log(value);
     if (!value.trim()) {
       setResults([]);
       setError(null);
