@@ -1,27 +1,16 @@
 import { booksMap, SearchFormData, Verse } from "@/lib/types";
+import { useSearchStore } from "@/store/use-search-store";
 import debounce from "lodash.debounce";
 import { useEffect } from "react";
 
 export const useDebouncedSearch = (
-  sectionName: string | undefined,
-  setResults: (results: Verse[]) => void,
-  setError: (error: string | null) => void
+  setIsSearchComplete: (status: boolean) => void
 ) => {
+  const { setQuery, setResults, setError } = useSearchStore();
   const debouncedSearch = debounce(async (data: SearchFormData) => {
-    if (!data.query.trim()) {
-      setResults([]);
-      return;
-    }
+    setQuery(data.query);
 
-    const sectionsToSearch = sectionName
-      ? booksMap[sectionName]
-      : Object.values(booksMap).flat(1);
-
-    if (!sectionsToSearch || sectionsToSearch.length === 0) {
-      setError("Розділ не знайдено або розділи відсутні.");
-      setResults([]);
-      return;
-    }
+    const sectionsToSearch = Object.values(booksMap).flat();
 
     try {
       const allVerses = sectionsToSearch.flat();
@@ -31,14 +20,15 @@ export const useDebouncedSearch = (
           (verse.verse_ivrit &&
             verse.verse_ivrit.toLowerCase().includes(data.query.toLowerCase()))
       );
-
       setResults(results);
       setError(null);
+      setIsSearchComplete(true);
     } catch {
-      setError("Сталася помилка під час пошуку.");
+      setError("Произошла ошибка при поиске.");
       setResults([]);
+      setIsSearchComplete(true);
     }
-  }, 500);
+  }, 800);
 
   useEffect(() => {
     return () => {

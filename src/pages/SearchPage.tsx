@@ -9,54 +9,47 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { BookInfoMap, SearchFormData, searchSchema, Verse } from "@/lib/types";
+import { BookInfoMap, SearchFormData, searchSchema } from "@/lib/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
 import { X } from "lucide-react";
+import { useSearchStore } from "@/store/use-search-store";
+import { useState } from "react";
 
 export default function SearchPage() {
-  const form = useForm<SearchFormData>({
-    resolver: zodResolver(searchSchema),
-    defaultValues: { query: "" },
-    mode: "onChange",
-  });
-  const queryValue = form.getValues("query");
-  const isFieldFilled = queryValue?.trim();
-
-  const [results, setResults] = useState<Verse[]>([]);
-  const [error, setError] = useState<string | null>(null);
+  const { storeQuery, storeResults, error, clearSearch, setResults, setError } =
+    useSearchStore();
   const [isSearchComplete, setIsSearchComplete] = useState(false);
 
-  const debouncedSearch = useDebouncedSearch(
-    "",
-    (res) => {
-      setResults(res);
-      setIsSearchComplete(true);
-    },
-    setError
-  );
+  const form = useForm<SearchFormData>({
+    resolver: zodResolver(searchSchema),
+    defaultValues: { query: storeQuery },
+    mode: "onChange",
+  });
+
+  const debouncedSearch = useDebouncedSearch(setIsSearchComplete);
 
   const handleChange = (value: string) => {
-    form.setValue("query", value);
-    if (!form.formState.errors.query) {
-      setIsSearchComplete(false);
-      debouncedSearch({ query: value });
-    } else {
+    if (!value.trim()) {
       setResults([]);
+      setError(null);
       setIsSearchComplete(false);
+      return;
+    }
+    if (!form.formState.errors.query) {
+      debouncedSearch({ query: value });
     }
   };
 
   const handleClear = () => {
     form.setValue("query", "");
-    setResults([]);
     setIsSearchComplete(false);
+    clearSearch();
   };
 
   return (
-    <section className="px-1 space-y-4">
+    <section className="py-6 space-y-4">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <Form {...form}>
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
@@ -77,7 +70,7 @@ export default function SearchPage() {
                         handleChange(e.target.value);
                       }}
                     />
-                    {form.getValues("query") && (
+                    {storeQuery && (
                       <button
                         type="button"
                         onClick={handleClear}
@@ -89,27 +82,27 @@ export default function SearchPage() {
                     )}
                   </div>
                 </FormControl>
-                {isFieldFilled && <FormMessage className="text-danger" />}
+                <FormMessage className="text-danger" />
               </FormItem>
             )}
           />
         </form>
       </Form>
 
-      {error && <p className="text-red-500">{error}</p>}
-      {isSearchComplete && results.length === 0 && (
+      {error && <p className="text-danger">{error}</p>}
+      {storeResults.length === 0 && isSearchComplete && (
         <div className="flex justify-center">
           <span>Нет результатов.</span>
         </div>
       )}
       <ul className="space-y-4">
-        {results.map((verse) => {
+        {storeResults.map((verse) => {
           const bookInfo = BookInfoMap[verse.id_book];
           const to = `/${bookInfo.section}/${bookInfo.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
 
           return (
             <li
-              key={`${verse.chapter}-${verse.id_chapter}-${verse.poemNumber}`}
+              key={`${verse.id_book}-${verse.id_chapter}-${verse.poemNumber}`}
             >
               <Link to={to}>
                 <Card className="bg-white shadow-md">
