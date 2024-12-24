@@ -3,10 +3,9 @@ import { useSearchStore } from "@/store/use-search-store";
 import debounce from "lodash.debounce";
 import { useEffect } from "react";
 
-export const useDebouncedSearch = (
-  setIsSearchComplete: (status: boolean) => void
-) => {
-  const { setQuery, setResults, setError } = useSearchStore();
+export const useDebouncedSearch = () => {
+  const { setQuery, setResults, setError, setIsSearchComplete } =
+    useSearchStore();
   const debouncedSearch = debounce(async (data: SearchFormData) => {
     setQuery(data.query);
 
