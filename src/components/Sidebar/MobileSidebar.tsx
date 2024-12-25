@@ -43,9 +43,7 @@ export default function MobileSidebar() {
             <Link
               to="/"
               className={`block py-4 border-b ${
-                currentSection === ""
-                  ? "underline font-bold text-primary"
-                  : "hover:underline"
+                currentSection === "" ? "font-bold text-primary" : ""
               }`}
             >
               Танах
@@ -82,9 +80,7 @@ export default function MobileSidebar() {
               <Link
                 to={lastPathname}
                 className={`flex items-center py-4 border-b text-base ${
-                  pathname === lastPathname
-                    ? "underline font-bold text-primary"
-                    : "hover:underline"
+                  pathname === lastPathname ? "font-bold text-primary" : ""
                 }`}
               >
                 <BookMarked className="mr-2" size={16} /> {chapterName}

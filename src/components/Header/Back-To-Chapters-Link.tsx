@@ -19,7 +19,7 @@ export default function BackToChaptersLink() {
   return (
     <Link
       to={backToChaptersPath}
-      className="px-4 py-2 text-text hover:underline flex items-center"
+      className="px-4 py-2 text-text flex items-center"
     >
       <ChevronLeft />
       {bookName} : {chapterKey}

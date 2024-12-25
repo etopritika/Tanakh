@@ -21,9 +21,9 @@ export default function BookLinks({
             <SheetClose asChild>
               <Link
                 to={href}
-                className={`text-base ${
-                  disabled ? "cursor-not-allowed" : "hover:underline"
-                } ${currentBook === id ? "underline font-bold" : ""}`}
+                className={`text-base ${disabled ? "cursor-not-allowed" : ""} ${
+                  currentBook === id ? "font-bold" : ""
+                }`}
               >
                 {name}
               </Link>
@@ -31,9 +31,9 @@ export default function BookLinks({
           ) : (
             <Link
               to={href}
-              className={`${
-                disabled ? "cursor-not-allowed" : "hover:underline"
-              } ${currentBook === id ? "underline font-bold" : ""}`}
+              className={`${disabled ? "cursor-not-allowed" : ""} ${
+                currentBook === id ? "font-bold" : ""
+              }`}
             >
               {name}
             </Link>

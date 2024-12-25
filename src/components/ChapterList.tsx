@@ -29,8 +29,8 @@ export default function ChapterList({
           <li key={chapter.key}>
             <Link
               to={href}
-              className={`flex px-4 py-2 rounded-lg text-text hover:underline ${
-                isActive ? "underline font-bold" : ""
+              className={`flex px-4 py-2 rounded-lg text-text ${
+                isActive ? "font-bold" : ""
               } ${isLast ? "" : "border-b"}`}
             >
               {chapter.chapterName} : {chapter.key}
