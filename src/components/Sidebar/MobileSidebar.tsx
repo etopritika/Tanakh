@@ -33,19 +33,17 @@ export default function MobileSidebar() {
         <SheetDescription>Выберите нужную книгу</SheetDescription>
       </SheetHeader>
       <SheetTrigger asChild>
-        <button aria-label="Toggle Sidebar" className="p-2 h-10 w-10 md:hidden">
+        <button aria-label="Toggle Sidebar" className="p-2 h-10 w-10 lg:hidden">
           <Menu size={24} />
         </button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-full p-4 bg-white text-2xl">
+      <SheetContent side="left" className="w-full p-4 bg-white">
         <nav className="rounded-lg p-2">
           <SheetClose asChild>
             <Link
               to="/"
               className={`block py-4 border-b ${
-                currentSection === ""
-                  ? "underline font-bold text-primary"
-                  : "hover:underline"
+                currentSection === "" ? "font-bold" : ""
               }`}
             >
               Танах
@@ -81,10 +79,8 @@ export default function MobileSidebar() {
             <SheetClose asChild>
               <Link
                 to={lastPathname}
-                className={`flex items-center py-4 border-b text-base ${
-                  pathname === lastPathname
-                    ? "underline font-bold text-primary"
-                    : "hover:underline"
+                className={`flex items-center py-4 border-b text-sm ${
+                  pathname === lastPathname ? "font-bold" : ""
                 }`}
               >
                 <BookMarked className="mr-2" size={16} /> {chapterName}

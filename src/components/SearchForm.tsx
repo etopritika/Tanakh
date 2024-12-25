@@ -47,7 +47,7 @@ export default function SearchForm() {
           control={form.control}
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Введите запрос:</FormLabel>
+              <FormLabel className="sr-only">Введите запрос:</FormLabel>
               <FormControl>
                 <div className="relative">
                   <Input

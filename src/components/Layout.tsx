@@ -11,7 +11,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Header />
       <DesktopSidebar />
       <main
-        className={`md:ml-80 h-full ${isSearchPage ? "pt-14 py-2" : "pt-14"}`}
+        className={`lg:ml-80 h-full ${
+          isSearchPage ? "pt-14 pb-2 lg:pt-2" : "pt-14"
+        }`}
       >
         {children}
       </main>

@@ -12,17 +12,17 @@ export default function BackToChaptersLink() {
 
   const bookKey = pathSegments[1];
   const chapterKey = pathSegments[2];
-  const bookName = bookNameMap[bookKey] || "Неизвестная книга";
+  const chapterName = bookNameMap[bookKey] || "Неизвестная глава";
 
   const backToChaptersPath = `/${pathSegments[0]}/${pathSegments[1]}`;
 
   return (
     <Link
       to={backToChaptersPath}
-      className="px-4 py-2 text-text hover:underline flex items-center"
+      className="px-4 py-2 text-text flex items-center"
     >
       <ChevronLeft />
-      {bookName} : {chapterKey}
+      {chapterName} : {chapterKey}
     </Link>
   );
 }
