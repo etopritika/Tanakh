@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 right-0 h-14 w-full mx-auto lg:pl-80 bg-background z-50 border-b flex justify-between px-4 py-1 ${
-        isSearchPage ? "md:hidden" : ""
+        isSearchPage ? "lg:hidden" : ""
       }`}
     >
       <div className="flex items-center">
