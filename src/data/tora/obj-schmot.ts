@@ -4545,7 +4545,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 17,
+    poemNumber: 1,
     verse:
       "Когда фараон отпустил народ, Бог не повел их через страну филистимлян, хотя этот путь ближе, ибо сказал Бог: “Не передумал бы народ, увидев, [что ему предстоит] война, и не вернулся бы в Египет”.",
     verse_ivrit:
@@ -4558,7 +4558,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 18,
+    poemNumber: 2,
     verse:
       "Бог повел народ через пустыню, что у моря Суф. Сыны Израиля вышли из земли египетской вооруженными.",
     verse_ivrit:
@@ -4571,7 +4571,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 19,
+    poemNumber: 3,
     verse:
       "А кости Йосефа Моше взял с собой, ибо тот связал сынов Израиля клятвой, сказав: “Бог обязательно вспомнит о вас, и тогда унесите отсюда с собой мои кости”.",
     verse_ivrit:
@@ -4584,7 +4584,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 20,
+    poemNumber: 4,
     verse:
       "Они двинулись из Суккота и расположились станом в Этаме, на краю пустыни.",
     verse_ivrit: "וַיִּסְעוּ מִסֻּכֹּת וַיַּחֲנוּ בְאֵתָם בִּקְצֵה הַמִּדְבָּר",
@@ -4596,7 +4596,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 21,
+    poemNumber: 5,
     verse:
       "Господь шел перед ними, днем — в облачном столпе, указывая им дорогу, а ночью — в огненном столпе, освещая им [путь], чтобы они шли днем и ночью.",
     verse_ivrit:
@@ -4609,7 +4609,7 @@ const objSchmot: Verse[] = [
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
-    poemNumber: 22,
+    poemNumber: 6,
     verse:
       "Не удалялся облачный столп днем и огненный столп ночью от народа [Израиля]. ",
     verse_ivrit:
@@ -9335,7 +9335,7 @@ const objSchmot: Verse[] = [
     chapter: "ТРУМА(Приношение)",
     id_book: 1,
     id_chapter: 26,
-    id_chapter_two: 28,
+    id_chapter_two: 1,
     poemNumber: 28,
     verse:
       "Средний же стержень должен проходить внутри брусьев — от одного конца до другого.",
