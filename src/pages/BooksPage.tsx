@@ -1,4 +1,5 @@
 import { books } from "@/lib/routes";
+import { ChevronRight } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 
 export default function BooksPage() {
@@ -26,6 +27,7 @@ export default function BooksPage() {
                 }`}
               >
                 {name}
+                <ChevronRight className="ml-auto" />
               </Link>
             </li>
           );
