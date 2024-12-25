@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { BookInfoMap } from "@/lib/types";
+import { BookPathMap, sectionNameMap } from "@/lib/types";
 import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchList() {
@@ -28,8 +28,9 @@ export default function SearchList() {
       )}
       <ul className="space-y-4 mt-1">
         {storeResults.map((verse) => {
-          const bookInfo = BookInfoMap[verse.id_book];
-          const to = `/${bookInfo.section}/${bookInfo.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
+          const sectionName = sectionNameMap[verse.id_book];
+          const bookPath = BookPathMap[verse.id_book];
+          const to = `/${bookPath.section}/${bookPath.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
 
           return (
             <li
@@ -38,7 +39,9 @@ export default function SearchList() {
               <Link to={to}>
                 <Card className="bg-white shadow-md">
                   <CardHeader>
-                    <CardTitle className="text-base">{verse.chapter}</CardTitle>
+                    <CardTitle className="text-sm">
+                      {sectionName}: {verse.chapter}
+                    </CardTitle>
                   </CardHeader>
                   <CardContent className="space-x-2 flex text-sm">
                     <span className="font-bold">{verse.poemNumber}</span>
