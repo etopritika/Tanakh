@@ -28,9 +28,9 @@ export default function SearchList() {
       )}
       <ul className="space-y-4 mt-1">
         {storeResults.map((verse) => {
-          const sectionName = sectionNameMap[verse.id_book];
           const bookPath = BookPathMap[verse.id_book];
           const to = `/${bookPath.section}/${bookPath.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
+          const sectionName = sectionNameMap[bookPath.section];
 
           return (
             <li
