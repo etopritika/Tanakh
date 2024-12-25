@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <DesktopSidebar />
       <main
         className={`lg:ml-80 h-full ${
-          isSearchPage ? "pt-14 py-2 lg:pt-0" : "pt-14"
+          isSearchPage ? "pt-14 pb-2 lg:pt-2" : "pt-14"
         }`}
       >
         {children}
