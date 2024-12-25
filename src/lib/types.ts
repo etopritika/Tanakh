@@ -16,7 +16,7 @@ export const bookNameMap: Record<string, string> = {
   yehoshua: "Йехошуа",
 };
 
-export const BookInfoMap: Record<
+export const BookPathMap: Record<
   number,
   { section: string; bookName: string }
 > = {
@@ -26,6 +26,15 @@ export const BookInfoMap: Record<
   3: { section: "tora", bookName: "bemidbar" },
   4: { section: "tora", bookName: "dvarim" },
   5: { section: "neviim", bookName: "yehoshua" },
+};
+
+export const sectionNameMap: Record<number, string> = {
+  0: "Тора",
+  1: "Тора",
+  2: "Тора",
+  3: "Тора",
+  4: "Тора",
+  5: "Невиим",
 };
 
 export type Section = {
