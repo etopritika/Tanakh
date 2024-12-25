@@ -17,13 +17,13 @@ export default function DesktopSidebar() {
 
   return (
     <aside
-      className={`hidden md:block md:fixed left-0 top-0 w-80 z-50 h-screen bg-white p-4`}
+      className={`hidden lg:block lg:fixed left-0 top-0 w-80 z-50 h-screen bg-white p-4`}
     >
       <nav className="rounded-lg p-2">
         <Link
           to="/"
           className={`block py-4 border-b ${
-            currentSection === "" ? "font-bold text-primary" : ""
+            currentSection === "" ? "font-bold" : ""
           }`}
         >
           Танах
@@ -46,7 +46,7 @@ export default function DesktopSidebar() {
           <Link
             to={lastPathname}
             className={`flex items-center py-4 border-b text-sm ${
-              pathname === lastPathname ? "font-bold text-primary" : ""
+              pathname === lastPathname ? "font-bold" : ""
             }`}
           >
             <BookMarked className="mr-2" size={16} /> {chapterName}

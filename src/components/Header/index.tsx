@@ -8,7 +8,7 @@ export default function Header() {
   const isSearchPage = pathname.includes("/search");
   return (
     <header
-      className={`fixed top-0 right-0 h-14 w-full mx-auto md:pl-80 bg-background z-50 border-b flex justify-between px-4 py-1 ${
+      className={`fixed top-0 right-0 h-14 w-full mx-auto lg:pl-80 bg-background z-50 border-b flex justify-between px-4 py-1 ${
         isSearchPage ? "md:hidden" : ""
       }`}
     >
