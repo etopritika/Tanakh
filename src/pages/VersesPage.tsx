@@ -2,7 +2,7 @@ import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
-import { bookNameMap, Verse } from "@/lib/types";
+import { bookNameMap, Chapter, Verse } from "@/lib/types";
 import { useReadingStore } from "@/store/use-reading-store";
 import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -10,15 +10,16 @@ import { useLocation, useParams } from "react-router-dom";
 
 export default function VersesPage() {
   const { pathname } = useLocation();
-  const { bookName, sectionName, chapterId } = useParams<{
+  const { bookName, sectionName, chapterId, subChapterId } = useParams<{
     bookName: string | undefined;
     sectionName: string | undefined;
     chapterId: string | undefined;
+    subChapterId: string | undefined;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
 
   const [verses, setVerses] = useState<Verse[]>([]);
-  const [totalChapters, setTotalChapters] = useState(0);
+  const [chapters, setChapters] = useState<Chapter[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -35,20 +36,21 @@ export default function VersesPage() {
 
       setIsLoading(true);
 
-      const { result, totalChapters, error } = await fetchVersesData(
+      const { verses, chapters, error } = await fetchVersesData(
         sectionName,
         bookName,
-        chapterId
+        chapterId,
+        subChapterId || "1"
       );
 
-      setVerses(result);
-      setTotalChapters(totalChapters);
+      setVerses(verses);
+      setChapters(chapters);
       setError(error);
       setIsLoading(false);
     };
 
     loadChapter();
-  }, [sectionName, bookName, chapterId]);
+  }, [sectionName, bookName, chapterId, subChapterId]);
 
   useEffect(() => {
     return () => {
@@ -57,6 +59,7 @@ export default function VersesPage() {
   }, [pathname, setLastRead, lastReadChapter]);
 
   const page = parseInt(chapterId || "1", 10);
+  const subPage = parseInt(subChapterId || "1", 10);
 
   if (isLoading) {
     return (
@@ -74,14 +77,22 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="space-y-6 py-2 flex flex-col justify-between">
+    <section className="space-y-2 py-2 flex flex-col justify-between">
+      <AppPagination
+        currentPage={page}
+        subPage={subPage}
+        chapters={chapters}
+        sectionName={sectionName || ""}
+        bookName={bookName || ""}
+      />
       <div className="space-y-2">
         <h1 className="font-bold">{fullChapterName}</h1>
         <VerseList verses={verses} />
       </div>
       <AppPagination
         currentPage={page}
-        totalPages={totalChapters}
+        subPage={subPage}
+        chapters={chapters}
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
