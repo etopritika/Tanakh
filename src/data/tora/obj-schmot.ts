@@ -3,7 +3,7 @@ import { Verse } from "@/lib/types";
 const objSchmot: Verse[] = [
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -18,7 +18,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -29,7 +29,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -40,7 +40,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -51,7 +51,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -64,7 +64,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -75,7 +75,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -88,7 +88,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -100,7 +100,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -113,7 +113,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -126,7 +126,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -139,7 +139,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -152,7 +152,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -163,7 +163,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -176,7 +176,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -189,7 +189,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -202,7 +202,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -215,7 +215,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -228,7 +228,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -241,7 +241,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -254,7 +254,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -267,7 +267,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -281,7 +281,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////        22222222222222222222222222222222222222222        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -294,7 +294,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -307,7 +307,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -320,7 +320,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -331,7 +331,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -344,7 +344,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -357,7 +357,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -370,7 +370,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -383,7 +383,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -396,7 +396,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -409,7 +409,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -422,7 +422,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -435,7 +435,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -448,7 +448,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -461,7 +461,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -474,7 +474,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -487,7 +487,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -500,7 +500,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -513,7 +513,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -526,7 +526,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -539,7 +539,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -552,7 +552,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -565,7 +565,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -578,7 +578,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -591,7 +591,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -603,7 +603,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////        3333333333333333333333333333333      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -618,7 +618,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -631,7 +631,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -644,7 +644,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -657,7 +657,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -670,7 +670,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -683,7 +683,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -696,7 +696,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -709,7 +709,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -722,7 +722,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -735,7 +735,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -748,7 +748,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -761,7 +761,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -774,7 +774,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -787,7 +787,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -800,7 +800,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -813,7 +813,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -826,7 +826,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -839,7 +839,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -852,7 +852,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -865,7 +865,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -878,7 +878,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -892,7 +892,7 @@ const objSchmot: Verse[] = [
   ///////////////////////////////////////      4444444444444444444444444444444         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -907,7 +907,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -920,7 +920,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -933,7 +933,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -946,7 +946,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -959,7 +959,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -972,7 +972,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -985,7 +985,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -998,7 +998,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1011,7 +1011,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1024,7 +1024,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1037,7 +1037,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1050,7 +1050,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1061,7 +1061,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1074,7 +1074,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1087,7 +1087,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1100,7 +1100,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1112,7 +1112,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1125,7 +1125,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1138,7 +1138,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1151,7 +1151,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1164,7 +1164,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1177,7 +1177,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1190,7 +1190,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1202,7 +1202,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1215,7 +1215,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1227,7 +1227,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1240,7 +1240,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1253,7 +1253,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1265,7 +1265,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1278,7 +1278,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1292,7 +1292,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////////       55555555555555555555555555   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -1307,7 +1307,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1320,7 +1320,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1333,7 +1333,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1346,7 +1346,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1359,7 +1359,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1372,7 +1372,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1385,7 +1385,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1398,7 +1398,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1411,7 +1411,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1424,7 +1424,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1437,7 +1437,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1450,7 +1450,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1463,7 +1463,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1476,7 +1476,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1488,7 +1488,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1501,7 +1501,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1514,7 +1514,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1527,7 +1527,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1540,7 +1540,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1552,7 +1552,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1565,7 +1565,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1578,7 +1578,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     id_book: 1,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1592,7 +1592,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////////       666666666666666666666666666666              \\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ШМОТ(Имена)",
+    chapter: "ШМОТ (Имена)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -1608,7 +1608,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////    66666666666666666666666666666666666666              \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -1621,7 +1621,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1634,7 +1634,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1647,7 +1647,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1660,7 +1660,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1673,7 +1673,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1686,7 +1686,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1699,7 +1699,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1712,7 +1712,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1723,7 +1723,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1736,7 +1736,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1749,7 +1749,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1762,7 +1762,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1775,7 +1775,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1788,7 +1788,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1801,7 +1801,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1812,7 +1812,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1825,7 +1825,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1837,7 +1837,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1850,7 +1850,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1861,7 +1861,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1872,7 +1872,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1885,7 +1885,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1897,7 +1897,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1910,7 +1910,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1923,7 +1923,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1936,7 +1936,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1947,7 +1947,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1960,7 +1960,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1974,7 +1974,7 @@ const objSchmot: Verse[] = [
   ///////////////////////////////////////////////       7777777777777777777777777          \\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -1989,7 +1989,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2002,7 +2002,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2015,7 +2015,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2028,7 +2028,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2041,7 +2041,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2054,7 +2054,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2067,7 +2067,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2078,7 +2078,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2091,7 +2091,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2104,7 +2104,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2117,7 +2117,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2130,7 +2130,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2143,7 +2143,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2156,7 +2156,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2169,7 +2169,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2182,7 +2182,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2195,7 +2195,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2208,7 +2208,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2221,7 +2221,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2234,7 +2234,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2247,7 +2247,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2260,7 +2260,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2273,7 +2273,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2286,7 +2286,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2298,7 +2298,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2311,7 +2311,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2324,7 +2324,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2337,7 +2337,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2351,7 +2351,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////////            888888888888888888888888888888888888      \ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -2366,7 +2366,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2379,7 +2379,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2392,7 +2392,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2405,7 +2405,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2418,7 +2418,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2431,7 +2431,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2444,7 +2444,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2457,7 +2457,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2470,7 +2470,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2481,7 +2481,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2494,7 +2494,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2507,7 +2507,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2520,7 +2520,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2533,7 +2533,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2546,7 +2546,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2559,7 +2559,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2572,7 +2572,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2585,7 +2585,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2598,7 +2598,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2611,7 +2611,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2624,7 +2624,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2637,7 +2637,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2650,7 +2650,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2663,7 +2663,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2676,7 +2676,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2687,7 +2687,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2700,7 +2700,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2713,7 +2713,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////////            999999999999999999999999999999999999999999      \ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -2728,7 +2728,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2740,7 +2740,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2753,7 +2753,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2766,7 +2766,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2779,7 +2779,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2792,7 +2792,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2805,7 +2805,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2818,7 +2818,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2831,7 +2831,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2844,7 +2844,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2857,7 +2857,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2870,7 +2870,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2883,7 +2883,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2896,7 +2896,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2909,7 +2909,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2922,7 +2922,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2934,7 +2934,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2947,7 +2947,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2960,7 +2960,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2973,7 +2973,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2986,7 +2986,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2999,7 +2999,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3012,7 +3012,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3025,7 +3025,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3038,7 +3038,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3050,7 +3050,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3063,7 +3063,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3076,7 +3076,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3089,7 +3089,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3101,7 +3101,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3114,7 +3114,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3125,7 +3125,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3138,7 +3138,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3151,7 +3151,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(И явился Я)",
+    chapter: "ВАЭРА (И явился Я)",
     id_book: 1,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3165,7 +3165,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////////            101010101010101010101010101010101010101      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -3180,7 +3180,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3193,7 +3193,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3206,7 +3206,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3219,7 +3219,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3232,7 +3232,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3245,7 +3245,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3258,7 +3258,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3271,7 +3271,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3284,7 +3284,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3297,7 +3297,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "ВАЭРА (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3311,7 +3311,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////////            101010101010101010101010101010101010101010101010      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -3326,7 +3326,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3339,7 +3339,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3352,7 +3352,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3365,7 +3365,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3378,7 +3378,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3391,7 +3391,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3402,7 +3402,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3415,7 +3415,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3428,7 +3428,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3441,7 +3441,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3454,7 +3454,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3467,7 +3467,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3480,7 +3480,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3493,7 +3493,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3506,7 +3506,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3518,7 +3518,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3531,7 +3531,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЭРА(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 10,
     id_chapter_two: 2,
@@ -3544,7 +3544,7 @@ const objSchmot: Verse[] = [
   ////////////////////////////////////////            1111111111111111111111111111111111111111      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -3559,7 +3559,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3572,7 +3572,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3585,7 +3585,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3598,7 +3598,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3611,7 +3611,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3624,7 +3624,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3637,7 +3637,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3650,7 +3650,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3663,7 +3663,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3677,7 +3677,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           12121212121121212112121121211212121       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -3691,7 +3691,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3704,7 +3704,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3717,7 +3717,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3730,7 +3730,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3743,7 +3743,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3756,7 +3756,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3769,7 +3769,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3782,7 +3782,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3795,7 +3795,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3808,7 +3808,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3821,7 +3821,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3834,7 +3834,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3847,7 +3847,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3860,7 +3860,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3873,7 +3873,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3886,7 +3886,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3899,7 +3899,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3912,7 +3912,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3925,7 +3925,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3937,7 +3937,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3950,7 +3950,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3963,7 +3963,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3976,7 +3976,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3988,7 +3988,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4001,7 +4001,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4013,7 +4013,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4026,7 +4026,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4039,7 +4039,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4052,7 +4052,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4065,7 +4065,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4078,7 +4078,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4091,7 +4091,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4104,7 +4104,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4117,7 +4117,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4130,7 +4130,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4143,7 +4143,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4156,7 +4156,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4169,7 +4169,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4182,7 +4182,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4195,7 +4195,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4208,7 +4208,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4221,7 +4221,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4234,7 +4234,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4247,7 +4247,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4258,7 +4258,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4271,7 +4271,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4282,7 +4282,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4295,7 +4295,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4307,7 +4307,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4320,7 +4320,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -4334,7 +4334,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           13131313131313131313131313131313131313131313131313       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -4347,7 +4347,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4360,7 +4360,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4373,7 +4373,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4384,7 +4384,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4397,7 +4397,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4409,7 +4409,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4422,7 +4422,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4435,7 +4435,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4448,7 +4448,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4460,7 +4460,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4473,7 +4473,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4486,7 +4486,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4499,7 +4499,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4512,7 +4512,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4525,7 +4525,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БО(Пойди)",
+    chapter: "БО (Пойди)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4539,7 +4539,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           131313131311313131131313131131311313       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -4554,7 +4554,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
@@ -4567,7 +4567,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
@@ -4580,7 +4580,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
@@ -4592,7 +4592,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
@@ -4605,7 +4605,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 13,
     id_chapter_two: 2,
@@ -4619,7 +4619,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           14141414141414114141414141414141414411414       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -4632,7 +4632,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4645,7 +4645,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4659,7 +4659,7 @@ const objSchmot: Verse[] = [
 
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4672,7 +4672,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4685,7 +4685,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4696,7 +4696,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4709,7 +4709,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4722,7 +4722,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4735,7 +4735,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4748,7 +4748,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4761,7 +4761,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4774,7 +4774,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4787,7 +4787,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4798,7 +4798,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4811,7 +4811,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4824,7 +4824,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4837,7 +4837,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4850,7 +4850,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4863,7 +4863,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4876,7 +4876,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4889,7 +4889,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4902,7 +4902,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4915,7 +4915,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4928,7 +4928,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4941,7 +4941,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4954,7 +4954,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4967,7 +4967,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4980,7 +4980,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4993,7 +4993,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5006,7 +5006,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5020,7 +5020,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           1515151515151515151151515151515151515151515151515       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -5035,7 +5035,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5048,7 +5048,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5059,7 +5059,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5072,7 +5072,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5083,7 +5083,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5096,7 +5096,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5109,7 +5109,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5122,7 +5122,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5135,7 +5135,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5148,7 +5148,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5161,7 +5161,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5172,7 +5172,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5185,7 +5185,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5196,7 +5196,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5209,7 +5209,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5222,7 +5222,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5235,7 +5235,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5246,7 +5246,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5259,7 +5259,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5272,7 +5272,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5285,7 +5285,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5298,7 +5298,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5311,7 +5311,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5322,7 +5322,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5335,7 +5335,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5348,7 +5348,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5362,7 +5362,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           1616161616161616161616116166116       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -5377,7 +5377,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5389,7 +5389,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5402,7 +5402,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5415,7 +5415,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5428,7 +5428,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5441,7 +5441,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5454,7 +5454,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5467,7 +5467,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5480,7 +5480,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5491,7 +5491,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5504,7 +5504,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5517,7 +5517,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5530,7 +5530,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5543,7 +5543,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5556,7 +5556,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5568,7 +5568,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5581,7 +5581,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5593,7 +5593,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5606,7 +5606,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5618,7 +5618,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5631,7 +5631,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5644,7 +5644,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5657,7 +5657,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5670,7 +5670,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5683,7 +5683,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5695,7 +5695,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5708,7 +5708,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5721,7 +5721,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5732,7 +5732,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5745,7 +5745,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5758,7 +5758,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5771,7 +5771,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5784,7 +5784,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5797,7 +5797,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5809,7 +5809,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           1717171717171717171717171717171717       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -5824,7 +5824,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5837,7 +5837,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5850,7 +5850,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5863,7 +5863,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5876,7 +5876,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5889,7 +5889,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5902,7 +5902,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5913,7 +5913,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5926,7 +5926,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5939,7 +5939,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5952,7 +5952,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5965,7 +5965,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5976,7 +5976,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5989,7 +5989,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6000,7 +6000,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "БЕШАЛАХ(Когда отпустил)",
+    chapter: "БЕШАЛАХ (Когда отпустил)",
     id_book: 1,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6014,7 +6014,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           181818181818181181818118181818181       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -6029,7 +6029,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6042,7 +6042,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6055,7 +6055,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6068,7 +6068,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6081,7 +6081,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6094,7 +6094,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6107,7 +6107,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6120,7 +6120,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6133,7 +6133,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6146,7 +6146,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6159,7 +6159,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6172,7 +6172,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6185,7 +6185,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6198,7 +6198,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6211,7 +6211,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6224,7 +6224,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6236,7 +6236,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6249,7 +6249,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6262,7 +6262,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6275,7 +6275,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6288,7 +6288,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6301,7 +6301,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6314,7 +6314,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6326,7 +6326,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6339,7 +6339,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6352,7 +6352,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6364,7 +6364,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           191919191191919119191191919119191919       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -6379,7 +6379,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6392,7 +6392,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6405,7 +6405,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6418,7 +6418,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6431,7 +6431,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6444,7 +6444,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6457,7 +6457,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6470,7 +6470,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6483,7 +6483,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6496,7 +6496,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6509,7 +6509,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6522,7 +6522,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6535,7 +6535,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6548,7 +6548,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6561,7 +6561,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6574,7 +6574,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6587,7 +6587,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6600,7 +6600,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6613,7 +6613,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6626,7 +6626,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6639,7 +6639,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6652,7 +6652,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6665,7 +6665,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6678,7 +6678,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6690,7 +6690,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           20202020202020202202020202020202020220202020       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -6703,7 +6703,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6716,7 +6716,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6729,7 +6729,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6742,7 +6742,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6754,7 +6754,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6767,7 +6767,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6778,7 +6778,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6789,7 +6789,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6802,7 +6802,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6815,7 +6815,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6828,7 +6828,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6841,7 +6841,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6854,7 +6854,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6867,7 +6867,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6880,7 +6880,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6893,7 +6893,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6906,7 +6906,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6919,7 +6919,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6932,7 +6932,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6945,7 +6945,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6958,7 +6958,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ИТРО(Итро)",
+    chapter: "ИТРО (Итро)",
     id_book: 1,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6972,7 +6972,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           2121212121212121212121212121212121212121       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -6985,7 +6985,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6998,7 +6998,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7011,7 +7011,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7024,7 +7024,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7037,7 +7037,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7050,7 +7050,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7063,7 +7063,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7076,7 +7076,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7089,7 +7089,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7102,7 +7102,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7115,7 +7115,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7127,7 +7127,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7140,7 +7140,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7153,7 +7153,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7164,7 +7164,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7176,7 +7176,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7187,7 +7187,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7200,7 +7200,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7213,7 +7213,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7226,7 +7226,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7239,7 +7239,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7252,7 +7252,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7263,7 +7263,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7275,7 +7275,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7287,7 +7287,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7300,7 +7300,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7313,7 +7313,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7326,7 +7326,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7339,7 +7339,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7352,7 +7352,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7365,7 +7365,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7378,7 +7378,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7391,7 +7391,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7404,7 +7404,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7417,7 +7417,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7430,7 +7430,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -7444,7 +7444,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           222222222222222222222222222222222222222222       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -7459,7 +7459,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7472,7 +7472,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7485,7 +7485,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7498,7 +7498,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7511,7 +7511,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7524,7 +7524,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7537,7 +7537,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7550,7 +7550,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7563,7 +7563,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7576,7 +7576,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7588,7 +7588,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7600,7 +7600,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7613,7 +7613,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7626,7 +7626,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7639,7 +7639,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7652,7 +7652,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7663,7 +7663,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7674,7 +7674,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7686,7 +7686,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7699,7 +7699,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7710,7 +7710,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7723,7 +7723,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7736,7 +7736,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7749,7 +7749,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7762,7 +7762,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7775,7 +7775,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7786,7 +7786,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7799,7 +7799,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7812,7 +7812,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7826,7 +7826,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           23232323223232322323232232332323       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -7841,7 +7841,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7854,7 +7854,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7865,7 +7865,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7878,7 +7878,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7891,7 +7891,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7902,7 +7902,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7915,7 +7915,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7928,7 +7928,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7941,7 +7941,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7953,7 +7953,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7966,7 +7966,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7979,7 +7979,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7992,7 +7992,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8003,7 +8003,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8016,7 +8016,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8029,7 +8029,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8042,7 +8042,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8055,7 +8055,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8068,7 +8068,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8081,7 +8081,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8094,7 +8094,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8107,7 +8107,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8120,7 +8120,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8133,7 +8133,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8146,7 +8146,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8159,7 +8159,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8172,7 +8172,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8185,7 +8185,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8198,7 +8198,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8211,7 +8211,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8224,7 +8224,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8235,7 +8235,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -8249,7 +8249,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           2424242424242424242424242424       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -8264,7 +8264,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8277,7 +8277,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8290,7 +8290,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8303,7 +8303,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8316,7 +8316,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8329,7 +8329,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8342,7 +8342,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8355,7 +8355,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8368,7 +8368,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8381,7 +8381,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8394,7 +8394,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8407,7 +8407,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8420,7 +8420,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8433,7 +8433,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8444,7 +8444,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8457,7 +8457,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8470,7 +8470,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "МИШПАТИМ(Законы)",
+    chapter: "МИШПАТИМ (Законы)",
     id_book: 1,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8484,7 +8484,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           2525252525252525252252525225252522525       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -8497,7 +8497,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8510,7 +8510,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8522,7 +8522,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8533,7 +8533,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8545,7 +8545,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8558,7 +8558,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8569,7 +8569,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8580,7 +8580,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8593,7 +8593,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8606,7 +8606,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8619,7 +8619,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8632,7 +8632,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8643,7 +8643,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8655,7 +8655,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8667,7 +8667,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8678,7 +8678,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8691,7 +8691,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8704,7 +8704,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8717,7 +8717,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8730,7 +8730,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8743,7 +8743,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8756,7 +8756,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8769,7 +8769,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8781,7 +8781,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8794,7 +8794,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8807,7 +8807,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8820,7 +8820,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8833,7 +8833,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8846,7 +8846,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8857,7 +8857,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8870,7 +8870,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8883,7 +8883,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8896,7 +8896,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8909,7 +8909,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8922,7 +8922,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8935,7 +8935,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8948,7 +8948,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8959,7 +8959,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8971,7 +8971,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8984,7 +8984,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           262626262626262626262626262626       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -8999,7 +8999,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9012,7 +9012,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9025,7 +9025,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9038,7 +9038,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9051,7 +9051,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9064,7 +9064,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9077,7 +9077,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9090,7 +9090,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9103,7 +9103,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9116,7 +9116,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9129,7 +9129,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9142,7 +9142,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9155,7 +9155,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9168,7 +9168,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9181,7 +9181,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9193,7 +9193,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9206,7 +9206,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9218,7 +9218,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9231,7 +9231,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9243,7 +9243,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9256,7 +9256,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9268,7 +9268,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9280,7 +9280,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9293,7 +9293,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9306,7 +9306,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9319,7 +9319,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9332,7 +9332,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9345,7 +9345,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9358,7 +9358,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9371,7 +9371,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9384,7 +9384,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9397,7 +9397,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9410,7 +9410,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9422,7 +9422,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9435,7 +9435,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9448,7 +9448,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9462,7 +9462,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           2727272727272727272727272727272727272727          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -9477,7 +9477,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9490,7 +9490,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9503,7 +9503,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9516,7 +9516,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9529,7 +9529,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9541,7 +9541,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9554,7 +9554,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9567,7 +9567,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9580,7 +9580,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9593,7 +9593,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9606,7 +9606,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9619,7 +9619,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9630,7 +9630,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9643,7 +9643,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9656,7 +9656,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9669,7 +9669,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9682,7 +9682,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9695,7 +9695,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТРУМА(Приношение)",
+    chapter: "ТРУМА (Приношение)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9709,7 +9709,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           2727272727272272727227272727272272727272727227272727          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -9724,7 +9724,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 27,
     id_chapter_two: 2,
@@ -9738,7 +9738,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           28282828282828282282828228282882828282288282828282822828          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -9753,7 +9753,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9766,7 +9766,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9779,7 +9779,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9792,7 +9792,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9805,7 +9805,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9818,7 +9818,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9831,7 +9831,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9844,7 +9844,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9856,7 +9856,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9869,7 +9869,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9882,7 +9882,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9895,7 +9895,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9906,7 +9906,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9919,7 +9919,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9932,7 +9932,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9944,7 +9944,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9957,7 +9957,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9968,7 +9968,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9979,7 +9979,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9992,7 +9992,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10005,7 +10005,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10017,7 +10017,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10030,7 +10030,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10043,7 +10043,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10056,7 +10056,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10069,7 +10069,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10082,7 +10082,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10095,7 +10095,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10108,7 +10108,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10121,7 +10121,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10132,7 +10132,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10145,7 +10145,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10158,7 +10158,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10171,7 +10171,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10184,7 +10184,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10197,7 +10197,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10210,7 +10210,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10223,7 +10223,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10236,7 +10236,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10249,7 +10249,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10262,7 +10262,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10275,7 +10275,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -10289,7 +10289,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           292929292929292929292929292929292929292929          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -10304,7 +10304,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10317,7 +10317,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10330,7 +10330,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10343,7 +10343,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10356,7 +10356,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10368,7 +10368,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10381,7 +10381,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10392,7 +10392,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10405,7 +10405,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10418,7 +10418,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10429,7 +10429,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10442,7 +10442,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10455,7 +10455,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10468,7 +10468,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10481,7 +10481,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10494,7 +10494,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10507,7 +10507,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10520,7 +10520,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10533,7 +10533,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10546,7 +10546,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10559,7 +10559,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10572,7 +10572,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10585,7 +10585,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10598,7 +10598,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10611,7 +10611,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10624,7 +10624,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10637,7 +10637,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10650,7 +10650,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10663,7 +10663,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10676,7 +10676,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10689,7 +10689,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10702,7 +10702,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10715,7 +10715,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10728,7 +10728,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10741,7 +10741,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10754,7 +10754,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10767,7 +10767,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10780,7 +10780,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10793,7 +10793,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10806,7 +10806,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10819,7 +10819,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10832,7 +10832,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10845,7 +10845,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10858,7 +10858,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10870,7 +10870,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10884,7 +10884,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           303030303030330303030033030330303030303030          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -10899,7 +10899,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10912,7 +10912,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10925,7 +10925,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10938,7 +10938,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10950,7 +10950,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10963,7 +10963,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10976,7 +10976,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10989,7 +10989,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -11002,7 +11002,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТЕЦАВЕ(Повели)",
+    chapter: "ТЕЦАВЕ (Повели)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -11016,7 +11016,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           303030303030330303030033030330303030303030          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -11029,7 +11029,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11042,7 +11042,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11055,7 +11055,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11068,7 +11068,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11081,7 +11081,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11094,7 +11094,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11105,7 +11105,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11118,7 +11118,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11130,7 +11130,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11143,7 +11143,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11156,7 +11156,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11167,7 +11167,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11180,7 +11180,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11193,7 +11193,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11206,7 +11206,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11217,7 +11217,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11230,7 +11230,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11243,7 +11243,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11256,7 +11256,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11268,7 +11268,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11281,7 +11281,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11294,7 +11294,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11307,7 +11307,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11320,7 +11320,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11333,7 +11333,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11346,7 +11346,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11359,7 +11359,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -11373,7 +11373,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           31313131313131313131313131313131313131331          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -11386,7 +11386,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11399,7 +11399,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11412,7 +11412,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11425,7 +11425,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11438,7 +11438,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11451,7 +11451,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11464,7 +11464,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11477,7 +11477,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11490,7 +11490,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11503,7 +11503,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11516,7 +11516,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11527,7 +11527,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11540,7 +11540,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11553,7 +11553,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11566,7 +11566,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11579,7 +11579,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11592,7 +11592,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11606,7 +11606,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           3232322323232323232323232323232323232323232          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -11621,7 +11621,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11634,7 +11634,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11646,7 +11646,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11659,7 +11659,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11672,7 +11672,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11685,7 +11685,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11698,7 +11698,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11711,7 +11711,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11723,7 +11723,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11736,7 +11736,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11749,7 +11749,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11762,7 +11762,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11775,7 +11775,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11788,7 +11788,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11801,7 +11801,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11814,7 +11814,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11827,7 +11827,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11840,7 +11840,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11853,7 +11853,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11866,7 +11866,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11879,7 +11879,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11892,7 +11892,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11905,7 +11905,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11917,7 +11917,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11930,7 +11930,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11943,7 +11943,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11956,7 +11956,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11969,7 +11969,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11982,7 +11982,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11995,7 +11995,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -12008,7 +12008,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -12021,7 +12021,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -12034,7 +12034,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -12047,7 +12047,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -12061,7 +12061,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           333333333333333333333333333333333333333          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -12076,7 +12076,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12089,7 +12089,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12102,7 +12102,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12115,7 +12115,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12128,7 +12128,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12139,7 +12139,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12152,7 +12152,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12165,7 +12165,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12178,7 +12178,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12191,7 +12191,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12204,7 +12204,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12217,7 +12217,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12230,7 +12230,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12241,7 +12241,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12254,7 +12254,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12267,7 +12267,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12280,7 +12280,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12291,7 +12291,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12304,7 +12304,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12317,7 +12317,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12329,7 +12329,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12342,7 +12342,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12356,7 +12356,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           34343434343434343434343343434343434343343434343434          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -12371,7 +12371,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12384,7 +12384,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12397,7 +12397,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12410,7 +12410,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12423,7 +12423,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12436,7 +12436,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12449,7 +12449,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12460,7 +12460,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12473,7 +12473,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12486,7 +12486,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12499,7 +12499,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12512,7 +12512,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12525,7 +12525,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12538,7 +12538,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12551,7 +12551,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12564,7 +12564,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12575,7 +12575,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12588,7 +12588,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12601,7 +12601,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12614,7 +12614,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12627,7 +12627,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12640,7 +12640,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12653,7 +12653,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12666,7 +12666,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12679,7 +12679,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12692,7 +12692,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12705,7 +12705,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12718,7 +12718,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12731,7 +12731,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12744,7 +12744,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12757,7 +12757,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12770,7 +12770,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12783,7 +12783,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12796,7 +12796,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ТИСА(Когда поднимешь)",
+    chapter: "ТИСА (Когда поднимешь)",
     id_book: 1,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12810,7 +12810,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           353535535353535353535353535353535353535535353          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -12825,7 +12825,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12838,7 +12838,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12849,7 +12849,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12861,7 +12861,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12874,7 +12874,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12885,7 +12885,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12897,7 +12897,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12910,7 +12910,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12921,7 +12921,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12934,7 +12934,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12947,7 +12947,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12959,7 +12959,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12971,7 +12971,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12984,7 +12984,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12997,7 +12997,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13010,7 +13010,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13022,7 +13022,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13034,7 +13034,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13047,7 +13047,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13058,7 +13058,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13071,7 +13071,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13084,7 +13084,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13097,7 +13097,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13110,7 +13110,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13123,7 +13123,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13135,7 +13135,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13147,7 +13147,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13160,7 +13160,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13173,7 +13173,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13186,7 +13186,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13199,7 +13199,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13211,7 +13211,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13224,7 +13224,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13237,7 +13237,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13251,7 +13251,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           363636363363636363363633636336363636363363636          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -13266,7 +13266,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13279,7 +13279,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13292,7 +13292,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13305,7 +13305,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13318,7 +13318,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13331,7 +13331,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13343,7 +13343,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13356,7 +13356,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13369,7 +13369,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13382,7 +13382,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13395,7 +13395,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13408,7 +13408,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13421,7 +13421,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13434,7 +13434,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13447,7 +13447,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13460,7 +13460,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13473,7 +13473,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13486,7 +13486,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13499,7 +13499,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13511,7 +13511,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13523,7 +13523,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13536,7 +13536,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13549,7 +13549,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13562,7 +13562,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13574,7 +13574,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13587,7 +13587,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13598,7 +13598,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13610,7 +13610,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13623,7 +13623,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13636,7 +13636,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13649,7 +13649,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13662,7 +13662,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13675,7 +13675,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13688,7 +13688,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13701,7 +13701,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13714,7 +13714,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13727,7 +13727,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13741,7 +13741,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           3737373737373737373737373737373733737373737          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -13756,7 +13756,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13769,7 +13769,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13782,7 +13782,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13793,7 +13793,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13806,7 +13806,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13819,7 +13819,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13832,7 +13832,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13845,7 +13845,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13858,7 +13858,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13871,7 +13871,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13882,7 +13882,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13894,7 +13894,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13907,7 +13907,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13920,7 +13920,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13933,7 +13933,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13946,7 +13946,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13959,7 +13959,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13972,7 +13972,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13985,7 +13985,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13998,7 +13998,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14011,7 +14011,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14024,7 +14024,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14037,7 +14037,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14049,7 +14049,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14062,7 +14062,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14075,7 +14075,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14088,7 +14088,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14099,7 +14099,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14113,7 +14113,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           383838383833838338383838838          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -14128,7 +14128,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14141,7 +14141,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14154,7 +14154,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14167,7 +14167,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14180,7 +14180,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14192,7 +14192,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14205,7 +14205,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14218,7 +14218,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14231,7 +14231,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14244,7 +14244,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14257,7 +14257,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14270,7 +14270,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14281,7 +14281,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14294,7 +14294,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14307,7 +14307,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14318,7 +14318,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14331,7 +14331,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14344,7 +14344,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14357,7 +14357,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapter: "ВАЯКГЕЛЬ (И собрал общину)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14369,7 +14369,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           383838383833838338383838838          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -14384,7 +14384,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14397,7 +14397,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14410,7 +14410,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14423,7 +14423,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14436,7 +14436,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14449,7 +14449,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14462,7 +14462,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14475,7 +14475,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14488,7 +14488,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14501,7 +14501,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 38,
     id_chapter_two: 2,
@@ -14515,7 +14515,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           39393939393393933939339393939939393939          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -14530,7 +14530,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14543,7 +14543,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14556,7 +14556,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14569,7 +14569,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14582,7 +14582,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14595,7 +14595,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14608,7 +14608,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14621,7 +14621,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14634,7 +14634,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14647,7 +14647,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14658,7 +14658,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14669,7 +14669,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14681,7 +14681,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14694,7 +14694,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14706,7 +14706,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14719,7 +14719,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14732,7 +14732,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14745,7 +14745,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14758,7 +14758,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14771,7 +14771,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14784,7 +14784,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14795,7 +14795,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14808,7 +14808,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14821,7 +14821,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14834,7 +14834,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14847,7 +14847,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14860,7 +14860,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14873,7 +14873,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14886,7 +14886,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14899,7 +14899,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14912,7 +14912,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14925,7 +14925,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14938,7 +14938,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14951,7 +14951,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14962,7 +14962,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14973,7 +14973,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14986,7 +14986,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14999,7 +14999,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -15012,7 +15012,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -15025,7 +15025,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -15038,7 +15038,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -15052,7 +15052,7 @@ const objSchmot: Verse[] = [
 
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -15066,7 +15066,7 @@ const objSchmot: Verse[] = [
   //////////////////////////////////////           404040404040404040404040404040404040404          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     main: 1,
     main_name: "schmot",
     id_book: 1,
@@ -15079,7 +15079,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15091,7 +15091,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15103,7 +15103,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15116,7 +15116,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15129,7 +15129,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15142,7 +15142,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15154,7 +15154,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15167,7 +15167,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15180,7 +15180,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15191,7 +15191,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15204,7 +15204,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15217,7 +15217,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15228,7 +15228,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15241,7 +15241,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15254,7 +15254,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15267,7 +15267,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15280,7 +15280,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15293,7 +15293,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15306,7 +15306,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15319,7 +15319,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15332,7 +15332,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15345,7 +15345,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15358,7 +15358,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15370,7 +15370,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15382,7 +15382,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15394,7 +15394,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15405,7 +15405,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15418,7 +15418,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15431,7 +15431,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15443,7 +15443,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15456,7 +15456,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15469,7 +15469,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15481,7 +15481,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15494,7 +15494,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15507,7 +15507,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15519,7 +15519,7 @@ const objSchmot: Verse[] = [
   },
   {
     name: "ШМОТ",
-    chapter: "ПЕКУДЕЙ(Отчёты)",
+    chapter: "ПЕКУДЕЙ (Отчёты)",
     id_book: 1,
     id_chapter: 40,
     id_chapter_two: 1,

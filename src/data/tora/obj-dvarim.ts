@@ -4,7 +4,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           1111111111111111111111111         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -19,7 +19,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -32,7 +32,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -45,7 +45,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -58,7 +58,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -71,7 +71,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -84,7 +84,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -97,7 +97,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -110,7 +110,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -122,7 +122,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -135,7 +135,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -148,7 +148,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -159,7 +159,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -172,7 +172,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -184,7 +184,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -197,7 +197,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -210,7 +210,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -223,7 +223,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -236,7 +236,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -249,7 +249,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -262,7 +262,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -275,7 +275,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -288,7 +288,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -301,7 +301,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -314,7 +314,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -327,7 +327,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -339,7 +339,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -352,7 +352,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -365,7 +365,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -376,7 +376,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -389,7 +389,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -402,7 +402,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -413,7 +413,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -426,7 +426,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -438,7 +438,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -451,7 +451,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -464,7 +464,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -477,7 +477,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -490,7 +490,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -503,7 +503,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -515,7 +515,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -528,7 +528,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -541,7 +541,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -554,7 +554,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -567,7 +567,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -580,7 +580,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -594,7 +594,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           22222222222222222222222222222222222222222222222222         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -609,7 +609,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -620,7 +620,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -631,7 +631,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -644,7 +644,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -657,7 +657,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -670,7 +670,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -683,7 +683,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -696,7 +696,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -709,7 +709,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -722,7 +722,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -735,7 +735,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -748,7 +748,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -761,7 +761,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -774,7 +774,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -787,7 +787,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -799,7 +799,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -810,7 +810,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -821,7 +821,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -834,7 +834,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -847,7 +847,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -860,7 +860,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -873,7 +873,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -886,7 +886,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -899,7 +899,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -912,7 +912,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -925,7 +925,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -938,7 +938,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -951,7 +951,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -964,7 +964,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -977,7 +977,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -990,7 +990,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -1003,7 +1003,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -1016,7 +1016,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -1029,7 +1029,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -1042,7 +1042,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -1055,7 +1055,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -1069,7 +1069,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           33333333333333333333333333333333333333333         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -1084,7 +1084,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1097,7 +1097,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1110,7 +1110,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1123,7 +1123,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1136,7 +1136,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1149,7 +1149,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1160,7 +1160,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1173,7 +1173,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1186,7 +1186,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1199,7 +1199,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1212,7 +1212,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1225,7 +1225,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1238,7 +1238,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1251,7 +1251,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1262,7 +1262,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1275,7 +1275,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1288,7 +1288,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1301,7 +1301,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1314,7 +1314,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1327,7 +1327,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1340,7 +1340,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ДВАРИМ(Слова)",
+    chapter: "ДВАРИМ (Слова)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -1352,7 +1352,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           333333333333333333333333333333333333333         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -1365,7 +1365,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 2,
@@ -1378,7 +1378,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 2,
@@ -1391,7 +1391,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 2,
@@ -1404,7 +1404,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 2,
@@ -1417,7 +1417,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 2,
@@ -1430,7 +1430,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 3,
     id_chapter_two: 2,
@@ -1442,7 +1442,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           444444444444444444444444444444444444444444444         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -1457,7 +1457,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1470,7 +1470,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1483,7 +1483,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1495,7 +1495,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1508,7 +1508,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1521,7 +1521,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1534,7 +1534,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1547,7 +1547,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1560,7 +1560,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1573,7 +1573,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1586,7 +1586,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1599,7 +1599,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1612,7 +1612,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1625,7 +1625,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1638,7 +1638,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1651,7 +1651,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1664,7 +1664,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1677,7 +1677,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1690,7 +1690,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1703,7 +1703,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1716,7 +1716,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1729,7 +1729,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1742,7 +1742,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1754,7 +1754,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1767,7 +1767,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1780,7 +1780,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1793,7 +1793,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1806,7 +1806,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1819,7 +1819,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1832,7 +1832,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1845,7 +1845,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1858,7 +1858,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1871,7 +1871,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1884,7 +1884,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1897,7 +1897,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1910,7 +1910,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1923,7 +1923,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1936,7 +1936,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1949,7 +1949,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1962,7 +1962,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1974,7 +1974,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1987,7 +1987,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2000,7 +2000,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2012,7 +2012,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2025,7 +2025,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2038,7 +2038,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2051,7 +2051,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2063,7 +2063,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -2077,7 +2077,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           55555555555555555555555555555         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -2092,7 +2092,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2104,7 +2104,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2117,7 +2117,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2129,7 +2129,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2142,7 +2142,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2155,7 +2155,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2166,7 +2166,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2179,7 +2179,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2192,7 +2192,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2205,7 +2205,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2218,7 +2218,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2231,7 +2231,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2242,7 +2242,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2255,7 +2255,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2268,7 +2268,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2281,7 +2281,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2294,7 +2294,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2307,7 +2307,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2320,7 +2320,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2333,7 +2333,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2346,7 +2346,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2359,7 +2359,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2372,7 +2372,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2385,7 +2385,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2398,7 +2398,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2411,7 +2411,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2422,7 +2422,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2435,7 +2435,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2448,7 +2448,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -2462,7 +2462,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           6666666666666666666666666666666666666666         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -2477,7 +2477,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2490,7 +2490,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2503,7 +2503,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2514,7 +2514,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2527,7 +2527,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2540,7 +2540,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2553,7 +2553,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2566,7 +2566,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2577,7 +2577,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2590,7 +2590,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2603,7 +2603,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2616,7 +2616,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2628,7 +2628,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2640,7 +2640,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2653,7 +2653,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2665,7 +2665,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2678,7 +2678,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2691,7 +2691,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2704,7 +2704,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2717,7 +2717,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2730,7 +2730,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2743,7 +2743,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2756,7 +2756,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2769,7 +2769,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -2783,7 +2783,7 @@ const objDvarim: Verse[] = [
   /////////////////////////////////           77777777777777777777777777777777         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ДВАРИМ",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     main: 1,
     main_name: "dvarim",
     id_book: 4,
@@ -2798,7 +2798,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2811,7 +2811,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2824,7 +2824,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2837,7 +2837,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2850,7 +2850,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2863,7 +2863,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2876,7 +2876,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2889,7 +2889,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2902,7 +2902,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2915,7 +2915,7 @@ const objDvarim: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ВАЭТХАНАН(И молил)",
+    chapter: "ВАЭТХАНАН (И молил)",
     id_book: 4,
     id_chapter: 7,
     id_chapter_two: 1,

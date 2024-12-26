@@ -2338,7 +2338,7 @@ const objBemidbar: Verse[] = [
     chapter: "НАСО (Вознеси)",
     id_book: 3,
     id_chapter: 4,
-    id_chapter_two: 1,
+    id_chapter_two: 2,
     poemNumber: 45,
     verse:
       "Это исчисленные в семействах сынов Мерари — те, кого исчислили Моше и Аѓарон, по слову Господа, [данному] через Моше.",
@@ -4263,7 +4263,7 @@ const objBemidbar: Verse[] = [
   //////////////////////////////////           8888888888888888888888888888888888          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -4276,7 +4276,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4289,7 +4289,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4302,7 +4302,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4315,7 +4315,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4326,7 +4326,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4338,7 +4338,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4351,7 +4351,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4364,7 +4364,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4376,7 +4376,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4389,7 +4389,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4402,7 +4402,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4415,7 +4415,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4428,7 +4428,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4441,7 +4441,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4454,7 +4454,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4467,7 +4467,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4480,7 +4480,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4492,7 +4492,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4505,7 +4505,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4518,7 +4518,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4531,7 +4531,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4544,7 +4544,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4555,7 +4555,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4568,7 +4568,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4581,7 +4581,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -4595,7 +4595,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           99999999999999999999999999999999999         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -4610,7 +4610,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4621,7 +4621,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4634,7 +4634,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4646,7 +4646,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4659,7 +4659,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4672,7 +4672,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4685,7 +4685,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4698,7 +4698,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4709,7 +4709,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4722,7 +4722,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4735,7 +4735,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4748,7 +4748,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4761,7 +4761,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4774,7 +4774,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4787,7 +4787,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4800,7 +4800,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4813,7 +4813,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4826,7 +4826,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4839,7 +4839,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4852,7 +4852,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4865,7 +4865,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4878,7 +4878,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -4892,7 +4892,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           1010101011010101010110101101011010101101011010         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -4905,7 +4905,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4918,7 +4918,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4931,7 +4931,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4944,7 +4944,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4957,7 +4957,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4970,7 +4970,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4981,7 +4981,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -4994,7 +4994,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5007,7 +5007,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5020,7 +5020,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5033,7 +5033,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5046,7 +5046,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5058,7 +5058,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5071,7 +5071,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5083,7 +5083,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5095,7 +5095,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5108,7 +5108,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5121,7 +5121,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5133,7 +5133,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5144,7 +5144,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5157,7 +5157,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5170,7 +5170,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5182,7 +5182,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5194,7 +5194,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5207,7 +5207,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5219,7 +5219,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5231,7 +5231,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5244,7 +5244,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5257,7 +5257,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5270,7 +5270,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5283,7 +5283,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5296,7 +5296,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5309,7 +5309,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5322,7 +5322,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5335,7 +5335,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -5349,7 +5349,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           1111111111111111111111111111111         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -5364,7 +5364,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5376,7 +5376,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5389,7 +5389,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5402,7 +5402,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5415,7 +5415,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5428,7 +5428,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5440,7 +5440,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5453,7 +5453,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5465,7 +5465,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5478,7 +5478,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5491,7 +5491,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5504,7 +5504,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5517,7 +5517,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5530,7 +5530,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5543,7 +5543,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5556,7 +5556,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5569,7 +5569,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5582,7 +5582,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5595,7 +5595,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5608,7 +5608,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5621,7 +5621,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5634,7 +5634,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5647,7 +5647,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5660,7 +5660,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5673,7 +5673,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5686,7 +5686,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5699,7 +5699,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5712,7 +5712,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5725,7 +5725,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5737,7 +5737,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5750,7 +5750,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5763,7 +5763,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5776,7 +5776,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5789,7 +5789,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -5803,7 +5803,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           121212121212121121212121212121212121212         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -5818,7 +5818,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5831,7 +5831,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5844,7 +5844,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5857,7 +5857,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5870,7 +5870,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5883,7 +5883,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5895,7 +5895,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5908,7 +5908,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5919,7 +5919,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5932,7 +5932,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5945,7 +5945,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5958,7 +5958,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5970,7 +5970,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5983,7 +5983,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -5996,7 +5996,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapter: "БЕААЛОТХА (Когда будешь возжигать)",
     id_book: 3,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -6010,7 +6010,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           1313131313131133131313113131313131313         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -6023,7 +6023,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6036,7 +6036,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6049,7 +6049,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6061,7 +6061,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6072,7 +6072,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6083,7 +6083,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6094,7 +6094,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6105,7 +6105,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6116,7 +6116,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6127,7 +6127,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6138,7 +6138,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6149,7 +6149,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6160,7 +6160,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6171,7 +6171,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6182,7 +6182,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6195,7 +6195,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6208,7 +6208,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6221,7 +6221,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6234,7 +6234,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6247,7 +6247,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6260,7 +6260,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6273,7 +6273,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6286,7 +6286,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6299,7 +6299,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6310,7 +6310,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6323,7 +6323,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6336,7 +6336,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6349,7 +6349,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6362,7 +6362,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6375,7 +6375,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6388,7 +6388,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6401,7 +6401,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -6415,7 +6415,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           14141414144114141414141414141414141414141414         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -6429,7 +6429,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6442,7 +6442,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6455,7 +6455,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6468,7 +6468,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6481,7 +6481,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6494,7 +6494,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6507,7 +6507,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6520,7 +6520,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6533,7 +6533,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6546,7 +6546,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6559,7 +6559,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6572,7 +6572,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6585,7 +6585,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6598,7 +6598,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6611,7 +6611,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6624,7 +6624,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6636,7 +6636,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6649,7 +6649,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6662,7 +6662,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6673,7 +6673,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6685,7 +6685,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6698,7 +6698,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6711,7 +6711,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6724,7 +6724,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6737,7 +6737,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6748,7 +6748,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6761,7 +6761,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6774,7 +6774,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6787,7 +6787,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6800,7 +6800,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6813,7 +6813,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6824,7 +6824,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6837,7 +6837,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6850,7 +6850,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6863,7 +6863,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6876,7 +6876,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6889,7 +6889,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6902,7 +6902,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6915,7 +6915,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6928,7 +6928,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6940,7 +6940,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6953,7 +6953,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6966,7 +6966,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6979,7 +6979,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -6993,7 +6993,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           151515151515155151515115151515151515         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -7006,7 +7006,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7019,7 +7019,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7032,7 +7032,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7045,7 +7045,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7058,7 +7058,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7071,7 +7071,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7084,7 +7084,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7097,7 +7097,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7110,7 +7110,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7123,7 +7123,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7136,7 +7136,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7149,7 +7149,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7162,7 +7162,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7175,7 +7175,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7188,7 +7188,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7201,7 +7201,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7212,7 +7212,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7225,7 +7225,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7237,7 +7237,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7250,7 +7250,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7263,7 +7263,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7276,7 +7276,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7289,7 +7289,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7302,7 +7302,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7315,7 +7315,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7328,7 +7328,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7341,7 +7341,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7354,7 +7354,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7367,7 +7367,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7380,7 +7380,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7393,7 +7393,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7406,7 +7406,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7419,7 +7419,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7432,7 +7432,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7445,7 +7445,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7458,7 +7458,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7469,7 +7469,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7482,7 +7482,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7495,7 +7495,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7508,7 +7508,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ШЛАХ(Отправь)",
+    chapter: "ШЛАХ (Отправь)",
     id_book: 3,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -7522,7 +7522,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           1616161616166161611616611616161616161661         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -7537,7 +7537,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7550,7 +7550,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7563,7 +7563,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7574,7 +7574,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7587,7 +7587,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7600,7 +7600,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7613,7 +7613,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7624,7 +7624,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7637,7 +7637,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7650,7 +7650,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7663,7 +7663,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7676,7 +7676,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7689,7 +7689,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7702,7 +7702,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7715,7 +7715,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7728,7 +7728,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7741,7 +7741,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7754,7 +7754,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7767,7 +7767,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7778,7 +7778,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7790,7 +7790,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7803,7 +7803,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7814,7 +7814,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7826,7 +7826,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7839,7 +7839,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7852,7 +7852,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7865,7 +7865,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7878,7 +7878,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7891,7 +7891,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7904,7 +7904,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7917,7 +7917,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7930,7 +7930,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7943,7 +7943,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7956,7 +7956,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -7970,7 +7970,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           17171717171717117171171717117171717171717171717         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -7983,7 +7983,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -7996,7 +7996,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8009,7 +8009,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8022,7 +8022,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8035,7 +8035,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8048,7 +8048,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8061,7 +8061,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8072,7 +8072,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8083,7 +8083,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8096,7 +8096,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8109,7 +8109,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8122,7 +8122,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8134,7 +8134,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8147,7 +8147,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8160,7 +8160,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8171,7 +8171,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8184,7 +8184,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8197,7 +8197,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8210,7 +8210,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8223,7 +8223,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8236,7 +8236,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8248,7 +8248,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8261,7 +8261,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8274,7 +8274,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8287,7 +8287,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8299,7 +8299,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8312,7 +8312,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -8326,7 +8326,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           18188181818118181181818118181818181818181818         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -8341,7 +8341,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8354,7 +8354,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8367,7 +8367,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8380,7 +8380,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8393,7 +8393,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8406,7 +8406,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8419,7 +8419,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8432,7 +8432,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8445,7 +8445,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8458,7 +8458,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8471,7 +8471,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8484,7 +8484,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8497,7 +8497,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8508,7 +8508,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8521,7 +8521,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8534,7 +8534,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8547,7 +8547,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8560,7 +8560,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8573,7 +8573,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8586,7 +8586,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8599,7 +8599,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8612,7 +8612,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8625,7 +8625,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8638,7 +8638,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8649,7 +8649,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8662,7 +8662,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8675,7 +8675,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8688,7 +8688,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8701,7 +8701,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8714,7 +8714,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8727,7 +8727,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "КОРАХ(Корах)",
+    chapter: "КОРАХ (Корах)",
     id_book: 3,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -8741,7 +8741,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           19191919119191191911919119191191919119191919         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -8754,7 +8754,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8767,7 +8767,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8780,7 +8780,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8793,7 +8793,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8806,7 +8806,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8819,7 +8819,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8832,7 +8832,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8845,7 +8845,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8858,7 +8858,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8871,7 +8871,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8883,7 +8883,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8896,7 +8896,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8909,7 +8909,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8922,7 +8922,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8935,7 +8935,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8948,7 +8948,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8961,7 +8961,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8974,7 +8974,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -8987,7 +8987,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -9000,7 +9000,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -9013,7 +9013,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -9027,7 +9027,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           202020202020202020202022020202020202202020         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -9042,7 +9042,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9055,7 +9055,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9068,7 +9068,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9081,7 +9081,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9094,7 +9094,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9107,7 +9107,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9118,7 +9118,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9131,7 +9131,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9143,7 +9143,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9156,7 +9156,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9169,7 +9169,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9182,7 +9182,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9195,7 +9195,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9208,7 +9208,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9221,7 +9221,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9234,7 +9234,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9247,7 +9247,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9260,7 +9260,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9273,7 +9273,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9286,7 +9286,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9299,7 +9299,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9312,7 +9312,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9325,7 +9325,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9338,7 +9338,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9350,7 +9350,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9363,7 +9363,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9376,7 +9376,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9389,7 +9389,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -9403,7 +9403,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           212121121212121221212112121212211221         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -9418,7 +9418,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9431,7 +9431,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9444,7 +9444,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9457,7 +9457,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9470,7 +9470,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9483,7 +9483,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9496,7 +9496,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9509,7 +9509,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9522,7 +9522,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9533,7 +9533,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9546,7 +9546,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9558,7 +9558,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9571,7 +9571,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9584,7 +9584,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9596,7 +9596,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9609,7 +9609,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9622,7 +9622,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9635,7 +9635,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9646,7 +9646,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9659,7 +9659,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9671,7 +9671,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9684,7 +9684,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9697,7 +9697,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9710,7 +9710,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9723,7 +9723,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9736,7 +9736,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9749,7 +9749,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9762,7 +9762,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9775,7 +9775,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9788,7 +9788,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9799,7 +9799,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9812,7 +9812,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9825,7 +9825,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9838,7 +9838,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     id_book: 3,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -9852,7 +9852,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           2222222222222222222222222222222222222222         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ХУКАТ(Постановление)",
+    chapter: "ХУКАТ (Постановление)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -11215,7 +11215,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           252525252525252525252525252525252525252525252525         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -11228,7 +11228,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11241,7 +11241,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11252,7 +11252,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11265,7 +11265,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11278,7 +11278,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11291,7 +11291,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11302,7 +11302,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11313,7 +11313,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -11327,7 +11327,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           2626262622626262626226262262626262626262626         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -11342,7 +11342,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11355,7 +11355,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11368,7 +11368,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11381,7 +11381,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11394,7 +11394,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11406,7 +11406,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11419,7 +11419,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11430,7 +11430,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11443,7 +11443,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11456,7 +11456,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11467,7 +11467,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11480,7 +11480,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11492,7 +11492,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11504,7 +11504,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11517,7 +11517,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11528,7 +11528,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11540,7 +11540,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11553,7 +11553,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11565,7 +11565,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11578,7 +11578,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11591,7 +11591,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11604,7 +11604,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11617,7 +11617,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11629,7 +11629,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11642,7 +11642,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11655,7 +11655,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11668,7 +11668,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11679,7 +11679,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11692,7 +11692,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11705,7 +11705,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11717,7 +11717,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11729,7 +11729,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11742,7 +11742,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11755,7 +11755,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11768,7 +11768,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11779,7 +11779,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11792,7 +11792,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11805,7 +11805,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11817,7 +11817,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11830,7 +11830,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11843,7 +11843,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11856,7 +11856,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11869,7 +11869,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11882,7 +11882,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11895,7 +11895,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11906,7 +11906,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11918,7 +11918,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11931,7 +11931,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11943,7 +11943,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11956,7 +11956,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11969,7 +11969,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11980,7 +11980,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -11992,7 +11992,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12005,7 +12005,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12018,7 +12018,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12030,7 +12030,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12043,7 +12043,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12056,7 +12056,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12069,7 +12069,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12081,7 +12081,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12093,7 +12093,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12106,7 +12106,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12119,7 +12119,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12132,7 +12132,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -12146,7 +12146,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           272727272272727272722727272272727272272727272727         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -12161,7 +12161,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12174,7 +12174,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12187,7 +12187,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12200,7 +12200,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12211,7 +12211,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12222,7 +12222,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12235,7 +12235,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12248,7 +12248,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12260,7 +12260,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12273,7 +12273,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12286,7 +12286,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12299,7 +12299,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12312,7 +12312,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12325,7 +12325,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12336,7 +12336,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12349,7 +12349,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12362,7 +12362,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12375,7 +12375,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12388,7 +12388,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12401,7 +12401,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12414,7 +12414,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12427,7 +12427,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -12441,7 +12441,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           28282828282828282288228282828282828282822882         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -12454,7 +12454,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12467,7 +12467,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12480,7 +12480,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12493,7 +12493,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12506,7 +12506,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12519,7 +12519,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12532,7 +12532,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12545,7 +12545,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12558,7 +12558,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12570,7 +12570,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12583,7 +12583,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12596,7 +12596,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12609,7 +12609,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12622,7 +12622,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12635,7 +12635,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12647,7 +12647,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12660,7 +12660,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12672,7 +12672,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12685,7 +12685,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12698,7 +12698,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12710,7 +12710,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12721,7 +12721,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12734,7 +12734,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12747,7 +12747,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12760,7 +12760,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12773,7 +12773,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12786,7 +12786,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12799,7 +12799,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12811,7 +12811,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12822,7 +12822,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -12836,7 +12836,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           292929292922929292292922929229922992929929         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -12851,7 +12851,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12864,7 +12864,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12877,7 +12877,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12888,7 +12888,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12899,7 +12899,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12912,7 +12912,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12925,7 +12925,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12938,7 +12938,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12951,7 +12951,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12963,7 +12963,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12976,7 +12976,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -12989,7 +12989,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13002,7 +13002,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13015,7 +13015,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13027,7 +13027,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13040,7 +13040,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13053,7 +13053,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13066,7 +13066,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13079,7 +13079,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13092,7 +13092,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13105,7 +13105,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13118,7 +13118,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13131,7 +13131,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13144,7 +13144,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13157,7 +13157,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13170,7 +13170,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13183,7 +13183,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13196,7 +13196,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13209,7 +13209,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13222,7 +13222,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13235,7 +13235,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13248,7 +13248,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13261,7 +13261,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13274,7 +13274,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13287,7 +13287,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13300,7 +13300,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13313,7 +13313,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13326,7 +13326,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -13340,7 +13340,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           303030330303033030330303303033030330330303030         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -13355,7 +13355,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           3030303030303030303030330303033030303030330         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -13369,7 +13369,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13382,7 +13382,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13395,7 +13395,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13408,7 +13408,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13421,7 +13421,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13434,7 +13434,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13447,7 +13447,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13460,7 +13460,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13473,7 +13473,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13486,7 +13486,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13499,7 +13499,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13512,7 +13512,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13525,7 +13525,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13538,7 +13538,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13551,7 +13551,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "МАТОТ (Колена)",
     id_book: 3,
     id_chapter: 30,
     id_chapter_two: 2,
@@ -13578,7 +13578,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13591,7 +13591,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13604,7 +13604,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13617,7 +13617,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13630,7 +13630,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13643,7 +13643,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13656,7 +13656,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13669,7 +13669,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13682,7 +13682,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13695,7 +13695,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13707,7 +13707,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13720,7 +13720,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13733,7 +13733,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13746,7 +13746,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13757,7 +13757,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13770,7 +13770,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13783,7 +13783,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13796,7 +13796,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13809,7 +13809,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13822,7 +13822,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13835,7 +13835,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13847,7 +13847,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13860,7 +13860,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13873,7 +13873,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13884,7 +13884,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13897,7 +13897,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13910,7 +13910,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13923,7 +13923,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13936,7 +13936,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13949,7 +13949,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13961,7 +13961,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13974,7 +13974,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13985,7 +13985,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -13996,7 +13996,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14008,7 +14008,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14021,7 +14021,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14034,7 +14034,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14047,7 +14047,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14059,7 +14059,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14072,7 +14072,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14085,7 +14085,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14098,7 +14098,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14111,7 +14111,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14122,7 +14122,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14133,7 +14133,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14144,7 +14144,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14157,7 +14157,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14170,7 +14170,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14183,7 +14183,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14196,7 +14196,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14208,7 +14208,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14221,7 +14221,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14232,7 +14232,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -14261,7 +14261,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14274,7 +14274,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14286,7 +14286,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14299,7 +14299,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14312,7 +14312,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14325,7 +14325,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14338,7 +14338,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14351,7 +14351,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14364,7 +14364,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14375,7 +14375,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14388,7 +14388,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14401,7 +14401,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14414,7 +14414,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14427,7 +14427,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14440,7 +14440,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14453,7 +14453,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14466,7 +14466,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14479,7 +14479,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14492,7 +14492,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14505,7 +14505,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14518,7 +14518,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14531,7 +14531,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14544,7 +14544,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14557,7 +14557,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14570,7 +14570,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14583,7 +14583,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14596,7 +14596,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14609,7 +14609,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14622,7 +14622,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14635,7 +14635,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14648,7 +14648,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14661,7 +14661,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14674,7 +14674,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14685,7 +14685,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14696,7 +14696,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14708,7 +14708,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14720,7 +14720,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14733,7 +14733,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14746,7 +14746,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14759,7 +14759,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14772,7 +14772,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "ПИНХАС(Пинхас)",
+    chapter: "ПИНХАС (Пинхас)",
     id_book: 3,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -14786,7 +14786,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           3333333333333333333333333333333333333         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -14801,7 +14801,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14814,7 +14814,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14827,7 +14827,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14840,7 +14840,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14852,7 +14852,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14865,7 +14865,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14878,7 +14878,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14891,7 +14891,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14904,7 +14904,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14915,7 +14915,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14926,7 +14926,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14937,7 +14937,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14948,7 +14948,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14961,7 +14961,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14973,7 +14973,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14986,7 +14986,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -14998,7 +14998,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15009,7 +15009,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15020,7 +15020,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15031,7 +15031,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15042,7 +15042,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15053,7 +15053,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15064,7 +15064,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15075,7 +15075,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15086,7 +15086,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15097,7 +15097,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15108,7 +15108,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15119,7 +15119,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15130,7 +15130,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15141,7 +15141,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15152,7 +15152,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15164,7 +15164,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15176,7 +15176,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15187,7 +15187,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15198,7 +15198,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15211,7 +15211,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15224,7 +15224,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15237,7 +15237,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15249,7 +15249,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15262,7 +15262,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15273,7 +15273,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15284,7 +15284,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15295,7 +15295,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15308,7 +15308,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15319,7 +15319,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15332,7 +15332,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15345,7 +15345,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15358,7 +15358,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15371,7 +15371,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15383,7 +15383,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15396,7 +15396,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15409,7 +15409,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15422,7 +15422,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15435,7 +15435,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15448,7 +15448,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -15460,7 +15460,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           343434343434334434334343433434334343443434434         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -15473,7 +15473,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15486,7 +15486,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15499,7 +15499,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15512,7 +15512,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15524,7 +15524,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15537,7 +15537,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15550,7 +15550,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15563,7 +15563,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15576,7 +15576,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15588,7 +15588,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15601,7 +15601,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15614,7 +15614,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15627,7 +15627,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15640,7 +15640,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15653,7 +15653,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15664,7 +15664,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15677,7 +15677,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15689,7 +15689,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15701,7 +15701,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15712,7 +15712,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15723,7 +15723,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15734,7 +15734,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15747,7 +15747,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15758,7 +15758,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15769,7 +15769,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15780,7 +15780,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15791,7 +15791,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15803,7 +15803,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -15817,7 +15817,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           35353535353535353535353535353533535         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -15831,7 +15831,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15844,7 +15844,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15857,7 +15857,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15870,7 +15870,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15883,7 +15883,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15896,7 +15896,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15909,7 +15909,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15922,7 +15922,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15933,7 +15933,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15946,7 +15946,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15959,7 +15959,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15972,7 +15972,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15984,7 +15984,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -15997,7 +15997,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16010,7 +16010,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16023,7 +16023,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16036,7 +16036,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16049,7 +16049,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16062,7 +16062,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16075,7 +16075,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16088,7 +16088,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16101,7 +16101,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16114,7 +16114,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16127,7 +16127,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16140,7 +16140,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16153,7 +16153,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16166,7 +16166,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16179,7 +16179,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16192,7 +16192,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16205,7 +16205,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16218,7 +16218,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16231,7 +16231,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16244,7 +16244,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -16258,7 +16258,7 @@ const objBemidbar: Verse[] = [
   /////////////////////////////////           363636363633636363636363363636363636363636363636         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     main: 1,
     main_name: "bemidbar",
     id_book: 3,
@@ -16273,7 +16273,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16286,7 +16286,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16299,7 +16299,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16312,7 +16312,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16325,7 +16325,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16338,7 +16338,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16351,7 +16351,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16364,7 +16364,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16377,7 +16377,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16389,7 +16389,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16402,7 +16402,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -16415,7 +16415,7 @@ const objBemidbar: Verse[] = [
   },
   {
     name: "БЕМИДБАР",
-    chapter: "МАСЕЭЙ(Переходы)",
+    chapter: "МАСЕЭЙ (Переходы)",
     id_book: 3,
     id_chapter: 36,
     id_chapter_two: 1,

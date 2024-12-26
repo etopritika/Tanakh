@@ -3,7 +3,7 @@ import { Verse } from "@/lib/types";
 const objBeresheet: Verse[] = [
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -16,7 +16,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -28,7 +28,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -39,7 +39,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 4,
@@ -48,7 +48,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 5,
@@ -59,7 +59,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 6,
@@ -70,7 +70,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 7,
@@ -81,7 +81,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 8,
@@ -91,7 +91,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 9,
@@ -101,7 +101,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 10,
@@ -111,7 +111,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 11,
@@ -121,7 +121,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 12,
@@ -132,7 +132,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 13,
@@ -141,7 +141,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 14,
@@ -152,7 +152,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 15,
@@ -162,7 +162,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 16,
@@ -173,7 +173,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 17,
@@ -182,7 +182,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 18,
@@ -191,7 +191,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 19,
@@ -201,7 +201,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 20,
@@ -212,7 +212,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 21,
@@ -222,7 +222,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 22,
@@ -232,7 +232,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 23,
@@ -241,7 +241,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 24,
@@ -251,7 +251,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 25,
@@ -261,7 +261,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 26,
@@ -272,7 +272,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 27,
@@ -282,7 +282,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 28,
@@ -293,7 +293,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 29,
@@ -303,7 +303,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 30,
@@ -314,7 +314,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 1,
     poemNumber: 31,
@@ -326,7 +326,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -339,7 +339,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -351,7 +351,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -363,7 +363,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -374,7 +374,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -386,7 +386,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -396,7 +396,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -408,7 +408,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -419,7 +419,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -431,7 +431,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -443,7 +443,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -454,7 +454,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -465,7 +465,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -475,7 +475,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -486,7 +486,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -498,7 +498,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -510,7 +510,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -522,7 +522,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -534,7 +534,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -545,7 +545,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -557,7 +557,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -568,7 +568,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -579,7 +579,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -590,7 +590,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -601,7 +601,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -614,7 +614,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////////////     33333333333333333333333333333333333333     /////////////////////////
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -628,7 +628,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -640,7 +640,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -652,7 +652,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -663,7 +663,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -675,7 +675,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -687,7 +687,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -699,7 +699,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -711,7 +711,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -721,7 +721,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -733,7 +733,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -744,7 +744,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -756,7 +756,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -767,7 +767,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -778,7 +778,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -790,7 +790,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -802,7 +802,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -814,7 +814,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -826,7 +826,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -838,7 +838,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -849,7 +849,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -859,7 +859,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -871,7 +871,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -883,7 +883,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -896,7 +896,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////////////     444444444444444444444444444444444444444444444444444444     /////////////////////////
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -909,7 +909,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -920,7 +920,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -931,7 +931,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -942,7 +942,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -954,7 +954,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -965,7 +965,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -977,7 +977,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -989,7 +989,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1000,7 +1000,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1011,7 +1011,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1023,7 +1023,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1035,7 +1035,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1046,7 +1046,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1057,7 +1057,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1068,7 +1068,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1078,7 +1078,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1089,7 +1089,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1100,7 +1100,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1110,7 +1110,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1121,7 +1121,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1132,7 +1132,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1143,7 +1143,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1154,7 +1154,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1165,7 +1165,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1177,7 +1177,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1190,7 +1190,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////        55555555555555555555555555555555555555555555555       ////////////////////////////////////////
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -1203,7 +1203,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1214,7 +1214,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1226,7 +1226,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1237,7 +1237,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1247,7 +1247,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1257,7 +1257,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1268,7 +1268,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1278,7 +1278,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1288,7 +1288,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1299,7 +1299,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1309,7 +1309,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1320,7 +1320,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1331,7 +1331,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1341,7 +1341,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1352,7 +1352,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1363,7 +1363,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1373,7 +1373,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1384,7 +1384,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1395,7 +1395,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1405,7 +1405,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1416,7 +1416,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1428,7 +1428,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1438,7 +1438,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1449,7 +1449,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1460,7 +1460,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1471,7 +1471,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1481,7 +1481,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1491,7 +1491,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1502,7 +1502,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1513,7 +1513,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1523,7 +1523,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1535,7 +1535,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////        66666666666666666666666666666666666666666666666       ////////////////////////////////////////
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -1547,7 +1547,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1559,7 +1559,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1570,7 +1570,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1582,7 +1582,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1593,7 +1593,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1605,7 +1605,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1616,7 +1616,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1643,7 +1643,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1654,7 +1654,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1666,7 +1666,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1679,7 +1679,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1692,7 +1692,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1705,7 +1705,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1718,7 +1718,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1731,7 +1731,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1744,7 +1744,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1757,7 +1757,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1770,7 +1770,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1783,7 +1783,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -1796,7 +1796,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "БЕРЕШИТ(В начале)",
+    chapter: "БЕРЕШИТ (В начале)",
     id_book: 0,
     id_chapter: 6,
     id_chapter_two: 2,
@@ -2116,7 +2116,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////////////////////////////////    888888888888888888888888888888888  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -2131,7 +2131,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2144,7 +2144,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2157,7 +2157,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2170,7 +2170,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2183,7 +2183,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2196,7 +2196,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2208,7 +2208,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2221,7 +2221,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2234,7 +2234,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2246,7 +2246,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2259,7 +2259,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2272,7 +2272,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2285,7 +2285,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2298,7 +2298,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2309,7 +2309,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2321,7 +2321,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2334,7 +2334,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2345,7 +2345,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2358,7 +2358,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2371,7 +2371,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2384,7 +2384,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2398,7 +2398,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////////////////   9999999999999999999999999999999999  \\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -2413,7 +2413,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2426,7 +2426,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2439,7 +2439,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2450,7 +2450,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2463,7 +2463,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2476,7 +2476,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2488,7 +2488,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2499,7 +2499,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2511,7 +2511,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2524,7 +2524,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2537,7 +2537,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2550,7 +2550,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2563,7 +2563,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2575,7 +2575,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2588,7 +2588,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2601,7 +2601,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2614,7 +2614,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2627,7 +2627,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2638,7 +2638,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2649,7 +2649,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2661,7 +2661,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2674,7 +2674,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2687,7 +2687,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2700,7 +2700,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2712,7 +2712,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2725,7 +2725,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2738,7 +2738,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2750,7 +2750,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2763,7 +2763,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////////////   101010101010101010101010101010101    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -2778,7 +2778,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2790,7 +2790,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2801,7 +2801,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2812,7 +2812,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2825,7 +2825,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2836,7 +2836,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2849,7 +2849,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2861,7 +2861,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2874,7 +2874,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2887,7 +2887,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2899,7 +2899,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2911,7 +2911,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2923,7 +2923,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2936,7 +2936,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2947,7 +2947,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2958,7 +2958,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2969,7 +2969,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2982,7 +2982,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -2995,7 +2995,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3008,7 +3008,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3021,7 +3021,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3032,7 +3032,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3043,7 +3043,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3054,7 +3054,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3067,7 +3067,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3079,7 +3079,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3090,7 +3090,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3101,7 +3101,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3113,7 +3113,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3124,7 +3124,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3137,7 +3137,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3151,7 +3151,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////   1111111111111111111111111111111111  \\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -3164,7 +3164,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3177,7 +3177,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3190,7 +3190,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3203,7 +3203,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3216,7 +3216,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3229,7 +3229,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3242,7 +3242,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3255,7 +3255,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3268,7 +3268,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3281,7 +3281,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3294,7 +3294,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3307,7 +3307,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3320,7 +3320,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3331,7 +3331,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3344,7 +3344,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3356,7 +3356,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3369,7 +3369,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3380,7 +3380,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3393,7 +3393,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3405,7 +3405,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3418,7 +3418,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3429,7 +3429,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3442,7 +3442,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3454,7 +3454,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3467,7 +3467,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3480,7 +3480,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3493,7 +3493,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3506,7 +3506,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3519,7 +3519,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3530,7 +3530,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3543,7 +3543,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "НОАХ(Ноах)",
+    chapter: "НОАХ (Ноах)",
     id_book: 0,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3556,7 +3556,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////////   1212121212121212121212  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -3571,7 +3571,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3584,7 +3584,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3597,7 +3597,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3610,7 +3610,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3623,7 +3623,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3636,7 +3636,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3649,7 +3649,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3662,7 +3662,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3673,7 +3673,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3686,7 +3686,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3699,7 +3699,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3712,7 +3712,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3725,7 +3725,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3738,7 +3738,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3751,7 +3751,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3764,7 +3764,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3777,7 +3777,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3790,7 +3790,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3803,7 +3803,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3817,7 +3817,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////  1313131313131313131313131313131313   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -3832,7 +3832,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3843,7 +3843,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3856,7 +3856,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3869,7 +3869,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3882,7 +3882,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3895,7 +3895,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3908,7 +3908,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3921,7 +3921,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3934,7 +3934,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3947,7 +3947,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3960,7 +3960,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3973,7 +3973,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3984,7 +3984,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3997,7 +3997,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4010,7 +4010,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4023,7 +4023,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4035,7 +4035,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4049,7 +4049,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////  141414141414141414141414141414141  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -4063,7 +4063,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4075,7 +4075,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4085,7 +4085,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4097,7 +4097,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4109,7 +4109,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4121,7 +4121,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4133,7 +4133,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4145,7 +4145,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4157,7 +4157,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4169,7 +4169,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4181,7 +4181,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4193,7 +4193,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4205,7 +4205,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4217,7 +4217,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4229,7 +4229,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4241,7 +4241,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4253,7 +4253,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4265,7 +4265,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4277,7 +4277,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4289,7 +4289,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4301,7 +4301,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4313,7 +4313,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4325,7 +4325,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4339,7 +4339,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -4354,7 +4354,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4367,7 +4367,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4380,7 +4380,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4393,7 +4393,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4405,7 +4405,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4416,7 +4416,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4429,7 +4429,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4440,7 +4440,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4453,7 +4453,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4466,7 +4466,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4477,7 +4477,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4489,7 +4489,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4502,7 +4502,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4515,7 +4515,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4528,7 +4528,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4541,7 +4541,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4554,7 +4554,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4567,7 +4567,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4578,7 +4578,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -4591,7 +4591,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////   16161611616116161616161616       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -4607,7 +4607,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4621,7 +4621,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4635,7 +4635,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4649,7 +4649,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4663,7 +4663,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4677,7 +4677,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4690,7 +4690,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4704,7 +4704,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4718,7 +4718,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4731,7 +4731,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4745,7 +4745,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4759,7 +4759,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4773,7 +4773,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4787,7 +4787,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4801,7 +4801,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -4815,7 +4815,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////// 1717171717171717171171717117171771171717   \\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе)",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -4830,7 +4830,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4843,7 +4843,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4855,7 +4855,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4866,7 +4866,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4879,7 +4879,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4892,7 +4892,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4905,7 +4905,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4918,7 +4918,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4931,7 +4931,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4944,7 +4944,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4957,7 +4957,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4970,7 +4970,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4983,7 +4983,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -4996,7 +4996,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5009,7 +5009,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5022,7 +5022,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5035,7 +5035,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5047,7 +5047,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5060,7 +5060,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5073,7 +5073,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5086,7 +5086,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5097,7 +5097,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5110,7 +5110,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5123,7 +5123,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5136,7 +5136,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5148,7 +5148,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ЛЕХ-ЛЕХА(Иди к себе",
+    chapter: "ЛЕХ-ЛЕХА (Иди к себе)",
     id_book: 0,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -5162,7 +5162,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////////  181818188181818181818181818 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -5177,7 +5177,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5190,7 +5190,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5203,7 +5203,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5215,7 +5215,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5228,7 +5228,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5241,7 +5241,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5254,7 +5254,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5267,7 +5267,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5280,7 +5280,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5293,7 +5293,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5306,7 +5306,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5319,7 +5319,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5332,7 +5332,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5345,7 +5345,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5358,7 +5358,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5371,7 +5371,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5384,7 +5384,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5397,7 +5397,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5410,7 +5410,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5423,7 +5423,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5436,7 +5436,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5449,7 +5449,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5462,7 +5462,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5475,7 +5475,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5488,7 +5488,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5501,7 +5501,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5514,7 +5514,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5527,7 +5527,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5540,7 +5540,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5553,7 +5553,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5566,7 +5566,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5579,7 +5579,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -5593,7 +5593,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////     1919191919191919191191911919191191919  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -5608,7 +5608,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5621,7 +5621,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5634,7 +5634,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5647,7 +5647,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5660,7 +5660,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5672,7 +5672,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5683,7 +5683,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5696,7 +5696,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5709,7 +5709,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5722,7 +5722,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5735,7 +5735,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5748,7 +5748,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5761,7 +5761,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5774,7 +5774,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5787,7 +5787,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5800,7 +5800,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5813,7 +5813,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5826,7 +5826,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5839,7 +5839,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5852,7 +5852,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5863,7 +5863,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5875,7 +5875,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5888,7 +5888,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5899,7 +5899,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5912,7 +5912,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5925,7 +5925,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5938,7 +5938,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5951,7 +5951,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5964,7 +5964,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5977,7 +5977,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -5990,7 +5990,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6003,7 +6003,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6016,7 +6016,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6029,7 +6029,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6042,7 +6042,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6054,7 +6054,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6068,7 +6068,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////    202020202020220202020202022020220      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -6083,7 +6083,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6096,7 +6096,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6109,7 +6109,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6122,7 +6122,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6135,7 +6135,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6148,7 +6148,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6161,7 +6161,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6174,7 +6174,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6187,7 +6187,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6200,7 +6200,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6213,7 +6213,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6226,7 +6226,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6239,7 +6239,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6252,7 +6252,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6265,7 +6265,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6278,7 +6278,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6291,7 +6291,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -6305,7 +6305,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////     21212121212121212121212121212121      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -6320,7 +6320,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6333,7 +6333,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6346,7 +6346,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6359,7 +6359,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6371,7 +6371,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6384,7 +6384,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6397,7 +6397,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6410,7 +6410,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6423,7 +6423,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6436,7 +6436,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6448,7 +6448,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6461,7 +6461,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6474,7 +6474,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6487,7 +6487,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6499,7 +6499,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6512,7 +6512,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6525,7 +6525,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6538,7 +6538,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6551,7 +6551,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6564,7 +6564,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6576,7 +6576,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6589,7 +6589,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6602,7 +6602,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6613,7 +6613,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6626,7 +6626,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6639,7 +6639,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6652,7 +6652,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6663,7 +6663,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6676,7 +6676,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6689,7 +6689,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6701,7 +6701,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6714,7 +6714,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6727,7 +6727,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 21,
     id_chapter_two: 1,
@@ -6739,7 +6739,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////               222222222222222222222222222           \\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -6754,7 +6754,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6767,7 +6767,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6780,7 +6780,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6792,7 +6792,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6805,7 +6805,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6818,7 +6818,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6831,7 +6831,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6844,7 +6844,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6857,7 +6857,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6870,7 +6870,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6883,7 +6883,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6896,7 +6896,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6909,7 +6909,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6922,7 +6922,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6934,7 +6934,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6947,7 +6947,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6960,7 +6960,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6973,7 +6973,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6986,7 +6986,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -6999,7 +6999,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7011,7 +7011,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7023,7 +7023,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7036,7 +7036,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЕРА(И явил)",
+    chapter: "ВАЙЕРА (И явил)",
     id_book: 0,
     id_chapter: 22,
     id_chapter_two: 1,
@@ -7050,7 +7050,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////   232323232323232323232323232323232       \\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -7065,7 +7065,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7078,7 +7078,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7090,7 +7090,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7103,7 +7103,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7114,7 +7114,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7127,7 +7127,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7138,7 +7138,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7151,7 +7151,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7164,7 +7164,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7177,7 +7177,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7190,7 +7190,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7201,7 +7201,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7214,7 +7214,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7227,7 +7227,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7240,7 +7240,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7253,7 +7253,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7266,7 +7266,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7279,7 +7279,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7292,7 +7292,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7305,7 +7305,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7317,7 +7317,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7330,7 +7330,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7341,7 +7341,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 23,
     id_chapter_two: 1,
@@ -7355,7 +7355,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////        24242424242242424242424242424242422424      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -7370,7 +7370,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7383,7 +7383,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7396,7 +7396,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7409,7 +7409,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7422,7 +7422,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7435,7 +7435,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7448,7 +7448,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7461,7 +7461,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7474,7 +7474,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7487,7 +7487,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7500,7 +7500,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7513,7 +7513,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7525,7 +7525,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7538,7 +7538,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7551,7 +7551,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7563,7 +7563,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7576,7 +7576,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7589,7 +7589,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7602,7 +7602,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7615,7 +7615,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7628,7 +7628,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7641,7 +7641,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7654,7 +7654,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7666,7 +7666,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7679,7 +7679,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7691,7 +7691,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7704,7 +7704,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7717,7 +7717,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7729,7 +7729,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7742,7 +7742,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7755,7 +7755,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7768,7 +7768,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7781,7 +7781,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7794,7 +7794,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7805,7 +7805,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7818,7 +7818,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7831,7 +7831,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7844,7 +7844,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7857,7 +7857,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7868,7 +7868,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7881,7 +7881,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7894,7 +7894,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7905,7 +7905,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7916,7 +7916,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7927,7 +7927,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7939,7 +7939,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7952,7 +7952,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7964,7 +7964,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7977,7 +7977,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -7989,7 +7989,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8001,7 +8001,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8013,7 +8013,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8025,7 +8025,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8037,7 +8037,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8048,7 +8048,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8059,7 +8059,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8071,7 +8071,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8083,7 +8083,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8095,7 +8095,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8106,7 +8106,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8118,7 +8118,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8130,7 +8130,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8142,7 +8142,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8154,7 +8154,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8166,7 +8166,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8178,7 +8178,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ХАЕЙ САРА(Жизнь Сары)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 24,
     id_chapter_two: 1,
@@ -8190,7 +8190,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////          25252525252522525252525252        \\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -8203,7 +8203,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8216,7 +8216,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8229,7 +8229,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8242,7 +8242,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8253,7 +8253,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8266,7 +8266,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8278,7 +8278,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8291,7 +8291,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8304,7 +8304,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8317,7 +8317,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8330,7 +8330,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8343,7 +8343,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8356,7 +8356,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8367,7 +8367,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8378,7 +8378,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8391,7 +8391,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8404,7 +8404,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ХАЕЙ САРА (Жизнь Сары)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 1,
@@ -8418,7 +8418,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////     252525252525252525    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -8432,7 +8432,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8444,7 +8444,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8457,7 +8457,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8470,7 +8470,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8483,7 +8483,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8495,7 +8495,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8508,7 +8508,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8521,7 +8521,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8534,7 +8534,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8547,7 +8547,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8559,7 +8559,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8572,7 +8572,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8583,7 +8583,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8595,7 +8595,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8608,7 +8608,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомки)",
+    chapter: "ТОЛЬДОТ (Потомки)",
     id_book: 0,
     id_chapter: 25,
     id_chapter_two: 2,
@@ -8622,7 +8622,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////////////////       262626262626626262662626   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -8637,7 +8637,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8650,7 +8650,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8663,7 +8663,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8676,7 +8676,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8689,7 +8689,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8700,7 +8700,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8713,7 +8713,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8726,7 +8726,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8739,7 +8739,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8752,7 +8752,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8765,7 +8765,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8778,7 +8778,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8791,7 +8791,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8804,7 +8804,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8817,7 +8817,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8830,7 +8830,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8842,7 +8842,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8855,7 +8855,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8868,7 +8868,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8881,7 +8881,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8894,7 +8894,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8907,7 +8907,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8918,7 +8918,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8931,7 +8931,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8944,7 +8944,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8957,7 +8957,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8970,7 +8970,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8983,7 +8983,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -8996,7 +8996,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9007,7 +9007,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9020,7 +9020,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9033,7 +9033,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9046,7 +9046,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9059,7 +9059,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 26,
     id_chapter_two: 1,
@@ -9071,7 +9071,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////      2727272727272272772722727272277272         /////////////////////////////////
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -9086,7 +9086,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9097,7 +9097,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9110,7 +9110,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9123,7 +9123,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9136,7 +9136,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9149,7 +9149,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9161,7 +9161,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9173,7 +9173,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9186,7 +9186,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9199,7 +9199,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9212,7 +9212,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9225,7 +9225,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9238,7 +9238,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9251,7 +9251,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9264,7 +9264,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9276,7 +9276,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9288,7 +9288,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9301,7 +9301,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9314,7 +9314,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9327,7 +9327,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9340,7 +9340,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9353,7 +9353,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9366,7 +9366,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9377,7 +9377,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9390,7 +9390,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9403,7 +9403,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9417,7 +9417,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9431,7 +9431,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9445,7 +9445,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9459,7 +9459,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9473,7 +9473,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9487,7 +9487,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9501,7 +9501,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9515,7 +9515,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9527,7 +9527,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9540,7 +9540,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9553,7 +9553,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9566,7 +9566,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9579,7 +9579,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9592,7 +9592,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9605,7 +9605,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9618,7 +9618,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9631,7 +9631,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9644,7 +9644,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9657,7 +9657,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ТОЛЬДОТ(Потомство)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 27,
     id_chapter_two: 1,
@@ -9672,7 +9672,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -9687,7 +9687,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9700,7 +9700,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9713,7 +9713,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9726,7 +9726,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9739,7 +9739,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9752,7 +9752,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9764,7 +9764,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9776,7 +9776,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ТОЛЬДОТ (Потомство)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 1,
@@ -9790,7 +9790,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////        282828282828282828282822828     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -9803,7 +9803,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9816,7 +9816,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9829,7 +9829,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9842,7 +9842,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9855,7 +9855,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9868,7 +9868,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9881,7 +9881,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9894,7 +9894,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9907,7 +9907,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9920,7 +9920,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9933,7 +9933,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9946,7 +9946,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 28,
     id_chapter_two: 2,
@@ -9960,7 +9960,7 @@ const objBeresheet: Verse[] = [
   //////////////////////////////////////           292929292929229292922929292   \ \\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -9973,7 +9973,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -9986,7 +9986,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -9999,7 +9999,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10012,7 +10012,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10025,7 +10025,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10038,7 +10038,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10051,7 +10051,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10064,7 +10064,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10077,7 +10077,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10090,7 +10090,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10101,7 +10101,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10114,7 +10114,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10127,7 +10127,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10140,7 +10140,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10153,7 +10153,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10166,7 +10166,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10178,7 +10178,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10191,7 +10191,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10204,7 +10204,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10217,7 +10217,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10230,7 +10230,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10242,7 +10242,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10255,7 +10255,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10268,7 +10268,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10281,7 +10281,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10294,7 +10294,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10307,7 +10307,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10320,7 +10320,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10333,7 +10333,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10346,7 +10346,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10359,7 +10359,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10372,7 +10372,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10385,7 +10385,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10398,7 +10398,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 29,
     id_chapter_two: 1,
@@ -10412,7 +10412,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////     30303030303030303030303030303030     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -10427,7 +10427,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10440,7 +10440,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10453,7 +10453,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10465,7 +10465,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10476,7 +10476,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10489,7 +10489,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10502,7 +10502,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10515,7 +10515,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10528,7 +10528,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10539,7 +10539,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10550,7 +10550,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10561,7 +10561,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10574,7 +10574,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10587,7 +10587,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10600,7 +10600,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10613,7 +10613,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10625,7 +10625,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10638,7 +10638,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10649,7 +10649,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10662,7 +10662,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10673,7 +10673,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10686,7 +10686,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10699,7 +10699,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10713,7 +10713,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10726,7 +10726,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10739,7 +10739,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10752,7 +10752,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10763,7 +10763,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10776,7 +10776,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10789,7 +10789,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10802,7 +10802,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10815,7 +10815,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10828,7 +10828,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10839,7 +10839,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10852,7 +10852,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10865,7 +10865,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10878,7 +10878,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10891,7 +10891,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10904,7 +10904,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10917,7 +10917,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10930,7 +10930,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10943,7 +10943,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 30,
     id_chapter_two: 1,
@@ -10958,7 +10958,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -10973,7 +10973,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -10986,7 +10986,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -10999,7 +10999,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11012,7 +11012,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11025,7 +11025,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11037,7 +11037,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11050,7 +11050,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11063,7 +11063,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11074,7 +11074,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11087,7 +11087,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11100,7 +11100,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11113,7 +11113,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11126,7 +11126,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11139,7 +11139,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11151,7 +11151,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11164,7 +11164,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11176,7 +11176,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11189,7 +11189,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11202,7 +11202,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11214,7 +11214,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11227,7 +11227,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11238,7 +11238,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11251,7 +11251,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11264,7 +11264,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11277,7 +11277,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11290,7 +11290,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11303,7 +11303,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11316,7 +11316,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11329,7 +11329,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11342,7 +11342,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11355,7 +11355,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11368,7 +11368,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11381,7 +11381,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11394,7 +11394,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11407,7 +11407,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11420,7 +11420,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11433,7 +11433,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11446,7 +11446,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11459,7 +11459,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11472,7 +11472,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11485,7 +11485,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11498,7 +11498,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11511,7 +11511,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11524,7 +11524,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11535,7 +11535,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11548,7 +11548,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11561,7 +11561,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11574,7 +11574,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11587,7 +11587,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11600,7 +11600,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11613,7 +11613,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11626,7 +11626,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11639,7 +11639,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 31,
     id_chapter_two: 1,
@@ -11654,7 +11654,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -11669,7 +11669,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11681,7 +11681,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕЦЕ(И вышел)",
+    chapter: "ВАЙЕЦЕ (И вышел)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 1,
@@ -11695,7 +11695,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////         323232323232323232323232323232323232      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -11710,7 +11710,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11723,7 +11723,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11736,7 +11736,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11749,7 +11749,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11762,7 +11762,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11775,7 +11775,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11788,7 +11788,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11801,7 +11801,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11814,7 +11814,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11827,7 +11827,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11840,7 +11840,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11852,7 +11852,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11865,7 +11865,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11878,7 +11878,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11891,7 +11891,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11904,7 +11904,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11917,7 +11917,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11930,7 +11930,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11942,7 +11942,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11955,7 +11955,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11967,7 +11967,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11979,7 +11979,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -11992,7 +11992,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12005,7 +12005,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12016,7 +12016,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12029,7 +12029,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12042,7 +12042,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12055,7 +12055,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12068,7 +12068,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И ПОСЛАЛ)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 32,
     id_chapter_two: 2,
@@ -12082,7 +12082,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////         33333333333333333333333333333         \\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -12097,7 +12097,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12110,7 +12110,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12123,7 +12123,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12136,7 +12136,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12149,7 +12149,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12161,7 +12161,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12174,7 +12174,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12187,7 +12187,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12198,7 +12198,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12211,7 +12211,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12224,7 +12224,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12236,7 +12236,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12249,7 +12249,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12262,7 +12262,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12275,7 +12275,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12288,7 +12288,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12301,7 +12301,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12314,7 +12314,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 33,
     id_chapter_two: 1,
@@ -12327,7 +12327,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////      34343434343343434343343434     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -12342,7 +12342,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12355,7 +12355,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12368,7 +12368,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12380,7 +12380,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12393,7 +12393,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12404,7 +12404,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12417,7 +12417,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12430,7 +12430,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12443,7 +12443,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12456,7 +12456,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12469,7 +12469,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12482,7 +12482,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12495,7 +12495,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12508,7 +12508,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12521,7 +12521,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12534,7 +12534,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12547,7 +12547,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12559,7 +12559,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12572,7 +12572,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12585,7 +12585,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12598,7 +12598,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12611,7 +12611,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12624,7 +12624,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12637,7 +12637,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12650,7 +12650,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12663,7 +12663,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12676,7 +12676,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12689,7 +12689,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12702,7 +12702,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12715,7 +12715,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 34,
     id_chapter_two: 1,
@@ -12728,7 +12728,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////      353535353535353535353535353535     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -12743,7 +12743,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12756,7 +12756,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12769,7 +12769,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12782,7 +12782,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12795,7 +12795,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12808,7 +12808,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12821,7 +12821,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12834,7 +12834,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12847,7 +12847,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12860,7 +12860,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12873,7 +12873,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12886,7 +12886,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12897,7 +12897,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12910,7 +12910,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12922,7 +12922,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12935,7 +12935,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12948,7 +12948,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12961,7 +12961,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12974,7 +12974,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12987,7 +12987,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -12999,7 +12999,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13012,7 +13012,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13025,7 +13025,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13036,7 +13036,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13047,7 +13047,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13060,7 +13060,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13071,7 +13071,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 35,
     id_chapter_two: 1,
@@ -13085,7 +13085,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////         3636363636363636363636363636        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -13098,7 +13098,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13111,7 +13111,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13122,7 +13122,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13134,7 +13134,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13147,7 +13147,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13160,7 +13160,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13173,7 +13173,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13184,7 +13184,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13196,7 +13196,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13209,7 +13209,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13221,7 +13221,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13234,7 +13234,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13247,7 +13247,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13260,7 +13260,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13273,7 +13273,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13285,7 +13285,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13298,7 +13298,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13311,7 +13311,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13322,7 +13322,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13335,7 +13335,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13348,7 +13348,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13360,7 +13360,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13372,7 +13372,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13385,7 +13385,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13396,7 +13396,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13408,7 +13408,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13419,7 +13419,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13430,7 +13430,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13443,7 +13443,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13456,7 +13456,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13469,7 +13469,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13482,7 +13482,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13494,7 +13494,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13506,7 +13506,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13519,7 +13519,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13530,7 +13530,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13542,7 +13542,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13554,7 +13554,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13567,7 +13567,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13580,7 +13580,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13591,7 +13591,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13602,7 +13602,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИШЛАХ(И послал)",
+    chapter: "ВАИШЛАХ (И ПОСЛАЛ)",
     id_book: 0,
     id_chapter: 36,
     id_chapter_two: 1,
@@ -13616,7 +13616,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////         37373737373737373737373737        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -13629,7 +13629,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13642,7 +13642,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13655,7 +13655,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13668,7 +13668,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13681,7 +13681,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13693,7 +13693,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13706,7 +13706,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13719,7 +13719,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13732,7 +13732,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13745,7 +13745,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13756,7 +13756,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13767,7 +13767,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13780,7 +13780,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13793,7 +13793,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13806,7 +13806,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13819,7 +13819,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13832,7 +13832,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13845,7 +13845,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13857,7 +13857,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13870,7 +13870,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13883,7 +13883,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13896,7 +13896,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13909,7 +13909,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13921,7 +13921,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13934,7 +13934,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13947,7 +13947,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13960,7 +13960,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13973,7 +13973,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13986,7 +13986,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -13998,7 +13998,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14011,7 +14011,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14024,7 +14024,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14037,7 +14037,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14050,7 +14050,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14063,7 +14063,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 37,
     id_chapter_two: 1,
@@ -14077,7 +14077,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////////////////         38383838383838383838383838383838          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -14092,7 +14092,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14105,7 +14105,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14116,7 +14116,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14127,7 +14127,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14140,7 +14140,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14151,7 +14151,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14164,7 +14164,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14177,7 +14177,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14190,7 +14190,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14202,7 +14202,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14215,7 +14215,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14228,7 +14228,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14240,7 +14240,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14253,7 +14253,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14266,7 +14266,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14279,7 +14279,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14292,7 +14292,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14305,7 +14305,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14318,7 +14318,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14331,7 +14331,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14344,7 +14344,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14357,7 +14357,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14370,7 +14370,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14383,7 +14383,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14396,7 +14396,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14409,7 +14409,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14420,7 +14420,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14433,7 +14433,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14446,7 +14446,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14459,7 +14459,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 38,
     id_chapter_two: 1,
@@ -14471,7 +14471,7 @@ const objBeresheet: Verse[] = [
   ////////////////////////////////         39393939393939393939339393933939        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -14486,7 +14486,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14499,7 +14499,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14512,7 +14512,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14525,7 +14525,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14538,7 +14538,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14551,7 +14551,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14564,7 +14564,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14577,7 +14577,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14590,7 +14590,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14603,7 +14603,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14616,7 +14616,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14629,7 +14629,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14641,7 +14641,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14654,7 +14654,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14667,7 +14667,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14678,7 +14678,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14691,7 +14691,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14704,7 +14704,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14717,7 +14717,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14730,7 +14730,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14743,7 +14743,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14756,7 +14756,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 39,
     id_chapter_two: 1,
@@ -14770,7 +14770,7 @@ const objBeresheet: Verse[] = [
   ///////////////////////////////////////////////////             404040404040400404040404040040040       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -14785,7 +14785,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14798,7 +14798,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14811,7 +14811,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14824,7 +14824,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14837,7 +14837,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14849,7 +14849,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14862,7 +14862,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14875,7 +14875,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14888,7 +14888,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14901,7 +14901,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14914,7 +14914,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14926,7 +14926,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14939,7 +14939,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14952,7 +14952,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14965,7 +14965,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14978,7 +14978,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -14991,7 +14991,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15003,7 +15003,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15016,7 +15016,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15029,7 +15029,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15042,7 +15042,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15053,7 +15053,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕШЕВ(И поселился)",
+    chapter: "ВАЙЕШЕВ (И поселился)",
     id_book: 0,
     id_chapter: 40,
     id_chapter_two: 1,
@@ -15066,7 +15066,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    414141414141141411414114141411441     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -15081,7 +15081,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15094,7 +15094,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15107,7 +15107,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15120,7 +15120,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15133,7 +15133,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15146,7 +15146,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15159,7 +15159,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15172,7 +15172,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15185,7 +15185,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15198,7 +15198,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15210,7 +15210,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15223,7 +15223,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15236,7 +15236,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15249,7 +15249,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15262,7 +15262,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15275,7 +15275,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15288,7 +15288,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15301,7 +15301,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15314,7 +15314,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15326,7 +15326,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15339,7 +15339,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15352,7 +15352,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15365,7 +15365,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15378,7 +15378,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15391,7 +15391,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15404,7 +15404,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15417,7 +15417,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15429,7 +15429,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15442,7 +15442,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15454,7 +15454,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15467,7 +15467,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15480,7 +15480,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15493,7 +15493,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15506,7 +15506,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15519,7 +15519,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15532,7 +15532,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15544,7 +15544,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15557,7 +15557,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15570,7 +15570,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15583,7 +15583,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15596,7 +15596,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15609,7 +15609,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15622,7 +15622,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15635,7 +15635,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15648,7 +15648,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15661,7 +15661,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15672,7 +15672,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15685,7 +15685,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15698,7 +15698,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15711,7 +15711,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15724,7 +15724,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15737,7 +15737,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15750,7 +15750,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15763,7 +15763,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15776,7 +15776,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 41,
     id_chapter_two: 1,
@@ -15790,7 +15790,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    42424242424242424242424244242424     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -15805,7 +15805,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15818,7 +15818,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15829,7 +15829,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15842,7 +15842,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15855,7 +15855,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15868,7 +15868,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15881,7 +15881,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15892,7 +15892,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15905,7 +15905,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15918,7 +15918,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15931,7 +15931,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15943,7 +15943,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15956,7 +15956,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15968,7 +15968,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15981,7 +15981,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -15994,7 +15994,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16005,7 +16005,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16018,7 +16018,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16031,7 +16031,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16044,7 +16044,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16057,7 +16057,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16070,7 +16070,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16083,7 +16083,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16096,7 +16096,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16109,7 +16109,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16121,7 +16121,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16134,7 +16134,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16147,7 +16147,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16160,7 +16160,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16174,7 +16174,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16187,7 +16187,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16200,7 +16200,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16214,7 +16214,7 @@ const objBeresheet: Verse[] = [
 
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16227,7 +16227,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16240,7 +16240,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16253,7 +16253,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16266,7 +16266,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 42,
     id_chapter_two: 1,
@@ -16280,7 +16280,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    4343434343434343434343434343434343434     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -16293,7 +16293,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16306,7 +16306,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16319,7 +16319,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16332,7 +16332,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16345,7 +16345,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16358,7 +16358,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16371,7 +16371,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16384,7 +16384,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16397,7 +16397,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16409,7 +16409,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16422,7 +16422,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16435,7 +16435,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16446,7 +16446,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16459,7 +16459,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16472,7 +16472,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16485,7 +16485,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16498,7 +16498,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16511,7 +16511,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16524,7 +16524,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16537,7 +16537,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16550,7 +16550,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16563,7 +16563,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16576,7 +16576,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16589,7 +16589,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16602,7 +16602,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16615,7 +16615,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16628,7 +16628,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16641,7 +16641,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16654,7 +16654,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16667,7 +16667,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16680,7 +16680,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16693,7 +16693,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16706,7 +16706,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 43,
     id_chapter_two: 1,
@@ -16720,7 +16720,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    44444444444444444444444444444444444     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -16735,7 +16735,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16748,7 +16748,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16759,7 +16759,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16772,7 +16772,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16785,7 +16785,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16796,7 +16796,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16809,7 +16809,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16822,7 +16822,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16835,7 +16835,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16848,7 +16848,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16861,7 +16861,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16874,7 +16874,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16887,7 +16887,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16900,7 +16900,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16913,7 +16913,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16926,7 +16926,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "МИКЕЦ (И поселился)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 1,
@@ -16940,7 +16940,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    44444444444444444444444444444444444     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -16953,7 +16953,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -16967,7 +16967,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -16980,7 +16980,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -16993,7 +16993,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17006,7 +17006,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17019,7 +17019,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17032,7 +17032,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17044,7 +17044,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17057,7 +17057,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17070,7 +17070,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17083,7 +17083,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17096,7 +17096,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17109,7 +17109,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17122,7 +17122,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17135,7 +17135,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17148,7 +17148,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "МИКЕЦ(И поселился)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 44,
     id_chapter_two: 2,
@@ -17162,7 +17162,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    4545454545454545454545454544545454545     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -17177,7 +17177,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17190,7 +17190,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17203,7 +17203,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17216,7 +17216,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17229,7 +17229,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17242,7 +17242,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17255,7 +17255,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17268,7 +17268,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17281,7 +17281,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17294,7 +17294,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17307,7 +17307,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17320,7 +17320,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17333,7 +17333,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17346,7 +17346,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17359,7 +17359,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17372,7 +17372,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17385,7 +17385,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17398,7 +17398,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17411,7 +17411,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17424,7 +17424,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17437,7 +17437,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17450,7 +17450,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17463,7 +17463,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17476,7 +17476,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17489,7 +17489,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17502,7 +17502,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17515,7 +17515,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 45,
     id_chapter_two: 1,
@@ -17529,7 +17529,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    46464646464646464646464646464646464464646     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -17544,7 +17544,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17557,7 +17557,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17570,7 +17570,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17583,7 +17583,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17596,7 +17596,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17609,7 +17609,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17622,7 +17622,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17634,7 +17634,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17646,7 +17646,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17659,7 +17659,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17670,7 +17670,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17683,7 +17683,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17694,7 +17694,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17705,7 +17705,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17718,7 +17718,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17730,7 +17730,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17743,7 +17743,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17756,7 +17756,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17767,7 +17767,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17780,7 +17780,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17793,7 +17793,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17805,7 +17805,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17816,7 +17816,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17827,7 +17827,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17840,7 +17840,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17853,7 +17853,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17866,7 +17866,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17879,7 +17879,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17892,7 +17892,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17905,7 +17905,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17918,7 +17918,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17931,7 +17931,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17942,7 +17942,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 46,
     id_chapter_two: 1,
@@ -17956,7 +17956,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    4747474747474747474744747474747474747447474747     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -17971,7 +17971,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -17984,7 +17984,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -17997,7 +17997,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18010,7 +18010,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18022,7 +18022,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18035,7 +18035,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18048,7 +18048,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18059,7 +18059,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18072,7 +18072,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18083,7 +18083,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18096,7 +18096,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18109,7 +18109,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18122,7 +18122,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18135,7 +18135,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18148,7 +18148,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18161,7 +18161,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18174,7 +18174,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18187,7 +18187,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18200,7 +18200,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18213,7 +18213,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18226,7 +18226,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18239,7 +18239,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18252,7 +18252,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18265,7 +18265,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18278,7 +18278,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18291,7 +18291,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАИГАШ(И подступил)",
+    chapter: "ВАИГАШ (И подступил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 1,
@@ -18305,7 +18305,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    4747474747474747474744747474747474747447474747     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -18320,7 +18320,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 2,
@@ -18333,7 +18333,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 2,
@@ -18346,7 +18346,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 47,
     id_chapter_two: 2,
@@ -18360,7 +18360,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////    48484848484848484844884484848484      \\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -18375,7 +18375,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18388,7 +18388,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18401,7 +18401,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18414,7 +18414,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18427,7 +18427,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18440,7 +18440,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18453,7 +18453,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18464,7 +18464,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18477,7 +18477,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18490,7 +18490,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18503,7 +18503,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18516,7 +18516,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18529,7 +18529,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18542,7 +18542,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18555,7 +18555,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18568,7 +18568,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18581,7 +18581,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18594,7 +18594,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18607,7 +18607,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18620,7 +18620,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18633,7 +18633,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 48,
     id_chapter_two: 1,
@@ -18647,7 +18647,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    494949494949494949494949494944949     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -18662,7 +18662,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18675,7 +18675,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18688,7 +18688,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18701,7 +18701,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18712,7 +18712,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18725,7 +18725,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18738,7 +18738,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18751,7 +18751,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18764,7 +18764,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18777,7 +18777,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18790,7 +18790,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18801,7 +18801,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18814,7 +18814,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18825,7 +18825,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18838,7 +18838,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18849,7 +18849,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18862,7 +18862,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18873,7 +18873,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18884,7 +18884,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18895,7 +18895,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18906,7 +18906,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18919,7 +18919,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18930,7 +18930,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18943,7 +18943,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18956,7 +18956,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18969,7 +18969,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18982,7 +18982,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -18995,7 +18995,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -19008,7 +19008,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -19021,7 +19021,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -19034,7 +19034,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -19046,7 +19046,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 49,
     id_chapter_two: 1,
@@ -19060,7 +19060,7 @@ const objBeresheet: Verse[] = [
   /////////////////////////////////////    505050505050505050505050505050505050     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     main: 1,
     main_name: "beresheet",
     id_book: 0,
@@ -19074,7 +19074,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19087,7 +19087,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19100,7 +19100,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19113,7 +19113,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19126,7 +19126,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19139,7 +19139,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19152,7 +19152,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19165,7 +19165,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19178,7 +19178,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19191,7 +19191,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19204,7 +19204,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19215,7 +19215,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19228,7 +19228,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19241,7 +19241,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19254,7 +19254,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19266,7 +19266,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19279,7 +19279,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19292,7 +19292,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19304,7 +19304,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19317,7 +19317,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19330,7 +19330,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19343,7 +19343,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19356,7 +19356,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19369,7 +19369,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
@@ -19382,7 +19382,7 @@ const objBeresheet: Verse[] = [
   },
   {
     name: "БЕРЕШИТ",
-    chapter: "ВАЙЕХИ(И жил)",
+    chapter: "ВАЙЕХИ (И жил)",
     id_book: 0,
     id_chapter: 50,
     id_chapter_two: 1,
