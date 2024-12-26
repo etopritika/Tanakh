@@ -2,7 +2,7 @@ const dvarimChapters = [
   {
     key: 1,
     subKey: 1,
-    chapterName: "ДВАРИМ(Слова)",
+    chapterName: "ДВАРИМ (Слова)",
     start: 0,
     end: 45,
     verses: 46,
@@ -10,7 +10,7 @@ const dvarimChapters = [
   {
     key: 2,
     subKey: 1,
-    chapterName: "ДВАРИМ(Слова)",
+    chapterName: "ДВАРИМ (Слова)",
     start: 46,
     end: 82,
     verses: 37,
@@ -18,7 +18,7 @@ const dvarimChapters = [
   {
     key: 3,
     subKey: 1,
-    chapterName: "ДВАРИМ(Слова)",
+    chapterName: "ДВАРИМ (Слова)",
     start: 83,
     end: 104,
     verses: 22,
@@ -26,7 +26,7 @@ const dvarimChapters = [
   {
     key: 3,
     subKey: 2,
-    chapterName: "ВАЭТХАНАН(И молил)",
+    chapterName: "ВАЭТХАНАН (И молил)",
     start: 105,
     end: 111,
     verses: 7,
@@ -34,7 +34,7 @@ const dvarimChapters = [
   {
     key: 4,
     subKey: 1,
-    chapterName: "ВАЭТХАНАН(И молил)",
+    chapterName: "ВАЭТХАНАН (И молил)",
     start: 112,
     end: 160,
     verses: 49,
@@ -42,7 +42,7 @@ const dvarimChapters = [
   {
     key: 5,
     subKey: 1,
-    chapterName: "ВАЭТХАНАН(И молил)",
+    chapterName: "ВАЭТХАНАН (И молил)",
     start: 161,
     end: 190,
     verses: 30,
@@ -50,7 +50,7 @@ const dvarimChapters = [
   {
     key: 6,
     subKey: 1,
-    chapterName: "ВАЭТХАНАН(И молил)",
+    chapterName: "ВАЭТХАНАН (И молил)",
     start: 191,
     end: 215,
     verses: 25,
@@ -58,7 +58,7 @@ const dvarimChapters = [
   {
     key: 7,
     subKey: 1,
-    chapterName: "ВАЭТХАНАН(И молил)",
+    chapterName: "ВАЭТХАНАН (И молил)",
     start: 216,
     end: 226,
     verses: 11,

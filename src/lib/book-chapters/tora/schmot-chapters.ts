@@ -2,7 +2,7 @@ const schmotChapters = [
   {
     key: 1,
     subKey: 1,
-    chapterName: "ШМОТ(Имена)",
+    chapterName: "ШМОТ (Имена)",
     start: 0,
     end: 21,
     verses: 22,
@@ -10,7 +10,7 @@ const schmotChapters = [
   {
     key: 2,
     subKey: 1,
-    chapterName: "ШМОТ(Имена)",
+    chapterName: "ШМОТ (Имена)",
     start: 22,
     end: 46,
     verses: 25,
@@ -18,7 +18,7 @@ const schmotChapters = [
   {
     key: 3,
     subKey: 1,
-    chapterName: "ШМОТ(Имена)",
+    chapterName: "ШМОТ (Имена)",
     start: 47,
     end: 68,
     verses: 22,
@@ -26,7 +26,7 @@ const schmotChapters = [
   {
     key: 4,
     subKey: 1,
-    chapterName: "ШМОТ(Имена)",
+    chapterName: "ШМОТ (Имена)",
     start: 69,
     end: 99,
     verses: 31,
@@ -34,7 +34,7 @@ const schmotChapters = [
   {
     key: 5,
     subKey: 1,
-    chapterName: "ШМОТ(Имена)",
+    chapterName: "ШМОТ (Имена)",
     start: 100,
     end: 122,
     verses: 23,
@@ -42,7 +42,7 @@ const schmotChapters = [
   {
     key: 6,
     subKey: 1,
-    chapterName: "ШМОТ(Имена)",
+    chapterName: "ШМОТ (Имена)",
     start: 123,
     end: 123,
     verses: 1,
@@ -50,7 +50,7 @@ const schmotChapters = [
   {
     key: 6,
     subKey: 2,
-    chapterName: "ВАЭРА(И явился Я)",
+    chapterName: "ВАЭРА (И явился Я)",
     start: 124,
     end: 152,
     verses: 29,
@@ -58,7 +58,7 @@ const schmotChapters = [
   {
     key: 7,
     subKey: 1,
-    chapterName: "ВАЭРА(И явился Я)",
+    chapterName: "ВАЭРА (И явился Я)",
     start: 153,
     end: 181,
     verses: 29,
@@ -66,7 +66,7 @@ const schmotChapters = [
   {
     key: 8,
     subKey: 1,
-    chapterName: "ВАЭРА(И явился Я)",
+    chapterName: "ВАЭРА (И явился Я)",
     start: 182,
     end: 209,
     verses: 28,
@@ -74,7 +74,7 @@ const schmotChapters = [
   {
     key: 9,
     subKey: 1,
-    chapterName: "ВАЭРА(И явился Я)",
+    chapterName: "ВАЭРА (И явился Я)",
     start: 210,
     end: 244,
     verses: 35,
@@ -82,7 +82,7 @@ const schmotChapters = [
   {
     key: 10,
     subKey: 1,
-    chapterName: "БО(Пойди)",
+    chapterName: "ВАЭРА (Пойди)",
     start: 245,
     end: 255,
     verses: 11,
@@ -90,7 +90,7 @@ const schmotChapters = [
   {
     key: 10,
     subKey: 2,
-    chapterName: "БО(Пойди)",
+    chapterName: "БО (Пойди)",
     start: 256,
     end: 273,
     verses: 18,
@@ -98,7 +98,7 @@ const schmotChapters = [
   {
     key: 11,
     subKey: 1,
-    chapterName: "БО(Пойди)",
+    chapterName: "БО (Пойди)",
     start: 274,
     end: 283,
     verses: 10,
@@ -106,7 +106,7 @@ const schmotChapters = [
   {
     key: 12,
     subKey: 1,
-    chapterName: "БО(Пойди)",
+    chapterName: "БО (Пойди)",
     start: 284,
     end: 334,
     verses: 51,
@@ -114,7 +114,7 @@ const schmotChapters = [
   {
     key: 13,
     subKey: 1,
-    chapterName: "БО(Пойди)",
+    chapterName: "БО (Пойди)",
     start: 335,
     end: 350,
     verses: 16,
@@ -122,7 +122,7 @@ const schmotChapters = [
   {
     key: 13,
     subKey: 2,
-    chapterName: "БЕШАЛАХ(Когда отпустил)",
+    chapterName: "БЕШАЛАХ (Когда отпустил)",
     start: 351,
     end: 356,
     verses: 6,
@@ -130,7 +130,7 @@ const schmotChapters = [
   {
     key: 14,
     subKey: 1,
-    chapterName: "БЕШАЛАХ(Когда отпустил)",
+    chapterName: "БЕШАЛАХ (Когда отпустил)",
     start: 357,
     end: 387,
     verses: 31,
@@ -138,7 +138,7 @@ const schmotChapters = [
   {
     key: 15,
     subKey: 1,
-    chapterName: "БЕШАЛАХ(Когда отпустил)",
+    chapterName: "БЕШАЛАХ (Когда отпустил)",
     start: 388,
     end: 414,
     verses: 27,
@@ -146,7 +146,7 @@ const schmotChapters = [
   {
     key: 16,
     subKey: 1,
-    chapterName: "БЕШАЛАХ(Когда отпустил)",
+    chapterName: "БЕШАЛАХ (Когда отпустил)",
     start: 415,
     end: 449,
     verses: 35,
@@ -154,7 +154,7 @@ const schmotChapters = [
   {
     key: 17,
     subKey: 1,
-    chapterName: "БЕШАЛАХ(Когда отпустил)",
+    chapterName: "БЕШАЛАХ (Когда отпустил)",
     start: 450,
     end: 465,
     verses: 16,
@@ -162,7 +162,7 @@ const schmotChapters = [
   {
     key: 18,
     subKey: 1,
-    chapterName: "ИТРО(Итро)",
+    chapterName: "ИТРО (Итро)",
     start: 466,
     end: 492,
     verses: 27,
@@ -170,7 +170,7 @@ const schmotChapters = [
   {
     key: 19,
     subKey: 1,
-    chapterName: "ИТРО(Итро)",
+    chapterName: "ИТРО (Итро)",
     start: 493,
     end: 517,
     verses: 25,
@@ -178,7 +178,7 @@ const schmotChapters = [
   {
     key: 20,
     subKey: 1,
-    chapterName: "ИТРО(Итро)",
+    chapterName: "ИТРО (Итро)",
     start: 518,
     end: 539,
     verses: 22,
@@ -186,7 +186,7 @@ const schmotChapters = [
   {
     key: 21,
     subKey: 1,
-    chapterName: "МИШПАТИМ(Законы)",
+    chapterName: "МИШПАТИМ (Законы)",
     start: 540,
     end: 576,
     verses: 37,
@@ -194,7 +194,7 @@ const schmotChapters = [
   {
     key: 22,
     subKey: 1,
-    chapterName: "МИШПАТИМ(Законы)",
+    chapterName: "МИШПАТИМ (Законы)",
     start: 577,
     end: 606,
     verses: 30,
@@ -202,7 +202,7 @@ const schmotChapters = [
   {
     key: 23,
     subKey: 1,
-    chapterName: "МИШПАТИМ(Законы)",
+    chapterName: "МИШПАТИМ (Законы)",
     start: 607,
     end: 639,
     verses: 33,
@@ -210,7 +210,7 @@ const schmotChapters = [
   {
     key: 24,
     subKey: 1,
-    chapterName: "МИШПАТИМ(Законы)",
+    chapterName: "МИШПАТИМ (Законы)",
     start: 640,
     end: 657,
     verses: 18,
@@ -218,7 +218,7 @@ const schmotChapters = [
   {
     key: 25,
     subKey: 1,
-    chapterName: "ТРУМА(Приношение)",
+    chapterName: "ТРУМА (Приношение)",
     start: 658,
     end: 697,
     verses: 40,
@@ -226,7 +226,7 @@ const schmotChapters = [
   {
     key: 26,
     subKey: 1,
-    chapterName: "ТРУМА(Приношение)",
+    chapterName: "ТРУМА (Приношение)",
     start: 698,
     end: 734,
     verses: 37,
@@ -234,7 +234,7 @@ const schmotChapters = [
   {
     key: 27,
     subKey: 1,
-    chapterName: "ТРУМА(Приношение)",
+    chapterName: "ТРУМА (Приношение)",
     start: 735,
     end: 753,
     verses: 19,
@@ -242,7 +242,7 @@ const schmotChapters = [
   {
     key: 27,
     subKey: 2,
-    chapterName: "ТЕЦАВЕ(Повели)",
+    chapterName: "ТЕЦАВЕ (Повели)",
     start: 754,
     end: 755,
     verses: 2,
@@ -250,7 +250,7 @@ const schmotChapters = [
   {
     key: 28,
     subKey: 1,
-    chapterName: "ТЕЦАВЕ(Повели)",
+    chapterName: "ТЕЦАВЕ (Повели)",
     start: 756,
     end: 798,
     verses: 43,
@@ -258,7 +258,7 @@ const schmotChapters = [
   {
     key: 29,
     subKey: 1,
-    chapterName: "ТЕЦАВЕ(Повели)",
+    chapterName: "ТЕЦАВЕ (Повели)",
     start: 799,
     end: 844,
     verses: 46,
@@ -266,7 +266,7 @@ const schmotChapters = [
   {
     key: 30,
     subKey: 1,
-    chapterName: "ТЕЦАВЕ(Повели)",
+    chapterName: "ТЕЦАВЕ (Повели)",
     start: 845,
     end: 854,
     verses: 10,
@@ -274,7 +274,7 @@ const schmotChapters = [
   {
     key: 30,
     subKey: 2,
-    chapterName: "ТИСА(Когда поднимешь)",
+    chapterName: "ТИСА (Когда поднимешь)",
     start: 855,
     end: 882,
     verses: 28,
@@ -282,7 +282,7 @@ const schmotChapters = [
   {
     key: 31,
     subKey: 1,
-    chapterName: "ТИСА(Когда поднимешь)",
+    chapterName: "ТИСА (Когда поднимешь)",
     start: 883,
     end: 900,
     verses: 18,
@@ -290,7 +290,7 @@ const schmotChapters = [
   {
     key: 32,
     subKey: 1,
-    chapterName: "ТИСА(Когда поднимешь)",
+    chapterName: "ТИСА (Когда поднимешь)",
     start: 901,
     end: 935,
     verses: 35,
@@ -298,7 +298,7 @@ const schmotChapters = [
   {
     key: 33,
     subKey: 1,
-    chapterName: "ТИСА(Когда поднимешь)",
+    chapterName: "ТИСА (Когда поднимешь)",
     start: 936,
     end: 958,
     verses: 23,
@@ -306,7 +306,7 @@ const schmotChapters = [
   {
     key: 34,
     subKey: 1,
-    chapterName: "ТИСА(Когда поднимешь)",
+    chapterName: "ТИСА (Когда поднимешь)",
     start: 959,
     end: 993,
     verses: 35,
@@ -314,7 +314,7 @@ const schmotChapters = [
   {
     key: 35,
     subKey: 1,
-    chapterName: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapterName: "ВАЯКГЕЛЬ (И собрал общину)",
     start: 994,
     end: 1028,
     verses: 35,
@@ -322,7 +322,7 @@ const schmotChapters = [
   {
     key: 36,
     subKey: 1,
-    chapterName: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapterName: "ВАЯКГЕЛЬ (И собрал общину)",
     start: 1029,
     end: 1066,
     verses: 38,
@@ -330,7 +330,7 @@ const schmotChapters = [
   {
     key: 37,
     subKey: 1,
-    chapterName: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapterName: "ВАЯКГЕЛЬ (И собрал общину)",
     start: 1067,
     end: 1095,
     verses: 29,
@@ -338,7 +338,7 @@ const schmotChapters = [
   {
     key: 38,
     subKey: 1,
-    chapterName: "ВАЯКГЕЛЬ(И собрал общину)",
+    chapterName: "ВАЯКГЕЛЬ (И собрал общину)",
     start: 1096,
     end: 1115,
     verses: 20,
@@ -346,7 +346,7 @@ const schmotChapters = [
   {
     key: 38,
     subKey: 2,
-    chapterName: "ПЕКУДЕЙ(Отчёты)",
+    chapterName: "ПЕКУДЕЙ (Отчёты)",
     start: 1116,
     end: 1126,
     verses: 11,
@@ -354,7 +354,7 @@ const schmotChapters = [
   {
     key: 39,
     subKey: 1,
-    chapterName: "ПЕКУДЕЙ(Отчёты)",
+    chapterName: "ПЕКУДЕЙ (Отчёты)",
     start: 1127,
     end: 1169,
     verses: 43,
@@ -362,7 +362,7 @@ const schmotChapters = [
   {
     key: 40,
     subKey: 1,
-    chapterName: "ПЕКУДЕЙ(Отчёты)",
+    chapterName: "ПЕКУДЕЙ (Отчёты)",
     start: 1170,
     end: 1206,
     verses: 37,

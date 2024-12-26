@@ -2,7 +2,7 @@ const vaikraChapters = [
   {
     key: 1,
     subKey: 1,
-    chapterName: "ВАИКРА(И призвал)",
+    chapterName: "ВАИКРА (И призвал)",
     start: 0,
     end: 16,
     verses: 17,
@@ -10,7 +10,7 @@ const vaikraChapters = [
   {
     key: 2,
     subKey: 1,
-    chapterName: "ВАИКРА(И призвал)",
+    chapterName: "ВАИКРА (И призвал)",
     start: 17,
     end: 32,
     verses: 16,
@@ -18,7 +18,7 @@ const vaikraChapters = [
   {
     key: 3,
     subKey: 1,
-    chapterName: "ВАИКРА(И призвал)",
+    chapterName: "ВАИКРА (И призвал)",
     start: 33,
     end: 49,
     verses: 17,
@@ -26,7 +26,7 @@ const vaikraChapters = [
   {
     key: 4,
     subKey: 1,
-    chapterName: "ВАИКРА(И призвал)",
+    chapterName: "ВАИКРА (И призвал)",
     start: 50,
     end: 84,
     verses: 35,
@@ -34,7 +34,7 @@ const vaikraChapters = [
   {
     key: 5,
     subKey: 1,
-    chapterName: "ВАИКРА(И призвал)",
+    chapterName: "ВАИКРА (И призвал)",
     start: 85,
     end: 110,
     verses: 26,
@@ -42,7 +42,7 @@ const vaikraChapters = [
   {
     key: 6,
     subKey: 1,
-    chapterName: "ЦАВ(Прикажи)",
+    chapterName: "ЦАВ (Прикажи)",
     start: 111,
     end: 133,
     verses: 23,
@@ -50,7 +50,7 @@ const vaikraChapters = [
   {
     key: 7,
     subKey: 1,
-    chapterName: "ЦАВ(Прикажи)",
+    chapterName: "ЦАВ (Прикажи)",
     start: 134,
     end: 171,
     verses: 38,
@@ -58,7 +58,7 @@ const vaikraChapters = [
   {
     key: 8,
     subKey: 1,
-    chapterName: "ЦАВ(Прикажи)",
+    chapterName: "ЦАВ (Прикажи)",
     start: 172,
     end: 207,
     verses: 36,
@@ -66,7 +66,7 @@ const vaikraChapters = [
   {
     key: 9,
     subKey: 1,
-    chapterName: "ШМИНИ(Восьмой)",
+    chapterName: "ШМИНИ (Восьмой)",
     start: 208,
     end: 231,
     verses: 24,
@@ -74,7 +74,7 @@ const vaikraChapters = [
   {
     key: 10,
     subKey: 1,
-    chapterName: "ШМИНИ(Восьмой)",
+    chapterName: "ШМИНИ (Восьмой)",
     start: 232,
     end: 251,
     verses: 20,
@@ -82,7 +82,7 @@ const vaikraChapters = [
   {
     key: 11,
     subKey: 1,
-    chapterName: "ШМИНИ(Восьмой)",
+    chapterName: "ШМИНИ (Восьмой)",
     start: 252,
     end: 298,
     verses: 47,
@@ -90,7 +90,7 @@ const vaikraChapters = [
   {
     key: 12,
     subKey: 1,
-    chapterName: "ТАЗРИА(Когда зачнёт)",
+    chapterName: "ТАЗРИА (Когда зачнёт)",
     start: 299,
     end: 306,
     verses: 8,
@@ -98,7 +98,7 @@ const vaikraChapters = [
   {
     key: 13,
     subKey: 1,
-    chapterName: "ТАЗРИА(Когда зачнет)",
+    chapterName: "ТАЗРИА (Когда зачнет)",
     start: 307,
     end: 365,
     verses: 59,
@@ -106,7 +106,7 @@ const vaikraChapters = [
   {
     key: 14,
     subKey: 1,
-    chapterName: "МЕЦОРА(Прокажённый)",
+    chapterName: "МЕЦОРА (Прокажённый)",
     start: 366,
     end: 422,
     verses: 57,
@@ -114,7 +114,7 @@ const vaikraChapters = [
   {
     key: 15,
     subKey: 1,
-    chapterName: "МЕЦОРА(Прокажённый)",
+    chapterName: "МЕЦОРА (Прокажённый)",
     start: 423,
     end: 455,
     verses: 33,
@@ -122,7 +122,7 @@ const vaikraChapters = [
   {
     key: 16,
     subKey: 1,
-    chapterName: "АХАРЕЙ МОТ(После смерти)",
+    chapterName: "АХАРЕЙ МОТ (После смерти)",
     start: 456,
     end: 489,
     verses: 34,
@@ -130,7 +130,7 @@ const vaikraChapters = [
   {
     key: 17,
     subKey: 1,
-    chapterName: "АХАРЕЙ МОТ(После смерти)",
+    chapterName: "АХАРЕЙ МОТ (После смерти)",
     start: 490,
     end: 505,
     verses: 16,
@@ -138,7 +138,7 @@ const vaikraChapters = [
   {
     key: 18,
     subKey: 1,
-    chapterName: "АХАРЕЙ МОТ(После смерти)",
+    chapterName: "АХАРЕЙ МОТ (После смерти)",
     start: 506,
     end: 535,
     verses: 30,
@@ -146,7 +146,7 @@ const vaikraChapters = [
   {
     key: 19,
     subKey: 1,
-    chapterName: "КДОШИМ(Святые)",
+    chapterName: "КДОШИМ (Святые)",
     start: 536,
     end: 572,
     verses: 37,
@@ -154,7 +154,7 @@ const vaikraChapters = [
   {
     key: 20,
     subKey: 1,
-    chapterName: "КДОШИМ(Святые)",
+    chapterName: "КДОШИМ (Святые)",
     start: 573,
     end: 599,
     verses: 27,

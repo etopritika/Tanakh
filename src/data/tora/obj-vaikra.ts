@@ -4,7 +4,7 @@ const objVaikra: Verse[] = [
   ///////////////////////////        1111111111111111111111111          \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -18,7 +18,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -31,7 +31,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -44,7 +44,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -57,7 +57,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -70,7 +70,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -81,7 +81,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -94,7 +94,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -107,7 +107,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -120,7 +120,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -133,7 +133,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -146,7 +146,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -159,7 +159,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -172,7 +172,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -185,7 +185,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -198,7 +198,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -211,7 +211,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 1,
     id_chapter_two: 1,
@@ -225,7 +225,7 @@ const objVaikra: Verse[] = [
   //////////////////////////////////////                2222222222222222222222222222222            \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -240,7 +240,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -253,7 +253,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -266,7 +266,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -279,7 +279,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -292,7 +292,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -305,7 +305,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -318,7 +318,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -331,7 +331,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -344,7 +344,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -357,7 +357,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -370,7 +370,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -383,7 +383,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -396,7 +396,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -409,7 +409,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -422,7 +422,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 2,
     id_chapter_two: 1,
@@ -436,7 +436,7 @@ const objVaikra: Verse[] = [
   //////////////////////////////////////                33333333333333333333333333333333            \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -451,7 +451,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -464,7 +464,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -477,7 +477,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -490,7 +490,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -503,7 +503,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -516,7 +516,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -529,7 +529,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -542,7 +542,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -555,7 +555,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -568,7 +568,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -580,7 +580,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -592,7 +592,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -605,7 +605,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -618,7 +618,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -631,7 +631,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -644,7 +644,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 3,
     id_chapter_two: 1,
@@ -658,7 +658,7 @@ const objVaikra: Verse[] = [
   //////////////////////////////////////                44444444444444444444444444444            \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -671,7 +671,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -684,7 +684,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -697,7 +697,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -710,7 +710,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -723,7 +723,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -736,7 +736,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -749,7 +749,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -762,7 +762,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -775,7 +775,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -788,7 +788,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -801,7 +801,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -814,7 +814,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -827,7 +827,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -840,7 +840,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -853,7 +853,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -864,7 +864,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -877,7 +877,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -890,7 +890,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -903,7 +903,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -916,7 +916,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -929,7 +929,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -942,7 +942,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -955,7 +955,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -968,7 +968,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -981,7 +981,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -994,7 +994,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1007,7 +1007,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1020,7 +1020,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1033,7 +1033,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1046,7 +1046,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1059,7 +1059,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1072,7 +1072,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1085,7 +1085,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1098,7 +1098,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 4,
     id_chapter_two: 1,
@@ -1112,7 +1112,7 @@ const objVaikra: Verse[] = [
   //////////////////////////////////////                555555555555555555555555555555555            \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -1127,7 +1127,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1140,7 +1140,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1153,7 +1153,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1166,7 +1166,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1179,7 +1179,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1192,7 +1192,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1205,7 +1205,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1218,7 +1218,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1231,7 +1231,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1244,7 +1244,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1257,7 +1257,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1270,7 +1270,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1283,7 +1283,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1294,7 +1294,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1307,7 +1307,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1320,7 +1320,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1333,7 +1333,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1346,7 +1346,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1357,7 +1357,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1368,7 +1368,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1381,7 +1381,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1394,7 +1394,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1407,7 +1407,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1420,7 +1420,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1433,7 +1433,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ВАИКРА(И призвал)",
+    chapter: "ВАИКРА (И призвал)",
     id_book: 2,
     id_chapter: 5,
     id_chapter_two: 1,
@@ -1447,7 +1447,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           666666666666666666666666666666         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -1460,7 +1460,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1473,7 +1473,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1486,7 +1486,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1499,7 +1499,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1512,7 +1512,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1523,7 +1523,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1536,7 +1536,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1549,7 +1549,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1562,7 +1562,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1575,7 +1575,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1588,7 +1588,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1599,7 +1599,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1612,7 +1612,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1625,7 +1625,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1638,7 +1638,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1650,7 +1650,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1661,7 +1661,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1674,7 +1674,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1687,7 +1687,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1700,7 +1700,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1713,7 +1713,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1725,7 +1725,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 6,
     id_chapter_two: 1,
@@ -1739,7 +1739,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           7777777777777777777777777777777777777         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -1752,7 +1752,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1765,7 +1765,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1778,7 +1778,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1791,7 +1791,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1804,7 +1804,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1817,7 +1817,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1830,7 +1830,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1843,7 +1843,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1856,7 +1856,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1869,7 +1869,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1880,7 +1880,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1893,7 +1893,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1906,7 +1906,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1919,7 +1919,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1932,7 +1932,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1945,7 +1945,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1958,7 +1958,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1971,7 +1971,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1984,7 +1984,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -1997,7 +1997,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2010,7 +2010,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2021,7 +2021,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2034,7 +2034,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2047,7 +2047,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2060,7 +2060,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2073,7 +2073,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2086,7 +2086,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2097,7 +2097,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2110,7 +2110,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2123,7 +2123,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2136,7 +2136,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2148,7 +2148,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2161,7 +2161,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2174,7 +2174,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2187,7 +2187,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2200,7 +2200,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2213,7 +2213,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 7,
     id_chapter_two: 1,
@@ -2227,7 +2227,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           8888888888888888888888888888888888888         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -2240,7 +2240,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2253,7 +2253,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2264,7 +2264,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2277,7 +2277,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2290,7 +2290,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2302,7 +2302,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2315,7 +2315,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2327,7 +2327,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2340,7 +2340,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2353,7 +2353,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2366,7 +2366,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2379,7 +2379,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2392,7 +2392,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2405,7 +2405,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2418,7 +2418,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2431,7 +2431,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2444,7 +2444,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2457,7 +2457,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2469,7 +2469,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2482,7 +2482,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2495,7 +2495,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2508,7 +2508,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2521,7 +2521,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2534,7 +2534,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2547,7 +2547,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2560,7 +2560,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2573,7 +2573,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2586,7 +2586,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2599,7 +2599,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2612,7 +2612,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2625,7 +2625,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2636,7 +2636,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2649,7 +2649,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2662,7 +2662,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2675,7 +2675,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ЦАВ(Прикажи)",
+    chapter: "ЦАВ (Прикажи)",
     id_book: 2,
     id_chapter: 8,
     id_chapter_two: 1,
@@ -2689,7 +2689,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           99999999999999999999999999999999999         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -2704,7 +2704,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2717,7 +2717,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2730,7 +2730,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2743,7 +2743,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2756,7 +2756,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2769,7 +2769,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2782,7 +2782,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2795,7 +2795,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2808,7 +2808,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2821,7 +2821,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2833,7 +2833,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2846,7 +2846,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2859,7 +2859,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2872,7 +2872,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2885,7 +2885,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2897,7 +2897,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2910,7 +2910,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2923,7 +2923,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2936,7 +2936,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2949,7 +2949,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2962,7 +2962,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2975,7 +2975,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -2988,7 +2988,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 9,
     id_chapter_two: 1,
@@ -3002,7 +3002,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           1010101101010101010101010101010101010101010         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -3017,7 +3017,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3030,7 +3030,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3043,7 +3043,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3056,7 +3056,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3069,7 +3069,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3082,7 +3082,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3095,7 +3095,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3106,7 +3106,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3119,7 +3119,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3132,7 +3132,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3145,7 +3145,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3158,7 +3158,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3171,7 +3171,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3184,7 +3184,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3197,7 +3197,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3210,7 +3210,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3223,7 +3223,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3236,7 +3236,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3249,7 +3249,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 10,
     id_chapter_two: 1,
@@ -3261,7 +3261,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           11111111111111111111111111111111111111111111         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -3274,7 +3274,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3287,7 +3287,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3300,7 +3300,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3313,7 +3313,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3326,7 +3326,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3339,7 +3339,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3352,7 +3352,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3365,7 +3365,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3378,7 +3378,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3391,7 +3391,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3404,7 +3404,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3417,7 +3417,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3430,7 +3430,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3441,7 +3441,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3452,7 +3452,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3464,7 +3464,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3475,7 +3475,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3486,7 +3486,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3498,7 +3498,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3510,7 +3510,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3523,7 +3523,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3536,7 +3536,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3549,7 +3549,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3562,7 +3562,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3575,7 +3575,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3588,7 +3588,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3601,7 +3601,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3614,7 +3614,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3627,7 +3627,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3638,7 +3638,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3651,7 +3651,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3664,7 +3664,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3677,7 +3677,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3690,7 +3690,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3703,7 +3703,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3716,7 +3716,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3729,7 +3729,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3742,7 +3742,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3755,7 +3755,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3768,7 +3768,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3780,7 +3780,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3793,7 +3793,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3806,7 +3806,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3819,7 +3819,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3832,7 +3832,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3845,7 +3845,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ШМИНИ(Восьмой)",
+    chapter: "ШМИНИ (Восьмой)",
     id_book: 2,
     id_chapter: 11,
     id_chapter_two: 1,
@@ -3859,7 +3859,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           12121212121212121212121212121212         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -3872,7 +3872,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3885,7 +3885,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3896,7 +3896,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3909,7 +3909,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3922,7 +3922,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3935,7 +3935,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3948,7 +3948,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнёт)",
+    chapter: "ТАЗРИА (Когда зачнёт)",
     id_book: 2,
     id_chapter: 12,
     id_chapter_two: 1,
@@ -3962,7 +3962,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           131313131313131313131313131313         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -3975,7 +3975,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -3988,7 +3988,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4001,7 +4001,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4014,7 +4014,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4027,7 +4027,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4040,7 +4040,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4053,7 +4053,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4066,7 +4066,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4079,7 +4079,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4092,7 +4092,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4105,7 +4105,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4118,7 +4118,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4131,7 +4131,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4143,7 +4143,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4156,7 +4156,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4169,7 +4169,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4182,7 +4182,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4193,7 +4193,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4206,7 +4206,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4219,7 +4219,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4232,7 +4232,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4245,7 +4245,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4258,7 +4258,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4271,7 +4271,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4284,7 +4284,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4297,7 +4297,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4310,7 +4310,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4323,7 +4323,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4336,7 +4336,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4349,7 +4349,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4362,7 +4362,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4375,7 +4375,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4388,7 +4388,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4401,7 +4401,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4413,7 +4413,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4426,7 +4426,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4439,7 +4439,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4451,7 +4451,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4464,7 +4464,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4477,7 +4477,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4490,7 +4490,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4503,7 +4503,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4516,7 +4516,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4529,7 +4529,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4542,7 +4542,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4555,7 +4555,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4568,7 +4568,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4581,7 +4581,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4594,7 +4594,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4607,7 +4607,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4620,7 +4620,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4633,7 +4633,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4646,7 +4646,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4659,7 +4659,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4672,7 +4672,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4685,7 +4685,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4698,7 +4698,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4711,7 +4711,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "ТАЗРИА(Когда зачнет)",
+    chapter: "ТАЗРИА (Когда зачнет)",
     id_book: 2,
     id_chapter: 13,
     id_chapter_two: 1,
@@ -4725,7 +4725,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           14141414141411414114141411414141414         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -4738,7 +4738,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4751,7 +4751,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4764,7 +4764,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4777,7 +4777,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4790,7 +4790,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4803,7 +4803,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4816,7 +4816,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4829,7 +4829,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4842,7 +4842,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4855,7 +4855,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4868,7 +4868,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4881,7 +4881,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4894,7 +4894,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4907,7 +4907,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4920,7 +4920,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4933,7 +4933,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4946,7 +4946,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4959,7 +4959,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4972,7 +4972,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4985,7 +4985,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -4998,7 +4998,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5011,7 +5011,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5024,7 +5024,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5037,7 +5037,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5050,7 +5050,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5062,7 +5062,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5075,7 +5075,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5088,7 +5088,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5101,7 +5101,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5114,7 +5114,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5127,7 +5127,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5140,7 +5140,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5151,7 +5151,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5164,7 +5164,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5177,7 +5177,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5190,7 +5190,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5203,7 +5203,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5216,7 +5216,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5229,7 +5229,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5242,7 +5242,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5255,7 +5255,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5268,7 +5268,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5281,7 +5281,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5294,7 +5294,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5307,7 +5307,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5320,7 +5320,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5333,7 +5333,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5346,7 +5346,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5359,7 +5359,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5372,7 +5372,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5385,7 +5385,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5398,7 +5398,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5411,7 +5411,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5422,7 +5422,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5433,7 +5433,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5444,7 +5444,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 14,
     id_chapter_two: 1,
@@ -5458,7 +5458,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           151515511515115151511515151511515         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -5471,7 +5471,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5484,7 +5484,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5497,7 +5497,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5510,7 +5510,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5523,7 +5523,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5536,7 +5536,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5549,7 +5549,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5562,7 +5562,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5574,7 +5574,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5587,7 +5587,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5600,7 +5600,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5613,7 +5613,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5626,7 +5626,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5639,7 +5639,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5651,7 +5651,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5664,7 +5664,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5677,7 +5677,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5690,7 +5690,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5703,7 +5703,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5716,7 +5716,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5729,7 +5729,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5742,7 +5742,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5755,7 +5755,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5768,7 +5768,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5781,7 +5781,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5794,7 +5794,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5807,7 +5807,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5820,7 +5820,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5833,7 +5833,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5846,7 +5846,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5859,7 +5859,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5872,7 +5872,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "МЕЦОРА(Прокажённый)",
+    chapter: "МЕЦОРА (Прокажённый)",
     id_book: 2,
     id_chapter: 15,
     id_chapter_two: 1,
@@ -5886,7 +5886,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           161616161616161616161616116161616161616         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -5901,7 +5901,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5914,7 +5914,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5927,7 +5927,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5940,7 +5940,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5953,7 +5953,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5966,7 +5966,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5979,7 +5979,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -5992,7 +5992,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6005,7 +6005,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6018,7 +6018,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6031,7 +6031,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6044,7 +6044,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6057,7 +6057,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6070,7 +6070,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6083,7 +6083,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6096,7 +6096,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6109,7 +6109,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6122,7 +6122,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6135,7 +6135,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6148,7 +6148,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6161,7 +6161,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6174,7 +6174,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6187,7 +6187,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6200,7 +6200,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6211,7 +6211,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6224,7 +6224,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6237,7 +6237,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6250,7 +6250,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6263,7 +6263,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6276,7 +6276,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6289,7 +6289,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6302,7 +6302,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6315,7 +6315,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 16,
     id_chapter_two: 1,
@@ -6329,7 +6329,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           17171717171717171717171717171711717         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -6342,7 +6342,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6355,7 +6355,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6368,7 +6368,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6381,7 +6381,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6394,7 +6394,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6407,7 +6407,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6420,7 +6420,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6433,7 +6433,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6446,7 +6446,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6459,7 +6459,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6472,7 +6472,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6485,7 +6485,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6498,7 +6498,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6511,7 +6511,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6524,7 +6524,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 17,
     id_chapter_two: 1,
@@ -6538,7 +6538,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           1818181818118181811818181818181818181818118         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -6551,7 +6551,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6563,7 +6563,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6576,7 +6576,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6589,7 +6589,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6602,7 +6602,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6615,7 +6615,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6628,7 +6628,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6640,7 +6640,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6653,7 +6653,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6666,7 +6666,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6679,7 +6679,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6692,7 +6692,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6705,7 +6705,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6718,7 +6718,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6731,7 +6731,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6743,7 +6743,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6756,7 +6756,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6769,7 +6769,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6782,7 +6782,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6795,7 +6795,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6808,7 +6808,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6820,7 +6820,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6833,7 +6833,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6846,7 +6846,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6859,7 +6859,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6872,7 +6872,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6885,7 +6885,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6898,7 +6898,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6911,7 +6911,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "АХАРЕЙ МОТ(После смерти)",
+    chapter: "АХАРЕЙ МОТ (После смерти)",
     id_book: 2,
     id_chapter: 18,
     id_chapter_two: 1,
@@ -6925,7 +6925,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           1919191919119191199119191191919191919119         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -6938,7 +6938,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6951,7 +6951,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6964,7 +6964,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6977,7 +6977,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -6990,7 +6990,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7003,7 +7003,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7016,7 +7016,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7029,7 +7029,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7042,7 +7042,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7055,7 +7055,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7067,7 +7067,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7080,7 +7080,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7093,7 +7093,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7106,7 +7106,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7119,7 +7119,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7132,7 +7132,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7145,7 +7145,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7158,7 +7158,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7171,7 +7171,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7184,7 +7184,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7197,7 +7197,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7210,7 +7210,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7223,7 +7223,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7236,7 +7236,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7249,7 +7249,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7261,7 +7261,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7274,7 +7274,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7287,7 +7287,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7300,7 +7300,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7312,7 +7312,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7325,7 +7325,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7338,7 +7338,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7351,7 +7351,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7364,7 +7364,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7377,7 +7377,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7390,7 +7390,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 19,
     id_chapter_two: 1,
@@ -7404,7 +7404,7 @@ const objVaikra: Verse[] = [
   /////////////////////////////////           2020202020202202020202202020202022020         \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     main: 1,
     main_name: "vaikra",
     id_book: 2,
@@ -7417,7 +7417,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7430,7 +7430,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7443,7 +7443,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7456,7 +7456,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7469,7 +7469,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7482,7 +7482,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7494,7 +7494,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7507,7 +7507,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7520,7 +7520,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7533,7 +7533,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7546,7 +7546,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7559,7 +7559,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7572,7 +7572,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7585,7 +7585,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7598,7 +7598,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7611,7 +7611,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7624,7 +7624,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7637,7 +7637,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7650,7 +7650,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7663,7 +7663,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7676,7 +7676,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7689,7 +7689,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7702,7 +7702,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7715,7 +7715,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7728,7 +7728,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
@@ -7741,7 +7741,7 @@ const objVaikra: Verse[] = [
   },
   {
     name: "ВАИКРА",
-    chapter: "КДОШИМ(Святые)",
+    chapter: "КДОШИМ (Святые)",
     id_book: 2,
     id_chapter: 20,
     id_chapter_two: 1,
