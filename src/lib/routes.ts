@@ -50,7 +50,7 @@ export const books: BooksBySection = {
   ketuvim: [
     {
       id: "ketuvim",
-      name: "Тегілім",
+      name: "Тегилим",
       file: "",
       href: "#",
       disabled: true,
