@@ -21,12 +21,15 @@ export default function ChapterList({
   return (
     <ul className="space-y-2">
       {chapters.map((chapter, index) => {
-        const href = `/${sectionName}/${bookName}/${chapter.key}`;
+        const isSubChapter =
+          chapter.subKey > 1 ? `${chapter.key}/${chapter.subKey}` : chapter.key;
+
+        const href = `/${sectionName}/${bookName}/${isSubChapter}`;
         const isActive = lastPathname === href;
         const isLast = index === chapters.length - 1;
 
         return (
-          <li key={chapter.key}>
+          <li key={isSubChapter}>
             <Link
               to={href}
               className={`flex px-4 py-2 rounded-lg text-text ${

@@ -6,7 +6,7 @@ export default function BackToChaptersLink() {
   const { pathname } = useLocation();
   const pathSegments = pathname.split("/").filter(Boolean);
 
-  if (pathSegments.length !== 3) {
+  if (pathSegments.length < 3) {
     return null;
   }
 

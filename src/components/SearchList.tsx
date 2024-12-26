@@ -28,14 +28,18 @@ export default function SearchList() {
       )}
       <ul className="space-y-4 mt-1">
         {storeResults.map((verse) => {
+          const idChapterTwo = verse.id_chapter_two || 1;
+          const isSubChapter =
+            idChapterTwo > 1
+              ? `${verse.id_chapter}/${idChapterTwo}`
+              : verse.id_chapter;
+
           const bookPath = BookPathMap[verse.id_book];
-          const to = `/${bookPath.section}/${bookPath.bookName}/${verse.id_chapter}#verse-${verse.poemNumber}`;
+          const to = `/${bookPath.section}/${bookPath.bookName}/${isSubChapter}#verse-${verse.poemNumber}`;
           const sectionName = sectionNameMap[bookPath.section];
 
           return (
-            <li
-              key={`${verse.id_book}-${verse.id_chapter}-${verse.poemNumber}`}
-            >
+            <li key={`${verse.id_book}-${isSubChapter}-${verse.poemNumber}`}>
               <Link to={to}>
                 <Card className="bg-white shadow-md">
                   <CardHeader>

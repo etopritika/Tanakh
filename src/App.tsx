@@ -36,7 +36,7 @@ function App() {
             <Route path="/:sectionName/:bookName/" element={<ChaptersPage />} />
 
             <Route
-              path="/:sectionName/:bookName/:chapterId"
+              path="/:sectionName/:bookName/:chapterId/:subChapterId?"
               element={<VersesPage />}
             />
 

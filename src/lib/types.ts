@@ -52,6 +52,7 @@ export type BooksBySection = {
 
 export type Chapter = {
   key: number;
+  subKey: number;
   chapterName: string;
   start: number;
   end: number;
