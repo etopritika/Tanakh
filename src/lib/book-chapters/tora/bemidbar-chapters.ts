@@ -36,24 +36,8 @@ const bemidbarChapters = [
     subKey: 2,
     chapterName: "НАСО (Вознеси)",
     start: 159,
-    end: 182,
-    verses: 24,
-  },
-  {
-    key: 4,
-    subKey: 1,
-    chapterName: "НАСО (Вознеси)",
-    start: 183,
-    end: 183,
-    verses: 1,
-  },
-  {
-    key: 4,
-    subKey: 2,
-    chapterName: "НАСО (Вознеси)",
-    start: 184,
     end: 187,
-    verses: 4,
+    verses: 29,
   },
   {
     key: 5,
@@ -82,7 +66,7 @@ const bemidbarChapters = [
   {
     key: 8,
     subKey: 1,
-    chapterName: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapterName: "БЕААЛОТХА (Когда будешь возжигать)",
     start: 335,
     end: 360,
     verses: 26,
@@ -90,7 +74,7 @@ const bemidbarChapters = [
   {
     key: 9,
     subKey: 1,
-    chapterName: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapterName: "БЕААЛОТХА (Когда будешь возжигать)",
     start: 361,
     end: 383,
     verses: 23,
@@ -98,7 +82,7 @@ const bemidbarChapters = [
   {
     key: 10,
     subKey: 1,
-    chapterName: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapterName: "БЕААЛОТХА (Когда будешь возжигать)",
     start: 384,
     end: 419,
     verses: 36,
@@ -106,7 +90,7 @@ const bemidbarChapters = [
   {
     key: 11,
     subKey: 1,
-    chapterName: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapterName: "БЕААЛОТХА (Когда будешь возжигать)",
     start: 420,
     end: 454,
     verses: 35,
@@ -114,7 +98,7 @@ const bemidbarChapters = [
   {
     key: 12,
     subKey: 1,
-    chapterName: "БЕААЛОТХА(Когда будешь возжигать)",
+    chapterName: "БЕААЛОТХА (Когда будешь возжигать)",
     start: 455,
     end: 470,
     verses: 16,
@@ -122,7 +106,7 @@ const bemidbarChapters = [
   {
     key: 13,
     subKey: 1,
-    chapterName: "ШЛАХ(Отправь)",
+    chapterName: "ШЛАХ (Отправь)",
     start: 471,
     end: 503,
     verses: 33,
@@ -130,7 +114,7 @@ const bemidbarChapters = [
   {
     key: 14,
     subKey: 1,
-    chapterName: "ШЛАХ(Отправь)",
+    chapterName: "ШЛАХ (Отправь)",
     start: 504,
     end: 548,
     verses: 45,
@@ -138,7 +122,7 @@ const bemidbarChapters = [
   {
     key: 15,
     subKey: 1,
-    chapterName: "ШЛАХ(Отправь)",
+    chapterName: "ШЛАХ (Отправь)",
     start: 549,
     end: 589,
     verses: 41,
@@ -146,7 +130,7 @@ const bemidbarChapters = [
   {
     key: 16,
     subKey: 1,
-    chapterName: "КОРАХ(Корах)",
+    chapterName: "КОРАХ (Корах)",
     start: 590,
     end: 624,
     verses: 35,
@@ -154,7 +138,7 @@ const bemidbarChapters = [
   {
     key: 17,
     subKey: 1,
-    chapterName: "КОРАХ(Корах)",
+    chapterName: "КОРАХ (Корах)",
     start: 625,
     end: 652,
     verses: 28,
@@ -162,7 +146,7 @@ const bemidbarChapters = [
   {
     key: 18,
     subKey: 1,
-    chapterName: "КОРАХ(Корах)",
+    chapterName: "КОРАХ (Корах)",
     start: 653,
     end: 684,
     verses: 32,
@@ -170,7 +154,7 @@ const bemidbarChapters = [
   {
     key: 19,
     subKey: 1,
-    chapterName: "ХУКАТ(Постановление)",
+    chapterName: "ХУКАТ (Постановление)",
     start: 685,
     end: 706,
     verses: 22,
@@ -178,7 +162,7 @@ const bemidbarChapters = [
   {
     key: 20,
     subKey: 1,
-    chapterName: "ХУКАТ(Постановление)",
+    chapterName: "ХУКАТ (Постановление)",
     start: 707,
     end: 735,
     verses: 29,
@@ -186,7 +170,7 @@ const bemidbarChapters = [
   {
     key: 21,
     subKey: 1,
-    chapterName: "ХУКАТ(Постановление)",
+    chapterName: "ХУКАТ (Постановление)",
     start: 736,
     end: 770,
     verses: 35,
@@ -194,7 +178,7 @@ const bemidbarChapters = [
   {
     key: 22,
     subKey: 1,
-    chapterName: "ХУКАТ(Постановление)",
+    chapterName: "ХУКАТ (Постановление)",
     start: 771,
     end: 771,
     verses: 1,
@@ -234,7 +218,7 @@ const bemidbarChapters = [
   {
     key: 25,
     subKey: 2,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "ПИНХАС (Пинхас)",
     start: 876,
     end: 884,
     verses: 9,
@@ -242,7 +226,7 @@ const bemidbarChapters = [
   {
     key: 26,
     subKey: 1,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "ПИНХАС (Пинхас)",
     start: 885,
     end: 949,
     verses: 65,
@@ -250,7 +234,7 @@ const bemidbarChapters = [
   {
     key: 27,
     subKey: 1,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "ПИНХАС (Пинхас)",
     start: 950,
     end: 972,
     verses: 23,
@@ -258,7 +242,7 @@ const bemidbarChapters = [
   {
     key: 28,
     subKey: 1,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "ПИНХАС (Пинхас)",
     start: 973,
     end: 1003,
     verses: 31,
@@ -266,7 +250,7 @@ const bemidbarChapters = [
   {
     key: 29,
     subKey: 1,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "ПИНХАС (Пинхас)",
     start: 1004,
     end: 1042,
     verses: 39,
@@ -274,7 +258,7 @@ const bemidbarChapters = [
   {
     key: 30,
     subKey: 1,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "ПИНХАС (Пинхас)",
     start: 1043,
     end: 1043,
     verses: 1,
@@ -282,7 +266,7 @@ const bemidbarChapters = [
   {
     key: 30,
     subKey: 2,
-    chapterName: "ПИНХАС(Пинхас)",
+    chapterName: "МАТОТ (Колена)",
     start: 1044,
     end: 1059,
     verses: 16,
@@ -306,7 +290,7 @@ const bemidbarChapters = [
   {
     key: 33,
     subKey: 1,
-    chapterName: "МАСЕЭЙ(Переходы)",
+    chapterName: "МАСЕЭЙ (Переходы)",
     start: 1156,
     end: 1211,
     verses: 56,
@@ -314,7 +298,7 @@ const bemidbarChapters = [
   {
     key: 34,
     subKey: 1,
-    chapterName: "МАСЕЭЙ(Переходы)",
+    chapterName: "МАСЕЭЙ (Переходы)",
     start: 1212,
     end: 1240,
     verses: 29,
@@ -322,7 +306,7 @@ const bemidbarChapters = [
   {
     key: 35,
     subKey: 1,
-    chapterName: "МАСЕЭЙ(Переходы)",
+    chapterName: "МАСЕЭЙ (Переходы)",
     start: 1241,
     end: 1274,
     verses: 34,
@@ -330,7 +314,7 @@ const bemidbarChapters = [
   {
     key: 36,
     subKey: 1,
-    chapterName: "МАСЕЭЙ(Переходы)",
+    chapterName: "МАСЕЭЙ (Переходы)",
     start: 1275,
     end: 1287,
     verses: 13,
