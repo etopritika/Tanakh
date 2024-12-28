@@ -33,10 +33,15 @@ export default function ChapterList({
             <Link
               to={href}
               className={`flex px-4 py-2 rounded-lg text-text ${
-                isActive ? "font-bold" : ""
-              } ${isLast ? "" : "border-b"}`}
+                isLast ? "" : "border-b"
+              }`}
             >
-              {chapter.chapterName} : {chapter.key}
+              <span className={isActive ? "font-bold" : ""}>
+                {chapter.chapterName.split(" (")[0].trim()}
+              </span>
+              &nbsp;
+              <span>({chapter.chapterName.split(" (")[1]?.trim() || ""}</span>:{" "}
+              {chapter.key}
               <ChevronRight className="ml-auto" />
             </Link>
           </li>
