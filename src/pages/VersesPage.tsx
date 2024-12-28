@@ -23,7 +23,12 @@ export default function VersesPage() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fullChapterName = `${verses[0]?.chapter || ""} : ${chapterId}`;
+  const [chapterMain, chapterComment] = (verses[0]?.chapter || "").split(" (");
+  const fullChapterName = {
+    main: chapterMain.trim(),
+    comment: chapterComment ? chapterComment.replace(")", "").trim() : "",
+    id: chapterId,
+  };
   const lastReadChapter = `${bookNameMap[bookName || ""]} : ${chapterId}`;
 
   useEffect(() => {
@@ -86,7 +91,11 @@ export default function VersesPage() {
         bookName={bookName || ""}
       />
       <div className="space-y-2">
-        <h1 className="font-bold">{fullChapterName}</h1>
+        <h1>
+          <span className="font-bold">{fullChapterName.main}</span>
+          {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
+          : {fullChapterName.id}
+        </h1>
         <VerseList verses={verses} />
       </div>
       <AppPagination

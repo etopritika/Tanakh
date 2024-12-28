@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { BookPathMap, sectionNameMap } from "@/lib/types";
+import { BookPathMap } from "@/lib/types";
 import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchList() {
@@ -22,8 +22,8 @@ export default function SearchList() {
     <section>
       {isSearchComplete && (
         <span className="text-gray-500">
-          {storeResults.length}{" "}
-          {storeResults.length === 1 ? "результат" : "результатов"} найдено
+          {storeResults.length === 1 ? "Совпадение:" : "Совпадений:"}{" "}
+          {storeResults.length}
         </span>
       )}
       <ul className="space-y-4 mt-1">
@@ -36,7 +36,6 @@ export default function SearchList() {
 
           const bookPath = BookPathMap[verse.id_book];
           const to = `/${bookPath.section}/${bookPath.bookName}/${isSubChapter}#verse-${verse.poemNumber}`;
-          const sectionName = sectionNameMap[bookPath.section];
 
           return (
             <li key={`${verse.id_book}-${isSubChapter}-${verse.poemNumber}`}>
@@ -44,7 +43,14 @@ export default function SearchList() {
                 <Card className="bg-white shadow-md">
                   <CardHeader>
                     <CardTitle className="text-sm">
-                      {sectionName}: {verse.chapter}
+                      {verse.name}:{" "}
+                      <span className="font-bold">
+                        {verse.chapter.split(" (")[0].trim()}
+                      </span>{" "}
+                      <span className="font-normal">
+                        ({verse.chapter.split(" (")[1]?.trim() || ""}
+                      </span>
+                      <span className="ml-5">{verse.id_chapter}</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-x-2 flex text-sm">

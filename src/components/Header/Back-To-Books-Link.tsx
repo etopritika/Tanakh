@@ -1,4 +1,4 @@
-import { sectionNameMap } from "@/lib/types";
+import { bookNameMap } from "@/lib/types";
 import { ChevronLeft } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -10,8 +10,8 @@ export default function BackToBooksLink() {
     return null;
   }
 
-  const bookKey = pathSegments[0];
-  const bookName = sectionNameMap[bookKey] || "Неизвестная книга";
+  const bookKey = pathSegments[1];
+  const bookName = bookNameMap[bookKey] || "Неизвестная книга";
 
   const backToBooksPath = `/${pathSegments[0]}`;
 
