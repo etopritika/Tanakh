@@ -8,8 +8,8 @@ import { BookMarked } from "lucide-react";
 export default function DesktopSidebar() {
   const { pathname } = useLocation();
   const pathSegments = pathname.split("/").filter((segment) => segment);
-  const currentSection = pathSegments.at(0) || "";
-  const currentBook = pathSegments.at(1) || "";
+  const currentSection = pathSegments[0] || "";
+  const currentBook = pathSegments[1] || "";
 
   const { lastPathname, chapterName } = useReadingStore(
     (state) => state.lastRead
