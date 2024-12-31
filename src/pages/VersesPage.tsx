@@ -82,7 +82,7 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="space-y-2 py-2 flex flex-col justify-between">
+    <section className="space-y-4 py-2 flex flex-col justify-between">
       <AppPagination
         currentPage={page}
         subPage={subPage}
