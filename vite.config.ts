@@ -52,6 +52,19 @@ export default defineConfig({
       registerType: "autoUpdate",
       workbox: {
         globPatterns: ["**/*.{html, css, js, ico, png, svg}"],
+        runtimeCaching: [
+          {
+            urlPattern: /\/assets\/.*\.js$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "dynamic-assets",
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 30 * 24 * 60 * 60,
+              },
+            },
+          },
+        ],
       },
       manifest: manifest,
     }),
