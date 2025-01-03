@@ -1,6 +1,7 @@
 const yehoshuaChapters = [
   {
     key: 1,
+    subKey: 1,
     chapterName: "ЙЕХОШУА (Иисус Навин)",
     start: 0,
     end: 3,
