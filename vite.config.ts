@@ -51,24 +51,8 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       workbox: {
-        globPatterns: [
-          "**/*.{html,css,js,ico,png,svg}",
-          "assets/*-chapters-*.js",
-        ],
+        globPatterns: ["**/*.{html,css,js,ico,png,svg}"],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
-        runtimeCaching: [
-          {
-            urlPattern: /\/assets\/.*\.js$/,
-            handler: "CacheFirst",
-            options: {
-              cacheName: "dynamic-assets",
-              expiration: {
-                maxEntries: 100,
-                maxAgeSeconds: 30 * 24 * 60 * 60,
-              },
-            },
-          },
-        ],
       },
       manifest: manifest,
     }),
