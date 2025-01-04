@@ -53,6 +53,22 @@ export default defineConfig({
       workbox: {
         globPatterns: ["**/*.{html,css,js,ico,png,svg}"],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/torah-ten.vercel.app\/.*$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "dynamic-assets",
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 30 * 24 * 60 * 60,
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+        ],
       },
       manifest: manifest,
     }),
