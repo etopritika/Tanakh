@@ -43,14 +43,16 @@ export default function SearchList() {
                 <Card className="bg-white shadow-md">
                   <CardHeader>
                     <CardTitle className="text-sm">
-                      {verse.name}:{" "}
+                      {verse.name}{" "}
                       <span className="font-bold">
                         {verse.chapter.split(" (")[0].trim()}
                       </span>{" "}
                       <span className="font-normal">
                         ({verse.chapter.split(" (")[1]?.trim() || ""}
                       </span>
-                      <span className="ml-5">{verse.id_chapter}</span>
+                      <span className="ml-5 font-normal">
+                        {verse.id_chapter}
+                      </span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-x-2 flex text-sm">

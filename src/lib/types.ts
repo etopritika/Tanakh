@@ -9,10 +9,10 @@ export const booksMap: Record<string, Verse[][]> = {
 
 export const bookNameMap: Record<string, string> = {
   beresheet: "Берешит",
-  schmot: "Шемот",
+  schmot: "Шмот",
   vaikra: "Ваикра",
   bemidbar: "Бемидбар",
-  dvarim: "Деварим",
+  dvarim: "Дварим",
   yehoshua: "Йехошуа",
 };
 
