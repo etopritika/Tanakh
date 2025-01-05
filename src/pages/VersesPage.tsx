@@ -29,7 +29,7 @@ export default function VersesPage() {
     comment: chapterComment ? chapterComment.replace(")", "").trim() : "",
     id: chapterId,
   };
-  const lastReadChapter = `${bookNameMap[bookName || ""]} : ${chapterId}`;
+  const lastReadChapter = `${bookNameMap[bookName || ""]} ${chapterId}`;
 
   useEffect(() => {
     const loadChapter = async () => {

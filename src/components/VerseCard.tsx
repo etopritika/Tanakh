@@ -17,7 +17,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
         window.scrollTo({
           top: window.scrollY + offset,
-          behavior: "smooth",
+          behavior: "instant",
         });
       }
 
