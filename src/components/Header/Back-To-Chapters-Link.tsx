@@ -21,8 +21,8 @@ export default function BackToChaptersLink() {
       to={backToChaptersPath}
       className="px-4 py-2 text-text flex items-center"
     >
-      <ChevronLeft />
-      {chapterName} : {chapterKey}
+      <ChevronLeft className="mr-2" />
+      {chapterName} {chapterKey}
     </Link>
   );
 }

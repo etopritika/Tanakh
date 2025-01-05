@@ -20,7 +20,7 @@ export default function BackToBooksLink() {
       to={backToBooksPath}
       className="px-4 py-2 text-text flex items-center"
     >
-      <ChevronLeft />
+      <ChevronLeft className="mr-2" />
       {bookName}
     </Link>
   );
