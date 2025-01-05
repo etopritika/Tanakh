@@ -93,8 +93,10 @@ export default function VersesPage() {
       <div className="space-y-2">
         <h1>
           <span className="font-bold">{fullChapterName.main}</span>
-          {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
-          : {fullChapterName.id}
+          {fullChapterName.comment && (
+            <span> ({fullChapterName.comment})</span>
+          )}{" "}
+          {fullChapterName.id}
         </h1>
         <VerseList verses={verses} />
       </div>
