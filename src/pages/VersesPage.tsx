@@ -90,7 +90,7 @@ export default function VersesPage() {
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
-      <div className="space-y-2">
+      <div className="space-y-2 pb-8">
         <h1>
           <span className="font-bold">{fullChapterName.main}</span>
           {fullChapterName.comment && (
