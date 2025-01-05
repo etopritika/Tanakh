@@ -49,10 +49,8 @@ export default function SearchList() {
                       </span>{" "}
                       <span className="font-normal">
                         ({verse.chapter.split(" (")[1]?.trim() || ""}
-                      </span>
-                      <span className="ml-5 font-normal">
-                        {verse.id_chapter}
-                      </span>
+                      </span>{" "}
+                      <span className="font-normal">{verse.id_chapter}</span>
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-x-2 flex text-sm">
