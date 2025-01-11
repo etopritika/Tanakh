@@ -1,9 +1,10 @@
-import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
 import { LoaderCircle } from "lucide-react";
-import { Chapter } from "@/lib/types";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+
 import ChapterList from "@/components/ChapterList";
 import { NoChapters } from "@/components/NoChapters";
+import { Chapter } from "@/lib/types";
 
 export default function ChaptersPage() {
   const { sectionName, bookName } = useParams();
@@ -25,7 +26,9 @@ export default function ChaptersPage() {
         );
         setChapters(chaptersModule.default);
       } catch {
-        setError("Не удалось загрузить главы");
+        setError(
+          `Не удалось загрузить главы для книги "${bookName}" в разделе "${sectionName}".`,
+        );
       } finally {
         setLoading(false);
       }
@@ -36,7 +39,7 @@ export default function ChaptersPage() {
 
   if (loading) {
     return (
-      <section className="py-6 flex items-center justify-center h-full">
+      <section className="flex h-full items-center justify-center py-6">
         <div className="flex space-x-2">
           <LoaderCircle className="animate-spin" />
           <p>Загрузка глав...</p>

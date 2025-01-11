@@ -1,6 +1,7 @@
 import path from "path";
-import { defineConfig } from "vite";
+
 import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 import { ManifestOptions, VitePWA } from "vite-plugin-pwa";
 
 const manifest: Partial<ManifestOptions> | false = {

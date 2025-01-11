@@ -4,7 +4,7 @@ type NoChaptersProps = {
 
 export function NoChapters({ error }: NoChaptersProps) {
   return (
-    <section className="py-6 flex items-center justify-center h-full">
+    <section className="flex h-full items-center justify-center py-6">
       <span className="text-danger">{error}</span>
     </section>
   );

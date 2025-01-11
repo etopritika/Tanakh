@@ -1,6 +1,7 @@
-import { bookNameMap } from "@/lib/types";
 import { ChevronLeft } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+
+import { bookNameMap } from "@/lib/types";
 
 export default function BackToBooksLink() {
   const { pathname } = useLocation();
@@ -18,7 +19,7 @@ export default function BackToBooksLink() {
   return (
     <Link
       to={backToBooksPath}
-      className="px-4 py-2 text-text flex items-center"
+      className="flex items-center px-4 py-2 text-text"
     >
       <ChevronLeft className="mr-2" />
       {bookName}

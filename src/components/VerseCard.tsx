@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import { Verse } from "@/lib/types";
+
 import { Card, CardContent } from "./ui/card";
+
+import { Verse } from "@/lib/types";
 
 export default function VerseCard({ verse }: { verse: Verse }) {
   const [isHighlighted, setIsHighlighted] = useState(false);
@@ -33,9 +35,9 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
-        <CardContent className="pt-6 flex space-x-3">
+        <CardContent className="flex space-x-3 pt-6">
           <span className="font-bold">{verse.poemNumber}</span>
-          <div className="space-y-2 w-full">
+          <div className="w-full space-y-2">
             <p>{verse.verse}</p>
             <p className="rtl text-right">{verse.verse_ivrit}</p>
           </div>

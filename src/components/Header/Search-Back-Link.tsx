@@ -12,7 +12,7 @@ export default function SearchBackLink() {
     <Link
       to={"#"}
       onClick={() => window.history.back()}
-      className="px-4 py-2 text-text flex items-center"
+      className="flex items-center px-4 py-2 text-text"
     >
       <ChevronLeft /> Назад
     </Link>

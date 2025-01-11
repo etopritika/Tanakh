@@ -1,15 +1,17 @@
-import SearchList from "@/components/SearchList";
-import SearchForm from "@/components/SearchForm";
-import { useSearchStore } from "@/store/use-search-store";
 import { useEffect } from "react";
+
+import SearchForm from "@/components/SearchForm";
+import SearchList from "@/components/SearchList";
+import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchPage() {
   const { selectedIndex } = useSearchStore();
 
   useEffect(() => {
     if (selectedIndex !== null) {
-      const listItems = document.querySelectorAll("ul li");
-      const targetItem = listItems[selectedIndex];
+      const targetItem = document.querySelector(
+        `li[data-search-index="${selectedIndex}"]`,
+      );
       if (targetItem) {
         targetItem.scrollIntoView({
           behavior: "instant",
@@ -20,7 +22,7 @@ export default function SearchPage() {
   }, [selectedIndex]);
 
   return (
-    <section className="py-6 space-y-4">
+    <section className="space-y-4 py-6">
       <h1 className="text-xl font-bold">Поиск стихов</h1>
       <SearchForm />
       <SearchList />

@@ -1,28 +1,38 @@
-import { books } from "@/lib/routes";
 import { ChevronRight } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
+
+import { BOOKS } from "@/lib/routes";
+import { SectionName } from "@/lib/types";
 
 export default function BooksPage() {
   const { sectionName } = useParams();
 
-  if (!sectionName) {
+  if (
+    !sectionName ||
+    !Object.values(SectionName).includes(sectionName as SectionName)
+  ) {
     return (
-      <section className="py-6 flex items-center justify-center h-full">
-        <span className="text-danger">Секция не найдена</span>
+      <section className="flex h-full items-center justify-center py-6">
+        <div className="text-center">
+          <span className="text-danger">Секция не найдена</span>
+          <p>Пожалуйста, выберите другую секцию из меню.</p>
+        </div>
       </section>
     );
   }
 
+  const sectionBooks = BOOKS[sectionName] || [];
+
   return (
     <section className="py-6">
       <ul>
-        {books[sectionName || ""].map(({ name, href }, index) => {
-          const isLast = index === books[sectionName || ""].length - 1;
+        {sectionBooks.map(({ name, href }, index) => {
+          const isLast = index === sectionBooks.length - 1;
           return (
-            <li>
+            <li key={name}>
               <Link
                 to={href}
-                className={`flex px-4 py-2 rounded-lg text-text ${
+                className={`flex rounded-lg px-4 py-2 text-text ${
                   isLast ? "" : "border-b"
                 }`}
               >
