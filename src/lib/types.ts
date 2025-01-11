@@ -8,9 +8,9 @@ export enum SectionName {
   neviim = "neviim",
 }
 
-export const sectionNameMap: Record<string, string> = {
-  tora: "Тора",
-  neviim: "Невиим",
+export const sectionNameMap: Record<SectionName, string> = {
+  [SectionName.tora]: "Тора",
+  [SectionName.neviim]: "Невиим",
 };
 
 export const booksMap: Record<string, Verse[][]> = {
