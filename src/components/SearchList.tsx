@@ -1,5 +1,6 @@
-import { useSearchStore } from "@/store/use-search-store";
 import SearchCard from "./SearchCard";
+
+import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchList() {
   const { storeResults, error, isSearchComplete } = useSearchStore();
@@ -25,7 +26,7 @@ export default function SearchList() {
       {isSearchComplete && (
         <span className="text-gray-500">{resultsMessage}</span>
       )}
-      <ul className="space-y-4 mt-1">
+      <ul className="mt-1 space-y-4">
         {storeResults.map((verse, index) => (
           <SearchCard
             key={`${verse.id_book}-${verse.id_chapter}-${verse.poemNumber}`}

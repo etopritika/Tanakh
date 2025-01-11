@@ -1,8 +1,10 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+
 import { BookPathMap, Verse } from "@/lib/types";
 import { useSearchStore } from "@/store/use-search-store";
-import { useEffect, useState } from "react";
 
 interface SearchCardProps {
   verse: Verse;
@@ -40,7 +42,7 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
   }`;
 
   return (
-    <li onClick={() => setSelectedIndex(index)}>
+    <li onClick={() => setSelectedIndex(index)} data-search-index={index}>
       <Link to={to}>
         <Card className={cardClasses}>
           <CardHeader>
@@ -55,9 +57,9 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
               <span className="font-normal">{verse.id_chapter}</span>
             </CardTitle>
           </CardHeader>
-          <CardContent className="space-x-2 flex text-sm">
+          <CardContent className="flex space-x-2 text-sm">
             <span className="font-bold">{verse.poemNumber}</span>
-            <div className="space-y-2 w-full">
+            <div className="w-full space-y-2">
               <p>{verse.verse}</p>
               <p className="rtl text-right">{verse.verse_ivrit}</p>
             </div>
