@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import Layout from "./components/Layout";
+import { ROUTES } from "./lib/routes";
 
 const MainPage = React.lazy(() => import("./pages/MainPage"));
 const BooksPage = React.lazy(() => import("./pages/BooksPage"));
@@ -30,19 +31,11 @@ function App() {
           }
         >
           <Routes>
-            <Route path="/" element={<MainPage />} />
-
-            <Route path="/:sectionName" element={<BooksPage />} />
-
-            <Route path="/:sectionName/:bookName/" element={<ChaptersPage />} />
-
-            <Route
-              path="/:sectionName/:bookName/:chapterId/:subChapterId?"
-              element={<VersesPage />}
-            />
-
-            <Route path="/search" element={<SearchPage />} />
-
+            <Route path={ROUTES.home} element={<MainPage />} />
+            <Route path={ROUTES.section} element={<BooksPage />} />
+            <Route path={ROUTES.book} element={<ChaptersPage />} />
+            <Route path={ROUTES.chapter} element={<VersesPage />} />
+            <Route path={ROUTES.search} element={<SearchPage />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Suspense>

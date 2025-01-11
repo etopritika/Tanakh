@@ -1,5 +1,13 @@
 import { BooksBySection } from "./types";
 
+export const ROUTES = {
+  home: "/",
+  section: "/:sectionName",
+  book: "/:sectionName/:bookName",
+  chapter: "/:sectionName/:bookName/:chapterId/:subChapterId?",
+  search: "/search",
+};
+
 export const books: BooksBySection = {
   tora: [
     {
