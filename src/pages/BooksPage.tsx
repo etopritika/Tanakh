@@ -1,7 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 
-import { books } from "@/lib/routes";
+import { BOOKS } from "@/lib/routes";
 import { SectionName } from "@/lib/types";
 
 export default function BooksPage() {
@@ -21,7 +21,7 @@ export default function BooksPage() {
     );
   }
 
-  const sectionBooks = books[sectionName] || [];
+  const sectionBooks = BOOKS[sectionName] || [];
 
   return (
     <section className="py-6">

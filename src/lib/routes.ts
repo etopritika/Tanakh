@@ -8,7 +8,7 @@ export const ROUTES = {
   search: "/search",
 };
 
-export const books: BooksBySection = {
+export const BOOKS: BooksBySection = {
   tora: [
     {
       id: "beresheet",
