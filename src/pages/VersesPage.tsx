@@ -1,12 +1,13 @@
+import { LoaderCircle } from "lucide-react";
+import { useEffect, useState } from "react";
+import { useLocation, useParams } from "react-router-dom";
+
 import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { fetchVersesData } from "@/lib/api";
 import { bookNameMap, Chapter, Verse } from "@/lib/types";
 import { useReadingStore } from "@/store/use-reading-store";
-import { LoaderCircle } from "lucide-react";
-import { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router-dom";
 
 export default function VersesPage() {
   const { pathname } = useLocation();
@@ -45,7 +46,7 @@ export default function VersesPage() {
         sectionName,
         bookName,
         chapterId,
-        subChapterId || "1"
+        subChapterId || "1",
       );
 
       setVerses(verses);
@@ -68,7 +69,7 @@ export default function VersesPage() {
 
   if (isLoading) {
     return (
-      <section className="py-6 flex items-center justify-center h-full">
+      <section className="flex h-full items-center justify-center py-6">
         <div className="flex space-x-2">
           <LoaderCircle className="animate-spin" />
           <p>Загрузка стихов...</p>
@@ -82,7 +83,7 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="space-y-4 py-2 flex flex-col justify-between">
+    <section className="flex flex-col justify-between space-y-4 py-2">
       <AppPagination
         currentPage={page}
         subPage={subPage}
