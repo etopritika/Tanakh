@@ -1,9 +1,11 @@
-import { books } from "@/lib/routes";
-import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
-import BookLinks from "./BookLinks";
-import { Link, useLocation } from "react-router-dom";
-import { useReadingStore } from "@/store/use-reading-store";
 import { BookMarked } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
+
+import BookLinks from "./BookLinks";
+import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
+
+import { BOOKS } from "@/lib/routes";
+import { useReadingStore } from "@/store/use-reading-store";
 
 export default function DesktopSidebar() {
   const { pathname } = useLocation();
@@ -12,17 +14,17 @@ export default function DesktopSidebar() {
   const currentBook = pathSegments[1] || "";
 
   const { lastPathname, chapterName } = useReadingStore(
-    (state) => state.lastRead
+    (state) => state.lastRead,
   );
 
   return (
     <aside
-      className={`hidden lg:block lg:fixed left-0 top-0 w-80 z-50 h-screen bg-white p-4`}
+      className={`left-0 top-0 z-50 hidden h-screen w-80 bg-white p-4 lg:fixed lg:block`}
     >
       <nav className="rounded-lg p-2">
         <Link
           to="/"
-          className={`block py-4 border-b ${
+          className={`block border-b py-4 ${
             currentSection === "" ? "font-bold" : ""
           }`}
         >
@@ -31,21 +33,21 @@ export default function DesktopSidebar() {
         <Accordion type="single" collapsible defaultValue={currentSection}>
           <AccordionItem value="tora">
             <AccordionTrigger>Тора</AccordionTrigger>
-            <BookLinks booksList={books.tora} currentBook={currentBook} />
+            <BookLinks booksList={BOOKS.tora} currentBook={currentBook} />
           </AccordionItem>
           <AccordionItem value="neviim">
             <AccordionTrigger>Невиим</AccordionTrigger>
-            <BookLinks booksList={books.neviim} currentBook={currentBook} />
+            <BookLinks booksList={BOOKS.neviim} currentBook={currentBook} />
           </AccordionItem>
           <AccordionItem value="ketuvim">
             <AccordionTrigger>Ктувим</AccordionTrigger>
-            <BookLinks booksList={books.ketuvim} currentBook={currentBook} />
+            <BookLinks booksList={BOOKS.ketuvim} currentBook={currentBook} />
           </AccordionItem>
         </Accordion>
         {lastPathname && chapterName && (
           <Link
             to={lastPathname}
-            className={`flex items-center py-4 border-b text-sm ${
+            className={`flex items-center border-b py-4 text-sm ${
               pathname === lastPathname ? "font-bold" : ""
             }`}
           >
