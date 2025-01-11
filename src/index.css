@@ -20,7 +20,7 @@
 }
 
 body {
-  @apply bg-[var(--background)] text-[var(--text)] font-sans overflow-auto;
+  @apply overflow-auto bg-[var(--background)] font-sans text-[var(--text)];
 }
 
 #root {
