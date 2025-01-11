@@ -1,5 +1,6 @@
-import { Verse } from "@/lib/types";
 import VerseCard from "./VerseCard";
+
+import { Verse } from "@/lib/types";
 
 export default function VerseList({ verses }: { verses: Verse[] }) {
   if (!verses.length) {

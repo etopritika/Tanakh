@@ -1,7 +1,8 @@
-import { Chapter } from "@/lib/types";
-import { useReadingStore } from "@/store/use-reading-store";
 import { ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+
+import { Chapter } from "@/lib/types";
+import { useReadingStore } from "@/store/use-reading-store";
 
 export default function ChapterList({
   chapters,
@@ -32,7 +33,7 @@ export default function ChapterList({
           <li key={isSubChapter}>
             <Link
               to={href}
-              className={`flex px-4 py-2 rounded-lg text-text ${
+              className={`flex rounded-lg px-4 py-2 text-text ${
                 isLast ? "" : "border-b"
               } ${isActive ? "bg-brown-light text-white" : ""}`}
             >

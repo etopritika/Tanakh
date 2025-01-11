@@ -22,7 +22,7 @@ export default function AppPagination({
   bookName,
 }: AppPaginationProps) {
   const currentIndex = chapters.findIndex(
-    (chapter) => chapter.key === currentPage && chapter.subKey === subPage
+    (chapter) => chapter.key === currentPage && chapter.subKey === subPage,
   );
 
   const isFirstPage = currentIndex === 0;
@@ -36,12 +36,12 @@ export default function AppPagination({
 
   const getButtonClassName = (isDisabled: boolean): string =>
     isDisabled
-      ? "text-gray-400 cursor-not-allowed pointer-events-none"
+      ? "pointer-events-none cursor-not-allowed text-gray-400"
       : "bg-brown-dark transition-colors hover:bg-brown-light";
 
   return (
     <Pagination className="text-white">
-      <PaginationContent className="w-full flex items-center justify-between">
+      <PaginationContent className="flex w-full items-center justify-between">
         <PaginationPrevious
           to={!isFirstPage ? getPageHref(currentIndex - 1) : "#"}
           className={getButtonClassName(isFirstPage)}

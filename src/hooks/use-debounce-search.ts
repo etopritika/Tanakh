@@ -1,7 +1,8 @@
-import { booksMap, SearchFormData, Verse } from "@/lib/types";
-import { useSearchStore } from "@/store/use-search-store";
 import debounce from "lodash.debounce";
 import { useEffect } from "react";
+
+import { booksMap, SearchFormData, Verse } from "@/lib/types";
+import { useSearchStore } from "@/store/use-search-store";
 
 export const useDebouncedSearch = () => {
   const { setQuery, setResults, setError, setIsSearchComplete } =
@@ -17,7 +18,7 @@ export const useDebouncedSearch = () => {
         (verse: Verse) =>
           verse.verse.toLowerCase().includes(data.query.toLowerCase()) ||
           (verse.verse_ivrit &&
-            verse.verse_ivrit.toLowerCase().includes(data.query.toLowerCase()))
+            verse.verse_ivrit.toLowerCase().includes(data.query.toLowerCase())),
       );
       setResults(results);
       setError(null);
