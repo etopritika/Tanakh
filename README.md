@@ -1,50 +1,133 @@
-# React + TypeScript + Vite
+# Torah
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React/Vite application for reading and exploring the Tanakh. This application is built to provide a seamless experience for users to browse sections, books, chapters, and verses, with advanced features like search and bookmarking.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- 📖 Browse sections, books, chapters, and verses.
+- 🔍 Full-text search with highlights.
+- 📑 Bookmark and navigate to the last-read chapter.
+- 📱 Responsive design for mobile and desktop.
+- 🌐 Progressive Web App (PWA) support.
+- ⚡ Built with modern React and Vite for fast performance.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## Technologies Used
+
+- **React**: Frontend library for building user interfaces.
+- **Vite**: Fast build tool for modern web development.
+- **TailwindCSS**: Utility-first CSS framework for styling.
+- **Zustand**: Lightweight state management.
+- **Radix UI**: Accessible and customizable UI components.
+- **Zod**: Schema validation for forms.
+- **Lucide React**: Icon library.
+- **TypeScript**: For type safety.
+- **Vite PWA Plugin**: Adds PWA capabilities.
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/etopritika/Torah.git
+   cd torah
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Usage
+
+1. Open the application in your browser at `http://localhost:5173`.
+2. Explore sections like **Torah**, **Neviim**, and **Ketuvim**.
+3. Search for specific verses or chapters.
+4. Bookmark chapters for easy navigation.
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/       # Reusable React components
+├── data/             # Static data for books and chapters
+├── hooks/            # Custom React hooks
+├── lib/              # Helper functions and utilities
+├── pages/            # Application pages
+├── store/            # State management (Zustand)
+├── index.css         # Global styles
+├── App.tsx           # Root component
+└── main.tsx          # Application entry point
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Scripts
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **`npm run dev`**: Start the development server.
+- **`npm run build`**: Build the application for production.
+- **`npm run preview`**: Preview the production build.
+- **`npm run lint`**: Run ESLint to check for code issues.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Make changes and commit:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push your branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Create a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Acknowledgements
+
+- **Radix UI** for accessible components.
+- **Lucide React** for icons.
+- **Zustand** for state management simplicity.
+
+---
