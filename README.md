@@ -46,7 +46,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 
    ```bash
    git clone https://github.com/etopritika/Torah.git
-   cd torah
+   cd Tanakh
    ```
 
 2. Install dependencies:
