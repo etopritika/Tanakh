@@ -9,6 +9,8 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
+import { GoogleIcon } from "./icons";
+
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -81,9 +83,13 @@ export default function LoginForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="Введите ваш email" {...field} />
+                <Input
+                  placeholder="example@mail.com"
+                  {...field}
+                  className="bg-white"
+                />
               </FormControl>
-              <FormMessage />
+              <FormMessage className="text-danger" />
             </FormItem>
           )}
         />
@@ -98,21 +104,22 @@ export default function LoginForm() {
                   type="password"
                   placeholder="Введите ваш пароль"
                   {...field}
+                  className="bg-white"
                 />
               </FormControl>
-              <FormMessage />
+              <FormMessage className="text-danger" />
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full">
+        <Button type="submit" className="w-full bg-brown-light text-white">
           Войти
         </Button>
         <Button
           onClick={signInWithGoogle}
           variant="outline"
-          className="mt-2 w-full"
+          className="mt-2 w-full bg-white"
         >
-          Войти через Google
+          Войти через Google <GoogleIcon />
         </Button>
       </form>
     </Form>
