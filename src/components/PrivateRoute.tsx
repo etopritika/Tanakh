@@ -1,4 +1,5 @@
 import { getAuth, onAuthStateChanged } from "firebase/auth";
+import { LoaderCircle } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 
@@ -31,7 +32,10 @@ const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
   if (isAuthenticated === null) {
     return (
       <section className="flex h-full items-center justify-center py-6">
-        <span>Проверка авторизации...</span>
+        <div className="flex space-x-2">
+          <LoaderCircle className="animate-spin" />
+          <span>Проверка авторизации...</span>
+        </div>
       </section>
     );
   }
