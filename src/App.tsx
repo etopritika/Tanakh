@@ -8,8 +8,10 @@ import {
 } from "react-router-dom";
 
 import Layout from "./components/Layout";
+import PrivateRoute from "./components/PrivateRoute";
 import { ROUTES } from "./lib/routes";
 
+const AuthPage = React.lazy(() => import("./pages/AuthPage"));
 const MainPage = React.lazy(() => import("./pages/MainPage"));
 const BooksPage = React.lazy(() => import("./pages/BooksPage"));
 const ChaptersPage = React.lazy(() => import("./pages/ChaptersPage"));
@@ -31,11 +33,47 @@ function App() {
           }
         >
           <Routes>
-            <Route path={ROUTES.home} element={<MainPage />} />
-            <Route path={ROUTES.section} element={<BooksPage />} />
-            <Route path={ROUTES.book} element={<ChaptersPage />} />
-            <Route path={ROUTES.chapter} element={<VersesPage />} />
-            <Route path={ROUTES.search} element={<SearchPage />} />
+            <Route path={ROUTES.auth} element={<AuthPage />} />
+            <Route
+              path={ROUTES.home}
+              element={
+                <PrivateRoute>
+                  <MainPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path={ROUTES.section}
+              element={
+                <PrivateRoute>
+                  <BooksPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path={ROUTES.book}
+              element={
+                <PrivateRoute>
+                  <ChaptersPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path={ROUTES.chapter}
+              element={
+                <PrivateRoute>
+                  <VersesPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path={ROUTES.search}
+              element={
+                <PrivateRoute>
+                  <SearchPage />
+                </PrivateRoute>
+              }
+            />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Suspense>
