@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import { Button } from "@/components/ui/button";
 import { app } from "@/firebase";
+import { toast } from "@/hooks/use-toast";
 
 export default function Logout() {
   const navigate = useNavigate();
@@ -13,8 +14,12 @@ export default function Logout() {
       await signOut(auth);
       localStorage.removeItem("token");
       navigate("/auth", { replace: true });
-    } catch (error) {
-      console.error("Помилка виходу:", error);
+    } catch {
+      toast({
+        title: "Ошибка выхода",
+        description: "Не удалось завершить сеанс. Попробуйте ещё раз.",
+        variant: "destructive",
+      });
     }
   };
 

@@ -12,6 +12,7 @@
   --text: #28180a;
   --muted: #a29e8c;
   --danger: #c40700;
+  --destructive: #e53e3e;
 }
 
 ::selection {

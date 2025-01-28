@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Header from "./Header";
 import ScrollUpButton from "./Scroll-up-button";
 import DesktopSidebar from "./Sidebar/DesktopSidebar";
+import { Toaster } from "./ui/toaster";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { pathname } = useLocation();
@@ -16,6 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
       {!isAuthPage && <ScrollUpButton />}
+      <Toaster />
     </div>
   );
 }
