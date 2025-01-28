@@ -1,6 +1,7 @@
 import { BooksBySection } from "./types";
 
 export const ROUTES = {
+  auth: "/auth",
   home: "/",
   section: "/:sectionName",
   book: "/:sectionName/:bookName",

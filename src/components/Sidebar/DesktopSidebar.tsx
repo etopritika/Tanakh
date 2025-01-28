@@ -2,6 +2,7 @@ import { BookMarked } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 import BookLinks from "./BookLinks";
+import Logout from "../Logout";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 
 import { BOOKS } from "@/lib/routes";
@@ -21,39 +22,42 @@ export default function DesktopSidebar() {
     <aside
       className={`left-0 top-0 z-50 hidden h-screen w-80 bg-white p-4 lg:fixed lg:block`}
     >
-      <nav className="rounded-lg p-2">
-        <Link
-          to="/"
-          className={`block border-b py-4 ${
-            currentSection === "" ? "font-bold" : ""
-          }`}
-        >
-          Танах
-        </Link>
-        <Accordion type="single" collapsible defaultValue={currentSection}>
-          <AccordionItem value="tora">
-            <AccordionTrigger>Тора</AccordionTrigger>
-            <BookLinks booksList={BOOKS.tora} currentBook={currentBook} />
-          </AccordionItem>
-          <AccordionItem value="neviim">
-            <AccordionTrigger>Невиим</AccordionTrigger>
-            <BookLinks booksList={BOOKS.neviim} currentBook={currentBook} />
-          </AccordionItem>
-          <AccordionItem value="ketuvim">
-            <AccordionTrigger>Ктувим</AccordionTrigger>
-            <BookLinks booksList={BOOKS.ketuvim} currentBook={currentBook} />
-          </AccordionItem>
-        </Accordion>
-        {lastPathname && chapterName && (
+      <nav className="flex h-full flex-col justify-between rounded-lg">
+        <div>
           <Link
-            to={lastPathname}
-            className={`flex items-center border-b py-4 text-sm ${
-              pathname === lastPathname ? "font-bold" : ""
+            to="/"
+            className={`block border-b py-4 ${
+              currentSection === "" ? "font-bold" : ""
             }`}
           >
-            <BookMarked className="mr-2" size={16} /> {chapterName}
+            Танах
           </Link>
-        )}
+          <Accordion type="single" collapsible defaultValue={currentSection}>
+            <AccordionItem value="tora">
+              <AccordionTrigger>Тора</AccordionTrigger>
+              <BookLinks booksList={BOOKS.tora} currentBook={currentBook} />
+            </AccordionItem>
+            <AccordionItem value="neviim">
+              <AccordionTrigger>Невиим</AccordionTrigger>
+              <BookLinks booksList={BOOKS.neviim} currentBook={currentBook} />
+            </AccordionItem>
+            <AccordionItem value="ketuvim">
+              <AccordionTrigger>Ктувим</AccordionTrigger>
+              <BookLinks booksList={BOOKS.ketuvim} currentBook={currentBook} />
+            </AccordionItem>
+          </Accordion>
+          {lastPathname && chapterName && (
+            <Link
+              to={lastPathname}
+              className={`flex items-center border-b py-4 text-sm ${
+                pathname === lastPathname ? "font-bold" : ""
+              }`}
+            >
+              <BookMarked className="mr-2" size={16} /> {chapterName}
+            </Link>
+          )}
+        </div>
+        <Logout />
       </nav>
     </aside>
   );
