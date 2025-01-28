@@ -21,7 +21,7 @@ export default function AuthForm() {
         <CardTitle>{isLogin ? "Авторизация" : "Регистрация"}</CardTitle>
       </CardHeader>
       <CardContent>{isLogin ? <LoginForm /> : <RegisterForm />}</CardContent>
-      <CardFooter>
+      <CardFooter className="justify-center">
         <p>
           {isLogin ? "Нет аккаунта?" : "Уже есть аккаунт?"}{" "}
           <Button
