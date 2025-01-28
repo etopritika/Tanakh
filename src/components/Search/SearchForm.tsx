@@ -1,6 +1,7 @@
-import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Input } from "@/components/ui/input";
+import { X } from "lucide-react";
+import { useForm } from "react-hook-form";
+
 import {
   Form,
   FormControl,
@@ -9,9 +10,9 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { SearchFormData, searchSchema } from "@/lib/types";
-import { X } from "lucide-react";
+import { Input } from "@/components/ui/input";
 import { useDebouncedSearch } from "@/hooks/use-debounce-search";
+import { SearchFormData, searchSchema } from "@/lib/types";
 import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchForm() {
