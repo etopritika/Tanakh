@@ -1,4 +1,5 @@
 import { zodResolver } from "@hookform/resolvers/zod";
+import { FirebaseError } from "firebase/app";
 import {
   getAuth,
   signInWithEmailAndPassword,
@@ -9,6 +10,7 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
+import { getFirebaseErrorMessage } from "./firebaseError";
 import { GoogleIcon } from "./icons";
 
 import { Button } from "@/components/ui/button";
@@ -48,13 +50,25 @@ export default function LoginForm() {
         values.email,
         values.password,
       );
+
+      if (!userCredential.user.emailVerified) {
+        throw new FirebaseError("auth/unverified-email", "");
+      }
+
       const token = await userCredential.user.getIdToken();
       localStorage.setItem("token", token);
-      console.log("Успешный вход:", userCredential.user);
+
       navigate("/", { replace: true });
-    } catch (error: any) {
-      console.error("Ошибка входа:", error.message);
-      form.setError("email", { message: error.message });
+    } catch (error: unknown) {
+      if (error instanceof FirebaseError) {
+        form.setError("email", {
+          message: getFirebaseErrorMessage(error.code),
+        });
+      } else {
+        form.setError("email", {
+          message: "Неизвестная ошибка, попробуйте еще раз позже.",
+        });
+      }
     }
   };
 
@@ -66,10 +80,18 @@ export default function LoginForm() {
       const result = await signInWithPopup(auth, provider);
       const token = await result.user.getIdToken();
       localStorage.setItem("token", token);
-      console.log("Google Авторизация успешна:", result.user);
+
       navigate("/", { replace: true });
-    } catch (error: any) {
-      console.error("Ошибка авторизации через Google:", error.message);
+    } catch (error: unknown) {
+      if (error instanceof FirebaseError) {
+        form.setError("email", {
+          message: getFirebaseErrorMessage(error.code),
+        });
+      } else {
+        form.setError("email", {
+          message: "Неизвестная ошибка, попробуйте еще раз позже.",
+        });
+      }
     }
   };
 

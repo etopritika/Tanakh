@@ -1,16 +1,19 @@
 import { zodResolver } from "@hookform/resolvers/zod";
+import { FirebaseError } from "firebase/app";
 import {
   getAuth,
   createUserWithEmailAndPassword,
   sendEmailVerification,
   signInWithPopup,
   GoogleAuthProvider,
+  User,
 } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
+import { getFirebaseErrorMessage } from "./firebaseError";
 import { GoogleIcon } from "./icons";
 
 import { Button } from "@/components/ui/button";
@@ -41,7 +44,8 @@ type RegisterFormValues = z.infer<typeof registerSchema>;
 export default function RegisterForm() {
   const navigate = useNavigate();
   const [emailSent, setEmailSent] = useState(false);
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
+
   const form = useForm<RegisterFormValues>({
     resolver: zodResolver(registerSchema),
     defaultValues: {
@@ -80,9 +84,16 @@ export default function RegisterForm() {
       setUser(userCredential.user);
       setEmailSent(true);
       console.log("Лист для подтверждения email отправлен.");
-    } catch (error: any) {
-      console.error("Ошибка регистрации:", error.message);
-      form.setError("email", { message: error.message });
+    } catch (error: unknown) {
+      if (error instanceof FirebaseError) {
+        form.setError("email", {
+          message: getFirebaseErrorMessage(error.code),
+        });
+      } else {
+        form.setError("email", {
+          message: "Неизвестная ошибка, попробуйте еще раз позже.",
+        });
+      }
     }
   };
 
@@ -94,13 +105,17 @@ export default function RegisterForm() {
       const result = await signInWithPopup(auth, provider);
       const token = await result.user.getIdToken();
       localStorage.setItem("token", token);
-      console.log("Google Авторизация успешна:", result.user);
+
       navigate("/", { replace: true });
-    } catch (error: any) {
-      if (error.code === "auth/popup-closed-by-user") {
-        console.warn("Пользователь закрыл окно авторизации Google.");
+    } catch (error: unknown) {
+      if (error instanceof FirebaseError) {
+        form.setError("email", {
+          message: getFirebaseErrorMessage(error.code),
+        });
       } else {
-        console.error("Ошибка авторизации через Google:", error.message);
+        form.setError("email", {
+          message: "Неизвестная ошибка, попробуйте еще раз позже.",
+        });
       }
     }
   };
