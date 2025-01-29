@@ -1,17 +1,13 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FirebaseError } from "firebase/app";
-import {
-  getAuth,
-  signInWithEmailAndPassword,
-  signInWithPopup,
-  GoogleAuthProvider,
-} from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
 import { getFirebaseErrorMessage } from "./firebaseError";
-import { GoogleIcon } from "./icons";
+import { FacebookIcon, GoogleIcon } from "./icons";
+import { loginSchema } from "./schema";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -24,11 +20,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { app } from "@/firebase";
-
-const loginSchema = z.object({
-  email: z.string().email("Введите корректный email"),
-  password: z.string().min(6, "Пароль должен содержать минимум 6 символов"),
-});
+import { signInWithFacebook, signInWithGoogle } from "@/lib/authProviders";
 
 type LoginFormValues = z.infer<typeof loginSchema>;
 
@@ -56,29 +48,6 @@ export default function LoginForm() {
       }
 
       const token = await userCredential.user.getIdToken();
-      localStorage.setItem("token", token);
-
-      navigate("/", { replace: true });
-    } catch (error: unknown) {
-      if (error instanceof FirebaseError) {
-        form.setError("email", {
-          message: getFirebaseErrorMessage(error.code),
-        });
-      } else {
-        form.setError("email", {
-          message: "Неизвестная ошибка, попробуйте еще раз позже.",
-        });
-      }
-    }
-  };
-
-  const signInWithGoogle = async (event: React.MouseEvent) => {
-    event.preventDefault();
-    const auth = getAuth(app);
-    const provider = new GoogleAuthProvider();
-    try {
-      const result = await signInWithPopup(auth, provider);
-      const token = await result.user.getIdToken();
       localStorage.setItem("token", token);
 
       navigate("/", { replace: true });
@@ -137,11 +106,20 @@ export default function LoginForm() {
           Войти
         </Button>
         <Button
-          onClick={signInWithGoogle}
+          onClick={(event) => signInWithGoogle(event, form.setError, navigate)}
           variant="outline"
           className="mt-2 w-full bg-white"
         >
           Войти через Google <GoogleIcon />
+        </Button>
+        <Button
+          onClick={(event) =>
+            signInWithFacebook(event, form.setError, navigate)
+          }
+          variant="outline"
+          className="mt-2 w-full bg-white"
+        >
+          Войти через Facebook <FacebookIcon />
         </Button>
       </form>
     </Form>
