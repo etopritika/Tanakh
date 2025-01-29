@@ -18,6 +18,8 @@ export const getFirebaseErrorMessage = (errorCode: string): string => {
       return "Время ожидания ответа от сервера истекло.";
     case "auth/unverified-email":
       return "Ваш email не подтверждён. Пожалуйста, проверьте почту и подтвердите ваш email.";
+    case "auth/account-exists-with-different-credential":
+      return "Этот email уже зарегистрирован через другой метод. Войдите, используя этот способ.";
 
     default:
       return "Произошла ошибка. Попробуйте ещё раз.";

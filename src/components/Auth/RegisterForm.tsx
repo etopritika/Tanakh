@@ -4,8 +4,6 @@ import {
   getAuth,
   createUserWithEmailAndPassword,
   sendEmailVerification,
-  signInWithPopup,
-  GoogleAuthProvider,
   User,
 } from "firebase/auth";
 import { useEffect, useState } from "react";
@@ -14,7 +12,8 @@ import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
 import { getFirebaseErrorMessage } from "./firebaseError";
-import { GoogleIcon } from "./icons";
+import { FacebookIcon, GoogleIcon } from "./icons";
+import { registerSchema } from "./schema";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -27,17 +26,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { app } from "@/firebase";
-
-const registerSchema = z
-  .object({
-    email: z.string().email("Введите корректный email"),
-    password: z.string().min(6, "Пароль должен содержать минимум 6 символов"),
-    confirmPassword: z.string(),
-  })
-  .refine((data) => data.password === data.confirmPassword, {
-    message: "Пароли не совпадают",
-    path: ["confirmPassword"],
-  });
+import { signInWithFacebook, signInWithGoogle } from "@/lib/authProviders";
 
 type RegisterFormValues = z.infer<typeof registerSchema>;
 
@@ -83,30 +72,6 @@ export default function RegisterForm() {
       await sendEmailVerification(userCredential.user);
       setUser(userCredential.user);
       setEmailSent(true);
-      console.log("Лист для подтверждения email отправлен.");
-    } catch (error: unknown) {
-      if (error instanceof FirebaseError) {
-        form.setError("email", {
-          message: getFirebaseErrorMessage(error.code),
-        });
-      } else {
-        form.setError("email", {
-          message: "Неизвестная ошибка, попробуйте еще раз позже.",
-        });
-      }
-    }
-  };
-
-  const signInWithGoogle = async (event: React.MouseEvent) => {
-    event.preventDefault();
-    const auth = getAuth(app);
-    const provider = new GoogleAuthProvider();
-    try {
-      const result = await signInWithPopup(auth, provider);
-      const token = await result.user.getIdToken();
-      localStorage.setItem("token", token);
-
-      navigate("/", { replace: true });
     } catch (error: unknown) {
       if (error instanceof FirebaseError) {
         form.setError("email", {
@@ -186,12 +151,23 @@ export default function RegisterForm() {
             Зарегистрироваться
           </Button>
           <Button
-            onClick={signInWithGoogle}
+            onClick={(event) =>
+              signInWithGoogle(event, form.setError, navigate)
+            }
             variant="outline"
             className="mt-2 w-full bg-white"
           >
             Зарегистрироваться через Google
             <GoogleIcon />
+          </Button>
+          <Button
+            onClick={(event) =>
+              signInWithFacebook(event, form.setError, navigate)
+            }
+            variant="outline"
+            className="mt-2 w-full bg-white"
+          >
+            Зарегистрироваться через Facebook <FacebookIcon />
           </Button>
         </form>
       )}
