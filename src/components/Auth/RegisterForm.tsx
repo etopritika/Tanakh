@@ -6,6 +6,7 @@ import {
   sendEmailVerification,
   User,
 } from "firebase/auth";
+import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
@@ -34,6 +35,7 @@ export default function RegisterForm() {
   const navigate = useNavigate();
   const [emailSent, setEmailSent] = useState(false);
   const [user, setUser] = useState<User | null>(null);
+  const [isPending, setIsPending] = useState(false);
 
   const form = useForm<RegisterFormValues>({
     resolver: zodResolver(registerSchema),
@@ -61,6 +63,7 @@ export default function RegisterForm() {
   }, [user, navigate]);
 
   const onSubmit = async (values: RegisterFormValues) => {
+    setIsPending(true);
     const auth = getAuth(app);
     try {
       const userCredential = await createUserWithEmailAndPassword(
@@ -82,6 +85,8 @@ export default function RegisterForm() {
           message: "Неизвестная ошибка, попробуйте еще раз позже.",
         });
       }
+    } finally {
+      setIsPending(false);
     }
   };
 
@@ -147,8 +152,15 @@ export default function RegisterForm() {
               </FormItem>
             )}
           />
-          <Button type="submit" className="w-full bg-brown-light text-white">
-            Зарегистрироваться
+          <Button
+            type="submit"
+            className="w-full bg-brown-light text-white"
+            disabled={isPending}
+          >
+            Зарегистрироваться{" "}
+            {isPending && (
+              <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+            )}
           </Button>
           <Button
             onClick={(event) =>

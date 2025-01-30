@@ -10,6 +10,7 @@ import {
 import Layout from "./components/Layout";
 import PrivateRoute from "./components/PrivateRoute";
 import { ROUTES } from "./lib/routes";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 
 const AuthPage = React.lazy(() => import("./pages/AuthPage"));
 const MainPage = React.lazy(() => import("./pages/MainPage"));
@@ -34,6 +35,10 @@ function App() {
         >
           <Routes>
             <Route path={ROUTES.auth} element={<AuthPage />} />
+            <Route
+              path={ROUTES.forgotPassword}
+              element={<ForgotPasswordPage />}
+            />
             <Route
               path={ROUTES.home}
               element={

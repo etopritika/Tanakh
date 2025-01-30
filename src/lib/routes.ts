@@ -3,6 +3,7 @@ import { BooksBySection } from "./types";
 export const ROUTES = {
   auth: "/auth",
   home: "/",
+  forgotPassword: "/forgot-password",
   section: "/:sectionName",
   book: "/:sectionName/:bookName",
   chapter: "/:sectionName/:bookName/:chapterId/:subChapterId?",

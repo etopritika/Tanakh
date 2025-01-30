@@ -1,6 +1,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FirebaseError } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { LoaderCircle } from "lucide-react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
@@ -34,7 +36,10 @@ export default function LoginForm() {
     },
   });
 
+  const [isPending, setIsPending] = useState(false);
+
   const onSubmit = async (values: LoginFormValues) => {
+    setIsPending(true);
     const auth = getAuth(app);
     try {
       const userCredential = await signInWithEmailAndPassword(
@@ -61,6 +66,8 @@ export default function LoginForm() {
           message: "Неизвестная ошибка, попробуйте еще раз позже.",
         });
       }
+    } finally {
+      setIsPending(false);
     }
   };
 
@@ -91,19 +98,35 @@ export default function LoginForm() {
             <FormItem>
               <FormLabel>Пароль</FormLabel>
               <FormControl>
-                <Input
-                  type="password"
-                  placeholder="Введите ваш пароль"
-                  {...field}
-                  className="bg-white"
-                />
+                <>
+                  <Input
+                    type="password"
+                    placeholder="Введите ваш пароль"
+                    {...field}
+                    className="bg-white"
+                  />
+                  <Button
+                    variant="link"
+                    onClick={() => navigate("/forgot-password")}
+                    className="p-0 text-sm underline"
+                  >
+                    Забыли пароль?
+                  </Button>
+                </>
               </FormControl>
               <FormMessage className="text-danger" />
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full bg-brown-light text-white">
-          Войти
+        <Button
+          type="submit"
+          className="w-full bg-brown-light text-white"
+          disabled={isPending}
+        >
+          Войти{" "}
+          {isPending && (
+            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          )}
         </Button>
         <Button
           onClick={(event) => signInWithGoogle(event, form.setError, navigate)}
