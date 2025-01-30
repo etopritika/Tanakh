@@ -26,8 +26,8 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { app } from "@/firebase";
 import { signInWithFacebook, signInWithGoogle } from "@/lib/authProviders";
+import { app } from "@/lib/firebase";
 
 type RegisterFormValues = z.infer<typeof registerSchema>;
 

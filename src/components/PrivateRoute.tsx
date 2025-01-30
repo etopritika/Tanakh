@@ -3,7 +3,7 @@ import { LoaderCircle } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
 
-import { app } from "@/firebase";
+import { app } from "@/lib/firebase";
 
 const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
