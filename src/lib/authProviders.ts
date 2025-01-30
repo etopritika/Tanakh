@@ -1,5 +1,9 @@
 import { FirebaseError } from "firebase/app";
-import { getAuth, signInWithPopup } from "firebase/auth";
+import {
+  getAuth,
+  sendPasswordResetEmail,
+  signInWithPopup,
+} from "firebase/auth";
 import { UseFormSetError } from "react-hook-form";
 
 import { getFirebaseErrorMessage } from "@/components/Auth/firebaseError";
@@ -51,4 +55,9 @@ export const signInWithFacebook = async (
       });
     }
   }
+};
+
+export const sendResetPasswordEmail = async (email: string) => {
+  const auth = getAuth(app);
+  await sendPasswordResetEmail(auth, email);
 };
