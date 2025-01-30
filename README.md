@@ -1,6 +1,6 @@
 # Torah
 
-React/Vite application for reading and exploring the Tanakh. This application is built to provide a seamless experience for users to browse sections, books, chapters, and verses, with advanced features like search and bookmarking.
+React/Vite application for reading and exploring the Tanakh. This application is built to provide a seamless experience for users to browse sections, books, chapters, and verses, with advanced features like search, bookmarking, and user authentication.
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Firebase Authentication Setup](#firebase-authentication-setup)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
 - [Contributing](#contributing)
@@ -23,6 +24,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - 📱 Responsive design for mobile and desktop.
 - 🌐 Progressive Web App (PWA) support.
 - ⚡ Built with modern React and Vite for fast performance.
+- 🔐 **User authentication** with email/password, Google, and Facebook.
 
 ---
 
@@ -30,6 +32,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 
 - **React**: Frontend library for building user interfaces.
 - **Vite**: Fast build tool for modern web development.
+- **Firebase Authentication**: Secure user authentication.
 - **TailwindCSS**: Utility-first CSS framework for styling.
 - **Zustand**: Lightweight state management.
 - **Radix UI**: Accessible and customizable UI components.
@@ -49,6 +52,8 @@ React/Vite application for reading and exploring the Tanakh. This application is
    cd Tanakh
    ```
 
+````
+
 2. Install dependencies:
 
    ```bash
@@ -56,6 +61,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -68,6 +74,30 @@ React/Vite application for reading and exploring the Tanakh. This application is
 2. Explore sections like **Torah**, **Neviim**, and **Ketuvim**.
 3. Search for specific verses or chapters.
 4. Bookmark chapters for easy navigation.
+5. Register and sign in to save your bookmarks and personal preferences.
+
+---
+
+## Firebase Authentication Setup
+
+To enable authentication, you need to configure Firebase for your project.
+
+1. **Create a Firebase project** in the [Firebase Console](https://console.firebase.google.com/).
+2. **Enable authentication providers** (Email/Password, Google, Facebook, etc.) in the Authentication section of your Firebase project.
+3. **Add environment variables**:
+   - In the root directory of your project, create a `.env` file with the following variables:
+     ```env
+     VITE_FIREBASE_API_KEY=your_firebase_api_key
+     VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+     VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+     VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+     VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+     VITE_FIREBASE_APP_ID=your_firebase_app_id
+     VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
+     ```
+4. **Configure OAuth providers** like Google and Facebook:
+   - For Google, you'll need to enable the **Google provider** in Firebase and configure the consent screen in the [Google Cloud Console](https://console.cloud.google.com/).
+   - For Facebook, you'll need to set up an app in [Facebook Developers](https://developers.facebook.com/), configure the app to use OAuth, and add your app's **App ID** and **App Secret** to Firebase.
 
 ---
 
@@ -97,33 +127,6 @@ src/
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Make changes and commit:
-   ```bash
-   git commit -m "Add your feature"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature/your-feature
-   ```
-5. Create a Pull Request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Acknowledgements
 
 - **Radix UI** for accessible components.
@@ -131,3 +134,4 @@ This project is licensed under the [MIT License](LICENSE).
 - **Zustand** for state management simplicity.
 
 ---
+````
