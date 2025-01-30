@@ -7,7 +7,7 @@ import {
 import { UseFormSetError } from "react-hook-form";
 
 import { getFirebaseErrorMessage } from "@/components/Auth/firebaseError";
-import { facebookAuthProvider, googleAuthProvider, app } from "@/firebase";
+import { facebookAuthProvider, googleAuthProvider, app } from "@/lib/firebase";
 
 type SetErrorType = UseFormSetError<{ email: string; password: string }>;
 
