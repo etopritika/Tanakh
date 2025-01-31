@@ -1,4 +1,5 @@
 import { create } from "zustand";
+
 import { Verse } from "@/lib/types";
 
 interface SearchStore {
