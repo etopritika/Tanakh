@@ -5,6 +5,7 @@ import {
   createUserWithEmailAndPassword,
   sendEmailVerification,
   User,
+  updateProfile,
 } from "firebase/auth";
 import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -28,6 +29,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { signInWithFacebook, signInWithGoogle } from "@/lib/authProviders";
 import { app } from "@/lib/firebase";
+import { useUserStore } from "@/store/use-user-store";
 
 type RegisterFormValues = z.infer<typeof registerSchema>;
 
@@ -36,10 +38,12 @@ export default function RegisterForm() {
   const [emailSent, setEmailSent] = useState(false);
   const [user, setUser] = useState<User | null>(null);
   const [isPending, setIsPending] = useState(false);
+  const { setUserName } = useUserStore();
 
   const form = useForm<RegisterFormValues>({
     resolver: zodResolver(registerSchema),
     defaultValues: {
+      name: "",
       email: "",
       password: "",
       confirmPassword: "",
@@ -72,6 +76,11 @@ export default function RegisterForm() {
         values.password,
       );
 
+      await updateProfile(userCredential.user, {
+        displayName: values.name,
+      });
+      setUserName(values.name);
+
       await sendEmailVerification(userCredential.user);
       setUser(userCredential.user);
       setEmailSent(true);
@@ -99,6 +108,23 @@ export default function RegisterForm() {
         </div>
       ) : (
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+          <FormField
+            control={form.control}
+            name="name"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Имя</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder="Введите ваше имя"
+                    {...field}
+                    className="bg-white"
+                  />
+                </FormControl>
+                <FormMessage className="text-danger" />
+              </FormItem>
+            )}
+          />
           <FormField
             control={form.control}
             name="email"
