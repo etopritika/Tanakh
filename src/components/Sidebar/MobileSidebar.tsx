@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import BookLinks from "./BookLinks";
 import Logout from "../Logout";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
+import UserName from "../UserName";
 
 import {
   Sheet,
@@ -92,7 +93,10 @@ export default function MobileSidebar() {
               </SheetClose>
             )}
           </div>
-          <Logout />
+          <div className="flex flex-col space-y-2">
+            <UserName />
+            <Logout />
+          </div>
         </nav>
       </SheetContent>
     </Sheet>

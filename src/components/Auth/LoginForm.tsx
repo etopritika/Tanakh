@@ -23,6 +23,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { signInWithFacebook, signInWithGoogle } from "@/lib/authProviders";
 import { app } from "@/lib/firebase";
+import { useUserStore } from "@/store/use-user-store";
 
 type LoginFormValues = z.infer<typeof loginSchema>;
 
@@ -37,6 +38,7 @@ export default function LoginForm() {
   });
 
   const [isPending, setIsPending] = useState(false);
+  const { setUserName } = useUserStore();
 
   const onSubmit = async (values: LoginFormValues) => {
     setIsPending(true);
@@ -55,6 +57,7 @@ export default function LoginForm() {
       const token = await userCredential.user.getIdToken();
       localStorage.setItem("token", token);
 
+      setUserName(userCredential.user.displayName);
       navigate("/", { replace: true });
     } catch (error: unknown) {
       if (error instanceof FirebaseError) {
