@@ -193,7 +193,7 @@ export default function RegisterForm() {
               signInWithGoogle(event, form.setError, navigate)
             }
             variant="outline"
-            className="mt-2 w-full bg-white"
+            className="mt-2 h-auto w-full whitespace-normal bg-white"
           >
             Зарегистрироваться через Google
             <GoogleIcon />
@@ -203,7 +203,7 @@ export default function RegisterForm() {
               signInWithFacebook(event, form.setError, navigate)
             }
             variant="outline"
-            className="mt-2 w-full bg-white"
+            className="mt-2 h-auto w-full whitespace-normal bg-white"
           >
             Зарегистрироваться через Facebook <FacebookIcon />
           </Button>

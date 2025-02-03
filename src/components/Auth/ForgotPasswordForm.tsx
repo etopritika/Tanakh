@@ -93,14 +93,17 @@ export default function ForgotPasswordForm() {
                 </FormItem>
               )}
             />
-            <div className="flex justify-between">
-              <Button onClick={() => navigate("/auth")} className="bg-white">
+            <div className="flex items-center justify-between space-x-6">
+              <Button
+                onClick={() => navigate("/auth")}
+                className="bg-white px-0"
+              >
                 <ArrowLeft />
                 Назад
               </Button>
               <Button
                 type="submit"
-                className="bg-brown-light text-white"
+                className="h-auto whitespace-normal bg-brown-light text-white"
                 disabled={isPending}
               >
                 Отправить инструкции{" "}
