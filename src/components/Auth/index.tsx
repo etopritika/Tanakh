@@ -22,16 +22,20 @@ export default function AuthForm() {
       </CardHeader>
       <CardContent>{isLogin ? <LoginForm /> : <RegisterForm />}</CardContent>
       <CardFooter className="justify-center">
-        <p>
-          {isLogin ? "Нет аккаунта?" : "Уже есть аккаунт?"}{" "}
+        <div>
+          {isLogin ? (
+            <span className="mr-2">Нет аккаунта?</span>
+          ) : (
+            <span className="mr-2">Уже есть аккаунт?</span>
+          )}{" "}
           <Button
             variant="link"
-            className="text-blue-600 underline"
+            className="px-0 text-blue-600 underline"
             onClick={() => setIsLogin(!isLogin)}
           >
             {isLogin ? "Зарегистрироваться" : "Войти"}
           </Button>
-        </p>
+        </div>
       </CardFooter>
     </Card>
   );

@@ -14,7 +14,7 @@ export default function AuthPage() {
   }, [token, navigate]);
 
   return (
-    <section className="flex h-full items-center justify-center py-6">
+    <section className="flex min-h-screen items-center justify-center py-6">
       <AuthForm />
     </section>
   );
