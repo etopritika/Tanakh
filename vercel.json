@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/blueprints/:path*",
-      "destination": "/public/blueprints/:path*"
-    },
-    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
