@@ -41,6 +41,14 @@ function App() {
               element={<ForgotPasswordPage />}
             />
             <Route
+              path={ROUTES.blueprints}
+              element={
+                <PrivateRoute>
+                  <BlueprintsPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
               path={ROUTES.home}
               element={
                 <PrivateRoute>
@@ -77,14 +85,6 @@ function App() {
               element={
                 <PrivateRoute>
                   <SearchPage />
-                </PrivateRoute>
-              }
-            />
-            <Route
-              path={ROUTES.blueprints}
-              element={
-                <PrivateRoute>
-                  <BlueprintsPage />
                 </PrivateRoute>
               }
             />

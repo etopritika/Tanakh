@@ -4,11 +4,11 @@ export const ROUTES = {
   auth: "/auth",
   home: "/",
   forgotPassword: "/forgot-password",
+  blueprints: "/blueprints",
   section: "/:sectionName",
   book: "/:sectionName/:bookName",
   chapter: "/:sectionName/:bookName/:chapterId/:subChapterId?",
   search: "/search",
-  blueprints: "/blueprints",
 };
 
 export const BOOKS: BooksBySection = {
