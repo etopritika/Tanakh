@@ -6,15 +6,15 @@ import { bookNameMap } from "@/lib/types";
 export default function BackToBooksLink() {
   const { pathname } = useLocation();
   const pathSegments = pathname.split("/").filter(Boolean);
-
-  if (pathSegments.length !== 2) {
+  console.log(pathSegments);
+  if (pathSegments.length !== 3) {
     return null;
   }
 
-  const bookKey = pathSegments[1];
+  const bookKey = pathSegments[2];
   const bookName = bookNameMap[bookKey] || "Неизвестная книга";
 
-  const backToBooksPath = `/${pathSegments[0]}`;
+  const backToBooksPath = `/books/${pathSegments[1]}`;
 
   return (
     <Link

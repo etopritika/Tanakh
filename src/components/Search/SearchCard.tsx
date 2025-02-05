@@ -32,7 +32,7 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
     idChapterTwo > 1 ? `${verse.id_chapter}/${idChapterTwo}` : verse.id_chapter;
 
   const bookPath = BookPathMap[verse.id_book];
-  const to = `/${bookPath.section}/${bookPath.bookName}/${isSubChapter}#verse-${verse.poemNumber}`;
+  const to = `/books/${bookPath.section}/${bookPath.bookName}/${isSubChapter}#verse-${verse.poemNumber}`;
   const isHighlighted = selectedIndex === index;
 
   const cardClasses = `bg-white shadow-md ${

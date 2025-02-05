@@ -25,13 +25,14 @@ export default function ChapterList({
         const isSubChapter =
           chapter.subKey > 1 ? `${chapter.key}/${chapter.subKey}` : chapter.key;
 
-        const href = `/${sectionName}/${bookName}/${isSubChapter}`;
+        const href = `/books/${sectionName}/${bookName}/${isSubChapter}`;
         const isActive = lastPathname === href;
         const isLast = index === chapters.length - 1;
 
         return (
           <li key={isSubChapter}>
             <Link
+              onClick={() => console.log(href)}
               to={href}
               className={`flex rounded-lg px-4 py-2 text-text ${
                 isLast ? "" : "border-b"
