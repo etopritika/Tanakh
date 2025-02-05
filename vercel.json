@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/sanctuary.pdf",
-      "destination": "/sanctuary.pdf"
+      "destination": "/public/sanctuary.pdf"
     },
     {
       "source": "/(.*)",
