@@ -3,7 +3,7 @@ export default function BlueprintsPage() {
     <section className="h-full py-6">
       <h1 className="sr-only">Blueprints Page</h1>
       <iframe
-        src="/blueprints/sanctuary.pdf?cache-buster={Date.now()}"
+        src={`${import.meta.env.BASE_URL}blueprints/sanctuary.pdf`}
         className="h-full w-full border-none"
         title="Blueprint Viewer"
       />
