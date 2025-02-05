@@ -6,7 +6,7 @@ import { bookNameMap } from "@/lib/types";
 export default function BackToBooksLink() {
   const { pathname } = useLocation();
   const pathSegments = pathname.split("/").filter(Boolean);
-  console.log(pathSegments);
+
   if (pathSegments.length !== 3) {
     return null;
   }
