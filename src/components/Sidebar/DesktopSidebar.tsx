@@ -33,6 +33,14 @@ export default function DesktopSidebar() {
           >
             Танах
           </Link>
+          <Link
+            to="/blueprints"
+            className={`block border-b py-4 ${
+              currentSection === "blueprints" ? "font-bold" : ""
+            }`}
+          >
+            Чертежи
+          </Link>
           <Accordion type="single" collapsible defaultValue={currentSection}>
             <AccordionItem value="tora">
               <AccordionTrigger>Тора</AccordionTrigger>

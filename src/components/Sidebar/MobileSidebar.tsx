@@ -54,6 +54,17 @@ export default function MobileSidebar() {
                 Танах
               </Link>
             </SheetClose>
+            <SheetClose asChild>
+              <Link
+                to="/blueprints"
+                className={`block border-b py-4 ${
+                  currentSection === "blueprints" ? "font-bold" : ""
+                }`}
+              >
+                Чертежи
+              </Link>
+            </SheetClose>
+
             <Accordion type="single" collapsible defaultValue={currentSection}>
               <AccordionItem value="tora">
                 <AccordionTrigger>Тора</AccordionTrigger>
