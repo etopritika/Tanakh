@@ -57,6 +57,14 @@ function App() {
               }
             />
             <Route
+              path={ROUTES.search}
+              element={
+                <PrivateRoute>
+                  <SearchPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
               path={ROUTES.section}
               element={
                 <PrivateRoute>
@@ -77,14 +85,6 @@ function App() {
               element={
                 <PrivateRoute>
                   <VersesPage />
-                </PrivateRoute>
-              }
-            />
-            <Route
-              path={ROUTES.search}
-              element={
-                <PrivateRoute>
-                  <SearchPage />
                 </PrivateRoute>
               }
             />
