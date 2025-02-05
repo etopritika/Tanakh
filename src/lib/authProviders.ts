@@ -8,6 +8,9 @@ import { UseFormSetError } from "react-hook-form";
 
 import { getFirebaseErrorMessage } from "@/components/Auth/firebaseError";
 import { facebookAuthProvider, googleAuthProvider, app } from "@/lib/firebase";
+import { useUserStore } from "@/store/use-user-store";
+
+const { setUserName } = useUserStore.getState();
 
 type SetErrorType = UseFormSetError<{ email: string; password: string }>;
 
@@ -22,6 +25,9 @@ export const signInWithGoogle = async (
     const result = await signInWithPopup(auth, googleAuthProvider);
     const token = await result.user.getIdToken();
     localStorage.setItem("token", token);
+
+    setUserName(result.user.displayName || null);
+
     navigate("/", { replace: true });
   } catch (error: unknown) {
     if (error instanceof FirebaseError) {
@@ -45,6 +51,9 @@ export const signInWithFacebook = async (
     const result = await signInWithPopup(auth, facebookAuthProvider);
     const token = await result.user.getIdToken();
     localStorage.setItem("token", token);
+
+    setUserName(result.user.displayName || null);
+
     navigate("/", { replace: true });
   } catch (error: unknown) {
     if (error instanceof FirebaseError) {
