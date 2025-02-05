@@ -18,6 +18,7 @@ const BooksPage = React.lazy(() => import("./pages/BooksPage"));
 const ChaptersPage = React.lazy(() => import("./pages/ChaptersPage"));
 const VersesPage = React.lazy(() => import("./pages/VersesPage"));
 const SearchPage = React.lazy(() => import("./pages/SearchPage"));
+const BlueprintsPage = React.lazy(() => import("./pages/BlueprintsPage"));
 
 function App() {
   return (
@@ -76,6 +77,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <SearchPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path={ROUTES.blueprints}
+              element={
+                <PrivateRoute>
+                  <BlueprintsPage />
                 </PrivateRoute>
               }
             />

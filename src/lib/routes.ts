@@ -8,6 +8,7 @@ export const ROUTES = {
   book: "/:sectionName/:bookName",
   chapter: "/:sectionName/:bookName/:chapterId/:subChapterId?",
   search: "/search",
+  blueprints: "/blueprints",
 };
 
 export const BOOKS: BooksBySection = {
