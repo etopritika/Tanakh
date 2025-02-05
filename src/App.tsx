@@ -35,11 +35,6 @@ function App() {
           }
         >
           <Routes>
-            <Route path={ROUTES.auth} element={<AuthPage />} />
-            <Route
-              path={ROUTES.forgotPassword}
-              element={<ForgotPasswordPage />}
-            />
             <Route
               path={ROUTES.blueprints}
               element={
@@ -48,6 +43,12 @@ function App() {
                 </PrivateRoute>
               }
             />
+            <Route path={ROUTES.auth} element={<AuthPage />} />
+            <Route
+              path={ROUTES.forgotPassword}
+              element={<ForgotPasswordPage />}
+            />
+
             <Route
               path={ROUTES.home}
               element={
