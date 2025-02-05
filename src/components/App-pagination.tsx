@@ -31,7 +31,7 @@ export default function AppPagination({
   const getPageHref = (index: number): string => {
     const { key, subKey } = chapters[index];
     const subPath = subKey > 1 ? `/${subKey}` : "";
-    return `/${sectionName}/${bookName}/${key}${subPath}`;
+    return `/books/${sectionName}/${bookName}/${key}${subPath}`;
   };
 
   const getButtonClassName = (isDisabled: boolean): string =>
