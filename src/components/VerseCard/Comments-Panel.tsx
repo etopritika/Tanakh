@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 import AddComment from "../Modals/Add-Comment";
 import EditComment from "../Modals/Edit-Comment";
-import ModalContainer from "../Modals/modal-container";
+import ModalContainer from "../Modals/Modal-Container";
 import { Button } from "../ui/button";
 import {
   Tooltip,

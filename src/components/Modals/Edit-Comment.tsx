@@ -1,5 +1,5 @@
 import DeleteConfirmation from "./Delete-Confirmation";
-import ModalContainer from "./modal-container";
+import ModalContainer from "./Modal-Container";
 import { Button } from "../ui/button";
 import { Textarea } from "../ui/textarea";
 

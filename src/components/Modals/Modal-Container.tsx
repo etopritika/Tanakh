@@ -7,7 +7,7 @@ interface ModalProps {
   children: React.ReactNode;
 }
 
-const ModalContainer: React.FC<ModalProps> = ({ children }) => {
+export default function ModalContainer({ children }: ModalProps) {
   const { isOpen, setClose } = useModal();
   if (!isOpen) return null;
 
@@ -34,6 +34,4 @@ const ModalContainer: React.FC<ModalProps> = ({ children }) => {
       </div>
     </div>
   );
-};
-
-export default ModalContainer;
+}
