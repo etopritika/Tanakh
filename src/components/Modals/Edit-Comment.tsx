@@ -3,7 +3,7 @@ import ModalContainer from "./Modal-Container";
 import { Button } from "../ui/button";
 import { Textarea } from "../ui/textarea";
 
-import { useModal } from "@/providers/modal-provider";
+import { useModal } from "@/providers/Modal/modal-context";
 
 export default function EditComment() {
   const { setOpen } = useModal();

@@ -1,7 +1,7 @@
 import { X } from "lucide-react";
 import React from "react";
 
-import { useModal } from "@/providers/modal-provider";
+import { useModal } from "@/providers/Modal/modal-context";
 
 interface ModalProps {
   children: React.ReactNode;

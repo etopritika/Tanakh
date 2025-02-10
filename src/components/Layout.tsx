@@ -5,7 +5,7 @@ import ScrollUpButton from "./Scroll-up-button";
 import DesktopSidebar from "./Sidebar/DesktopSidebar";
 import { Toaster } from "./ui/toaster";
 
-import ModalProvider from "@/providers/modal-provider";
+import ModalProvider from "@/providers/Modal";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const { pathname } = useLocation();

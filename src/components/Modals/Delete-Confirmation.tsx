@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 
-import { useModal } from "@/providers/modal-provider";
+import { useModal } from "@/providers/Modal/modal-context";
 
 export default function DeleteConfirmation() {
   const { setClose } = useModal();

@@ -14,7 +14,7 @@ import {
 
 import { Input } from "@/components/ui/input";
 import { Verse } from "@/lib/types";
-import { useModal } from "@/providers/modal-provider";
+import { useModal } from "@/providers/Modal/modal-context";
 
 export default function CommentsPanel({
   defaultVerse,
