@@ -1,6 +1,7 @@
 // import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
 import { GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -20,6 +21,8 @@ googleAuthProvider.setCustomParameters({ prompt: "select_account" });
 export const facebookAuthProvider = new FacebookAuthProvider();
 facebookAuthProvider.addScope("email");
 facebookAuthProvider.addScope("public_profile");
+
+export const db = getFirestore(app);
 
 // if (import.meta.env.MODE === "production") {
 //   const analytics = getAnalytics(app);
