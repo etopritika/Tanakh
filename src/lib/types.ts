@@ -87,3 +87,10 @@ export const searchSchema = z.object({
 });
 
 export type SearchFormData = z.infer<typeof searchSchema>;
+
+export type Comment = {
+  id: string;
+  uid: string;
+  text: string;
+  createdAt: Date;
+};
