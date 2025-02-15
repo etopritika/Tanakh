@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import CommentsContainer from "./Comments-Container";
+import CommentsDropdown from "./Comments-Dropdown";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 import { Verse } from "@/lib/types";
@@ -44,7 +44,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           </div>
         </CardContent>
         <CardFooter>
-          <CommentsContainer verse={verse} />
+          <CommentsDropdown verse={verse} />
         </CardFooter>
       </Card>
     </li>
