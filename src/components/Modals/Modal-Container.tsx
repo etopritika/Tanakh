@@ -20,7 +20,7 @@ export default function ModalContainer({ children }: ModalProps) {
   return (
     <div
       onClick={handleOverlayClick}
-      className="fixed inset-0 z-50 flex items-center justify-center"
+      className="fixed inset-0 z-50 flex items-center justify-center px-2"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
     >
       <div className="relative w-full max-w-md rounded bg-white p-6 shadow-md">
