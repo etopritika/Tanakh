@@ -1,19 +1,15 @@
-import { CirclePlus, MessageSquareOff, Pencil } from "lucide-react";
-import { useEffect, useState } from "react";
+import { MessageSquareOff } from "lucide-react";
+import { useCallback, useEffect, useState } from "react";
 
-import AddComment from "../Modals/Add-Comment";
-import EditComment from "../Modals/Edit-Comment";
+import { deleteComment, fetchComments } from "./actions";
+import AddCommentButton from "./Add-Comment-Button";
+import EditCommentButton from "./Edit-Comment-Button";
+import AddModal from "../Modals/Comments/Add-Modal";
+import EditModal from "../Modals/Comments/Edit-Modal";
 import ModalContainer from "../Modals/Modal-Container";
-import { Button } from "../ui/button";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "../ui/tooltip";
 
 import { Input } from "@/components/ui/input";
-import { Verse } from "@/lib/types";
+import { BookPathMap, Verse, Comment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 
 export default function CommentsPanel({
@@ -22,38 +18,62 @@ export default function CommentsPanel({
   defaultVerse: Verse;
 }) {
   const { setOpen } = useModal();
-  const [comments, setComments] = useState<string[]>([]);
-  const [filteredComments, setFilteredComments] = useState<string[]>([]);
-  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [comments, setComments] = useState<Comment[]>([]);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const bookName = BookPathMap[defaultVerse.id_book].bookName;
+  const verseId = `verse-${defaultVerse.id_chapter}-${defaultVerse?.id_chapter_two || 1}-${defaultVerse.poemNumber}`;
 
   useEffect(() => {
-    const initialComments = defaultVerse.comment ? [defaultVerse.comment] : [];
-    setComments(initialComments);
-    setFilteredComments(initialComments);
-  }, [defaultVerse.comment]);
+    fetchComments(bookName, verseId).then(setComments);
+  }, [bookName, verseId]);
 
-  useEffect(() => {
-    const lowerQuery = searchQuery.toLowerCase();
-    setFilteredComments(
-      comments.filter((comment) => comment.toLowerCase().includes(lowerQuery)),
+  const handleUpdateComment = useCallback((newComment: Comment) => {
+    setComments((prev) =>
+      prev.some(({ id }) => id === newComment.id)
+        ? prev.map((c) =>
+            c.id === newComment.id ? { ...c, ...newComment } : c,
+          )
+        : [newComment, ...prev],
     );
-  }, [searchQuery, comments]);
+  }, []);
 
-  const handleAddComment = () => {
+  const handleDeleteComment = async (commentId: string) => {
+    try {
+      await deleteComment(bookName, verseId, commentId);
+      setComments((prev) => prev.filter((c) => c.id !== commentId));
+    } catch (error) {
+      console.error("Ошибка при удалении комментария:", error);
+    }
+  };
+
+  const handleOpenModal = (type: "add" | "edit", comment?: Comment) => {
     setOpen(
       <ModalContainer>
-        <AddComment />
+        {type === "add" ? (
+          <AddModal
+            bookName={bookName}
+            verseId={verseId}
+            handleUpdateComment={handleUpdateComment}
+          />
+        ) : (
+          comment && (
+            <EditModal
+              comment={comment}
+              bookName={bookName}
+              verseId={verseId}
+              handleUpdateComment={handleUpdateComment}
+              handleDeleteComment={handleDeleteComment}
+            />
+          )
+        )}
       </ModalContainer>,
     );
   };
 
-  const handleEditComment = () => {
-    setOpen(
-      <ModalContainer>
-        <EditComment />
-      </ModalContainer>,
-    );
-  };
+  const filteredComments = comments.filter(({ text }) =>
+    text.toLowerCase().includes(searchQuery.toLowerCase()),
+  );
 
   return (
     <>
@@ -64,45 +84,20 @@ export default function CommentsPanel({
           onChange={(e) => setSearchQuery(e.target.value)}
           className="max-w-52 bg-white"
         />
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <Button
-                onClick={handleAddComment}
-                className="bg-white p-2"
-                variant="outline"
-              >
-                <CirclePlus />
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent className="bg-white">
-              <p>Добавить кометарий</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        <AddCommentButton onAdd={() => handleOpenModal("add")} />
       </div>
 
       <ul className="mt-4 italic">
-        {filteredComments.length > 0 ? (
-          filteredComments.map((comment, index) => (
-            <li key={index} className="prose mb-2 flex space-x-2">
-              <div dangerouslySetInnerHTML={{ __html: comment }} />{" "}
-              <TooltipProvider>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button
-                      variant="outline"
-                      className="bg-white p-2"
-                      onClick={handleEditComment}
-                    >
-                      <Pencil size={20} />
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent className="bg-white">
-                    <p>Изменить кометарий</p>
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
+        {filteredComments.length ? (
+          filteredComments.map((comment) => (
+            <li
+              key={comment.id}
+              className="prose mb-2 flex items-center space-x-2"
+            >
+              <div dangerouslySetInnerHTML={{ __html: comment.text }} />
+              <EditCommentButton
+                onEdit={() => handleOpenModal("edit", comment)}
+              />
             </li>
           ))
         ) : (
