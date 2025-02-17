@@ -4,6 +4,7 @@ import { Button } from "../../ui/button";
 import { Textarea } from "../../ui/textarea";
 import { addComment } from "../../VerseCard/actions";
 
+import { toast } from "@/hooks/use-toast";
 import { Comment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 
@@ -27,6 +28,14 @@ export default function AddModal({
         setClose();
       } catch (error) {
         console.error("Ошибка при добавлении комментария: ", error);
+        const errorMessage =
+          error instanceof Error ? error.message : "Неизвестная ошибка";
+
+        toast({
+          title: "Ошибка при добавлении комментария",
+          description: errorMessage,
+          variant: "destructive",
+        });
       }
     }
   };

@@ -9,6 +9,7 @@ import EditModal from "../Modals/Comments/Edit-Modal";
 import ModalContainer from "../Modals/Modal-Container";
 
 import { Input } from "@/components/ui/input";
+import { toast } from "@/hooks/use-toast";
 import { BookPathMap, Verse, Comment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 
@@ -25,7 +26,19 @@ export default function CommentsPanel({
   const verseId = `verse-${defaultVerse.id_chapter}-${defaultVerse?.id_chapter_two || 1}-${defaultVerse.poemNumber}`;
 
   useEffect(() => {
-    fetchComments(bookName, verseId).then(setComments);
+    fetchComments(bookName, verseId)
+      .then(setComments)
+      .catch((error) => {
+        console.error("Ошибка при загрузке комментариев:", error);
+        const errorMessage =
+          error instanceof Error ? error.message : "Неизвестная ошибка";
+
+        toast({
+          title: "Ошибка при загрузке комментариев",
+          description: errorMessage,
+          variant: "destructive",
+        });
+      });
   }, [bookName, verseId]);
 
   const handleUpdateComment = useCallback((newComment: Comment) => {
@@ -44,6 +57,14 @@ export default function CommentsPanel({
       setComments((prev) => prev.filter((c) => c.id !== commentId));
     } catch (error) {
       console.error("Ошибка при удалении комментария:", error);
+      const errorMessage =
+        error instanceof Error ? error.message : "Неизвестная ошибка";
+
+      toast({
+        title: "Ошибка при удалении комментария",
+        description: errorMessage,
+        variant: "destructive",
+      });
     }
   };
 
@@ -71,9 +92,21 @@ export default function CommentsPanel({
     );
   };
 
-  const filteredComments = comments.filter(({ text }) =>
-    text.toLowerCase().includes(searchQuery.toLowerCase()),
-  );
+  const filteredComments = [
+    ...comments.filter(({ text }) =>
+      text.toLowerCase().includes(searchQuery.toLowerCase()),
+    ),
+    ...(defaultVerse.comment
+      ? [
+          {
+            id: "default",
+            text: defaultVerse.comment,
+            uid: "system",
+            createdAt: new Date(),
+          },
+        ]
+      : []),
+  ];
 
   return (
     <>
@@ -95,9 +128,11 @@ export default function CommentsPanel({
               className="prose mb-2 flex items-center space-x-2"
             >
               <div dangerouslySetInnerHTML={{ __html: comment.text }} />
-              <EditCommentButton
-                onEdit={() => handleOpenModal("edit", comment)}
-              />
+              {comment.id !== "default" && (
+                <EditCommentButton
+                  onEdit={() => handleOpenModal("edit", comment)}
+                />
+              )}
             </li>
           ))
         ) : (

@@ -18,7 +18,8 @@ import { Comment } from "@/lib/types";
 export const fetchComments = async (bookName: string, verseId: string) => {
   const auth = getAuth(app);
   const currentUser = auth.currentUser?.uid;
-  if (!currentUser) return [];
+  if (!currentUser) throw new Error("Пользователь не авторизован.");
+
   const commentsRef = collection(
     db,
     "books",
@@ -49,8 +50,8 @@ export const fetchComments = async (bookName: string, verseId: string) => {
 
     return loadedComments;
   } catch (error) {
-    console.error("Ошибка при загрузке комментариев: ", error);
-    return [];
+    console.error("Ошибка при загрузке комментариев:", error);
+    throw new Error("Не удалось загрузить комментарии. Попробуйте позже.");
   }
 };
 
@@ -88,7 +89,7 @@ export const addComment = async (
     };
   } catch (error) {
     console.error("Ошибка при добавлении комментария:", error);
-    throw error;
+    throw new Error("Не удалось добавить комментарий. Попробуйте позже.");
   }
 };
 
@@ -126,7 +127,7 @@ export const editComment = async (
     return updatedComment;
   } catch (error) {
     console.error("Ошибка при редактировании комментария:", error);
-    throw error;
+    throw new Error("Не удалось изменить комментарий. Попробуйте позже.");
   }
 };
 
@@ -154,6 +155,6 @@ export const deleteComment = async (
     await deleteDoc(commentRef);
   } catch (error) {
     console.error("Ошибка при удалении комментария:", error);
-    throw error;
+    throw new Error("Не удалось удалить комментарий. Попробуйте позже.");
   }
 };

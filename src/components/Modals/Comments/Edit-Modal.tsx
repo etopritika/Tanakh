@@ -6,6 +6,7 @@ import { Textarea } from "../../ui/textarea";
 import ModalContainer from "../Modal-Container";
 
 import { editComment } from "@/components/VerseCard/actions";
+import { toast } from "@/hooks/use-toast";
 import { Comment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 
@@ -51,6 +52,14 @@ export default function EditModal({
         setClose();
       } catch (error) {
         console.error("Ошибка при редактировании комментария: ", error);
+        const errorMessage =
+          error instanceof Error ? error.message : "Неизвестная ошибка";
+
+        toast({
+          title: "Ошибка при редактировании комментария",
+          description: errorMessage,
+          variant: "destructive",
+        });
       }
     }
   };
