@@ -32,7 +32,6 @@ export default function ChapterList({
         return (
           <li key={isSubChapter}>
             <Link
-              onClick={() => console.log(href)}
               to={href}
               className={`flex rounded-lg px-4 py-2 text-text ${
                 isLast ? "" : "border-b"

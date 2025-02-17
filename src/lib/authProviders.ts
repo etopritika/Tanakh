@@ -25,7 +25,7 @@ export const signInWithGoogle = async (
     const result = await signInWithPopup(auth, googleAuthProvider);
     const token = await result.user.getIdToken();
     localStorage.setItem("token", token);
-
+    localStorage.setItem("uid", result.user.uid);
     setUserName(result.user.displayName || null);
 
     navigate("/", { replace: true });
@@ -51,7 +51,7 @@ export const signInWithFacebook = async (
     const result = await signInWithPopup(auth, facebookAuthProvider);
     const token = await result.user.getIdToken();
     localStorage.setItem("token", token);
-
+    localStorage.setItem("uid", result.user.uid);
     setUserName(result.user.displayName || null);
 
     navigate("/", { replace: true });

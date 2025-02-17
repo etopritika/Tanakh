@@ -5,8 +5,11 @@ import { useLocation, useParams } from "react-router-dom";
 import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
-import { fetchVersesData } from "@/lib/api";
+import { toast } from "@/hooks/use-toast";
+import { fetchVersesMetadataByBook } from "@/lib/api/fetchFirestoreData";
+import { fetchVersesData } from "@/lib/api/fetchVersesData";
 import { bookNameMap, Chapter, Verse } from "@/lib/types";
+import { useFirestoreStore } from "@/store/use-firestore-store";
 import { useReadingStore } from "@/store/use-reading-store";
 
 export default function VersesPage() {
@@ -18,6 +21,7 @@ export default function VersesPage() {
     subChapterId: string | undefined;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
+  const setVersesMeta = useFirestoreStore((state) => state.setVerses);
 
   const [verses, setVerses] = useState<Verse[]>([]);
   const [chapters, setChapters] = useState<Chapter[]>([]);
@@ -57,6 +61,24 @@ export default function VersesPage() {
 
     loadChapter();
   }, [sectionName, bookName, chapterId, subChapterId]);
+
+  useEffect(() => {
+    if (bookName) {
+      fetchVersesMetadataByBook(bookName)
+        .then(setVersesMeta)
+        .catch((error) => {
+          console.error("Ошибка при загрузке комментариев:", error);
+          const errorMessage =
+            error instanceof Error ? error.message : "Неизвестная ошибка";
+
+          toast({
+            title: "Ошибка при загрузке комментариев",
+            description: errorMessage,
+            variant: "destructive",
+          });
+        });
+    }
+  }, [bookName, setVersesMeta]);
 
   useEffect(() => {
     return () => {

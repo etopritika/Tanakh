@@ -56,6 +56,7 @@ export default function RegisterForm() {
         await user.reload();
         if (user.emailVerified) {
           localStorage.setItem("token", await user.getIdToken());
+          localStorage.setItem("uid", user.uid);
           navigate("/", { replace: true });
         }
       }

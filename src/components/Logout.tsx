@@ -13,6 +13,7 @@ export default function Logout() {
     try {
       await signOut(auth);
       localStorage.removeItem("token");
+      localStorage.removeItem("uid");
       navigate("/auth", { replace: true });
     } catch {
       toast({

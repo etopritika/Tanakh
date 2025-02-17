@@ -1,4 +1,4 @@
-import { Chapter, Verse } from "./types";
+import { Chapter, Verse } from "../types";
 
 const errorMessages: Record<string, string> = {
   MODULE_NOT_FOUND: "Данные для указанной книги не найдены.",
@@ -33,12 +33,13 @@ export const fetchVersesData = async (
   error: string | null;
 }> => {
   try {
-    const module = await import(`../data/${section}/obj-${book}.ts`);
+    const module = await import(`../../data/${section}/obj-${book}.ts`);
     const bookData = module.default;
 
     const chaptersModule = await import(
-      `../lib/book-chapters/${section}/${book}-chapters.ts`
+      `../book-chapters/${section}/${book}-chapters.ts`
     );
+
     const chapters = chaptersModule.default;
 
     const chapter = chapters.find(
