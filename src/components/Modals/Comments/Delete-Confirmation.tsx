@@ -1,3 +1,6 @@
+import { LoaderCircle } from "lucide-react";
+import { useState } from "react";
+
 import { Button } from "../../ui/button";
 
 import { useModal } from "@/providers/Modal/modal-context";
@@ -10,10 +13,16 @@ export default function DeleteConfirmation({
   commentText: string;
 }) {
   const { setClose } = useModal();
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleDelete = () => {
-    onConfirm();
-    setClose();
+  const handleDelete = async () => {
+    setIsLoading(true);
+    try {
+      await onConfirm();
+      setClose();
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -34,8 +43,15 @@ export default function DeleteConfirmation({
         <Button variant="outline" className="bg-white" onClick={setClose}>
           Отмена
         </Button>
-        <Button className="bg-danger text-white" onClick={handleDelete}>
-          Удалить
+        <Button
+          className="bg-danger text-white"
+          onClick={handleDelete}
+          disabled={isLoading}
+        >
+          Удалить{" "}
+          {isLoading && (
+            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          )}
         </Button>
       </div>
     </div>

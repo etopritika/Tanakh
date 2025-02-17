@@ -1,3 +1,4 @@
+import { LoaderCircle } from "lucide-react";
 import { useState } from "react";
 
 import DeleteConfirmation from "./Delete-Confirmation";
@@ -27,6 +28,7 @@ export default function EditModal({
 }: EditModalProps) {
   const { setOpen, setClose } = useModal();
   const [newComment, setComment] = useState(comment.text);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleConfirmDeletion = () => {
     setOpen(
@@ -40,6 +42,7 @@ export default function EditModal({
   };
 
   const handleEditComment = async () => {
+    setIsLoading(true);
     if (newComment.trim()) {
       try {
         const editedComment = await editComment(
@@ -60,6 +63,8 @@ export default function EditModal({
           description: errorMessage,
           variant: "destructive",
         });
+      } finally {
+        setIsLoading(false);
       }
     }
   };
@@ -84,8 +89,12 @@ export default function EditModal({
         <Button
           className="bg-brown-light text-white"
           onClick={handleEditComment}
+          disabled={isLoading}
         >
           Изменить
+          {isLoading && (
+            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          )}
         </Button>
       </div>
     </div>

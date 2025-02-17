@@ -1,3 +1,4 @@
+import { LoaderCircle } from "lucide-react";
 import { useState } from "react";
 
 import { Button } from "../../ui/button";
@@ -19,8 +20,10 @@ export default function AddModal({
 }) {
   const { setClose } = useModal();
   const [comment, setComment] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleAddComment = async () => {
+    setIsLoading(true);
     if (comment.trim()) {
       try {
         const newComment = await addComment(bookName, verseId, comment);
@@ -36,6 +39,8 @@ export default function AddModal({
           description: errorMessage,
           variant: "destructive",
         });
+      } finally {
+        setIsLoading(false);
       }
     }
   };
@@ -56,8 +61,12 @@ export default function AddModal({
         <Button
           className="bg-brown-light text-white"
           onClick={handleAddComment}
+          disabled={isLoading}
         >
           Добавить
+          {isLoading && (
+            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          )}
         </Button>
       </div>
     </div>

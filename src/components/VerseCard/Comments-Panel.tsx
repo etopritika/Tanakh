@@ -1,4 +1,4 @@
-import { MessageSquareOff } from "lucide-react";
+import { LoaderCircle, MessageSquareOff } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 
 import { deleteComment, fetchComments } from "./actions";
@@ -21,11 +21,13 @@ export default function CommentsPanel({
   const { setOpen } = useModal();
   const [comments, setComments] = useState<Comment[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const bookName = BookPathMap[defaultVerse.id_book].bookName;
   const verseId = `verse-${defaultVerse.id_chapter}-${defaultVerse?.id_chapter_two || 1}-${defaultVerse.poemNumber}`;
 
   useEffect(() => {
+    setIsLoading(true);
     fetchComments(bookName, verseId)
       .then(setComments)
       .catch((error) => {
@@ -38,7 +40,8 @@ export default function CommentsPanel({
           description: errorMessage,
           variant: "destructive",
         });
-      });
+      })
+      .finally(() => setIsLoading(false));
   }, [bookName, verseId]);
 
   const handleUpdateComment = useCallback((newComment: Comment) => {
@@ -120,28 +123,34 @@ export default function CommentsPanel({
         <AddCommentButton onAdd={() => handleOpenModal("add")} />
       </div>
 
-      <ul className="mt-4 italic">
-        {filteredComments.length ? (
-          filteredComments.map((comment) => (
-            <li
-              key={comment.id}
-              className="prose mb-2 flex items-center space-x-2"
-            >
-              <div dangerouslySetInnerHTML={{ __html: comment.text }} />
-              {comment.id !== "default" && (
-                <EditCommentButton
-                  onEdit={() => handleOpenModal("edit", comment)}
-                />
-              )}
-            </li>
-          ))
-        ) : (
-          <div className="flex flex-col items-center justify-center space-y-2 py-2">
-            <MessageSquareOff size={20} />
-            <span className="ml-2">Комментарии отсутствуют.</span>
-          </div>
-        )}
-      </ul>
+      {isLoading ? (
+        <div className="flex justify-center py-4">
+          <LoaderCircle className="animate-spin" size={32} />
+        </div>
+      ) : (
+        <ul className="mt-4 italic">
+          {filteredComments.length ? (
+            filteredComments.map((comment) => (
+              <li
+                key={comment.id}
+                className="prose mb-2 flex items-center space-x-2"
+              >
+                <div dangerouslySetInnerHTML={{ __html: comment.text }} />
+                {comment.id !== "default" && (
+                  <EditCommentButton
+                    onEdit={() => handleOpenModal("edit", comment)}
+                  />
+                )}
+              </li>
+            ))
+          ) : (
+            <div className="flex flex-col items-center justify-center space-y-2 py-2">
+              <MessageSquareOff size={20} />
+              <span className="ml-2">Комментарии отсутствуют.</span>
+            </div>
+          )}
+        </ul>
+      )}
     </>
   );
 }
