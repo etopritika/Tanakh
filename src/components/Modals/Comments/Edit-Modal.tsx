@@ -6,52 +6,47 @@ import { Button } from "../../ui/button";
 import { Textarea } from "../../ui/textarea";
 import ModalContainer from "../Modal-Container";
 
-import { editComment } from "@/components/VerseCard/actions";
 import { toast } from "@/hooks/use-toast";
+import { editCommentInFirestore } from "@/lib/api/fetchFirestoreData";
 import { Comment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
+import { useFirestoreStore } from "@/store/use-firestore-store";
 
 type EditModalProps = {
   comment: Comment;
   bookName: string;
   verseId: string;
-  handleUpdateComment: (newComment: Comment) => void;
-  handleDeleteComment: (commentId: string) => void;
 };
 
 export default function EditModal({
   comment,
   bookName,
   verseId,
-  handleUpdateComment,
-  handleDeleteComment,
 }: EditModalProps) {
   const { setOpen, setClose } = useModal();
+  const { updateComment } = useFirestoreStore();
   const [newComment, setComment] = useState(comment.text);
   const [isLoading, setIsLoading] = useState(false);
+  const trimComment = newComment.trim();
 
   const handleConfirmDeletion = () => {
     setOpen(
       <ModalContainer>
         <DeleteConfirmation
-          onConfirm={() => handleDeleteComment(comment.id)}
-          commentText={comment.text}
+          comment={comment}
+          bookName={bookName}
+          verseId={verseId}
         />
       </ModalContainer>,
     );
   };
 
   const handleEditComment = async () => {
-    setIsLoading(true);
-    if (newComment.trim()) {
+    if (trimComment) {
+      setIsLoading(true);
       try {
-        const editedComment = await editComment(
-          bookName,
-          verseId,
-          comment.id,
-          newComment,
-        );
-        handleUpdateComment(editedComment);
+        await editCommentInFirestore(bookName, verseId, comment.id, newComment);
+        updateComment(verseId, comment.id, newComment);
         setClose();
       } catch (error) {
         console.error("Ошибка при редактировании комментария: ", error);
@@ -89,11 +84,15 @@ export default function EditModal({
         <Button
           className="bg-brown-light text-white"
           onClick={handleEditComment}
-          disabled={isLoading}
+          disabled={isLoading || !trimComment}
         >
-          Изменить
-          {isLoading && (
-            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          {isLoading ? (
+            <>
+              <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+              Изменение...
+            </>
+          ) : (
+            "Изменить"
           )}
         </Button>
       </div>

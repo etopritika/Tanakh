@@ -1,3 +1,4 @@
+import { Timestamp } from "firebase/firestore";
 import { z } from "zod";
 
 import yehoshua from "@/data/neviim/obj-yehoshua";
@@ -90,7 +91,31 @@ export type SearchFormData = z.infer<typeof searchSchema>;
 
 export type Comment = {
   id: string;
-  uid: string;
   text: string;
   createdAt: Date;
 };
+
+export interface FirestoreVerse {
+  id: string;
+  highlightColor: string;
+  id_chapter: number;
+  id_chapter_two: number;
+  poemNumber: number;
+  uid: string;
+}
+
+export interface FirestoreComment {
+  id: string;
+  text: string;
+  createdAt: Timestamp;
+}
+
+export interface VersesMetadata {
+  id: string;
+  highlightColor: string;
+  id_chapter: number;
+  id_chapter_two: number;
+  poemNumber: number;
+  uid: string;
+  comments: { id: string; text: string; createdAt: Date }[];
+}

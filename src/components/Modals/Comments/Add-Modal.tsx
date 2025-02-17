@@ -3,31 +3,34 @@ import { useState } from "react";
 
 import { Button } from "../../ui/button";
 import { Textarea } from "../../ui/textarea";
-import { addComment } from "../../VerseCard/actions";
 
 import { toast } from "@/hooks/use-toast";
-import { Comment } from "@/lib/types";
+import { addCommentToFirestore } from "@/lib/api/fetchFirestoreData";
 import { useModal } from "@/providers/Modal/modal-context";
+import { useFirestoreStore } from "@/store/use-firestore-store";
 
 export default function AddModal({
   bookName,
   verseId,
-  handleUpdateComment,
 }: {
   bookName: string;
   verseId: string;
-  handleUpdateComment: (newComment: Comment) => void;
 }) {
   const { setClose } = useModal();
+  const { addComment } = useFirestoreStore();
   const [comment, setComment] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   const handleAddComment = async () => {
-    setIsLoading(true);
     if (comment.trim()) {
+      setIsLoading(true);
       try {
-        const newComment = await addComment(bookName, verseId, comment);
-        handleUpdateComment(newComment);
+        const newComment = await addCommentToFirestore(
+          bookName,
+          verseId,
+          comment,
+        );
+        addComment(verseId, newComment);
         setClose();
       } catch (error) {
         console.error("Ошибка при добавлении комментария: ", error);
@@ -55,7 +58,14 @@ export default function AddModal({
         onChange={(e) => setComment(e.target.value)}
       />
       <div className="flex items-center justify-between">
-        <Button className="bg-white" variant="outline" onClick={setClose}>
+        <Button
+          className="bg-white"
+          variant="outline"
+          onClick={() => {
+            setComment("");
+            setClose();
+          }}
+        >
           Отмена
         </Button>
         <Button
@@ -63,9 +73,13 @@ export default function AddModal({
           onClick={handleAddComment}
           disabled={isLoading}
         >
-          Добавить
-          {isLoading && (
-            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          {isLoading ? (
+            <>
+              <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+              Добавление...
+            </>
+          ) : (
+            "Добавить"
           )}
         </Button>
       </div>

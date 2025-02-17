@@ -3,23 +3,41 @@ import { useState } from "react";
 
 import { Button } from "../../ui/button";
 
+import { toast } from "@/hooks/use-toast";
+import { deleteCommentFromFirestore } from "@/lib/api/fetchFirestoreData";
+import { Comment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
+import { useFirestoreStore } from "@/store/use-firestore-store";
 
 export default function DeleteConfirmation({
-  onConfirm,
-  commentText,
+  comment,
+  bookName,
+  verseId,
 }: {
-  onConfirm: () => void;
-  commentText: string;
+  comment: Comment;
+  bookName: string;
+  verseId: string;
 }) {
   const { setClose } = useModal();
+  const { deleteComment } = useFirestoreStore();
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleDelete = async () => {
+  const handleDeleteComment = async () => {
     setIsLoading(true);
     try {
-      await onConfirm();
+      await deleteCommentFromFirestore(bookName, verseId, comment.id);
+      deleteComment(verseId, comment.id);
       setClose();
+    } catch (error) {
+      console.error("Ошибка при удалении комментария:", error);
+      const errorMessage =
+        error instanceof Error ? error.message : "Неизвестная ошибка";
+
+      toast({
+        title: "Ошибка при удалении комментария",
+        description: errorMessage,
+        variant: "destructive",
+      });
     } finally {
       setIsLoading(false);
     }
@@ -33,9 +51,9 @@ export default function DeleteConfirmation({
         </h2>
         <span
           className="inline-block max-w-[300px] truncate font-normal italic"
-          title={commentText}
+          title={comment.text}
         >
-          {commentText}
+          {comment.text}
         </span>
       </div>
 
@@ -45,12 +63,16 @@ export default function DeleteConfirmation({
         </Button>
         <Button
           className="bg-danger text-white"
-          onClick={handleDelete}
+          onClick={handleDeleteComment}
           disabled={isLoading}
         >
-          Удалить{" "}
-          {isLoading && (
-            <LoaderCircle className="h-5 w-5 animate-spin text-white" />
+          {isLoading ? (
+            <>
+              <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+              Удаление...
+            </>
+          ) : (
+            "Удалить"
           )}
         </Button>
       </div>

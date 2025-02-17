@@ -56,6 +56,7 @@ export default function LoginForm() {
 
       const token = await userCredential.user.getIdToken();
       localStorage.setItem("token", token);
+      localStorage.setItem("uid", userCredential.user.uid);
 
       setUserName(userCredential.user.displayName);
       navigate("/", { replace: true });
