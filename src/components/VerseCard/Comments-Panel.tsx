@@ -77,7 +77,7 @@ export default function CommentsPanel({
           filteredComments.map((comment) => (
             <li
               key={comment.id}
-              className="prose mb-2 flex items-center space-x-2"
+              className="prose mb-2 flex items-center justify-between space-x-2"
             >
               <div dangerouslySetInnerHTML={{ __html: comment.text }} />
               {comment.id !== "default" && (
