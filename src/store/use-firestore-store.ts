@@ -5,23 +5,26 @@ import { VersesMetadata, Comment } from "@/lib/types";
 interface FirestoreStore {
   verses: VersesMetadata[];
   setVerses: (verses: VersesMetadata[]) => void;
-  updateVerse: (verseId: string, updatedData: Partial<VersesMetadata>) => void;
+  updateVerseColor: (verseId: string, color: string) => void;
+  getVerseById: (verseId: string) => VersesMetadata | undefined;
   addComment: (verseId: string, comment: Comment) => void;
   updateComment: (verseId: string, commentId: string, newText: string) => void;
   deleteComment: (verseId: string, commentId: string) => void;
 }
 
-export const useFirestoreStore = create<FirestoreStore>((set) => ({
+export const useFirestoreStore = create<FirestoreStore>((set, get) => ({
   verses: [],
 
   setVerses: (verses) => set({ verses }),
 
-  updateVerse: (verseId, updatedData) =>
+  updateVerseColor: (verseId, color) =>
     set((state) => ({
       verses: state.verses.map((verse) =>
-        verse.id === verseId ? { ...verse, ...updatedData } : verse,
+        verse.id === verseId ? { ...verse, highlightColor: color } : verse,
       ),
     })),
+
+  getVerseById: (verseId) => get().verses.find((verse) => verse.id === verseId),
 
   addComment: (verseId, comment) =>
     set((state) => ({

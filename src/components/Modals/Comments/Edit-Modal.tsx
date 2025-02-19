@@ -49,7 +49,6 @@ export default function EditModal({
         updateComment(verseId, comment.id, newComment);
         setClose();
       } catch (error) {
-        console.error("Ошибка при редактировании комментария: ", error);
         const errorMessage =
           error instanceof Error ? error.message : "Неизвестная ошибка";
 

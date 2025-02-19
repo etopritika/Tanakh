@@ -148,3 +148,21 @@ export const deleteCommentFromFirestore = async (
     throw new Error("Не удалось удалить комментарий. Попробуйте позже.");
   }
 };
+
+export const updateVerseColorInFirestore = async (
+  bookName: string,
+  verseId: string,
+  color: string,
+): Promise<void> => {
+  const uid = localStorage.getItem("uid");
+  if (!uid) throw new Error("Пользователь не авторизован");
+
+  try {
+    const verseRef = doc(db, "books", bookName, "verses", verseId);
+
+    await updateDoc(verseRef, { highlightColor: color });
+  } catch (error) {
+    console.error("Ошибка при обновлении цвета стиха:", error);
+    throw new Error("Не удалось обновить цвет. Попробуйте позже.");
+  }
+};

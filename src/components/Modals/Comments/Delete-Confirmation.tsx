@@ -29,7 +29,6 @@ export default function DeleteConfirmation({
       deleteComment(verseId, comment.id);
       setClose();
     } catch (error) {
-      console.error("Ошибка при удалении комментария:", error);
       const errorMessage =
         error instanceof Error ? error.message : "Неизвестная ошибка";
 

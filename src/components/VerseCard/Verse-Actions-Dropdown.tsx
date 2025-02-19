@@ -1,5 +1,5 @@
 import { Copy, Link, Settings } from "lucide-react";
-import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -16,6 +16,10 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { toast } from "@/hooks/use-toast";
+import { updateVerseColorInFirestore } from "@/lib/api/fetchFirestoreData";
+import { BookPathMap, Verse } from "@/lib/types";
+import { useFirestoreStore } from "@/store/use-firestore-store";
 
 const COLORS = [
   { name: "Зеленый", value: "#52fd46" },
@@ -24,12 +28,64 @@ const COLORS = [
   { name: "Голубой", value: "#5aaaff" },
 ];
 
-export default function VerseActionsDropdown() {
-  const [selectedColor, setSelectedColor] = useState<string>("#52fd46");
+export default function VerseActionsDropdown({
+  verse,
+  onCopy,
+  highlightColor,
+}: {
+  verse: Verse;
+  onCopy: () => void;
+  highlightColor: string;
+}) {
+  const { pathname } = useLocation();
+  const { updateVerseColor } = useFirestoreStore();
 
-  const handleChangeColor = (color: string) => {
-    setSelectedColor(color);
-    //   onChangeColor(color);
+  const verseContent = `${verse.verse}${verse.verse_ivrit ? `\n${verse.verse_ivrit}` : ""}`;
+
+  const bookName = BookPathMap[verse.id_book].bookName;
+  const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+
+  const handleCopyText = async () => {
+    try {
+      await navigator.clipboard.writeText(verseContent);
+      onCopy();
+    } catch {
+      toast({
+        title: "Ошибка",
+        description: "Не удалось скопировать текст.",
+        variant: "destructive",
+      });
+    }
+  };
+
+  const handleCopyLink = async () => {
+    const verseUrl = `${window.location.origin}${pathname}#verse-${verse.poemNumber}`;
+    try {
+      await navigator.clipboard.writeText(verseUrl);
+      onCopy();
+    } catch {
+      toast({
+        title: "Ошибка",
+        description: "Не удалось скопировать ссылку.",
+        variant: "destructive",
+      });
+    }
+  };
+
+  const handleChangeColor = async (color: string) => {
+    try {
+      await updateVerseColorInFirestore(bookName, verseId, color);
+      updateVerseColor(verseId, color);
+    } catch (error: unknown) {
+      const errorMessage =
+        error instanceof Error ? error.message : "Неизвестная ошибка";
+
+      toast({
+        title: "Ошибка при обновлении цвета стиха",
+        description: errorMessage,
+        variant: "destructive",
+      });
+    }
   };
 
   return (
@@ -43,13 +99,13 @@ export default function VerseActionsDropdown() {
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
-          <DropdownMenuItem className="cursor-pointer">
+          <DropdownMenuItem className="cursor-pointer" onClick={handleCopyText}>
             Копировать стих
             <DropdownMenuShortcut>
               <Copy />
             </DropdownMenuShortcut>
           </DropdownMenuItem>
-          <DropdownMenuItem className="cursor-pointer">
+          <DropdownMenuItem className="cursor-pointer" onClick={handleCopyLink}>
             Копировать адрес стиха
             <DropdownMenuShortcut>
               <Link />
@@ -66,6 +122,7 @@ export default function VerseActionsDropdown() {
               <DropdownMenuSubContent className="bg-white">
                 {COLORS.map((color) => (
                   <DropdownMenuItem
+                    disabled={highlightColor === color.value}
                     key={color.value}
                     className="cursor-pointer"
                     onClick={() => handleChangeColor(color.value)}
@@ -75,7 +132,6 @@ export default function VerseActionsDropdown() {
                       style={{ backgroundColor: color.value }}
                     />
                     {color.name}
-                    {selectedColor === color.value && " ✔"}
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuSubContent>

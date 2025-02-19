@@ -20,8 +20,8 @@ export default function CommentsDropdown({ verse }: { verse: Verse }) {
       <AccordionItem value="comment">
         <AccordionTrigger className="py-3 text-sm">
           <div className="flex items-center space-x-2">
-            <span>Комментарии</span>
-            <MessageSquareText size={15} />
+            <span className="text-text">Комментарии</span>
+            <MessageSquareText size={15} className="text-text" />
           </div>
         </AccordionTrigger>
         <AccordionContent className="py-3">

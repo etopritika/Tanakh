@@ -67,7 +67,6 @@ export default function VersesPage() {
       fetchVersesMetadataByBook(bookName)
         .then(setVersesMeta)
         .catch((error) => {
-          console.error("Ошибка при загрузке комментариев:", error);
           const errorMessage =
             error instanceof Error ? error.message : "Неизвестная ошибка";
 
