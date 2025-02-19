@@ -33,7 +33,6 @@ export default function AddModal({
         addComment(verseId, newComment);
         setClose();
       } catch (error) {
-        console.error("Ошибка при добавлении комментария: ", error);
         const errorMessage =
           error instanceof Error ? error.message : "Неизвестная ошибка";
 
