@@ -95,15 +95,6 @@ export type Comment = {
   createdAt: Date;
 };
 
-export interface FirestoreVerse {
-  id: string;
-  highlightColor: string;
-  id_chapter: number;
-  id_chapter_two: number;
-  poemNumber: number;
-  uid: string;
-}
-
 export interface FirestoreComment {
   id: string;
   text: string;
@@ -113,9 +104,5 @@ export interface FirestoreComment {
 export interface VersesMetadata {
   id: string;
   highlightColor: string;
-  id_chapter: number;
-  id_chapter_two: number;
-  poemNumber: number;
-  uid: string;
   comments: { id: string; text: string; createdAt: Date }[];
 }

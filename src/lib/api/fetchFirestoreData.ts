@@ -4,6 +4,7 @@ import {
   deleteDoc,
   doc,
   getDocs,
+  orderBy,
   query,
   Timestamp,
   updateDoc,
@@ -11,12 +12,7 @@ import {
 } from "firebase/firestore";
 
 import { db } from "@/lib/firebase";
-import {
-  Comment,
-  FirestoreComment,
-  FirestoreVerse,
-  VersesMetadata,
-} from "@/lib/types";
+import { Comment, FirestoreComment, VersesMetadata } from "@/lib/types";
 
 export const fetchVersesMetadataByBook = async (
   bookName: string,
@@ -30,25 +26,25 @@ export const fetchVersesMetadataByBook = async (
     const querySnapshot = await getDocs(q);
 
     const verses: VersesMetadata[] = await Promise.all(
-      querySnapshot.docs.map(async (doc) => {
-        const verseData = doc.data() as FirestoreVerse;
+      querySnapshot.docs.map(async (verseDoc) => {
+        const verseData = verseDoc.data();
 
-        const commentsRef = collection(doc.ref, "comments");
-        const commentsSnapshot = await getDocs(commentsRef);
-        const comments = commentsSnapshot.docs
-          .map((commentDoc) => {
-            const commentData = commentDoc.data() as FirestoreComment;
-            return {
-              id: commentDoc.id,
-              text: commentData.text ?? "",
-              createdAt: commentData.createdAt.toDate(),
-            };
-          })
-          .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+        const commentsRef = collection(verseDoc.ref, "comments");
+        const commentsQuery = query(commentsRef, orderBy("createdAt", "desc"));
+        const commentsSnap = await getDocs(commentsQuery);
+
+        const comments = commentsSnap.docs.map((commentDoc) => {
+          const commentData = commentDoc.data() as FirestoreComment;
+          return {
+            id: commentDoc.id,
+            text: commentData.text,
+            createdAt: commentData.createdAt.toDate(),
+          };
+        });
 
         return {
-          ...verseData,
-          id: doc.id,
+          id: verseData.verseId,
+          highlightColor: verseData.highlightColor,
           comments,
         };
       }),
