@@ -1,6 +1,7 @@
 import path from "path";
 
 import react from "@vitejs/plugin-react";
+// import { visualizer } from "rollup-plugin-visualizer";
 import { defineConfig } from "vite";
 import { ManifestOptions, VitePWA } from "vite-plugin-pwa";
 
@@ -23,13 +24,13 @@ const manifest: Partial<ManifestOptions> | false = {
   ],
   screenshots: [
     {
-      src: "/public/screenshots/desktop.png",
+      src: "/screenshots/desktop.png",
       type: "image/png",
       sizes: "1919x822",
       form_factor: "wide",
     },
     {
-      src: "/public/screenshots/mobile.png",
+      src: "/screenshots/mobile.png",
       type: "image/png",
       sizes: "288x631",
       form_factor: "narrow",
@@ -55,12 +56,32 @@ export default defineConfig({
         globPatterns: ["**/*.{html,css,js,ico,png,svg}"],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
       },
-      manifest: manifest,
+      manifest,
     }),
+    // visualizer({
+    //   open: true,
+    //   filename: "bundle-visualization.html",
+    //   gzipSize: true,
+    //   brotliSize: true,
+    // }),
   ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes("node_modules")) {
+            if (id.includes("firebase")) return "firebase";
+            if (id.includes("react")) return "react";
+            return "vendor";
+          }
+        },
+      },
+      treeshake: true,
     },
   },
 });
