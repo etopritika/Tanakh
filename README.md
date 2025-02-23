@@ -86,6 +86,7 @@ To enable authentication, you need to configure Firebase for your project.
 3. **Add environment variables**:
    - In the root directory of your project, create a `.env` file with the following variables:
      ```env
+     VITE_BASE_URL=your_base_url
      VITE_FIREBASE_API_KEY=your_firebase_api_key
      VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
      VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
@@ -131,5 +132,3 @@ src/
 - **Radix UI** for accessible components.
 - **Lucide React** for icons.
 - **Zustand** for state management simplicity.
-
----
