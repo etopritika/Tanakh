@@ -1,67 +1,97 @@
 import { create } from "zustand";
 
-import { VersesMetadata, Comment } from "@/lib/types";
+import { VersesMetadata, FirestoreComment } from "@/lib/types";
 
 interface FirestoreStore {
-  verses: VersesMetadata[];
+  verses: Record<string, VersesMetadata>;
+  comments: Record<string, Record<string, FirestoreComment>>;
+
   setVerses: (verses: VersesMetadata[]) => void;
+  addVerse: (verse: VersesMetadata) => void;
   updateVerseColor: (verseId: string, color: string) => void;
-  getVerseById: (verseId: string) => VersesMetadata | undefined;
-  addComment: (verseId: string, comment: Comment) => void;
-  updateComment: (verseId: string, commentId: string, newText: string) => void;
-  deleteComment: (verseId: string, commentId: string) => void;
+
+  setComments: (comments: FirestoreComment[]) => void;
+  addComment: (comment: FirestoreComment) => void;
+  updateComment: (commentId: string, newText: string) => void;
+  deleteComment: (commentId: string) => void;
 }
 
-export const useFirestoreStore = create<FirestoreStore>((set, get) => ({
-  verses: [],
+export const useFirestoreStore = create<FirestoreStore>((set) => ({
+  verses: {},
+  comments: {},
 
-  setVerses: (verses) => set({ verses }),
+  setVerses: (verses) =>
+    set(() => ({
+      verses: Object.fromEntries(verses.map((v) => [v.verseId, v])),
+    })),
+
+  addVerse: (verse) =>
+    set((state) => ({
+      verses: { ...state.verses, [verse.verseId]: verse },
+    })),
 
   updateVerseColor: (verseId, color) =>
     set((state) => ({
-      verses: state.verses.map((verse) =>
-        verse.id === verseId ? { ...verse, highlightColor: color } : verse,
-      ),
+      verses: {
+        ...state.verses,
+        [verseId]: {
+          ...state.verses[verseId],
+          highlightColor: color,
+        },
+      },
     })),
 
-  getVerseById: (verseId) => get().verses.find((verse) => verse.id === verseId),
+  setComments: (comments) =>
+    set(() => {
+      const groupedComments: Record<
+        string,
+        Record<string, FirestoreComment>
+      > = {};
+      comments.forEach((comment) => {
+        if (!groupedComments[comment.verseId]) {
+          groupedComments[comment.verseId] = {};
+        }
+        groupedComments[comment.verseId][comment.id] = comment;
+      });
 
-  addComment: (verseId, comment) =>
+      return { comments: groupedComments };
+    }),
+
+  addComment: (comment) =>
     set((state) => ({
-      verses: state.verses.map((verse) =>
-        verse.id === verseId
-          ? { ...verse, comments: [comment, ...verse.comments] }
-          : verse,
-      ),
+      comments: {
+        ...state.comments,
+        [comment.verseId]: {
+          ...(state.comments[comment.verseId] || {}),
+          [comment.id]: comment,
+        },
+      },
     })),
 
-  updateComment: (verseId, commentId, newText) =>
-    set((state) => ({
-      verses: state.verses.map((verse) =>
-        verse.id === verseId
-          ? {
-              ...verse,
-              comments: verse.comments.map((comment) =>
-                comment.id === commentId
-                  ? { ...comment, text: newText }
-                  : comment,
-              ),
-            }
-          : verse,
-      ),
-    })),
+  updateComment: (commentId, newText) =>
+    set((state) => {
+      const updatedComments = { ...state.comments };
+      for (const verseId in updatedComments) {
+        if (updatedComments[verseId]?.[commentId]) {
+          updatedComments[verseId][commentId] = {
+            ...updatedComments[verseId][commentId],
+            text: newText,
+          };
+          break;
+        }
+      }
+      return { comments: updatedComments };
+    }),
 
-  deleteComment: (verseId, commentId) =>
-    set((state) => ({
-      verses: state.verses.map((verse) =>
-        verse.id === verseId
-          ? {
-              ...verse,
-              comments: verse.comments.filter(
-                (comment) => comment.id !== commentId,
-              ),
-            }
-          : verse,
-      ),
-    })),
+  deleteComment: (commentId) =>
+    set((state) => {
+      const updatedComments = { ...state.comments };
+      for (const verseId in updatedComments) {
+        if (updatedComments[verseId]?.[commentId]) {
+          delete updatedComments[verseId][commentId];
+          break;
+        }
+      }
+      return { comments: updatedComments };
+    }),
 }));

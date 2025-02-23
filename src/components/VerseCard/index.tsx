@@ -9,13 +9,15 @@ import { Verse } from "@/lib/types";
 import { useFirestoreStore } from "@/store/use-firestore-store";
 
 export default function VerseCard({ verse }: { verse: Verse }) {
-  const { verses } = useFirestoreStore();
   const [isHighlighted, setIsHighlighted] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
 
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
-  const verseData = verses.find((v) => v.id === verseId);
-  const highlightColor = verseData?.highlightColor || "transparent";
+  const verseMetadata = useFirestoreStore((state) => state.verses[verseId]);
+
+  const docId = verseMetadata?.id;
+
+  const highlightColor = verseMetadata?.highlightColor || "transparent";
 
   const hash = window.location.hash;
 
@@ -50,6 +52,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
       verse={verse}
       onCopy={handleCopy}
       highlightColor={highlightColor}
+      docId={docId}
     >
       <li id={`verse-${verse.poemNumber}`}>
         <Card
@@ -77,6 +80,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
               verse={verse}
               onCopy={handleCopy}
               highlightColor={highlightColor}
+              docId={docId}
             />
           </CardContent>
           <CardFooter>

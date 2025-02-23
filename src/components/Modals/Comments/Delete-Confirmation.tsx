@@ -5,28 +5,23 @@ import { Button } from "../../ui/button";
 
 import { toast } from "@/hooks/use-toast";
 import { deleteCommentFromFirestore } from "@/lib/api/fetchFirestoreData";
-import { Comment } from "@/lib/types";
+import { FirestoreComment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
-import { useFirestoreStore } from "@/store/use-firestore-store";
 
 export default function DeleteConfirmation({
   comment,
   bookName,
-  verseId,
 }: {
-  comment: Comment;
+  comment: FirestoreComment;
   bookName: string;
-  verseId: string;
 }) {
   const { setClose } = useModal();
-  const { deleteComment } = useFirestoreStore();
   const [isLoading, setIsLoading] = useState(false);
 
   const handleDeleteComment = async () => {
     setIsLoading(true);
     try {
-      await deleteCommentFromFirestore(bookName, verseId, comment.id);
-      deleteComment(verseId, comment.id);
+      await deleteCommentFromFirestore(bookName, comment);
       setClose();
     } catch (error) {
       const errorMessage =

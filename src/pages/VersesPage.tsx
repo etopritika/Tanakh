@@ -6,10 +6,12 @@ import AppPagination from "@/components/App-pagination";
 import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { toast } from "@/hooks/use-toast";
-import { fetchVersesMetadataByBook } from "@/lib/api/fetchFirestoreData";
+import {
+  fetchCommentsByBook,
+  fetchVersesByBook,
+} from "@/lib/api/fetchFirestoreData";
 import { fetchVersesData } from "@/lib/api/fetchVersesData";
 import { bookNameMap, Chapter, Verse } from "@/lib/types";
-import { useFirestoreStore } from "@/store/use-firestore-store";
 import { useReadingStore } from "@/store/use-reading-store";
 
 export default function VersesPage() {
@@ -21,7 +23,6 @@ export default function VersesPage() {
     subChapterId: string | undefined;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
-  const setVersesMeta = useFirestoreStore((state) => state.setVerses);
 
   const [verses, setVerses] = useState<Verse[]>([]);
   const [chapters, setChapters] = useState<Chapter[]>([]);
@@ -63,21 +64,26 @@ export default function VersesPage() {
   }, [sectionName, bookName, chapterId, subChapterId]);
 
   useEffect(() => {
-    if (bookName) {
-      fetchVersesMetadataByBook(bookName)
-        .then(setVersesMeta)
-        .catch((error) => {
-          const errorMessage =
-            error instanceof Error ? error.message : "Неизвестная ошибка";
+    if (!bookName) return;
+    const loadData = async () => {
+      try {
+        await Promise.all([
+          fetchVersesByBook(bookName),
+          fetchCommentsByBook(bookName),
+        ]);
+      } catch (error) {
+        const errorMessage =
+          error instanceof Error ? error.message : "Неизвестная ошибка";
 
-          toast({
-            title: "Ошибка при загрузке комментариев",
-            description: errorMessage,
-            variant: "destructive",
-          });
+        toast({
+          title: "Ошибка при загрузке комментариев",
+          description: errorMessage,
+          variant: "destructive",
         });
-    }
-  }, [bookName, setVersesMeta]);
+      }
+    };
+    loadData();
+  }, [bookName]);
 
   useEffect(() => {
     return () => {
