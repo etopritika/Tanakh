@@ -4,6 +4,7 @@ import {
   deleteDoc,
   doc,
   getDocs,
+  orderBy,
   query,
   Timestamp,
   updateDoc,
@@ -52,7 +53,11 @@ export const fetchCommentsByBook = async (bookName: string) => {
 
   try {
     const commentsRef = collection(db, "books", bookName, "comments");
-    const q = query(commentsRef, where("uid", "==", uid));
+    const q = query(
+      commentsRef,
+      where("uid", "==", uid),
+      orderBy("createdAt", "desc"),
+    );
     const querySnapshot = await getDocs(q);
 
     const comments: FirestoreComment[] = querySnapshot.docs.map(
@@ -118,15 +123,17 @@ export const addCommentToFirestore = async (
       verseId,
       text,
       uid,
-      createdAt: Timestamp.now(),
+      createdAt: new Date(),
     };
 
-    const docRef = await addDoc(commentsRef, newComment);
+    const docRef = await addDoc(commentsRef, {
+      ...newComment,
+      createdAt: Timestamp.now(),
+    });
 
     useFirestoreStore.getState().addComment({
       id: docRef.id,
       ...newComment,
-      createdAt: newComment.createdAt.toDate(),
     });
   } catch (error) {
     console.error("Ошибка при добавлении комментария:", error);

@@ -62,8 +62,8 @@ export const useFirestoreStore = create<FirestoreStore>((set) => ({
       comments: {
         ...state.comments,
         [comment.verseId]: {
-          ...(state.comments[comment.verseId] || {}),
           [comment.id]: comment,
+          ...(state.comments[comment.verseId] || {}),
         },
       },
     })),
