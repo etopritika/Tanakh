@@ -33,19 +33,13 @@ export const fetchVersesData = async (
   error: string | null;
 }> => {
   try {
-    const moduleUrl = new URL(
-      `../../data/${section}/obj-${book}.ts`,
-      import.meta.url,
-    ).href;
-    const module = await import(moduleUrl);
-    const bookData = module.default;
+    const { default: bookData } = await import(
+      `../../data/${section}/obj-${book}.ts`
+    );
 
-    const chaptersModuleUrl = new URL(
-      `../book-chapters/${section}/${book}-chapters.ts`,
-      import.meta.url,
-    ).href;
-    const chaptersModule = await import(chaptersModuleUrl);
-    const chapters = chaptersModule.default;
+    const { default: chapters } = await import(
+      `../book-chapters/${section}/${book}-chapters.ts`
+    );
 
     const chapter = chapters.find(
       (ch: { key: number; subKey: number; start: number; end: number }) =>
