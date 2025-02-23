@@ -11,8 +11,6 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - [Firebase Authentication Setup](#firebase-authentication-setup)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -20,6 +18,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 
 - 📖 Browse sections, books, chapters, and verses.
 - 🔍 Full-text search with highlights.
+- 💬 Add and view comments for each verse.
 - 📑 Bookmark and navigate to the last-read chapter.
 - 📱 Responsive design for mobile and desktop.
 - 🌐 Progressive Web App (PWA) support.
@@ -33,6 +32,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - **React**: Frontend library for building user interfaces.
 - **Vite**: Fast build tool for modern web development.
 - **Firebase Authentication**: Secure user authentication.
+- **Firestore**: NoSQL database for storing comments and user data.
 - **TailwindCSS**: Utility-first CSS framework for styling.
 - **Zustand**: Lightweight state management.
 - **Radix UI**: Accessible and customizable UI components.
@@ -51,8 +51,6 @@ React/Vite application for reading and exploring the Tanakh. This application is
    git clone https://github.com/etopritika/Tanakh.git
    cd Tanakh
    ```
-
-````
 
 2. Install dependencies:
 
@@ -75,6 +73,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 3. Search for specific verses or chapters.
 4. Bookmark chapters for easy navigation.
 5. Register and sign in to save your bookmarks and personal preferences.
+6. Add comments to verses.
 
 ---
 
@@ -96,8 +95,8 @@ To enable authentication, you need to configure Firebase for your project.
      VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
      ```
 4. **Configure OAuth providers** like Google and Facebook:
-   - For Google, you'll need to enable the **Google provider** in Firebase and configure the consent screen in the [Google Cloud Console](https://console.cloud.google.com/).
-   - For Facebook, you'll need to set up an app in [Facebook Developers](https://developers.facebook.com/), configure the app to use OAuth, and add your app's **App ID** and **App Secret** to Firebase.
+   - For Google, enable the **Google provider** in Firebase and configure the consent screen in the [Google Cloud Console](https://console.cloud.google.com/).
+   - For Facebook, set up an app in [Facebook Developers](https://developers.facebook.com/), configure the app to use OAuth, and add your app's **App ID** and **App Secret** to Firebase.
 
 ---
 
@@ -134,4 +133,3 @@ src/
 - **Zustand** for state management simplicity.
 
 ---
-````
