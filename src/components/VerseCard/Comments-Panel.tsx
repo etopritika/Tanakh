@@ -8,7 +8,7 @@ import EditModal from "../Modals/Comments/Edit-Modal";
 import ModalContainer from "../Modals/Modal-Container";
 
 import { Input } from "@/components/ui/input";
-import { BookPathMap, Verse, Comment } from "@/lib/types";
+import { BookPathMap, Verse, FirestoreComment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 import { useFirestoreStore } from "@/store/use-firestore-store";
 
@@ -18,34 +18,32 @@ export default function CommentsPanel({
   defaultVerse: Verse;
 }) {
   const { setOpen } = useModal();
-  const { verses } = useFirestoreStore();
   const [searchQuery, setSearchQuery] = useState("");
 
   const bookName = BookPathMap[defaultVerse.id_book].bookName;
   const verseId = `verse-${defaultVerse.id_chapter}-${defaultVerse?.id_chapter_two || 1}-${defaultVerse.poemNumber}`;
 
-  const comments = verses.find((v) => v.id === verseId)?.comments || [];
+  const verseComments = Object.values(
+    useFirestoreStore((state) => state.comments[verseId]) ?? {},
+  );
 
-  const handleOpenModal = (type: "add" | "edit", comment?: Comment) => {
+  const handleOpenModal = (
+    type: "add" | "edit",
+    comment?: FirestoreComment,
+  ) => {
     setOpen(
       <ModalContainer>
         {type === "add" ? (
           <AddModal bookName={bookName} verseId={verseId} />
         ) : (
-          comment && (
-            <EditModal
-              comment={comment}
-              bookName={bookName}
-              verseId={verseId}
-            />
-          )
+          comment && <EditModal comment={comment} bookName={bookName} />
         )}
       </ModalContainer>,
     );
   };
 
   const filteredComments = [
-    ...comments.filter(({ text }) =>
+    ...verseComments.filter(({ text }) =>
       text.toLowerCase().includes(searchQuery.toLowerCase()),
     ),
     ...(defaultVerse.comment
@@ -54,6 +52,7 @@ export default function CommentsPanel({
             id: "default",
             text: defaultVerse.comment,
             uid: "system",
+            verseId: verseId,
             createdAt: new Date(),
           },
         ]

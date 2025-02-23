@@ -7,7 +7,6 @@ import { Textarea } from "../../ui/textarea";
 import { toast } from "@/hooks/use-toast";
 import { addCommentToFirestore } from "@/lib/api/fetchFirestoreData";
 import { useModal } from "@/providers/Modal/modal-context";
-import { useFirestoreStore } from "@/store/use-firestore-store";
 
 export default function AddModal({
   bookName,
@@ -17,20 +16,15 @@ export default function AddModal({
   verseId: string;
 }) {
   const { setClose } = useModal();
-  const { addComment } = useFirestoreStore();
   const [comment, setComment] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const trimComment = comment.trim();
 
   const handleAddComment = async () => {
-    if (comment.trim()) {
+    if (trimComment) {
       setIsLoading(true);
       try {
-        const newComment = await addCommentToFirestore(
-          bookName,
-          verseId,
-          comment,
-        );
-        addComment(verseId, newComment);
+        await addCommentToFirestore(bookName, verseId, comment);
         setClose();
       } catch (error) {
         const errorMessage =
@@ -70,7 +64,7 @@ export default function AddModal({
         <Button
           className="bg-brown-light text-white"
           onClick={handleAddComment}
-          disabled={isLoading}
+          disabled={isLoading || !trimComment}
         >
           {isLoading ? (
             <>

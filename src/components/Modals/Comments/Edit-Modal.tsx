@@ -7,24 +7,17 @@ import { Textarea } from "../../ui/textarea";
 import ModalContainer from "../Modal-Container";
 
 import { toast } from "@/hooks/use-toast";
-import { editCommentInFirestore } from "@/lib/api/fetchFirestoreData";
-import { Comment } from "@/lib/types";
+import { updateCommentInFirestore } from "@/lib/api/fetchFirestoreData";
+import { FirestoreComment } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
-import { useFirestoreStore } from "@/store/use-firestore-store";
 
 type EditModalProps = {
-  comment: Comment;
+  comment: FirestoreComment;
   bookName: string;
-  verseId: string;
 };
 
-export default function EditModal({
-  comment,
-  bookName,
-  verseId,
-}: EditModalProps) {
+export default function EditModal({ comment, bookName }: EditModalProps) {
   const { setOpen, setClose } = useModal();
-  const { updateComment } = useFirestoreStore();
   const [newComment, setComment] = useState(comment.text);
   const [isLoading, setIsLoading] = useState(false);
   const trimComment = newComment.trim();
@@ -32,11 +25,7 @@ export default function EditModal({
   const handleConfirmDeletion = () => {
     setOpen(
       <ModalContainer>
-        <DeleteConfirmation
-          comment={comment}
-          bookName={bookName}
-          verseId={verseId}
-        />
+        <DeleteConfirmation comment={comment} bookName={bookName} />
       </ModalContainer>,
     );
   };
@@ -45,8 +34,7 @@ export default function EditModal({
     if (trimComment) {
       setIsLoading(true);
       try {
-        await editCommentInFirestore(bookName, verseId, comment.id, newComment);
-        updateComment(verseId, comment.id, newComment);
+        await updateCommentInFirestore(bookName, comment, newComment);
         setClose();
       } catch (error) {
         const errorMessage =

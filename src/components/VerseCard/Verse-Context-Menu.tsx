@@ -13,30 +13,34 @@ import {
   ContextMenuSubContent,
 } from "@/components/ui/context-menu";
 import { toast } from "@/hooks/use-toast";
-import { updateVerseColorInFirestore } from "@/lib/api/fetchFirestoreData";
+import {
+  createVerseColorInFirestore,
+  updateVerseColorInFirestore,
+} from "@/lib/api/fetchFirestoreData";
 import { BookPathMap, Verse } from "@/lib/types";
-import { useFirestoreStore } from "@/store/use-firestore-store";
 
 const COLORS = [
   { name: "Зеленый", value: "#52fd46" },
   { name: "Красный", value: "#ff5a5a" },
   { name: "Желтый", value: "#fff75a" },
   { name: "Голубой", value: "#5aaaff" },
+  { name: "Без цвета", value: "transparent" },
 ];
 
 export default function VerseContextMenu({
   verse,
   onCopy,
   highlightColor,
+  docId,
   children,
 }: {
   verse: Verse;
   onCopy: () => void;
   highlightColor: string;
+  docId: string;
   children: React.ReactNode;
 }) {
   const { pathname } = useLocation();
-  const { updateVerseColor } = useFirestoreStore();
 
   const verseContent = `${verse.verse}${verse.verse_ivrit ? `\n${verse.verse_ivrit}` : ""}`;
 
@@ -72,8 +76,11 @@ export default function VerseContextMenu({
 
   const handleChangeColor = async (color: string) => {
     try {
-      await updateVerseColorInFirestore(bookName, verseId, color);
-      updateVerseColor(verseId, color);
+      if (docId) {
+        await updateVerseColorInFirestore(bookName, docId, verseId, color);
+      } else {
+        await createVerseColorInFirestore(bookName, verseId, color);
+      }
     } catch (error: unknown) {
       const errorMessage =
         error instanceof Error ? error.message : "Неизвестная ошибка";
