@@ -98,7 +98,7 @@ export default function VerseActionsDropdown({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button>
+        <Button className="px-2 sm:px-4">
           <Settings />
         </Button>
       </DropdownMenuTrigger>
