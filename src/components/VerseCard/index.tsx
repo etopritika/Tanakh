@@ -60,7 +60,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             isHighlighted ? "animate-pulse bg-muted text-white" : ""
           }`}
         >
-          <CardContent className="flex space-x-3 pb-0 pt-6">
+          <CardContent className="flex space-x-2 p-4 pb-0 sm:space-x-3 sm:p-6 sm:pb-0">
             <span className="font-bold">{verse.poemNumber}</span>
             <div className="w-full space-y-2">
               <p
@@ -83,7 +83,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
               docId={docId}
             />
           </CardContent>
-          <CardFooter>
+          <CardFooter className="p-4 sm:p-6">
             <CommentsDropdown verse={verse} />
           </CardFooter>
         </Card>
