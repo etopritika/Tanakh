@@ -66,22 +66,30 @@ export default function VersesPage() {
   useEffect(() => {
     if (!bookName) return;
     const loadData = async () => {
-      try {
-        await Promise.all([
-          fetchVersesByBook(bookName),
-          fetchCommentsByBook(bookName),
-        ]);
-      } catch (error) {
-        const errorMessage =
-          error instanceof Error ? error.message : "Неизвестная ошибка";
+      const results = await Promise.allSettled([
+        fetchVersesByBook(bookName),
+        fetchCommentsByBook(bookName),
+      ]);
 
-        toast({
-          title: "Ошибка при загрузке комментариев",
-          description: errorMessage,
-          variant: "destructive",
-        });
-      }
+      results.forEach((result, index) => {
+        if (result.status === "rejected") {
+          const errorMessage =
+            result.reason instanceof Error
+              ? result.reason.message
+              : "Неизвестная ошибка";
+
+          toast({
+            title:
+              index === 0
+                ? "Ошибка при загрузке метаданных стихов"
+                : "Ошибка при загрузке комментариев",
+            description: errorMessage,
+            variant: "destructive",
+          });
+        }
+      });
     };
+
     loadData();
   }, [bookName]);
 
