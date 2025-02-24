@@ -15,7 +15,7 @@ export default function CommentsDropdown({ verse }: { verse: Verse }) {
     <Accordion
       type="single"
       collapsible
-      className="mt-4 w-full rounded bg-background px-3"
+      className="w-full rounded bg-background px-3"
     >
       <AccordionItem value="comment">
         <AccordionTrigger className="py-3 text-sm">
