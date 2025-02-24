@@ -25,7 +25,7 @@ export const fetchVersesByBook = async (bookName: string) => {
   if (!uid) throw new Error("Пользователь не авторизован");
 
   try {
-    const versesRef = collection(db, "bookss", bookName, "verses");
+    const versesRef = collection(db, "books", bookName, "verses");
     const q = query(versesRef, where("uid", "==", uid));
     const querySnapshot = await getDocs(q);
 
