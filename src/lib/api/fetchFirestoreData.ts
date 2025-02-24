@@ -36,9 +36,10 @@ export const fetchVersesByBook = async (bookName: string) => {
 
     useFirestoreStore.getState().setVerses(verses);
     return verses;
-  } catch (error) {
-    console.error("Ошибка при получении стихов:", error);
-    throw new Error("Не удалось загрузить стихи. Попробуйте позже.");
+  } catch {
+    throw new Error(
+      "Не удалось загрузить информацию о стихах. Попробуйте позже.",
+    );
   }
 };
 
@@ -73,8 +74,7 @@ export const fetchCommentsByBook = async (bookName: string) => {
 
     useFirestoreStore.getState().setComments(comments);
     return comments;
-  } catch (error) {
-    console.error("Ошибка при получении комментариев:", error);
+  } catch {
     throw new Error("Не удалось загрузить комментарии. Попробуйте позже.");
   }
 };
@@ -135,8 +135,7 @@ export const addCommentToFirestore = async (
       id: docRef.id,
       ...newComment,
     });
-  } catch (error) {
-    console.error("Ошибка при добавлении комментария:", error);
+  } catch {
     throw new Error("Не удалось добавить комментарий. Попробуйте позже.");
   }
 };
@@ -160,8 +159,7 @@ export const updateCommentInFirestore = async (
     await updateDoc(commentRef, { text: newText });
 
     useFirestoreStore.getState().updateComment(comment.id, newText);
-  } catch (error) {
-    console.error("Ошибка при обновлении комментария:", error);
+  } catch {
     throw new Error("Не удалось обновить комментарий. Попробуйте позже.");
   }
 };
@@ -183,8 +181,7 @@ export const deleteCommentFromFirestore = async (
     await deleteDoc(commentRef);
 
     useFirestoreStore.getState().deleteComment(comment.id);
-  } catch (error) {
-    console.error("Ошибка при удалении комментария:", error);
+  } catch {
     throw new Error("Не удалось удалить комментарий. Попробуйте позже.");
   }
 };
@@ -216,9 +213,8 @@ export const createVerseColorInFirestore = async (
       uid,
       highlightColor: color,
     });
-  } catch (error) {
-    console.error("Ошибка при создании стиха:", error);
-    throw new Error("Не удалось создать стих. Попробуйте позже.");
+  } catch {
+    throw new Error("Не удалось создать запись стиха. Попробуйте позже.");
   }
 };
 
@@ -243,8 +239,7 @@ export const updateVerseColorInFirestore = async (
     await updateDoc(verseRef, { highlightColor: color });
 
     useFirestoreStore.getState().updateVerseColor(verseId, color);
-  } catch (error) {
-    console.error("Ошибка при обновлении цвета стиха:", error);
+  } catch {
     throw new Error("Не удалось обновить цвет. Попробуйте позже.");
   }
 };

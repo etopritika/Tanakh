@@ -102,7 +102,7 @@ export default function VerseActionsDropdown({
           <Settings />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 bg-white">
+      <DropdownMenuContent className="w-40 bg-white sm:w-56">
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>

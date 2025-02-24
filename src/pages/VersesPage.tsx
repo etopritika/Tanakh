@@ -16,72 +16,87 @@ import { useReadingStore } from "@/store/use-reading-store";
 
 export default function VersesPage() {
   const { pathname } = useLocation();
-  const { bookName, sectionName, chapterId, subChapterId } = useParams<{
-    bookName: string | undefined;
-    sectionName: string | undefined;
-    chapterId: string | undefined;
-    subChapterId: string | undefined;
+  const {
+    bookName,
+    sectionName,
+    chapterId,
+    subChapterId = "1",
+  } = useParams<{
+    bookName?: string;
+    sectionName?: string;
+    chapterId?: string;
+    subChapterId?: string;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
 
-  const [verses, setVerses] = useState<Verse[]>([]);
-  const [chapters, setChapters] = useState<Chapter[]>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
+  const [state, setState] = useState<{
+    verses: Verse[];
+    chapters: Chapter[];
+    isLoading: boolean;
+    error: string | null;
+  }>({
+    verses: [],
+    chapters: [],
+    isLoading: true,
+    error: null,
+  });
 
-  const [chapterMain, chapterComment] = (verses[0]?.chapter || "").split(" (");
-  const fullChapterName = {
-    main: chapterMain.trim(),
-    comment: chapterComment ? chapterComment.replace(")", "").trim() : "",
-    id: chapterId,
-  };
+  const fullChapterName = (() => {
+    const [main, comment] = (state.verses[0]?.chapter || "").split(" (");
+    return {
+      main: main.trim(),
+      comment: comment ? comment.replace(")", "").trim() : "",
+      id: chapterId,
+    };
+  })();
+
   const lastReadChapter = `${bookNameMap[bookName || ""]} ${chapterId}`;
 
   useEffect(() => {
-    const loadChapter = async () => {
-      if (!sectionName || !bookName || !chapterId) {
-        setError("Отсутствуют обязательные параметры");
-        setIsLoading(false);
-        return;
-      }
+    if (!sectionName || !bookName || !chapterId) {
+      setState((prev) => ({
+        ...prev,
+        isLoading: false,
+        error: "Отсутствуют обязательные параметры",
+      }));
+      return;
+    }
 
-      setIsLoading(true);
+    setState((prev) => ({ ...prev, isLoading: true }));
 
-      const { verses, chapters, error } = await fetchVersesData(
-        sectionName,
-        bookName,
-        chapterId,
-        subChapterId || "1",
-      );
-
-      setVerses(verses);
-      setChapters(chapters);
-      setError(error);
-      setIsLoading(false);
-    };
-
-    loadChapter();
+    fetchVersesData(sectionName, bookName, chapterId, subChapterId).then(
+      ({ verses, chapters, error }) => {
+        setState({ verses, chapters, isLoading: false, error });
+      },
+    );
   }, [sectionName, bookName, chapterId, subChapterId]);
 
   useEffect(() => {
     if (!bookName) return;
-    const loadData = async () => {
-      try {
-        await Promise.all([
-          fetchVersesByBook(bookName),
-          fetchCommentsByBook(bookName),
-        ]);
-      } catch (error) {
-        const errorMessage =
-          error instanceof Error ? error.message : "Неизвестная ошибка";
 
-        toast({
-          title: "Ошибка при загрузке комментариев",
-          description: errorMessage,
-          variant: "destructive",
-        });
-      }
+    const loadData = async () => {
+      const results = await Promise.allSettled([
+        fetchVersesByBook(bookName),
+        fetchCommentsByBook(bookName),
+      ]);
+
+      results.forEach((result, index) => {
+        if (result.status === "rejected") {
+          toast({
+            title:
+              index === 0
+                ? "Ошибка при загрузке метаданных стихов"
+                : "Ошибка при загрузке комментариев",
+            description:
+              result.reason instanceof Error
+                ? result.reason.message
+                : "Неизвестная ошибка",
+            variant: "destructive",
+          });
+        }
+      });
     };
+
     loadData();
   }, [bookName]);
 
@@ -94,7 +109,7 @@ export default function VersesPage() {
   const page = parseInt(chapterId || "1", 10);
   const subPage = parseInt(subChapterId || "1", 10);
 
-  if (isLoading) {
+  if (state.isLoading) {
     return (
       <section className="flex h-full items-center justify-center py-6">
         <div className="flex space-x-2">
@@ -105,8 +120,8 @@ export default function VersesPage() {
     );
   }
 
-  if (error) {
-    return <NoVerses error={error} />;
+  if (state.error) {
+    return <NoVerses error={state.error} />;
   }
 
   return (
@@ -114,7 +129,7 @@ export default function VersesPage() {
       <AppPagination
         currentPage={page}
         subPage={subPage}
-        chapters={chapters}
+        chapters={state.chapters}
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
@@ -126,12 +141,12 @@ export default function VersesPage() {
           )}{" "}
           {fullChapterName.id}
         </h1>
-        <VerseList verses={verses} />
+        <VerseList verses={state.verses} />
       </div>
       <AppPagination
         currentPage={page}
         subPage={subPage}
-        chapters={chapters}
+        chapters={state.chapters}
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
