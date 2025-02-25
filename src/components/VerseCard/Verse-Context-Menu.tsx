@@ -27,7 +27,7 @@ const COLORS = [
   { name: "Фиолетовый", value: "#EBC3FF" },
   { name: "Голубой", value: "#A1D1FF" },
   { name: "Зеленый", value: "#ACFFB7" },
-  { name: "Без цвета", value: "transparent" },
+  { name: "Без цвета", value: "white" },
 ];
 
 export default function VerseContextMenu({
@@ -115,7 +115,7 @@ export default function VerseContextMenu({
   return (
     <ContextMenu>
       <ContextMenuTrigger asChild>{children}</ContextMenuTrigger>
-      <ContextMenuContent className="w-56 bg-white">
+      <ContextMenuContent className="w-56 bg-gray-100">
         <ContextMenuItem className="cursor-pointer" onClick={handleOpenModal}>
           Добавить кометарий <CirclePlus className="ml-auto h-4 w-4" />
         </ContextMenuItem>
@@ -130,7 +130,7 @@ export default function VerseContextMenu({
           <ContextMenuSubTrigger className="cursor-pointer">
             Изменить цвет
           </ContextMenuSubTrigger>
-          <ContextMenuSubContent className="bg-white">
+          <ContextMenuSubContent className="min-w-5 bg-gray-100">
             {COLORS.map((color) => (
               <ContextMenuItem
                 disabled={highlightColor === color.value}
@@ -139,10 +139,10 @@ export default function VerseContextMenu({
                 onClick={() => handleChangeColor(color.value)}
               >
                 <span
-                  className="mr-2 inline-block h-4 w-4 rounded-full"
+                  className="inline-block h-6 w-6 rounded-full"
                   style={{ backgroundColor: color.value }}
                 />
-                {color.name}
+                {/* {color.name} */}
               </ContextMenuItem>
             ))}
           </ContextMenuSubContent>

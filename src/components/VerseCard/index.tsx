@@ -66,7 +66,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           }`}
         >
           <CardContent
-            className={`flex space-x-2 p-4 sm:space-x-3 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
+            className={`flex space-x-1 p-4 sm:space-x-2 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
           >
             <span className="font-bold">{verse.poemNumber}</span>
             <div className="w-full space-y-2">

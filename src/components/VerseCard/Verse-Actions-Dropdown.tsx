@@ -32,7 +32,7 @@ const COLORS = [
   { name: "Фиолетовый", value: "#EBC3FF" },
   { name: "Голубой", value: "#A1D1FF" },
   { name: "Зеленый", value: "#ACFFB7" },
-  { name: "Без цвета", value: "transparent" },
+  { name: "Без цвета", value: "white" },
 ];
 
 export default function VerseActionsDropdown({
@@ -115,7 +115,7 @@ export default function VerseActionsDropdown({
           <Settings />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-40 bg-white sm:w-56">
+      <DropdownMenuContent className="w-56 bg-gray-100">
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
@@ -148,7 +148,7 @@ export default function VerseActionsDropdown({
               Изменить цвет
             </DropdownMenuSubTrigger>
             <DropdownMenuPortal>
-              <DropdownMenuSubContent className="bg-white">
+              <DropdownMenuSubContent className="min-w-5 bg-gray-100">
                 {COLORS.map((color) => (
                   <DropdownMenuItem
                     disabled={highlightColor === color.value}
@@ -157,10 +157,10 @@ export default function VerseActionsDropdown({
                     onClick={() => handleChangeColor(color.value)}
                   >
                     <span
-                      className={`mr-2 inline-block h-4 w-4 rounded-full`}
+                      className={`inline-block h-6 w-6 rounded-full`}
                       style={{ backgroundColor: color.value }}
                     />
-                    {color.name}
+                    {/* {color.name} */}
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuSubContent>
