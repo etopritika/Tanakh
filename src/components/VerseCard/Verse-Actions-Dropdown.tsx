@@ -24,10 +24,10 @@ import {
 import { BookPathMap, Verse } from "@/lib/types";
 
 const COLORS = [
-  { name: "Зеленый", value: "#52fd46" },
-  { name: "Красный", value: "#ff5a5a" },
-  { name: "Желтый", value: "#fff75a" },
-  { name: "Голубой", value: "#5aaaff" },
+  { name: "Серый", value: "#E6E6E6" },
+  { name: "Фиолетовый", value: "#EBC3FF" },
+  { name: "Голубой", value: "#A1D1FF" },
+  { name: "Зеленый", value: "#ACFFB7" },
   { name: "Без цвета", value: "transparent" },
 ];
 
