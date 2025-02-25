@@ -1,10 +1,10 @@
-import { CirclePlus, Copy, Link, Settings } from "lucide-react";
+import { CirclePlus, Copy, Link /*Settings*/ } from "lucide-react";
 import { useLocation } from "react-router-dom";
 
 import AddModal from "../Modals/Comments/Add-Modal";
 import ModalContainer from "../Modals/Modal-Container";
 
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -40,11 +40,13 @@ export default function VerseActionsDropdown({
   onCopy,
   highlightColor,
   docId,
+  children,
 }: {
   verse: Verse;
   onCopy: () => void;
   highlightColor: string;
   docId: string;
+  children: React.ReactNode;
 }) {
   const { setOpen } = useModal();
   const { pathname } = useLocation();
@@ -110,11 +112,7 @@ export default function VerseActionsDropdown({
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button className="px-2 sm:px-4">
-          <Settings />
-        </Button>
-      </DropdownMenuTrigger>
+      <DropdownMenuTrigger asChild>{children}</DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 bg-gray-100">
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
         <DropdownMenuSeparator />
