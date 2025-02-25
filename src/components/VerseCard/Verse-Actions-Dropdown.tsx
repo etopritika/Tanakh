@@ -1,4 +1,5 @@
 import { CirclePlus, Copy, Link /*Settings*/ } from "lucide-react";
+import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import AddModal from "../Modals/Comments/Add-Modal";
@@ -50,6 +51,7 @@ export default function VerseActionsDropdown({
 }) {
   const { setOpen } = useModal();
   const { pathname } = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
 
   const verseContent = `${verse.verse}${verse.verse_ivrit ? `\n${verse.verse_ivrit}` : ""}`;
 
@@ -111,7 +113,7 @@ export default function VerseActionsDropdown({
   };
 
   return (
-    <DropdownMenu>
+    <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
       <DropdownMenuTrigger asChild>{children}</DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 bg-gray-100">
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
