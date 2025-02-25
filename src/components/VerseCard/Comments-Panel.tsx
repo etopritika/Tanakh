@@ -1,7 +1,7 @@
 import { MessageSquareOff } from "lucide-react";
 import { useState } from "react";
 
-import AddCommentButton from "./Add-Comment-Button";
+// import AddCommentButton from "./Add-Comment-Button";
 import EditCommentButton from "./Edit-Comment-Button";
 import AddModal from "../Modals/Comments/Add-Modal";
 import EditModal from "../Modals/Comments/Edit-Modal";
@@ -68,7 +68,7 @@ export default function CommentsPanel({
           onChange={(e) => setSearchQuery(e.target.value)}
           className="max-w-52 bg-white"
         />
-        <AddCommentButton onAdd={() => handleOpenModal("add")} />
+        {/* <AddCommentButton onAdd={() => handleOpenModal("add")} /> */}
       </div>
 
       <ul className="mt-4 italic">
