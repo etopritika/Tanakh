@@ -1,11 +1,13 @@
-import { Copy, Link } from "lucide-react";
+import { CirclePlus, Copy, Link } from "lucide-react";
 import { useLocation } from "react-router-dom";
+
+import AddModal from "../Modals/Comments/Add-Modal";
+import ModalContainer from "../Modals/Modal-Container";
 
 import {
   ContextMenu,
   ContextMenuContent,
   ContextMenuItem,
-  ContextMenuLabel,
   ContextMenuSeparator,
   ContextMenuTrigger,
   ContextMenuSub,
@@ -18,12 +20,13 @@ import {
   updateVerseColorInFirestore,
 } from "@/lib/api/fetchFirestoreData";
 import { BookPathMap, Verse } from "@/lib/types";
+import { useModal } from "@/providers/Modal/modal-context";
 
 const COLORS = [
-  { name: "Зеленый", value: "#52fd46" },
-  { name: "Красный", value: "#ff5a5a" },
-  { name: "Желтый", value: "#fff75a" },
-  { name: "Голубой", value: "#5aaaff" },
+  { name: "Серый", value: "#E6E6E6" },
+  { name: "Фиолетовый", value: "#EBC3FF" },
+  { name: "Голубой", value: "#A1D1FF" },
+  { name: "Зеленый", value: "#ACFFB7" },
   { name: "Без цвета", value: "transparent" },
 ];
 
@@ -40,12 +43,28 @@ export default function VerseContextMenu({
   docId: string;
   children: React.ReactNode;
 }) {
+  const { setOpen } = useModal();
   const { pathname } = useLocation();
+  const isDesktop =
+    typeof window !== "undefined" &&
+    window.matchMedia("(min-width: 1024px)").matches;
+
+  if (!isDesktop) {
+    return <>{children}</>;
+  }
 
   const verseContent = `${verse.verse}${verse.verse_ivrit ? `\n${verse.verse_ivrit}` : ""}`;
 
   const bookName = BookPathMap[verse.id_book].bookName;
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+
+  const handleOpenModal = () => {
+    setOpen(
+      <ModalContainer>
+        <AddModal bookName={bookName} verseId={verseId} />
+      </ModalContainer>,
+    );
+  };
 
   const handleCopyText = async () => {
     try {
@@ -97,8 +116,9 @@ export default function VerseContextMenu({
     <ContextMenu>
       <ContextMenuTrigger asChild>{children}</ContextMenuTrigger>
       <ContextMenuContent className="w-56 bg-white">
-        <ContextMenuLabel>Меню действий</ContextMenuLabel>
-        <ContextMenuSeparator />
+        <ContextMenuItem className="cursor-pointer" onClick={handleOpenModal}>
+          Добавить кометарий <CirclePlus className="ml-auto h-4 w-4" />
+        </ContextMenuItem>
         <ContextMenuItem className="cursor-pointer" onClick={handleCopyText}>
           Копировать стих <Copy className="ml-auto h-4 w-4" />
         </ContextMenuItem>
