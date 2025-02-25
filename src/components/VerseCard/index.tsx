@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import CommentsDropdown from "./Comments-Dropdown";
 import VerseActionsDropdown from "./Verse-Actions-Dropdown";
-// import VerseContextMenu from "./Verse-Context-Menu";
+import VerseContextMenu from "./Verse-Context-Menu";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 import { Verse } from "@/lib/types";
@@ -53,50 +53,50 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   };
 
   return (
-    // <VerseContextMenu
-    //   verse={verse}
-    //   onCopy={handleCopy}
-    //   highlightColor={highlightColor}
-    //   docId={docId}
-    // >
-    <li id={`verse-${verse.poemNumber}`}>
-      <Card
-        className={`bg-white shadow-md ${
-          isHighlighted ? "animate-pulse bg-muted text-white" : ""
-        }`}
-      >
-        <CardContent
-          className={`flex space-x-2 p-4 sm:space-x-3 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
+    <VerseContextMenu
+      verse={verse}
+      onCopy={handleCopy}
+      highlightColor={highlightColor}
+      docId={docId}
+    >
+      <li id={`verse-${verse.poemNumber}`}>
+        <Card
+          className={`bg-white shadow-md ${
+            isHighlighted ? "animate-pulse bg-muted text-white" : ""
+          }`}
         >
-          <span className="font-bold">{verse.poemNumber}</span>
-          <div className="w-full space-y-2">
-            <p
-              style={{ backgroundColor: isCopied ? "" : highlightColor }}
-              className={`rounded ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
-            >
-              {verse.verse}
-            </p>
-            <p
-              style={{ backgroundColor: isCopied ? "" : highlightColor }}
-              className={`rtl rounded text-right ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
-            >
-              {verse.verse_ivrit}
-            </p>
-          </div>
-          <VerseActionsDropdown
-            verse={verse}
-            onCopy={handleCopy}
-            highlightColor={highlightColor}
-            docId={docId}
-          />
-        </CardContent>
-        {hasComments && (
-          <CardFooter className="p-4 sm:p-6">
-            <CommentsDropdown verse={verse} />
-          </CardFooter>
-        )}
-      </Card>
-    </li>
-    // </VerseContextMenu>
+          <CardContent
+            className={`flex space-x-2 p-4 sm:space-x-3 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
+          >
+            <span className="font-bold">{verse.poemNumber}</span>
+            <div className="w-full space-y-2">
+              <p
+                style={{ backgroundColor: isCopied ? "" : highlightColor }}
+                className={`rounded ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
+              >
+                {verse.verse}
+              </p>
+              <p
+                style={{ backgroundColor: isCopied ? "" : highlightColor }}
+                className={`rtl rounded text-right ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
+              >
+                {verse.verse_ivrit}
+              </p>
+            </div>
+            <VerseActionsDropdown
+              verse={verse}
+              onCopy={handleCopy}
+              highlightColor={highlightColor}
+              docId={docId}
+            />
+          </CardContent>
+          {hasComments && (
+            <CardFooter className="p-4 sm:p-6">
+              <CommentsDropdown verse={verse} />
+            </CardFooter>
+          )}
+        </Card>
+      </li>
+    </VerseContextMenu>
   );
 }
