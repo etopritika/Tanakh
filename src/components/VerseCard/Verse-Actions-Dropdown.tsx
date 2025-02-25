@@ -114,7 +114,7 @@ export default function VerseActionsDropdown({
 
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-      <DropdownMenuTrigger asChild onPointerDown={() => setIsOpen(true)}>
+      <DropdownMenuTrigger asChild onClick={() => setIsOpen((prev) => !prev)}>
         {children}
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 bg-gray-100">
