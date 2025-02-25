@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import CommentsDropdown from "./Comments-Dropdown";
 import VerseActionsDropdown from "./Verse-Actions-Dropdown";
-import VerseContextMenu from "./Verse-Context-Menu";
+// import VerseContextMenu from "./Verse-Context-Menu";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 import { Verse } from "@/lib/types";
@@ -53,23 +53,29 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   };
 
   return (
-    <VerseContextMenu
-      verse={verse}
-      onCopy={handleCopy}
-      highlightColor={highlightColor}
-      docId={docId}
-    >
-      <li id={`verse-${verse.poemNumber}`}>
-        <Card
-          className={`bg-white shadow-md ${
-            isHighlighted ? "animate-pulse bg-muted text-white" : ""
-          }`}
+    // <VerseContextMenu
+    //   verse={verse}
+    //   onCopy={handleCopy}
+    //   highlightColor={highlightColor}
+    //   docId={docId}
+    // >
+    <li id={`verse-${verse.poemNumber}`}>
+      <Card
+        className={`bg-white shadow-md ${
+          isHighlighted ? "animate-pulse bg-muted text-white" : ""
+        }`}
+      >
+        <CardContent
+          className={`flex space-x-1 p-4 sm:space-x-2 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
         >
-          <CardContent
-            className={`flex space-x-1 p-4 sm:space-x-2 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
+          <span className="font-bold">{verse.poemNumber}</span>
+          <VerseActionsDropdown
+            verse={verse}
+            onCopy={handleCopy}
+            highlightColor={highlightColor}
+            docId={docId}
           >
-            <span className="font-bold">{verse.poemNumber}</span>
-            <div className="w-full space-y-2">
+            <div className="w-full cursor-pointer space-y-2">
               <p
                 style={{ backgroundColor: isCopied ? "" : highlightColor }}
                 className={`rounded ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
@@ -83,20 +89,21 @@ export default function VerseCard({ verse }: { verse: Verse }) {
                 {verse.verse_ivrit}
               </p>
             </div>
-            <VerseActionsDropdown
-              verse={verse}
-              onCopy={handleCopy}
-              highlightColor={highlightColor}
-              docId={docId}
-            />
-          </CardContent>
-          {hasComments && (
-            <CardFooter className="p-4 sm:p-6">
-              <CommentsDropdown verse={verse} />
-            </CardFooter>
-          )}
-        </Card>
-      </li>
-    </VerseContextMenu>
+          </VerseActionsDropdown>
+          {/* <VerseActionsDropdown
+            verse={verse}
+            onCopy={handleCopy}
+            highlightColor={highlightColor}
+            docId={docId}
+          /> */}
+        </CardContent>
+        {hasComments && (
+          <CardFooter className="p-4 sm:p-6">
+            <CommentsDropdown verse={verse} />
+          </CardFooter>
+        )}
+      </Card>
+    </li>
+    // </VerseContextMenu>
   );
 }
