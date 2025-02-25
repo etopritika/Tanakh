@@ -1,5 +1,8 @@
-import { Copy, Link, Settings } from "lucide-react";
+import { CirclePlus, Copy, Link, Settings } from "lucide-react";
 import { useLocation } from "react-router-dom";
+
+import AddModal from "../Modals/Comments/Add-Modal";
+import ModalContainer from "../Modals/Modal-Container";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -22,6 +25,7 @@ import {
   updateVerseColorInFirestore,
 } from "@/lib/api/fetchFirestoreData";
 import { BookPathMap, Verse } from "@/lib/types";
+import { useModal } from "@/providers/Modal/modal-context";
 
 const COLORS = [
   { name: "Серый", value: "#E6E6E6" },
@@ -42,12 +46,21 @@ export default function VerseActionsDropdown({
   highlightColor: string;
   docId: string;
 }) {
+  const { setOpen } = useModal();
   const { pathname } = useLocation();
 
   const verseContent = `${verse.verse}${verse.verse_ivrit ? `\n${verse.verse_ivrit}` : ""}`;
 
   const bookName = BookPathMap[verse.id_book].bookName;
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+
+  const handleOpenModal = () => {
+    setOpen(
+      <ModalContainer>
+        <AddModal bookName={bookName} verseId={verseId} />
+      </ModalContainer>,
+    );
+  };
 
   const handleCopyText = async () => {
     try {
@@ -106,6 +119,15 @@ export default function VerseActionsDropdown({
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
+          <DropdownMenuItem
+            className="cursor-pointer"
+            onClick={handleOpenModal}
+          >
+            Добавить кометарий
+            <DropdownMenuShortcut>
+              <CirclePlus />
+            </DropdownMenuShortcut>
+          </DropdownMenuItem>
           <DropdownMenuItem className="cursor-pointer" onClick={handleCopyText}>
             Копировать стих
             <DropdownMenuShortcut>
