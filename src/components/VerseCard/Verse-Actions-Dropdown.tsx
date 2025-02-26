@@ -115,7 +115,7 @@ export default function VerseActionsDropdown({
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
       <DropdownMenuTrigger asChild onClick={() => setIsOpen((prev) => !prev)}>
-        {children}
+        <div className="w-full cursor-pointer space-y-2">{children}</div>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56 bg-gray-100">
         <DropdownMenuLabel>Меню действий</DropdownMenuLabel>
