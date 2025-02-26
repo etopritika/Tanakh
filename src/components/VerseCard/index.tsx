@@ -66,7 +66,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
         }`}
       >
         <CardContent
-          className={`flex space-x-1 p-4 sm:space-x-2 sm:p-6 ${hasComments ? "pb-0 sm:pb-0" : ""}`}
+          className={`flex space-x-1 p-3 pl-1.5 text-sm sm:space-x-2 sm:p-6 sm:text-base ${hasComments ? "pb-0 sm:pb-0" : ""}`}
         >
           <span className="font-bold">{verse.poemNumber}</span>
           <VerseActionsDropdown
@@ -98,7 +98,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           /> */}
         </CardContent>
         {hasComments && (
-          <CardFooter className="p-4 sm:p-6">
+          <CardFooter className="p-3 sm:p-6">
             <CommentsDropdown verse={verse} />
           </CardFooter>
         )}

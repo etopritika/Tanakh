@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const { pathname } = useLocation();
   const isExcludedPage = ["/auth", "/forgot-password"].includes(pathname);
   return (
-    <div className="h-screen px-4">
+    <div className="h-screen px-2 sm:px-4">
       <ModalProvider>
         {!isExcludedPage && <Header />}
         {!isExcludedPage && <DesktopSidebar />}
