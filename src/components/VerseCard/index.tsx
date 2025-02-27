@@ -68,18 +68,20 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             highlightColor={highlightColor}
             docId={docId}
           >
-            <p
-              style={{ backgroundColor: isCopied ? "" : highlightColor }}
-              className={`rounded ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
-            >
-              {verse.verse}
-            </p>
-            <p
-              style={{ backgroundColor: isCopied ? "" : highlightColor }}
-              className={`rtl rounded text-right ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
-            >
-              {verse.verse_ivrit}
-            </p>
+            <div className="cursor-pointer space-y-2">
+              <p
+                style={{ backgroundColor: isCopied ? "" : highlightColor }}
+                className={`rounded ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
+              >
+                {verse.verse}
+              </p>
+              <p
+                style={{ backgroundColor: isCopied ? "" : highlightColor }}
+                className={`rtl rounded text-right ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
+              >
+                {verse.verse_ivrit}
+              </p>
+            </div>
           </ActionDropdown>
         </CardContent>
         {hasComments && (

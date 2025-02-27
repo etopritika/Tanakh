@@ -53,6 +53,9 @@ export default function ActionDropdown({
   const closeMenu = () => {
     if (isOpen) {
       document.body.style.overflow = "auto";
+      document.ontouchmove = function () {
+        return true;
+      };
       setIsOpen(false);
     }
   };
@@ -67,32 +70,16 @@ export default function ActionDropdown({
     );
   };
 
-  const handleCopyText = async (event: React.MouseEvent) => {
+  const handleCopy = async (event: React.MouseEvent, content: string) => {
     event.stopPropagation();
     closeMenu();
     try {
-      await navigator.clipboard.writeText(verseContent);
+      await navigator.clipboard.writeText(content);
       onCopy();
     } catch {
       toast({
         title: "Ошибка",
-        description: "Не удалось скопировать текст.",
-        variant: "destructive",
-      });
-    }
-  };
-
-  const handleCopyLink = async (event: React.MouseEvent) => {
-    event.stopPropagation();
-    closeMenu();
-    const verseUrl = `${window.location.origin}${pathname}#verse-${verse.poemNumber}`;
-    try {
-      await navigator.clipboard.writeText(verseUrl);
-      onCopy();
-    } catch {
-      toast({
-        title: "Ошибка",
-        description: "Не удалось скопировать ссылку.",
+        description: "Не удалось скопировать.",
         variant: "destructive",
       });
     }
@@ -135,6 +122,9 @@ export default function ActionDropdown({
     if (y + menuHeight > windowHeight) y = windowHeight - menuHeight - 10;
 
     document.body.style.overflow = "hidden";
+    document.ontouchmove = function (e) {
+      e.preventDefault();
+    };
 
     setPosition({ x, y });
     setIsOpen(true);
@@ -144,6 +134,9 @@ export default function ActionDropdown({
     if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
       setIsOpen(false);
       document.body.style.overflow = "auto";
+      document.ontouchmove = function () {
+        return true;
+      };
     }
   };
 
@@ -158,7 +151,7 @@ export default function ActionDropdown({
   };
 
   return (
-    <div className="relative inline-block cursor-pointer" onClick={handleClick}>
+    <div className="relative w-full" onClick={handleClick}>
       {children}
       {isOpen && (
         <div
@@ -186,14 +179,19 @@ export default function ActionDropdown({
           </button>
           <button
             className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-            onClick={handleCopyText}
+            onClick={(event) => handleCopy(event, verseContent)}
           >
             <Copy className="h-4 w-4" />
             Копировать стих
           </button>
           <button
             className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-            onClick={handleCopyLink}
+            onClick={(event) =>
+              handleCopy(
+                event,
+                `${window.location.origin}${pathname}#verse-${verse.poemNumber}`,
+              )
+            }
           >
             <Link className="h-4 w-4" />
             Копировать адрес стиха
