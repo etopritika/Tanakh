@@ -33,10 +33,10 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 0px;
 }
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: var(--background);
 }
 
@@ -48,4 +48,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
-}
+} */
