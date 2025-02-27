@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 
+import ActionDropdown from "./Action-Dropdown";
 import CommentsDropdown from "./Comments-Dropdown";
-import TestDropdown from "./Test-Dropdown";
-// import VerseActionsDropdown from "./Verse-Actions-Dropdown";
-// import VerseContextMenu from "./Verse-Context-Menu";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 import { Verse } from "@/lib/types";
@@ -64,13 +62,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           className={`flex space-x-1 p-3 pl-1.5 text-sm sm:space-x-2 sm:p-6 sm:text-base ${hasComments ? "pb-0 sm:pb-0" : ""}`}
         >
           <span className="font-bold">{verse.poemNumber}</span>
-          {/* <VerseActionsDropdown
-            verse={verse}
-            onCopy={handleCopy}
-            highlightColor={highlightColor}
-            docId={docId}
-          > */}
-          <TestDropdown
+          <ActionDropdown
             verse={verse}
             onCopy={handleCopy}
             highlightColor={highlightColor}
@@ -88,9 +80,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             >
               {verse.verse_ivrit}
             </p>
-          </TestDropdown>
-
-          {/* </VerseActionsDropdown> */}
+          </ActionDropdown>
         </CardContent>
         {hasComments && (
           <CardFooter className="p-3 sm:p-6">
