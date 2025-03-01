@@ -1,5 +1,5 @@
 import { CirclePlus, Copy, Link, X } from "lucide-react";
-import { useState, useRef, useEffect, ReactNode } from "react";
+import { useState, useRef, ReactNode, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import AddModal from "../Modals/Comments/Add-Modal";
@@ -53,9 +53,7 @@ export default function ActionDropdown({
   const closeMenu = () => {
     if (isOpen) {
       document.body.style.overflow = "auto";
-      document.ontouchmove = function () {
-        return true;
-      };
+      document.body.style.touchAction = "auto";
       setIsOpen(false);
     }
   };
@@ -106,8 +104,10 @@ export default function ActionDropdown({
     }
   };
 
-  const handleClick = (event: React.MouseEvent) => {
+  const handleOpenDropdown = (event: React.MouseEvent) => {
     event.preventDefault();
+    document.body.style.overflow = "hidden";
+    document.body.style.touchAction = "none";
 
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight;
@@ -121,98 +121,93 @@ export default function ActionDropdown({
     if (x + menuWidth > windowWidth) x = windowWidth - menuWidth - 10;
     if (y + menuHeight > windowHeight) y = windowHeight - menuHeight - 10;
 
-    document.body.style.overflow = "hidden";
-    document.ontouchmove = function (e) {
-      e.preventDefault();
-    };
-
     setPosition({ x, y });
     setIsOpen(true);
   };
-
-  const handleClickOutside = (event: MouseEvent) => {
-    if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-      setIsOpen(false);
-      document.body.style.overflow = "auto";
-      document.ontouchmove = function () {
-        return true;
-      };
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
 
   const handleCloseMenu = (event: React.MouseEvent) => {
     event.stopPropagation();
     closeMenu();
   };
 
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = "auto";
+      document.body.style.touchAction = "auto";
+    };
+  }, []);
+
   return (
-    <div className="relative w-full" onClick={handleClick}>
+    <div className="relative w-full" onClick={handleOpenDropdown}>
       {children}
       {isOpen && (
-        <div
-          ref={menuRef}
-          className="fixed z-50 w-56 rounded-md border bg-white p-2 shadow-lg sm:w-64"
-          style={{ top: position.y, left: position.x }}
-        >
-          <div className="flex justify-between">
-            <p className="px-3 py-2 text-sm font-semibold text-gray-700">
-              Меню действий
-            </p>
-            <button className="px-2" onClick={handleCloseMenu}>
-              <X size={18} />
+        <>
+          <div
+            className="fixed inset-0 top-[56px] z-40"
+            onClick={handleCloseMenu}
+          />
+          <div
+            ref={menuRef}
+            className="fixed z-50 w-56 rounded-md border bg-white p-2 shadow-lg sm:w-64"
+            style={{ top: position.y, left: position.x }}
+          >
+            <div className="flex justify-between">
+              <p className="px-3 py-2 text-sm font-semibold text-gray-700">
+                Меню действий
+              </p>
+              <button className="px-2" onClick={handleCloseMenu}>
+                <X size={18} />
+              </button>
+            </div>
+
+            <hr className="my-1 border-gray-300" />
+
+            <button
+              className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
+              onClick={handleOpenModal}
+            >
+              <CirclePlus className="h-4 w-4" />
+              Добавить комментарий
             </button>
+            <button
+              className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
+              onClick={(event) => handleCopy(event, verseContent)}
+            >
+              <Copy className="h-4 w-4" />
+              Копировать стих
+            </button>
+            <button
+              className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
+              onClick={(event) =>
+                handleCopy(
+                  event,
+                  `${window.location.origin}${pathname}#verse-${verse.poemNumber}`,
+                )
+              }
+            >
+              <Link className="h-4 w-4" />
+              Копировать адрес стиха
+            </button>
+
+            <hr className="my-1 border-gray-300" />
+
+            <p className="px-3 py-2 text-sm font-semibold text-gray-700">
+              Изменить цвет
+            </p>
+            <div className="flex justify-around px-3">
+              {COLORS.map((color) => (
+                <button
+                  key={color.value}
+                  className={`h-6 w-6 rounded-full border ${
+                    highlightColor === color.value ? "ring-2 ring-gray-500" : ""
+                  }`}
+                  style={{ backgroundColor: color.value }}
+                  onClick={(event) => handleChangeColor(event, color.value)}
+                />
+              ))}
+            </div>
           </div>
-
-          <hr className="my-1 border-gray-300" />
-
-          <button
-            className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-            onClick={handleOpenModal}
-          >
-            <CirclePlus className="h-4 w-4" />
-            Добавить комментарий
-          </button>
-          <button
-            className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-            onClick={(event) => handleCopy(event, verseContent)}
-          >
-            <Copy className="h-4 w-4" />
-            Копировать стих
-          </button>
-          <button
-            className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-            onClick={(event) =>
-              handleCopy(
-                event,
-                `${window.location.origin}${pathname}#verse-${verse.poemNumber}`,
-              )
-            }
-          >
-            <Link className="h-4 w-4" />
-            Копировать адрес стиха
-          </button>
-
-          <hr className="my-1 border-gray-300" />
-
-          <p className="px-3 py-2 text-sm font-semibold text-gray-700">
-            Изменить цвет
-          </p>
-          <div className="flex justify-around px-3">
-            {COLORS.map((color) => (
-              <button
-                key={color.value}
-                className={`h-6 w-6 rounded-full border ${highlightColor === color.value ? "ring-2 ring-gray-500" : ""}`}
-                style={{ backgroundColor: color.value }}
-                onClick={(event) => handleChangeColor(event, color.value)}
-              />
-            ))}
-          </div>
-        </div>
+        </>
       )}
     </div>
   );
