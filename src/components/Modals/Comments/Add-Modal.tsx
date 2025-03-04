@@ -1,12 +1,30 @@
+import { zodResolver } from "@hookform/resolvers/zod";
 import { LoaderCircle } from "lucide-react";
-import { useState } from "react";
+import { useForm } from "react-hook-form";
+import * as z from "zod";
 
-import { Button } from "../../ui/button";
-import { Textarea } from "../../ui/textarea";
-
+import { Button } from "@/components/ui/button";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
 import { addCommentToFirestore } from "@/lib/api/fetchFirestoreData";
 import { useModal } from "@/providers/Modal/modal-context";
+
+const commentSchema = z.object({
+  text: z.string().min(1, "Комментарий не может быть пустым"),
+  redirectLink: z.union([
+    z.string().url("Введите корректную ссылку"),
+    z.literal(""),
+  ]),
+});
 
 export default function AddModal({
   bookName,
@@ -16,66 +34,102 @@ export default function AddModal({
   verseId: string;
 }) {
   const { setClose } = useModal();
-  const [comment, setComment] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
-  const trimComment = comment.trim();
 
-  const handleAddComment = async () => {
-    if (trimComment) {
-      setIsLoading(true);
-      try {
-        await addCommentToFirestore(bookName, verseId, comment);
-        setClose();
-      } catch (error) {
-        const errorMessage =
-          error instanceof Error ? error.message : "Неизвестная ошибка";
+  const form = useForm<z.infer<typeof commentSchema>>({
+    resolver: zodResolver(commentSchema),
+    defaultValues: {
+      text: "",
+      redirectLink: "",
+    },
+  });
 
-        toast({
-          title: "Ошибка при добавлении комментария",
-          description: errorMessage,
-          variant: "destructive",
-        });
-      } finally {
-        setIsLoading(false);
-      }
+  const onSubmit = async (data: z.infer<typeof commentSchema>) => {
+    try {
+      await addCommentToFirestore(
+        bookName,
+        verseId,
+        data.text,
+        data.redirectLink,
+      );
+      form.reset();
+      setClose();
+    } catch (error) {
+      const errorMessage =
+        error instanceof Error ? error.message : "Неизвестная ошибка";
+      toast({
+        title: "Ошибка при добавлении комментария",
+        description: errorMessage,
+        variant: "destructive",
+      });
     }
   };
 
   return (
-    <div className="space-y-6">
-      <h2 className="text-lg font-bold">Добавить коментарий</h2>
-      <Textarea
-        placeholder="Введите свой комментарий здесь."
-        className="bg-white"
-        value={comment}
-        onChange={(e) => setComment(e.target.value)}
-      />
-      <div className="flex items-center justify-between">
-        <Button
-          className="bg-white"
-          variant="outline"
-          onClick={() => {
-            setComment("");
-            setClose();
-          }}
-        >
-          Отмена
-        </Button>
-        <Button
-          className="bg-brown-light text-white"
-          onClick={handleAddComment}
-          disabled={isLoading || !trimComment}
-        >
-          {isLoading ? (
-            <>
-              <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
-              Добавление...
-            </>
-          ) : (
-            "Добавить"
+    <Form {...form}>
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+        <h2 className="text-lg font-bold">Добавить комментарий</h2>
+
+        <FormField
+          control={form.control}
+          name="text"
+          render={({ field }) => (
+            <FormItem>
+              <FormControl>
+                <Textarea
+                  placeholder="Введите свой комментарий здесь."
+                  className="bg-white"
+                  {...field}
+                />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
           )}
-        </Button>
-      </div>
-    </div>
+        />
+
+        <FormField
+          control={form.control}
+          name="redirectLink"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>Ссылка (необязательно)</FormLabel>
+              <FormControl>
+                <Input
+                  type="text"
+                  placeholder="Введите ссылку"
+                  className="bg-white"
+                  {...field}
+                />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+
+        <div className="flex items-center justify-between">
+          <Button
+            type="button"
+            className="bg-white"
+            variant="outline"
+            onClick={() => setClose()}
+          >
+            Отмена
+          </Button>
+          <Button
+            type="submit"
+            className="bg-brown-light text-white"
+            disabled={form.formState.isSubmitting}
+          >
+            {form.formState.isSubmitting ? (
+              <>
+                <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+                Добавление...
+              </>
+            ) : (
+              "Добавить"
+            )}
+          </Button>
+        </div>
+      </form>
+    </Form>
   );
 }

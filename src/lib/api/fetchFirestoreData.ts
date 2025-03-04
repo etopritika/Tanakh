@@ -112,6 +112,7 @@ export const addCommentToFirestore = async (
   bookName: string,
   verseId: string,
   text: string,
+  redirectLink: string,
 ) => {
   const uid = localStorage.getItem("uid");
   if (!uid) throw new Error("Пользователь не авторизован");
@@ -124,6 +125,7 @@ export const addCommentToFirestore = async (
       text,
       uid,
       createdAt: new Date(),
+      redirectLink: redirectLink.trim(),
     };
 
     const docRef = await addDoc(commentsRef, {
@@ -150,15 +152,21 @@ export const updateCommentInFirestore = async (
   bookName: string,
   comment: FirestoreComment,
   newText: string,
+  redirectLink: string,
 ) => {
   const uid = localStorage.getItem("uid");
   if (!uid) throw new Error("Пользователь не авторизован");
 
   try {
     const commentRef = doc(db, "books", bookName, "comments", comment.id);
-    await updateDoc(commentRef, { text: newText });
+    await updateDoc(commentRef, {
+      text: newText,
+      redirectLink: redirectLink.trim(),
+    });
 
-    useFirestoreStore.getState().updateComment(comment.id, newText);
+    useFirestoreStore
+      .getState()
+      .updateComment(comment.id, newText, redirectLink.trim());
   } catch {
     throw new Error("Не удалось обновить комментарий. Попробуйте позже.");
   }

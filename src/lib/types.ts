@@ -94,6 +94,7 @@ export type FirestoreComment = {
   verseId: string;
   text: string;
   createdAt: Date;
+  redirectLink: string;
 };
 
 export interface VersesMetadata {

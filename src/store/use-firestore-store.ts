@@ -12,7 +12,11 @@ interface FirestoreStore {
 
   setComments: (comments: FirestoreComment[]) => void;
   addComment: (comment: FirestoreComment) => void;
-  updateComment: (commentId: string, newText: string) => void;
+  updateComment: (
+    commentId: string,
+    newText: string,
+    redirectLink: string,
+  ) => void;
   deleteComment: (commentId: string) => void;
 }
 
@@ -68,7 +72,7 @@ export const useFirestoreStore = create<FirestoreStore>((set) => ({
       },
     })),
 
-  updateComment: (commentId, newText) =>
+  updateComment: (commentId, newText, redirectLink) =>
     set((state) => {
       const updatedComments = { ...state.comments };
       for (const verseId in updatedComments) {
@@ -76,6 +80,7 @@ export const useFirestoreStore = create<FirestoreStore>((set) => ({
           updatedComments[verseId][commentId] = {
             ...updatedComments[verseId][commentId],
             text: newText,
+            redirectLink: redirectLink.trim(),
           };
           break;
         }

@@ -1,8 +1,8 @@
 import { MessageSquareOff } from "lucide-react";
 import { useState } from "react";
 
-// import AddCommentButton from "./Add-Comment-Button";
 import EditCommentButton from "./Edit-Comment-Button";
+import RedirectButton from "./Redirect-Button";
 import AddModal from "../Modals/Comments/Add-Modal";
 import EditModal from "../Modals/Comments/Edit-Modal";
 import ModalContainer from "../Modals/Modal-Container";
@@ -54,6 +54,7 @@ export default function CommentsPanel({
             uid: "system",
             verseId: verseId,
             createdAt: new Date(),
+            redirectLink: "",
           },
         ]
       : []),
@@ -68,7 +69,6 @@ export default function CommentsPanel({
           onChange={(e) => setSearchQuery(e.target.value)}
           className="max-w-52 bg-white"
         />
-        {/* <AddCommentButton onAdd={() => handleOpenModal("add")} /> */}
       </div>
 
       <ul className="mt-4 italic">
@@ -76,14 +76,19 @@ export default function CommentsPanel({
           filteredComments.map((comment) => (
             <li
               key={comment.id}
-              className="prose mb-2 flex items-center justify-between space-x-2"
+              className="prose mb-2 flex items-center justify-between space-x-2 text-text"
             >
               <div dangerouslySetInnerHTML={{ __html: comment.text }} />
-              {comment.id !== "default" && (
-                <EditCommentButton
-                  onEdit={() => handleOpenModal("edit", comment)}
-                />
-              )}
+              <div className="flex space-x-1">
+                {comment.redirectLink && (
+                  <RedirectButton redirectLink={comment.redirectLink} />
+                )}
+                {comment.id !== "default" && (
+                  <EditCommentButton
+                    onEdit={() => handleOpenModal("edit", comment)}
+                  />
+                )}
+              </div>
             </li>
           ))
         ) : (
