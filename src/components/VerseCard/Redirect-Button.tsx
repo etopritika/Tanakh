@@ -11,7 +11,7 @@ export default function RedirectButton({
     <Button
       variant="outline"
       className="bg-white p-2"
-      onClick={() => (window.location.href = redirectLink)}
+      onClick={() => window.open(redirectLink, "_blank", "noopener,noreferrer")}
     >
       <Link size={20} />
     </Button>
