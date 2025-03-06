@@ -24,10 +24,8 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   // const hasComments = Boolean(verse.comment) || verseComments.length > 0;
   const hasComments = verseComments.length > 0;
 
-  const hash = window.location.hash;
-
   useEffect(() => {
-    if (hash === `#verse-${verse.poemNumber}`) {
+    if (window.location.hash === `#verse-${verse.poemNumber}`) {
       setIsHighlighted(true);
 
       const element = document.getElementById(`verse-${verse.poemNumber}`);
@@ -45,7 +43,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
       const timer = setTimeout(() => setIsHighlighted(false), 2000);
       return () => clearTimeout(timer);
     }
-  }, [verse.poemNumber, hash]);
+  }, [verse.poemNumber]);
 
   const handleCopy = () => {
     setIsCopied(true);
