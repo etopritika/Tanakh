@@ -21,7 +21,8 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
   const highlightColor = verseMetadata?.highlightColor || "transparent";
 
-  const hasComments = Boolean(verse.comment) || verseComments.length > 0;
+  // const hasComments = Boolean(verse.comment) || verseComments.length > 0;
+  const hasComments = verseComments.length > 0;
 
   const hash = window.location.hash;
 
