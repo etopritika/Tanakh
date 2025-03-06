@@ -6,11 +6,13 @@ import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tora";
 export enum SectionName {
   tora = "tora",
   neviim = "neviim",
+  ketuvim = "ketuvim",
 }
 
 export const sectionNameMap: Record<SectionName, string> = {
   [SectionName.tora]: "Тора",
   [SectionName.neviim]: "Невиим",
+  [SectionName.ketuvim]: "Ктувим",
 };
 
 export const booksMap: Record<string, Verse[][]> = {
