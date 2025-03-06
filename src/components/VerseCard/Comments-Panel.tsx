@@ -1,4 +1,3 @@
-import { MessageSquareOff } from "lucide-react";
 import { useState } from "react";
 
 import EditCommentButton from "./Edit-Comment-Button";
@@ -46,19 +45,21 @@ export default function CommentsPanel({
     ...verseComments.filter(({ text }) =>
       text.toLowerCase().includes(searchQuery.toLowerCase()),
     ),
-    ...(defaultVerse.comment
-      ? [
-          {
-            id: "default",
-            text: defaultVerse.comment,
-            uid: "system",
-            verseId: verseId,
-            createdAt: new Date(),
-            redirectLink: "",
-          },
-        ]
-      : []),
+    // ...(defaultVerse.comment
+    //   ? [
+    //       {
+    //         id: "default",
+    //         text: defaultVerse.comment,
+    //         uid: "system",
+    //         verseId: verseId,
+    //         createdAt: new Date(),
+    //         redirectLink: "",
+    //       },
+    //     ]
+    //   : []),
   ];
+
+  const lastIndex = filteredComments.length - 1;
 
   return (
     <>
@@ -72,38 +73,31 @@ export default function CommentsPanel({
       </div>
 
       <ul className="mt-4 italic">
-        {filteredComments.length ? (
-          filteredComments.map((comment) => {
-            const lastComment = comment.id === "default";
-            return (
-              <li
-                key={comment.id}
-                className={`prose flex items-center justify-between space-x-2 text-text ${lastComment ? "border-none py-0 pt-2" : "border-b py-2"}`}
-              >
-                <div className="flex flex-col">
-                  <div
-                    className="whitespace-pre-wrap"
-                    dangerouslySetInnerHTML={{ __html: comment.text }}
-                  />
-                  {comment.redirectLink && (
-                    <RedirectButton redirectLink={comment.redirectLink} />
-                  )}
-                </div>
-
-                {comment.id !== "default" && (
-                  <EditCommentButton
-                    onEdit={() => handleOpenModal("edit", comment)}
-                  />
+        {filteredComments.map((comment, index) => {
+          const lastComment = index === lastIndex;
+          return (
+            <li
+              key={comment.id}
+              className={`prose flex items-center justify-between space-x-2 text-text ${lastComment ? "border-none py-0 pt-2" : "border-b py-2"}`}
+            >
+              <div className="flex flex-col">
+                <div
+                  className="whitespace-pre-wrap"
+                  dangerouslySetInnerHTML={{ __html: comment.text }}
+                />
+                {comment.redirectLink && (
+                  <RedirectButton redirectLink={comment.redirectLink} />
                 )}
-              </li>
-            );
-          })
-        ) : (
-          <div className="flex flex-col items-center justify-center space-y-2 py-2">
-            <MessageSquareOff size={20} />
-            <span className="ml-2">Комментарии отсутствуют.</span>
-          </div>
-        )}
+              </div>
+
+              {comment.id !== "default" && (
+                <EditCommentButton
+                  onEdit={() => handleOpenModal("edit", comment)}
+                />
+              )}
+            </li>
+          );
+        })}
       </ul>
     </>
   );
