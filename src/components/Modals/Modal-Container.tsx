@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import React from "react";
+import React, { useEffect } from "react";
 
 import { useModal } from "@/providers/Modal/modal-context";
 
@@ -9,6 +9,19 @@ interface ModalProps {
 
 export default function ModalContainer({ children }: ModalProps) {
   const { isOpen, setClose } = useModal();
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+      document.body.style.touchAction = "none";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+      document.body.style.touchAction = "auto";
+    };
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -20,10 +33,10 @@ export default function ModalContainer({ children }: ModalProps) {
   return (
     <div
       onClick={handleOverlayClick}
-      className="fixed inset-0 z-50 flex items-center justify-center px-2"
+      className="fixed inset-0 z-50 flex justify-center overflow-y-auto p-2"
       style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
     >
-      <div className="relative w-full max-w-md rounded bg-white p-6 shadow-md">
+      <div className="absolute left-1/2 top-1/2 w-full max-w-md translate-x-[-50%] translate-y-[-40%] transform rounded bg-white p-6 shadow-md sm:translate-y-[-50%]">
         <button
           className="absolute right-2 top-2 text-gray-500 hover:text-gray-800"
           onClick={setClose}
