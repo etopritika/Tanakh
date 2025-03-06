@@ -73,24 +73,31 @@ export default function CommentsPanel({
 
       <ul className="mt-4 italic">
         {filteredComments.length ? (
-          filteredComments.map((comment) => (
-            <li
-              key={comment.id}
-              className="prose mb-2 flex items-center justify-between space-x-2 text-text"
-            >
-              <div dangerouslySetInnerHTML={{ __html: comment.text }} />
-              <div className="flex space-x-1">
-                {comment.redirectLink && (
-                  <RedirectButton redirectLink={comment.redirectLink} />
-                )}
+          filteredComments.map((comment) => {
+            const lastComment = comment.id === "default";
+            return (
+              <li
+                key={comment.id}
+                className={`prose flex items-center justify-between space-x-2 text-text ${lastComment ? "border-none py-0 pt-2" : "border-b py-2"}`}
+              >
+                <div className="flex flex-col">
+                  <div
+                    className="whitespace-pre-wrap"
+                    dangerouslySetInnerHTML={{ __html: comment.text }}
+                  />
+                  {comment.redirectLink && (
+                    <RedirectButton redirectLink={comment.redirectLink} />
+                  )}
+                </div>
+
                 {comment.id !== "default" && (
                   <EditCommentButton
                     onEdit={() => handleOpenModal("edit", comment)}
                   />
                 )}
-              </div>
-            </li>
-          ))
+              </li>
+            );
+          })
         ) : (
           <div className="flex flex-col items-center justify-center space-y-2 py-2">
             <MessageSquareOff size={20} />

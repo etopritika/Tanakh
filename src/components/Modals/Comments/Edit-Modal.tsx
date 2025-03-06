@@ -88,6 +88,7 @@ export default function EditModal({ comment, bookName }: EditModalProps) {
                 <Textarea
                   placeholder="Введите свой комментарий здесь."
                   className="bg-white"
+                  rows={5}
                   {...field}
                 />
               </FormControl>

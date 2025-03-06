@@ -78,6 +78,7 @@ export default function AddModal({
                 <Textarea
                   placeholder="Введите свой комментарий здесь."
                   className="bg-white"
+                  rows={5}
                   {...field}
                 />
               </FormControl>
