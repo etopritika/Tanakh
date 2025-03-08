@@ -5,11 +5,13 @@ import { VersesMetadata, FirestoreComment } from "@/lib/types";
 interface FirestoreStore {
   verses: Record<string, VersesMetadata>;
   comments: Record<string, Record<string, FirestoreComment>>;
+  isCommentsLoaded: boolean;
 
   setVerses: (verses: VersesMetadata[]) => void;
   addVerse: (verse: VersesMetadata) => void;
   updateVerseColor: (verseId: string, color: string) => void;
 
+  setCommentsLoaded: (loaded: boolean) => void;
   setComments: (comments: FirestoreComment[]) => void;
   addComment: (comment: FirestoreComment) => void;
   updateComment: (
@@ -23,6 +25,7 @@ interface FirestoreStore {
 export const useFirestoreStore = create<FirestoreStore>((set) => ({
   verses: {},
   comments: {},
+  isCommentsLoaded: false,
 
   setVerses: (verses) =>
     set(() => ({
@@ -44,6 +47,8 @@ export const useFirestoreStore = create<FirestoreStore>((set) => ({
         },
       },
     })),
+
+  setCommentsLoaded: (loaded) => set({ isCommentsLoaded: loaded }),
 
   setComments: (comments) =>
     set(() => {
