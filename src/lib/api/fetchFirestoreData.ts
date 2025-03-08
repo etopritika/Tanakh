@@ -73,6 +73,7 @@ export const fetchCommentsByBook = async (bookName: string) => {
     ) as FirestoreComment[];
 
     useFirestoreStore.getState().setComments(comments);
+    useFirestoreStore.getState().setCommentsLoaded(true);
     return comments;
   } catch {
     throw new Error("Не удалось загрузить комментарии. Попробуйте позже.");

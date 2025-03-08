@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import ActionDropdown from "./Action-Dropdown";
 import CommentsDropdown from "./Comments-Dropdown";
@@ -12,38 +12,37 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   const [isCopied, setIsCopied] = useState(false);
 
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+
   const verseMetadata = useFirestoreStore((state) => state.verses[verseId]);
   const verseComments = Object.values(
     useFirestoreStore((state) => state.comments[verseId]) ?? {},
   );
+  const isCommentsLoaded = useFirestoreStore((state) => state.isCommentsLoaded);
 
   const docId = verseMetadata?.id;
-
   const highlightColor = verseMetadata?.highlightColor || "transparent";
-
-  // const hasComments = Boolean(verse.comment) || verseComments.length > 0;
   const hasComments = verseComments.length > 0;
 
-  useEffect(() => {
-    if (window.location.hash === `#verse-${verse.poemNumber}`) {
+  const verseHash = `#verse-${verse.poemNumber}`;
+
+  const scrollToVerse = useCallback(() => {
+    if (window.location.hash !== verseHash) return;
+
+    const element = document.getElementById(verseHash.substring(1));
+    if (element) {
       setIsHighlighted(true);
+      element.scrollIntoView({
+        behavior: "instant",
+        block: "center",
+      });
 
-      const element = document.getElementById(`verse-${verse.poemNumber}`);
-      if (element) {
-        const elementTop = element.getBoundingClientRect().top;
-        const offset =
-          elementTop - window.innerHeight / 2 + element.clientHeight / 2;
-
-        window.scrollTo({
-          top: window.scrollY + offset,
-          behavior: "instant",
-        });
-      }
-
-      const timer = setTimeout(() => setIsHighlighted(false), 2000);
-      return () => clearTimeout(timer);
+      setTimeout(() => setIsHighlighted(false), 1500);
     }
-  }, [verse.poemNumber]);
+  }, [verseHash]);
+
+  useEffect(() => {
+    scrollToVerse();
+  }, [scrollToVerse, isCommentsLoaded]);
 
   const handleCopy = () => {
     setIsCopied(true);
@@ -51,14 +50,16 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   };
 
   return (
-    <li id={`verse-${verse.poemNumber}`}>
+    <li id={verseHash.substring(1)}>
       <Card
         className={`bg-white shadow-md ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
         <CardContent
-          className={`flex space-x-1 p-3 pl-1.5 text-sm sm:space-x-2 sm:p-6 sm:text-base ${hasComments ? "pb-0 sm:pb-0" : ""}`}
+          className={`flex space-x-1 p-3 pl-1.5 text-sm sm:space-x-2 sm:p-6 sm:text-base ${
+            hasComments ? "pb-0 sm:pb-0" : ""
+          }`}
         >
           <span className="font-bold">{verse.poemNumber}</span>
           <ActionDropdown
@@ -70,13 +71,17 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             <div className="cursor-pointer space-y-2">
               <p
                 style={{ backgroundColor: isCopied ? "" : highlightColor }}
-                className={`rounded ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
+                className={`rounded ${
+                  isCopied ? "animate-pulse bg-muted text-white" : ""
+                }`}
               >
                 {verse.verse}
               </p>
               <p
                 style={{ backgroundColor: isCopied ? "" : highlightColor }}
-                className={`rtl rounded text-right ${isCopied ? "animate-pulse bg-muted text-white" : ""}`}
+                className={`rtl rounded text-right ${
+                  isCopied ? "animate-pulse bg-muted text-white" : ""
+                }`}
               >
                 {verse.verse_ivrit}
               </p>
