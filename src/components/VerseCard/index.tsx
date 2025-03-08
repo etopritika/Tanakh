@@ -57,21 +57,24 @@ export default function VerseCard({ verse }: { verse: Verse }) {
         }`}
       >
         <CardContent
-          className={`flex space-x-1 p-3 pl-1.5 text-sm sm:space-x-2 sm:p-6 sm:text-base ${
+          className={`flex space-x-1 p-3 pl-1.5 text-base sm:space-x-2 sm:p-6 sm:text-lg ${
             hasComments ? "pb-0 sm:pb-0" : ""
           }`}
         >
-          <span className="font-bold">{verse.poemNumber}</span>
+          <span className="text-xs font-bold leading-5 sm:text-sm">
+            {verse.poemNumber}
+          </span>
+
           <ActionDropdown
             verse={verse}
             onCopy={handleCopy}
             highlightColor={highlightColor}
             docId={docId}
           >
-            <div className="cursor-pointer space-y-2">
+            <div className="flex cursor-pointer flex-col space-y-3">
               <p
                 style={{ backgroundColor: isCopied ? "" : highlightColor }}
-                className={`rounded ${
+                className={`rounded leading-5 ${
                   isCopied ? "animate-pulse bg-muted text-white" : ""
                 }`}
               >
