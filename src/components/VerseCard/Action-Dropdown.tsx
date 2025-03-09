@@ -1,5 +1,5 @@
 import { CirclePlus, Copy, Link, X } from "lucide-react";
-import { useState, useRef, ReactNode, useEffect } from "react";
+import { useState, ReactNode, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import AddModal from "../Modals/Comments/Add-Modal";
@@ -10,8 +10,9 @@ import {
   createVerseColorInFirestore,
   updateVerseColorInFirestore,
 } from "@/lib/api/fetchFirestoreData";
-import { BookPathMap, Verse } from "@/lib/types";
+import { bookNameMap, BookPathMap, Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
+import { useCopyStore } from "@/store/use-copy-store";
 
 const COLORS = [
   { name: "Серый", value: "#E6E6E6" },
@@ -38,16 +39,18 @@ export default function ActionDropdown({
 }: ContextMenuProps) {
   const { setOpen } = useModal();
   const { pathname } = useLocation();
+
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const menuRef = useRef<HTMLDivElement | null>(null);
+
+  const { startCopying, isSelecting } = useCopyStore();
 
   const isTablet =
     typeof window !== "undefined" &&
     window.matchMedia("(min-width: 768px)").matches;
 
-  const verseContent = `${verse.verse}${verse.verse_ivrit ? `\n${verse.verse_ivrit}` : ""}`;
-  const bookName = BookPathMap[verse.id_book].bookName;
+  const bookPathName = BookPathMap[verse.id_book].bookName;
+  const bookName = bookNameMap[bookPathName];
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const closeMenu = () => {
@@ -63,7 +66,7 @@ export default function ActionDropdown({
     closeMenu();
     setOpen(
       <ModalContainer>
-        <AddModal bookName={bookName} verseId={verseId} />
+        <AddModal bookName={bookPathName} verseId={verseId} />
       </ModalContainer>,
     );
   };
@@ -88,9 +91,9 @@ export default function ActionDropdown({
     closeMenu();
     try {
       if (docId) {
-        await updateVerseColorInFirestore(bookName, docId, verseId, color);
+        await updateVerseColorInFirestore(bookPathName, docId, verseId, color);
       } else {
-        await createVerseColorInFirestore(bookName, verseId, color);
+        await createVerseColorInFirestore(bookPathName, verseId, color);
       }
     } catch (error: unknown) {
       const errorMessage =
@@ -105,6 +108,7 @@ export default function ActionDropdown({
   };
 
   const handleOpenDropdown = (event: React.MouseEvent) => {
+    if (isSelecting) return null;
     event.preventDefault();
     document.body.style.overflow = "hidden";
     document.body.style.touchAction = "none";
@@ -147,7 +151,6 @@ export default function ActionDropdown({
             onClick={handleCloseMenu}
           />
           <div
-            ref={menuRef}
             className="fixed z-50 w-56 rounded-md border bg-white p-2 text-sm shadow-lg sm:w-64 sm:text-base"
             style={{ top: position.y, left: position.x }}
           >
@@ -171,7 +174,17 @@ export default function ActionDropdown({
             </button>
             <button
               className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-              onClick={(event) => handleCopy(event, verseContent)}
+              onClick={(event) => {
+                handleCloseMenu(event);
+                startCopying(
+                  bookName,
+                  verse.id_chapter,
+                  verseId,
+                  verse.verse,
+                  verse.poemNumber,
+                  verse.verse_ivrit || "",
+                );
+              }}
             >
               <Copy className="h-4 w-4" />
               Копировать стих
