@@ -95,12 +95,14 @@ export default function VerseCard({ verse }: { verse: Verse }) {
               >
                 {verse.verse}
               </p>
-              <p
-                style={{ backgroundColor: highlightColor }}
-                className={`rtl rounded text-right`}
-              >
-                {verse.verse_ivrit}
-              </p>
+              {verse.verse_ivrit && (
+                <p
+                  style={{ backgroundColor: highlightColor }}
+                  className={`rtl rounded text-right`}
+                >
+                  {verse.verse_ivrit}
+                </p>
+              )}
             </div>
           </ActionDropdown>
         </CardContent>
