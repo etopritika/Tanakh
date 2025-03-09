@@ -70,10 +70,10 @@ export const useCopyStore = create<CopyState>((set, get) => ({
     const text = Object.values(verses)
       .sort((a, b) => a.poemNumber - b.poemNumber)
       .map((v) => `${v.poemNumber}: ${v.verseContent}\n${v.verseIvrit}`)
-      .join("\n\n");
+      .join("\n");
 
     const finalText =
-      bookName && chapterId ? `${bookName} ${chapterId}\n\n${text}` : text;
+      bookName && chapterId ? `${bookName} ${chapterId}\n${text}` : text;
 
     try {
       await navigator.clipboard.writeText(finalText);
