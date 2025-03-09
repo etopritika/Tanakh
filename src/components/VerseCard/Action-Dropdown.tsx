@@ -148,7 +148,7 @@ export default function ActionDropdown({
           />
           <div
             ref={menuRef}
-            className="fixed z-50 w-56 rounded-md border bg-white p-2 shadow-lg sm:w-64"
+            className="fixed z-50 w-56 rounded-md border bg-white p-2 text-sm shadow-lg sm:w-64 sm:text-base"
             style={{ top: position.y, left: position.x }}
           >
             <div className="flex justify-between">
