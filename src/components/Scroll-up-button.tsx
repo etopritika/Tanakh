@@ -29,7 +29,7 @@ export default function ScrollUpButton() {
       <Button
         onClick={handleScrollUp}
         aria-label="Scroll to top"
-        className="fixed bottom-14 right-4 z-40 rounded-full border-none bg-brown-dark transition-colors hover:bg-brown-light md:p-6"
+        className="fixed bottom-14 right-4 z-40 rounded-full border-none bg-brown-dark md:p-6"
       >
         <ChevronsUp className="text-white" />
       </Button>
