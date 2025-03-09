@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
 import AppPagination from "@/components/App-pagination";
+import CopyControls from "@/components/Copy-Controls";
 import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { toast } from "@/hooks/use-toast";
@@ -12,6 +13,7 @@ import {
 } from "@/lib/api/fetchFirestoreData";
 import { fetchVersesData } from "@/lib/api/fetchVersesData";
 import { bookNameMap, Chapter, Verse } from "@/lib/types";
+import { useCopyStore } from "@/store/use-copy-store";
 import { useReadingStore } from "@/store/use-reading-store";
 
 export default function VersesPage() {
@@ -28,6 +30,7 @@ export default function VersesPage() {
     subChapterId?: string;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
+  const { cancelSelection } = useCopyStore();
 
   const [state, setState] = useState<{
     verses: Verse[];
@@ -102,9 +105,10 @@ export default function VersesPage() {
 
   useEffect(() => {
     return () => {
+      cancelSelection();
       setLastRead(lastReadChapter, pathname);
     };
-  }, [pathname, setLastRead, lastReadChapter]);
+  }, [pathname, setLastRead, lastReadChapter, cancelSelection]);
 
   const page = parseInt(chapterId || "1", 10);
   const subPage = parseInt(subChapterId || "1", 10);
@@ -125,7 +129,7 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="flex flex-col justify-between space-y-4 py-2">
+    <section className="relative flex flex-col justify-between space-y-4 py-2">
       <AppPagination
         currentPage={page}
         subPage={subPage}
@@ -150,6 +154,7 @@ export default function VersesPage() {
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
+      <CopyControls />
     </section>
   );
 }

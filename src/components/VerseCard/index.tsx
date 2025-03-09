@@ -5,11 +5,11 @@ import CommentsDropdown from "./Comments-Dropdown";
 import { Card, CardContent, CardFooter } from "../ui/card";
 
 import { Verse } from "@/lib/types";
+import { useCopyStore } from "@/store/use-copy-store";
 import { useFirestoreStore } from "@/store/use-firestore-store";
 
 export default function VerseCard({ verse }: { verse: Verse }) {
   const [isHighlighted, setIsHighlighted] = useState(false);
-  const [isCopied, setIsCopied] = useState(false);
 
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
 
@@ -24,6 +24,9 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   const hasComments = verseComments.length > 0;
 
   const verseHash = `#verse-${verse.poemNumber}`;
+
+  const { isSelecting, verses, toggleVerseSelection } = useCopyStore();
+  const isCopied = !!verses[verseId];
 
   const scrollToVerse = useCallback(() => {
     if (window.location.hash !== verseHash) return;
@@ -45,21 +48,33 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   }, [scrollToVerse, isCommentsLoaded]);
 
   const handleCopy = () => {
-    setIsCopied(true);
-    setTimeout(() => setIsCopied(false), 1000);
+    setIsHighlighted(true);
+    setTimeout(() => setIsHighlighted(false), 1000);
+  };
+
+  const handleVerseClick = () => {
+    if (isSelecting) {
+      toggleVerseSelection(
+        verseId,
+        verse.verse,
+        verse.poemNumber,
+        verse.verse_ivrit || "",
+      );
+    }
   };
 
   return (
     <li id={verseHash.substring(1)}>
       <Card
-        className={`bg-white shadow-md ${
+        onClick={handleVerseClick}
+        className={`bg-white shadow-md ${isCopied ? "bg-muted" : ""} ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
         <CardContent
           className={`flex space-x-1 p-3 pl-1.5 text-base sm:space-x-2 sm:p-6 sm:text-lg ${
             hasComments ? "pb-0 sm:pb-0" : ""
-          }`}
+          } `}
         >
           <span className="text-xs font-bold leading-5 sm:text-sm">
             {verse.poemNumber}
@@ -71,20 +86,18 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             highlightColor={highlightColor}
             docId={docId}
           >
-            <div className="flex cursor-pointer flex-col space-y-3">
+            <div
+              className={`flex cursor-pointer flex-col space-y-3 ${isSelecting ? "pointer-events-none" : ""}`}
+            >
               <p
-                style={{ backgroundColor: isCopied ? "" : highlightColor }}
-                className={`rounded leading-5 ${
-                  isCopied ? "animate-pulse bg-muted text-white" : ""
-                }`}
+                style={{ backgroundColor: highlightColor }}
+                className={`rounded leading-5`}
               >
                 {verse.verse}
               </p>
               <p
-                style={{ backgroundColor: isCopied ? "" : highlightColor }}
-                className={`rtl rounded text-right ${
-                  isCopied ? "animate-pulse bg-muted text-white" : ""
-                }`}
+                style={{ backgroundColor: highlightColor }}
+                className={`rtl rounded text-right`}
               >
                 {verse.verse_ivrit}
               </p>
