@@ -37,7 +37,7 @@ export default function AppPagination({
   const getButtonClassName = (isDisabled: boolean): string =>
     isDisabled
       ? "pointer-events-none cursor-not-allowed text-gray-400"
-      : "bg-brown-dark transition-colors hover:bg-brown-light";
+      : "bg-brown-dark";
 
   return (
     <Pagination className="text-white">
