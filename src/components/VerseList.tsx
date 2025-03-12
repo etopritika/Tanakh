@@ -7,10 +7,10 @@ export default function VerseList({ verses }: { verses: Verse[] }) {
     return <p className="text-center text-danger">Список стихов пуст.</p>;
   }
   return (
-    <ul className="space-y-4">
+    <ol className="space-y-4">
       {verses.map((verse) => (
         <VerseCard key={verse.poemNumber} verse={verse} />
       ))}
-    </ul>
+    </ol>
   );
 }
