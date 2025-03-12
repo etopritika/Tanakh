@@ -20,7 +20,7 @@ export default function ChapterList({
   }
 
   return (
-    <ul className="space-y-2">
+    <ol className="space-y-2">
       {chapters.map((chapter, index) => {
         const isSubChapter =
           chapter.subKey > 1 ? `${chapter.key}/${chapter.subKey}` : chapter.key;
@@ -50,6 +50,6 @@ export default function ChapterList({
           </li>
         );
       })}
-    </ul>
+    </ol>
   );
 }
