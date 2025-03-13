@@ -1,24 +1,25 @@
 import { toJewishDate, toGregorianDate, JewishMonth } from "jewish-date";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
-const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const weekDays = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
 
 const monthNames = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  "Январь",
+  "Февраль",
+  "Март",
+  "Апрель",
+  "Май",
+  "Июнь",
+  "Июль",
+  "Август",
+  "Сентябрь",
+  "Октябрь",
+  "Ноябрь",
+  "Декабрь",
 ];
 
 const monthNamesNonLeap = [
@@ -52,13 +53,44 @@ const monthNamesLeap = [
   "Elul",
 ];
 
+const monthNamesNonLeapRu = [
+  "Тишрей",
+  "Хешван",
+  "Кислев",
+  "Тевет",
+  "Шват",
+  "Адар",
+  "Нисан",
+  "Ияр",
+  "Сиван",
+  "Таммуз",
+  "Ав",
+  "Элул",
+];
+
+const monthNamesLeapRu = [
+  "Тишрей",
+  "Хешван",
+  "Кислев",
+  "Тевет",
+  "Шват",
+  "Адар I",
+  "Адар II",
+  "Нисан",
+  "Ияр",
+  "Сиван",
+  "Таммуз",
+  "Ав",
+  "Элул",
+];
+
 export default function UniversalCalendar() {
   return (
     <div className="space-y-4 p-4">
       <Tabs defaultValue="gregorian">
         <TabsList className="grid w-full grid-cols-2">
-          <TabsTrigger value="gregorian">Gregorian</TabsTrigger>
-          <TabsTrigger value="jewish">Jewish</TabsTrigger>
+          <TabsTrigger value="gregorian">Григорианский</TabsTrigger>
+          <TabsTrigger value="jewish">Иудейский</TabsTrigger>
         </TabsList>
 
         <TabsContent value="gregorian">
@@ -81,7 +113,9 @@ function GregorianCalendar() {
   const month = currentDate.getMonth();
 
   const daysInMonth = new Date(year, month + 1, 0).getDate();
-  const firstDayIndex = new Date(year, month, 1).getDay();
+
+  const rawFirstDayIndex = new Date(year, month, 1).getDay();
+  const firstDayIndex = (rawFirstDayIndex + 6) % 7;
 
   const prevMonth = () => setCurrentDate(new Date(year, month - 1, 1));
   const nextMonth = () => setCurrentDate(new Date(year, month + 1, 1));
@@ -97,11 +131,15 @@ function GregorianCalendar() {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <Button onClick={prevMonth}>Prev</Button>
+        <Button onClick={prevMonth}>
+          <ChevronLeft />
+        </Button>
         <div className="text-lg font-semibold">
           {monthNames[month]} {year}
         </div>
-        <Button onClick={nextMonth}>Next</Button>
+        <Button onClick={nextMonth}>
+          <ChevronRight />
+        </Button>
       </div>
 
       <div className="grid grid-cols-7 gap-1">
@@ -122,7 +160,9 @@ function GregorianCalendar() {
           .map((_, idx) => (
             <div
               key={idx}
-              className={`flex h-12 items-center justify-center rounded-md border ${isToday(idx + 1) ? "bg-brown-dark font-bold text-white" : ""}`}
+              className={`flex h-12 items-center justify-center rounded-md border ${
+                isToday(idx + 1) ? "bg-brown-dark font-bold text-white" : ""
+              }`}
             >
               {idx + 1}
             </div>
@@ -139,7 +179,6 @@ function isJewishLeapYear(year: number): boolean {
 function JewishCalendar() {
   const todayGregorian = new Date();
   const jewishToday = toJewishDate(todayGregorian);
-  console.log("JewishMonth", JewishMonth);
 
   const [currentYear, setCurrentYear] = useState<number>(jewishToday.year);
   const [currentMonthIdx, setCurrentMonthIdx] = useState<number>(
@@ -150,6 +189,7 @@ function JewishCalendar() {
 
   const leapYear = isJewishLeapYear(currentYear);
   const months = leapYear ? monthNamesLeap : monthNamesNonLeap;
+  const monthsRu = leapYear ? monthNamesLeapRu : monthNamesNonLeapRu;
 
   function getMonthIndex(jewishDate: { monthName: string; year: number }) {
     const monthsList = isJewishLeapYear(jewishDate.year)
@@ -162,8 +202,6 @@ function JewishCalendar() {
     (year: number, monthIdx: number) => {
       const days: number[] = [];
       const monthName = months[monthIdx];
-
-      console.log("📌 Поточний місяць:", monthName);
 
       const monthEnum =
         JewishMonth[monthName.replace(" ", "") as keyof typeof JewishMonth];
@@ -182,18 +220,15 @@ function JewishCalendar() {
       const currentGregorianDate = new Date(firstGregorianDate);
       let jd = toJewishDate(currentGregorianDate);
 
-      const firstDay = currentGregorianDate.getDay();
+      const rawFirstDayIndex = currentGregorianDate.getDay();
+      const firstDay = (rawFirstDayIndex + 6) % 7;
       setFirstDayOfWeek(firstDay);
-
-      console.log("🔵 Стартова дата:", jd);
 
       while (jd.monthName === monthName) {
         days.push(jd.day);
         currentGregorianDate.setDate(currentGregorianDate.getDate() + 1);
         jd = toJewishDate(currentGregorianDate);
       }
-
-      console.log("✅ Дні місяця:", days);
 
       setDaysInMonth(days);
     },
@@ -240,18 +275,21 @@ function JewishCalendar() {
   };
 
   useEffect(() => {
-    console.log("🟣 useEffect:", { currentYear, currentMonthIdx });
     generateMonth(currentYear, currentMonthIdx);
   }, [currentYear, currentMonthIdx, generateMonth]);
 
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <Button onClick={prevMonth}>Prev</Button>
+        <Button onClick={prevMonth}>
+          <ChevronLeft />
+        </Button>
         <div className="text-lg font-semibold">
-          {months[currentMonthIdx]} {currentYear}
+          {monthsRu[currentMonthIdx]} {currentYear}
         </div>
-        <Button onClick={nextMonth}>Next</Button>
+        <Button onClick={nextMonth}>
+          <ChevronRight />
+        </Button>
       </div>
 
       <div className="grid grid-cols-7 gap-1">
@@ -270,7 +308,9 @@ function JewishCalendar() {
         {daysInMonth.map((dayNum, idx) => (
           <div
             key={idx}
-            className={`flex h-12 items-center justify-center rounded-md border ${isToday(dayNum) ? "bg-brown-dark font-bold text-white" : ""}`}
+            className={`flex h-12 items-center justify-center rounded-md border ${
+              isToday(dayNum) ? "bg-brown-dark font-bold text-white" : ""
+            }`}
           >
             {dayNum}
           </div>
