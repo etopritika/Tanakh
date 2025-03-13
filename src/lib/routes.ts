@@ -5,6 +5,7 @@ export const ROUTES = {
   home: "/",
   forgotPassword: "/forgot-password",
   blueprints: "/blueprints",
+  calendar: "/calendar",
   section: "/books/:sectionName",
   book: "/books/:sectionName/:bookName",
   chapter: "/books/:sectionName/:bookName/:chapterId/:subChapterId?",
