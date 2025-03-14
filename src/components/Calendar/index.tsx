@@ -102,7 +102,9 @@ const jewishMonthsLeapRu = [
 ];
 
 function isJewishLeapYear(year: number): boolean {
-  return (7 * year + 1) % 19 < 7;
+  const leap = (7 * year + 1) % 19 < 7;
+  // console.log(`🗓️ Перевірка високосного року (${year}):`, leap);
+  return leap;
 }
 
 export default function UniversalCalendar() {
@@ -110,7 +112,6 @@ export default function UniversalCalendar() {
   const todayJewish = toJewishDate(todayGregorian);
 
   const [gregorianDate, setGregorianDate] = useState(todayGregorian);
-
   const [jewishDate, setJewishDate] = useState<{
     year: number;
     monthName: JewishMonthName;
@@ -123,6 +124,7 @@ export default function UniversalCalendar() {
 
   const syncGregorianToJewish = (newDate: Date) => {
     const jewish = toJewishDate(newDate);
+    // console.log("🔄 syncGregorianToJewish ->", jewish);
     setJewishDate({
       year: jewish.year,
       monthName: jewish.monthName as JewishMonthName,
@@ -131,10 +133,12 @@ export default function UniversalCalendar() {
   };
 
   const syncJewishToGregorian = (year: number, monthName: JewishMonthName) => {
+    // console.log("🔄 syncJewishToGregorian ->", { year, monthName });
     const majorityGregorianDate = syncJewishToGregorianByMajority(
       year,
       monthName,
     );
+    // console.log("📅 majorityGregorianDate ->", majorityGregorianDate);
     setGregorianDate(majorityGregorianDate);
   };
 
@@ -150,6 +154,7 @@ export default function UniversalCalendar() {
           <GregorianCalendar
             currentDate={gregorianDate}
             setCurrentDate={(date) => {
+              // console.log("👉 GregorianDate changed:", date);
               setGregorianDate(date);
               syncGregorianToJewish(date);
             }}
@@ -160,6 +165,7 @@ export default function UniversalCalendar() {
           <JewishCalendar
             currentDate={jewishDate}
             setCurrentDate={({ year, monthName }) => {
+              // console.log("👉 JewishDate changed:", { year, monthName });
               setJewishDate({ year, monthName, day: 1 });
               syncJewishToGregorian(year, monthName);
             }}
@@ -255,32 +261,56 @@ function JewishCalendar({
   const monthsRu = leapYear ? jewishMonthsLeapRu : jewishMonthsNonLeapRu;
   const currentMonthIdx = months.findIndex((m) => m === currentDate.monthName);
 
+  // console.log(`📅 JewishCalendar currentDate:`, currentDate);
+  // console.log(`📅 leapYear:`, leapYear);
+  // console.log(`📅 currentMonthIdx:`, currentMonthIdx);
+
   const generateMonth = useCallback(() => {
+    // console.log("🚀 generateMonth() запущено");
+    // console.log(
+    //   `🔎 Юдейський рік: ${currentDate.year}, Місяць: ${currentDate.monthName}`,
+    // );
+
     const days: number[] = [];
+
+    const normalizedMonthName = months[currentMonthIdx].replace(" ", "");
     const monthEnum =
-      JewishMonth[
-        months[currentMonthIdx].replace(" ", "") as keyof typeof JewishMonth
-      ];
+      JewishMonth[normalizedMonthName as keyof typeof JewishMonth];
+
+    // console.log(`📌 monthEnum:`, monthEnum);
 
     const firstGregorianDate = toGregorianDate({
       year: currentDate.year,
       monthName: monthEnum,
       day: 1,
     });
+    // console.log(`🗓️ firstGregorianDate:`, firstGregorianDate);
 
     const currentGregorianDate = new Date(firstGregorianDate);
     let jd = toJewishDate(currentGregorianDate);
 
     const rawFirstDayIndex = currentGregorianDate.getDay();
     const firstDay = (rawFirstDayIndex + 6) % 7;
+    // console.log(`📍 First day of the week (0=Пн):`, firstDay);
     setFirstDayOfWeek(firstDay);
 
-    while (jd.monthName === months[currentMonthIdx]) {
+    let iterations = 0;
+
+    while (jd.monthName === normalizedMonthName) {
+      // console.log(`➡️ Adding day: ${jd.day}, jd.monthName: ${jd.monthName}`);
       days.push(jd.day);
+
       currentGregorianDate.setDate(currentGregorianDate.getDate() + 1);
       jd = toJewishDate(currentGregorianDate);
+
+      iterations++;
+      if (iterations > 60) {
+        // console.warn("⚠️ break: potential infinite loop");
+        break;
+      }
     }
 
+    // console.log(`✅ Generated days:`, days);
     setDaysInMonth(days);
   }, [currentDate.year, currentMonthIdx, months]);
 
@@ -295,11 +325,18 @@ function JewishCalendar({
         (leap ? jewishMonthsLeap.length : jewishMonthsNonLeap.length) - 1;
     }
 
+    const newMonthName = (
+      isJewishLeapYear(newYear) ? jewishMonthsLeap : jewishMonthsNonLeap
+    )[newMonthIdx];
+
+    // console.log("⬅️ prevMonth() ->", {
+    //   year: newYear,
+    //   monthName: newMonthName,
+    // });
+
     setCurrentDate({
       year: newYear,
-      monthName: (isJewishLeapYear(newYear)
-        ? jewishMonthsLeap
-        : jewishMonthsNonLeap)[newMonthIdx],
+      monthName: newMonthName,
     });
   };
 
@@ -317,11 +354,18 @@ function JewishCalendar({
       newMonthIdx = 0;
     }
 
+    const newMonthName = (
+      isJewishLeapYear(newYear) ? jewishMonthsLeap : jewishMonthsNonLeap
+    )[newMonthIdx];
+
+    // console.log("➡️ nextMonth() ->", {
+    //   year: newYear,
+    //   monthName: newMonthName,
+    // });
+
     setCurrentDate({
       year: newYear,
-      monthName: (isJewishLeapYear(newYear)
-        ? jewishMonthsLeap
-        : jewishMonthsNonLeap)[newMonthIdx],
+      monthName: newMonthName,
     });
   };
 
@@ -333,11 +377,16 @@ function JewishCalendar({
       (todayMonthName.includes("Adar") && currentMonthName.includes("Adar")) ||
       todayMonthName === currentMonthName;
 
-    return (
+    const isTodayResult =
       dayNum === jewishToday.day &&
       isAdarMatch &&
-      currentDate.year === jewishToday.year
-    );
+      currentDate.year === jewishToday.year;
+
+    // if (isTodayResult) {
+    //   console.log(`🎉 Сьогодні: ${dayNum}`);
+    // }
+
+    return isTodayResult;
   };
 
   useEffect(() => {
@@ -390,43 +439,61 @@ function syncJewishToGregorianByMajority(
   year: number,
   monthName: JewishMonthName,
 ): Date {
-  const monthEnum =
-    JewishMonth[monthName.replace(" ", "") as keyof typeof JewishMonth];
+  // console.log("🔁 syncJewishToGregorianByMajority", { year, monthName });
 
-  if (!monthEnum) {
-    console.error(`❌ Місяць ${monthName} не знайдено в JewishMonth`);
-    return new Date();
-  }
+  const normalizedMonthName = monthName.replace(" ", "");
+
+  const monthEnum =
+    JewishMonth[normalizedMonthName as keyof typeof JewishMonth];
+
+  // if (!monthEnum) {
+  //   console.error(`❌ Місяць ${monthName} не знайдено в JewishMonth`);
+  //   return new Date();
+  // }
 
   const startGregorian = toGregorianDate({
     year,
     monthName: monthEnum,
     day: 1,
   });
+  // console.log("🔹 Стартова григоріанська дата:", startGregorian);
 
   const days: { [monthIndex: number]: number } = {};
-
   const currentGregorianDate = new Date(startGregorian);
   let jd = toJewishDate(currentGregorianDate);
 
+  let iterations = 0;
+
   while (
-    jd.monthName === monthName ||
-    (monthName.includes("Adar") && jd.monthName.includes("Adar"))
+    jd.monthName === normalizedMonthName ||
+    (normalizedMonthName.includes("Adar") && jd.monthName.includes("Adar"))
   ) {
     const monthIndex = currentGregorianDate.getMonth();
     days[monthIndex] = (days[monthIndex] || 0) + 1;
 
     currentGregorianDate.setDate(currentGregorianDate.getDate() + 1);
     jd = toJewishDate(currentGregorianDate);
+
+    iterations++;
+    if (iterations > 60) {
+      console.warn("⚠️ break: potential infinite loop");
+      break;
+    }
   }
+
+  // console.log("📊 Дні по місяцях:", days);
 
   const majorityMonthIndex = Object.keys(days).reduce((a, b) =>
     days[parseInt(a)] > days[parseInt(b)] ? a : b,
   );
 
-  return new Date(
+  const resultDate = new Date(
     currentGregorianDate.getFullYear(),
     parseInt(majorityMonthIndex),
     1,
   );
+
+  // console.log("✅ majority result date:", resultDate);
+
+  return resultDate;
 }
