@@ -64,6 +64,16 @@ export default function MobileSidebar() {
                 Чертежи
               </Link>
             </SheetClose>
+            <SheetClose asChild>
+              <Link
+                to="/calendar"
+                className={`block border-b py-4 ${
+                  currentSection === "calendar" ? "font-bold" : ""
+                }`}
+              >
+                Календарь
+              </Link>
+            </SheetClose>
 
             <Accordion type="single" collapsible defaultValue={currentSection}>
               <AccordionItem value="tora">
