@@ -41,6 +41,14 @@ export default function DesktopSidebar() {
           >
             Чертежи
           </Link>
+          <Link
+            to="/calendar"
+            className={`block border-b py-4 ${
+              currentSection === "calendar" ? "font-bold" : ""
+            }`}
+          >
+            Календарь
+          </Link>
           <Accordion type="single" collapsible defaultValue={currentSection}>
             <AccordionItem value="tora">
               <AccordionTrigger>Тора</AccordionTrigger>

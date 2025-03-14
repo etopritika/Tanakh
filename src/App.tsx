@@ -19,6 +19,7 @@ const ChaptersPage = React.lazy(() => import("./pages/ChaptersPage"));
 const VersesPage = React.lazy(() => import("./pages/VersesPage"));
 const SearchPage = React.lazy(() => import("./pages/SearchPage"));
 const BlueprintsPage = React.lazy(() => import("./pages/BlueprintsPage"));
+const CalendarPage = React.lazy(() => import("./pages/CalendarPage"));
 
 function App() {
   return (
@@ -40,6 +41,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <BlueprintsPage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path={ROUTES.calendar}
+              element={
+                <PrivateRoute>
+                  <CalendarPage />
                 </PrivateRoute>
               }
             />
