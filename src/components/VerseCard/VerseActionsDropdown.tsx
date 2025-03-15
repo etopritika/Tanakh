@@ -1,11 +1,10 @@
-import { CirclePlus, Copy, Link /*Settings*/ } from "lucide-react";
+import { CirclePlus, Copy, Link } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import AddModal from "../Modals/Comments/Add-Modal";
-import ModalContainer from "../Modals/Modal-Container";
+import AddModal from "../Modals/Comments/AddModal";
+import ModalContainer from "../Modals/ModalContainer";
 
-// import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -162,7 +161,6 @@ export default function VerseActionsDropdown({
                       className={`inline-block h-6 w-6 rounded-full`}
                       style={{ backgroundColor: color.value }}
                     />
-                    {/* {color.name} */}
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuSubContent>

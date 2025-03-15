@@ -3,7 +3,7 @@ import { LoaderCircle } from "lucide-react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 
-import DeleteConfirmation from "./Delete-Confirmation";
+import DeleteConfirmation from "./DeleteConfirmation";
 import { Button } from "../../ui/button";
 import {
   Form,
@@ -15,7 +15,7 @@ import {
 } from "../../ui/form";
 import { Input } from "../../ui/input";
 import { Textarea } from "../../ui/textarea";
-import ModalContainer from "../Modal-Container";
+import ModalContainer from "../ModalContainer";
 
 import { toast } from "@/hooks/use-toast";
 import { updateCommentInFirestore } from "@/lib/api/fetchFirestoreData";

@@ -19,7 +19,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { sendResetPasswordEmail } from "@/lib/authProviders";
+import { sendResetPasswordEmail } from "@/lib/auth-providers";
 
 const forgotPasswordSchema = z.object({
   email: z.string().email("Введите корректный email"),

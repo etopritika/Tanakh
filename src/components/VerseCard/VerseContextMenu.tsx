@@ -1,8 +1,8 @@
 import { CirclePlus, Copy, Link } from "lucide-react";
 import { useLocation } from "react-router-dom";
 
-import AddModal from "../Modals/Comments/Add-Modal";
-import ModalContainer from "../Modals/Modal-Container";
+import AddModal from "../Modals/Comments/AddModal";
+import ModalContainer from "../Modals/ModalContainer";
 
 import {
   ContextMenu,

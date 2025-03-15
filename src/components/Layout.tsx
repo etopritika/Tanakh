@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 
 import Header from "./Header";
-import ScrollUpButton from "./Scroll-up-button";
+import ScrollUpButton from "./ScrollUpButton";
 import DesktopSidebar from "./Sidebar/DesktopSidebar";
 import { Toaster } from "./ui/toaster";
 

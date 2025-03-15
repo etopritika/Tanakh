@@ -2,8 +2,8 @@ import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
-import AppPagination from "@/components/App-pagination";
-import CopyControls from "@/components/Copy-Controls";
+import AppPagination from "@/components/Apppagination";
+import CopyControls from "@/components/CopyControls";
 import { NoVerses } from "@/components/NoVerses";
 import VerseList from "@/components/VerseList";
 import { toast } from "@/hooks/use-toast";

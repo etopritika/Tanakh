@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import EditCommentButton from "./Edit-Comment-Button";
-import RedirectButton from "./Redirect-Button";
-import AddModal from "../Modals/Comments/Add-Modal";
-import EditModal from "../Modals/Comments/Edit-Modal";
-import ModalContainer from "../Modals/Modal-Container";
+import EditCommentButton from "./EditCommentButton";
+import RedirectButton from "./RedirectButton";
+import AddModal from "../Modals/Comments/AddModal";
+import EditModal from "../Modals/Comments/EditModal";
+import ModalContainer from "../Modals/ModalContainer";
 
 import { Input } from "@/components/ui/input";
 import { BookPathMap, Verse, FirestoreComment } from "@/lib/types";
