@@ -27,7 +27,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { signInWithFacebook, signInWithGoogle } from "@/lib/authProviders";
+import { signInWithFacebook, signInWithGoogle } from "@/lib/auth-providers";
 import { app } from "@/lib/firebase";
 import { useUserStore } from "@/store/use-user-store";
 

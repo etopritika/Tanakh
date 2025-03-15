@@ -1,7 +1,7 @@
-import BackToBooksLink from "./Back-To-Books-Link";
-import BackToChaptersLink from "./Back-To-Chapters-Link";
-import SearchBackLink from "./Search-Back-Link";
-import SearchLink from "./Search-Link";
+import BackToBooksLink from "./BackToBooksLink";
+import BackToChaptersLink from "./BackToChaptersLink";
+import SearchBackLink from "./SearchBackLink";
+import SearchLink from "./SearchLink";
 import MobileSidebar from "../Sidebar/MobileSidebar";
 
 function HeaderLinks() {
