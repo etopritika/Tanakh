@@ -111,10 +111,7 @@ export default function GregorianCalendar({
             );
           })}
       </div>
-      <GoToTodayButton
-        calendarType="gregorian"
-        onClick={() => onDateSelect(new Date())}
-      />
+      <GoToTodayButton onClick={() => onDateSelect(new Date())} />
     </div>
   );
 }
