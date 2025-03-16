@@ -13,7 +13,7 @@ export default function GoToTodayButton({ onClick }: GoToTodayButtonProps) {
   return (
     <button
       onClick={onClick}
-      className="text-md text-text hover:underline sm:text-lg"
+      className="text-lg text-blue-600 underline sm:text-lg"
     >
       Сегодня{" "}
       <span className="whitespace-nowrap">
