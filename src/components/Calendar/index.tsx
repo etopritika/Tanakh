@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import DatePicker from "./DatePicker";
 import GregorianCalendar from "./GregorianCalendar";
 import JewishCalendar from "./JewishCalendar";
 
@@ -12,11 +13,19 @@ export default function UniversalCalendar() {
     <div className="space-y-4 p-4">
       <Tabs defaultValue="gregorian">
         <header>
-          <nav aria-label="Calendar type navigation">
-            <TabsList className="grid w-full grid-cols-2">
-              <TabsTrigger value="gregorian">Григорианский</TabsTrigger>
-              <TabsTrigger value="jewish">Иудейский</TabsTrigger>
+          <nav aria-label="Calendar type navigation" className="space-y-2">
+            <TabsList className="grid w-full grid-cols-2 bg-brown-light text-white">
+              <TabsTrigger value="gregorian" className="">
+                Григорианский
+              </TabsTrigger>
+              <TabsTrigger value="jewish" className="">
+                Иудейский
+              </TabsTrigger>
             </TabsList>
+            <DatePicker
+              selectedDate={selectedDate}
+              onDateSelect={setSelectedDate}
+            />
           </nav>
         </header>
 
