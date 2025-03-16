@@ -189,10 +189,7 @@ export default function JewishCalendar({
           );
         })}
       </div>
-      <GoToTodayButton
-        calendarType="jewish"
-        onClick={() => onDateSelect(new Date())}
-      />
+      <GoToTodayButton onClick={() => onDateSelect(new Date())} />
     </div>
   );
 }
