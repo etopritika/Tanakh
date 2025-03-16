@@ -2,6 +2,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { getGregorianMonthData } from "./calendar-utils";
 import { gregorianMonthNames, weekDays } from "./constants";
+import GoToTodayButton from "./GoToTodayButton";
 import { Button } from "../ui/button";
 
 /**
@@ -51,7 +52,10 @@ export default function GregorianCalendar({
   return (
     <div className="space-y-4">
       {/* Navigation Header */}
-      <div className="flex items-center justify-between">
+      <nav
+        aria-label="Month navigation"
+        className="flex items-center justify-between"
+      >
         <Button onClick={prevMonth}>
           <ChevronLeft />
         </Button>
@@ -63,7 +67,7 @@ export default function GregorianCalendar({
         <Button onClick={nextMonth}>
           <ChevronRight />
         </Button>
-      </div>
+      </nav>
 
       {/* Calendar Grid */}
       <div className="grid grid-cols-7 gap-1">
@@ -107,6 +111,10 @@ export default function GregorianCalendar({
             );
           })}
       </div>
+      <GoToTodayButton
+        calendarType="gregorian"
+        onClick={() => onDateSelect(new Date())}
+      />
     </div>
   );
 }

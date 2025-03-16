@@ -8,6 +8,7 @@ import {
   normalizeMonth,
 } from "./calendar-utils";
 import { weekDays } from "./constants";
+import GoToTodayButton from "./GoToTodayButton";
 import { Button } from "../ui/button";
 
 /**
@@ -188,6 +189,10 @@ export default function JewishCalendar({
           );
         })}
       </div>
+      <GoToTodayButton
+        calendarType="jewish"
+        onClick={() => onDateSelect(new Date())}
+      />
     </div>
   );
 }
