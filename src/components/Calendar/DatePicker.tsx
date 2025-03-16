@@ -49,7 +49,7 @@ export default function DatePicker({
 
         <SelectContent className="bg-white">
           {years.map((year) => (
-            <SelectItem key={year} value={year.toString()}>
+            <SelectItem key={year} value={year.toString()} className="text-lg">
               {year}
             </SelectItem>
           ))}
