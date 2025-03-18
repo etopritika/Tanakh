@@ -105,3 +105,14 @@ export interface VersesMetadata {
   verseId: string;
   highlightColor: string;
 }
+
+export interface HolidayItem {
+  title: string;
+  date: string;
+  hdate?: string;
+  category?: string;
+  subcat?: string;
+  hebrew?: string;
+  link?: string;
+  memo?: string;
+}
