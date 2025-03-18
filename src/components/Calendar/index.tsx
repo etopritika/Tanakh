@@ -1,13 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-import DatePicker from "./DatePicker";
 import GregorianCalendar from "./GregorianCalendar";
 import JewishCalendar from "./JewishCalendar";
+import YearPicker from "./YearPicker";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { toast } from "@/hooks/use-toast";
+import { fetchAndStoreHolidays } from "@/lib/api/fetchHolidays";
 
 export default function UniversalCalendar() {
   const [selectedDate, setSelectedDate] = useState(new Date());
+
+  const year = selectedDate.getFullYear();
+
+  useEffect(() => {
+    fetchAndStoreHolidays(year).catch((error) =>
+      toast({
+        title: "Ошибка загрузки даных",
+        description: error,
+        variant: "destructive",
+      }),
+    );
+  }, [year]);
 
   return (
     <div className="space-y-4 p-4">
@@ -22,7 +36,7 @@ export default function UniversalCalendar() {
                 Иудейский
               </TabsTrigger>
             </TabsList>
-            <DatePicker
+            <YearPicker
               selectedDate={selectedDate}
               onDateSelect={setSelectedDate}
             />

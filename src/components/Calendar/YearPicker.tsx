@@ -15,7 +15,7 @@ type DatePickerProps = {
   maxYear?: number;
 };
 
-export default function DatePicker({
+export default function YearPicker({
   selectedDate,
   onDateSelect,
   minYear = 1900,
