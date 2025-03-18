@@ -9,6 +9,7 @@ import {
 } from "./calendar-utils";
 import { weekDays } from "./constants";
 import GoToTodayButton from "./GoToTodayButton";
+import JewishCalendarDay from "./JewishCalendarDay";
 import { Button } from "../ui/button";
 
 /**
@@ -160,32 +161,26 @@ export default function JewishCalendar({
 
           const isSelected = dayNum === selectedDay;
 
-          // Convert Jewish date to Gregorian date to update when selecting a day
           const monthEnum =
             JewishMonth[normalizeMonth(monthName) as keyof typeof JewishMonth];
+
           const gregDate = toGregorianDate({
             year,
             monthName: monthEnum,
             day: dayNum,
           });
 
-          // Combine classes conditionally
-          const classes = [
-            "flex h-12 items-center justify-center rounded-md border cursor-pointer",
-            isSelected ? "bg-brown-dark text-white font-bold" : "",
-            isTodayJewish
-              ? "underline font-bold text-lg bg-brown-light text-white"
-              : "",
-          ].join(" ");
-
           return (
-            <div
+            <JewishCalendarDay
               key={idx}
-              onClick={() => onDateSelect(new Date(gregDate))}
-              className={classes}
-            >
-              {dayNum}
-            </div>
+              year={year}
+              month={monthName}
+              day={dayNum}
+              gregorianDate={new Date(gregDate)}
+              isToday={isTodayJewish}
+              isSelected={isSelected}
+              onSelect={(date) => onDateSelect(date)}
+            />
           );
         })}
       </div>
