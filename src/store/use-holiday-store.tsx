@@ -6,7 +6,7 @@ interface HolidayStore {
   holidays: Record<number, Record<string, HolidayItem[]>>;
   holidaysByJewishDate: Record<string, HolidayItem[]>;
 
-  selectedHoliday: HolidayItem[]; // Вибране свято
+  selectedHoliday: HolidayItem[];
 
   setHolidays: (
     year: number,
