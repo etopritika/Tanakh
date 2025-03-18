@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 import GregorianCalendar from "./GregorianCalendar";
+import HolidayCard from "./HolidayCard";
 import JewishCalendar from "./JewishCalendar";
 import YearPicker from "./YearPicker";
 
@@ -57,6 +58,7 @@ export default function UniversalCalendar() {
           />
         </TabsContent>
       </Tabs>
+      <HolidayCard />
     </div>
   );
 }
