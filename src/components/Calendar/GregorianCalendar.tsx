@@ -1,6 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { getGregorianMonthData } from "./calendar-utils";
+import CalendarDay from "./CalendarDay";
 import { gregorianMonthNames, weekDays } from "./constants";
 import GoToTodayButton from "./GoToTodayButton";
 import { Button } from "../ui/button";
@@ -91,23 +92,16 @@ export default function GregorianCalendar({
           .map((_, idx) => {
             const dayNum = idx + 1;
 
-            // Combine classes conditionally:
-            const classes = [
-              "flex h-12 items-center justify-center rounded-md border cursor-pointer",
-              isSelected(dayNum) ? "bg-brown-dark text-white font-bold" : "",
-              isToday(dayNum)
-                ? "underline font-bold text-lg bg-brown-light text-white"
-                : "",
-            ].join(" ");
-
             return (
-              <div
+              <CalendarDay
                 key={idx}
-                onClick={() => onDateSelect(new Date(year, month, dayNum))}
-                className={classes}
-              >
-                {dayNum}
-              </div>
+                year={year}
+                month={month}
+                day={dayNum}
+                onSelect={(date) => onDateSelect(date)}
+                isSelected={isSelected(dayNum)}
+                isToday={isToday(dayNum)}
+              />
             );
           })}
       </div>

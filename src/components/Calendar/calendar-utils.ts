@@ -9,6 +9,20 @@ import {
 // =================== UTILS ===================
 
 /**
+ * Formats a date as a key string in the format `YYYY-MM-DD`.
+ * @param year - The year
+ * @param month - The month (0-based)
+ * @param day - The day of the month
+ * @returns A formatted date string
+ */
+export const formatDateKey = (
+  year: number,
+  month: number,
+  day: number,
+): string =>
+  `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+
+/**
  * Determines if a given Jewish year is a leap year.
  * In the Jewish calendar, leap years occur 7 times in a 19-year cycle.
  * @param year - Jewish year
@@ -150,4 +164,23 @@ export function getJewishMonthData(selectedDate: Date) {
     firstDayOfWeek,
     selectedDay: jewishDate.day,
   };
+}
+
+/**
+ * Normalizes the name of a Jewish month returned by Hebcal to match the expected JewishMonthName type.
+ * This function fixes inconsistencies in the month names between different data sources.
+ * @param month - The raw month name from the API (Hebcal)
+ * @returns Normalized month name that matches JewishMonthName
+ */
+export function normalizeJewishMonthName(month: string): JewishMonthName {
+  switch (month) {
+    case "Tishrei":
+      return "Tishri";
+    case "Sh'vat":
+      return "Shevat";
+    case "Tamuz":
+      return "Tammuz";
+    default:
+      return month as JewishMonthName;
+  }
 }
