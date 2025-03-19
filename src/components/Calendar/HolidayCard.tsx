@@ -1,6 +1,6 @@
 import { translateHolidayTitle } from "./calendar-utils";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { useHolidayStore } from "@/store/use-holiday-store";
 
 export default function HolidayCard() {
@@ -12,22 +12,18 @@ export default function HolidayCard() {
 
   return (
     <Card className="w-full max-w-lg bg-white">
-      <CardHeader>
-        <CardTitle>Праздники на выбранную дату</CardTitle>
-      </CardHeader>
-
-      <CardContent className="space-y-3">
+      <CardContent className="space-y-3 pt-6">
         {selectedHoliday.map((holiday) => (
           <div
             key={holiday.title}
             className="border-b pb-2 last:border-b-0 last:pb-0"
           >
-            <p className="font-medium">
+            <p className="text-lg font-bold">
               {translateHolidayTitle(holiday.title)}
             </p>
 
             {holiday.hebrew && (
-              <p lang="he" dir="rtl" className="text-muted-foreground text-sm">
+              <p lang="he" dir="rtl" className="text-muted-foreground text-md">
                 {holiday.hebrew}
               </p>
             )}
