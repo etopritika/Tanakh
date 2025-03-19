@@ -73,8 +73,8 @@ export default function GregorianCalendar({
       {/* Calendar Grid */}
       <div className="grid grid-cols-7 gap-1">
         {/* Weekday headers */}
-        {weekDays.map((day, idx) => (
-          <div key={idx} className="text-center font-medium">
+        {weekDays.map((day) => (
+          <div key={day} className="text-center font-medium">
             {day}
           </div>
         ))}
@@ -94,11 +94,11 @@ export default function GregorianCalendar({
 
             return (
               <CalendarDay
-                key={idx}
+                key={dayNum}
                 year={year}
                 month={month}
                 day={dayNum}
-                onSelect={(date) => onDateSelect(date)}
+                onSelect={onDateSelect}
                 isSelected={isSelected(dayNum)}
                 isToday={isToday(dayNum)}
               />

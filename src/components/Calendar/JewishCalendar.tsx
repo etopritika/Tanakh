@@ -139,8 +139,8 @@ export default function JewishCalendar({
       {/* Calendar Grid */}
       <div className="grid grid-cols-7 gap-1">
         {/* Weekday headers */}
-        {weekDays.map((day, idx) => (
-          <div key={idx} className="text-center font-medium">
+        {weekDays.map((day) => (
+          <div key={day} className="text-center font-medium">
             {day}
           </div>
         ))}
@@ -153,7 +153,7 @@ export default function JewishCalendar({
           ))}
 
         {/* Render days of the Jewish month */}
-        {days.map((dayNum, idx) => {
+        {days.map((dayNum) => {
           const isTodayJewish =
             dayNum === todayJewish.day &&
             isSameMonth(monthName, todayJewish.monthName) &&
@@ -172,14 +172,14 @@ export default function JewishCalendar({
 
           return (
             <JewishCalendarDay
-              key={idx}
+              key={dayNum}
               year={year}
               month={monthName}
               day={dayNum}
               gregorianDate={new Date(gregDate)}
               isToday={isTodayJewish}
               isSelected={isSelected}
-              onSelect={(date) => onDateSelect(date)}
+              onSelect={onDateSelect}
             />
           );
         })}
