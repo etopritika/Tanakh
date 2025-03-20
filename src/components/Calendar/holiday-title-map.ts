@@ -154,4 +154,7 @@ export const holidayTitleMap: { pattern: RegExp; translation: string }[] = [
     translation: "Парашат Ницавим-Ваейлех",
   },
   { pattern: /^Parashat Ha’azinu$/, translation: "Парашат Аазину" },
+
+  // === Rosh Chodesh ===
+  { pattern: /^Rosh Chodesh.*$/, translation: "Рош Ходеш" },
 ];
