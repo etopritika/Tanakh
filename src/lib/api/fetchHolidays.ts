@@ -10,7 +10,7 @@ export async function fetchAndStoreHolidays(year: number) {
     return;
   }
 
-  const url = `https://www.hebcal.com/hebcal?year=${year}&v=1&cfg=json&maj=on&min=on&s=on`;
+  const url = `https://www.hebcal.com/hebcal?year=${year}&v=1&cfg=json&maj=on&min=on&s=on&nx=on`;
   const holidaysByDate: Record<string, HolidayItem[]> = {};
   const holidaysByJewishDate: Record<string, HolidayItem[]> = {};
 
