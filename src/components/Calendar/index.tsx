@@ -18,7 +18,8 @@ export default function UniversalCalendar() {
     fetchAndStoreHolidays(year).catch((error) =>
       toast({
         title: "Ошибка загрузки даных",
-        description: error,
+        description:
+          error instanceof Error ? error.message : "Неизвестная ошибка",
         variant: "destructive",
       }),
     );
