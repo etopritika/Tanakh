@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { useEffect, useMemo } from "react";
 
 import { useHolidayStore } from "@/store/use-holiday-store";
 
@@ -25,7 +26,10 @@ export default function JewishCalendarDay({
 
   const dateKey = `${day} ${month} ${year}`;
 
-  const holidayEvents = holidaysByJewishDate[dateKey] || [];
+  const holidayEvents = useMemo(() => {
+    return holidaysByJewishDate?.[dateKey] || [];
+  }, [holidaysByJewishDate, dateKey]);
+
   const hasHoliday = holidayEvents.length > 0;
 
   const handleClick = () => {
@@ -34,6 +38,12 @@ export default function JewishCalendarDay({
       setSelectedHoliday(holidayEvents);
     } else setSelectedHoliday([]);
   };
+
+  useEffect(() => {
+    if (!isSelected) return;
+
+    setSelectedHoliday(hasHoliday ? holidayEvents : []);
+  }, [isSelected, hasHoliday, holidayEvents, setSelectedHoliday]);
 
   const classes = clsx(
     "relative flex flex-col h-16 justify-center items-center rounded-md border cursor-pointer transition-all",
