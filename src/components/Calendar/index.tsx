@@ -26,7 +26,7 @@ export default function UniversalCalendar() {
   }, [year]);
 
   return (
-    <div className="space-y-4 p-4">
+    <div className="space-y-4 p-4 pb-10 sm:pb-4">
       <Tabs defaultValue="gregorian">
         <header>
           <nav aria-label="Calendar type navigation" className="space-y-2">
