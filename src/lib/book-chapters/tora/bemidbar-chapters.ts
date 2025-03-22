@@ -274,7 +274,7 @@ const bemidbarChapters = [
   {
     key: 31,
     subKey: 1,
-    chapterName: "МАТОТ(Колена)",
+    chapterName: "МАТОТ (Колена)",
     start: 1060,
     end: 1113,
     verses: 54,
@@ -282,7 +282,7 @@ const bemidbarChapters = [
   {
     key: 32,
     subKey: 1,
-    chapterName: "МАТОТ(Колена)",
+    chapterName: "МАТОТ (Колена)",
     start: 1114,
     end: 1155,
     verses: 42,
