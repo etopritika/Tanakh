@@ -1,9 +1,9 @@
 import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import { getGregorianMonthData } from "./calendar-utils";
+import { getGregorianMonthData } from "./utils/calendar-utils";
 import CalendarDay from "./CalendarDay";
-import { gregorianMonthNames, weekDays } from "./constants";
+import { gregorianMonthNames, weekDays } from "./utils/constants";
 import GoToTodayButton from "./GoToTodayButton";
 import { Button } from "../ui/button";
 

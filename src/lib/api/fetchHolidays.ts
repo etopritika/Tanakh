@@ -1,6 +1,6 @@
 import { HolidayItem } from "../types";
 
-import { normalizeJewishMonthName } from "@/components/Calendar/calendar-utils";
+import { normalizeJewishMonthName } from "@/components/Calendar/utils/calendar-utils";
 import { useHolidayStore } from "@/store/use-holiday-store";
 
 export async function fetchAndStoreHolidays(year: number) {

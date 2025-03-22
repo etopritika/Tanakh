@@ -7,8 +7,8 @@ import {
   getMonthsByLeapYear,
   isSameMonth,
   normalizeMonth,
-} from "./calendar-utils";
-import { weekDays } from "./constants";
+} from "./utils/calendar-utils";
+import { weekDays } from "./utils/constants";
 import GoToTodayButton from "./GoToTodayButton";
 import JewishCalendarDay from "./JewishCalendarDay";
 import { Button } from "../ui/button";
