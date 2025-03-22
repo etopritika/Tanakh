@@ -1,4 +1,4 @@
-import { translateHolidayTitle } from "./calendar-utils";
+import { translateHolidayTitle } from "./utils/calendar-utils";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { useHolidayStore } from "@/store/use-holiday-store";

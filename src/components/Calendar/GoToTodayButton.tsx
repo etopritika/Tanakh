@@ -1,6 +1,6 @@
 import { toJewishDate } from "jewish-date";
 
-import { gregorianMonthNames } from "./constants";
+import { gregorianMonthNames } from "./utils/constants";
 
 interface GoToTodayButtonProps {
   onClick: () => void;
