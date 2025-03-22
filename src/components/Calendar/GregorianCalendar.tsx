@@ -1,3 +1,4 @@
+import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { getGregorianMonthData } from "./calendar-utils";
@@ -51,61 +52,63 @@ export default function GregorianCalendar({
     year === selectedDate.getFullYear();
 
   return (
-    <div className="space-y-4">
-      {/* Navigation Header */}
-      <nav
-        aria-label="Month navigation"
-        className="flex items-center justify-between"
-      >
-        <Button onClick={prevMonth}>
-          <ChevronLeft />
-        </Button>
+    <TooltipProvider>
+      <div className="space-y-4">
+        {/* Navigation Header */}
+        <nav
+          aria-label="Month navigation"
+          className="flex items-center justify-between"
+        >
+          <Button onClick={prevMonth}>
+            <ChevronLeft />
+          </Button>
 
-        <div className="text-lg font-semibold">
-          {gregorianMonthNames[month]} {year}
-        </div>
-
-        <Button onClick={nextMonth}>
-          <ChevronRight />
-        </Button>
-      </nav>
-
-      {/* Calendar Grid */}
-      <div className="grid grid-cols-7 gap-1">
-        {/* Weekday headers */}
-        {weekDays.map((day) => (
-          <div key={day} className="text-center font-medium">
-            {day}
+          <div className="text-lg font-semibold">
+            {gregorianMonthNames[month]} {year}
           </div>
-        ))}
 
-        {/* Empty slots before the first day of the month */}
-        {Array(firstDayIndex)
-          .fill(null)
-          .map((_, idx) => (
-            <div key={`empty-${idx}`} />
+          <Button onClick={nextMonth}>
+            <ChevronRight />
+          </Button>
+        </nav>
+
+        {/* Calendar Grid */}
+        <div className="grid grid-cols-7 gap-1">
+          {/* Weekday headers */}
+          {weekDays.map((day) => (
+            <div key={day} className="text-center font-medium">
+              {day}
+            </div>
           ))}
 
-        {/* Render days of the month */}
-        {Array(daysInMonth)
-          .fill(null)
-          .map((_, idx) => {
-            const dayNum = idx + 1;
+          {/* Empty slots before the first day of the month */}
+          {Array(firstDayIndex)
+            .fill(null)
+            .map((_, idx) => (
+              <div key={`empty-${idx}`} />
+            ))}
 
-            return (
-              <CalendarDay
-                key={dayNum}
-                year={year}
-                month={month}
-                day={dayNum}
-                onSelect={onDateSelect}
-                isSelected={isSelected(dayNum)}
-                isToday={isToday(dayNum)}
-              />
-            );
-          })}
+          {/* Render days of the month */}
+          {Array(daysInMonth)
+            .fill(null)
+            .map((_, idx) => {
+              const dayNum = idx + 1;
+
+              return (
+                <CalendarDay
+                  key={dayNum}
+                  year={year}
+                  month={month}
+                  day={dayNum}
+                  onSelect={onDateSelect}
+                  isSelected={isSelected(dayNum)}
+                  isToday={isToday(dayNum)}
+                />
+              );
+            })}
+        </div>
+        <GoToTodayButton onClick={() => onDateSelect(new Date())} />
       </div>
-      <GoToTodayButton onClick={() => onDateSelect(new Date())} />
-    </div>
+    </TooltipProvider>
   );
 }

@@ -1,3 +1,4 @@
+import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { JewishMonth, toGregorianDate, toJewishDate } from "jewish-date";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -117,74 +118,78 @@ export default function JewishCalendar({
   };
 
   return (
-    <div className="space-y-4">
-      {/* Navigation Header */}
-      <nav
-        aria-label="Month navigation"
-        className="flex items-center justify-between"
-      >
-        <Button onClick={prevMonth}>
-          <ChevronLeft />
-        </Button>
+    <TooltipProvider>
+      <div className="space-y-4">
+        {/* Navigation Header */}
+        <nav
+          aria-label="Month navigation"
+          className="flex items-center justify-between"
+        >
+          <Button onClick={prevMonth}>
+            <ChevronLeft />
+          </Button>
 
-        <div className="text-lg font-semibold">
-          {monthNameRu} {year}
-        </div>
-
-        <Button onClick={nextMonth}>
-          <ChevronRight />
-        </Button>
-      </nav>
-
-      {/* Calendar Grid */}
-      <div className="grid grid-cols-7 gap-1">
-        {/* Weekday headers */}
-        {weekDays.map((day) => (
-          <div key={day} className="text-center font-medium">
-            {day}
+          <div className="text-lg font-semibold">
+            {monthNameRu} {year}
           </div>
-        ))}
 
-        {/* Empty slots before the first day of the month */}
-        {Array(firstDayOfWeek)
-          .fill(null)
-          .map((_, idx) => (
-            <div key={`empty-${idx}`} />
+          <Button onClick={nextMonth}>
+            <ChevronRight />
+          </Button>
+        </nav>
+
+        {/* Calendar Grid */}
+        <div className="grid grid-cols-7 gap-1">
+          {/* Weekday headers */}
+          {weekDays.map((day) => (
+            <div key={day} className="text-center font-medium">
+              {day}
+            </div>
           ))}
 
-        {/* Render days of the Jewish month */}
-        {days.map((dayNum) => {
-          const isTodayJewish =
-            dayNum === todayJewish.day &&
-            isSameMonth(monthName, todayJewish.monthName) &&
-            year === todayJewish.year;
+          {/* Empty slots before the first day of the month */}
+          {Array(firstDayOfWeek)
+            .fill(null)
+            .map((_, idx) => (
+              <div key={`empty-${idx}`} />
+            ))}
 
-          const isSelected = dayNum === selectedDay;
+          {/* Render days of the Jewish month */}
+          {days.map((dayNum) => {
+            const isTodayJewish =
+              dayNum === todayJewish.day &&
+              isSameMonth(monthName, todayJewish.monthName) &&
+              year === todayJewish.year;
 
-          const monthEnum =
-            JewishMonth[normalizeMonth(monthName) as keyof typeof JewishMonth];
+            const isSelected = dayNum === selectedDay;
 
-          const gregDate = toGregorianDate({
-            year,
-            monthName: monthEnum,
-            day: dayNum,
-          });
+            const monthEnum =
+              JewishMonth[
+                normalizeMonth(monthName) as keyof typeof JewishMonth
+              ];
 
-          return (
-            <JewishCalendarDay
-              key={dayNum}
-              year={year}
-              month={monthName}
-              day={dayNum}
-              gregorianDate={new Date(gregDate)}
-              isToday={isTodayJewish}
-              isSelected={isSelected}
-              onSelect={onDateSelect}
-            />
-          );
-        })}
+            const gregDate = toGregorianDate({
+              year,
+              monthName: monthEnum,
+              day: dayNum,
+            });
+
+            return (
+              <JewishCalendarDay
+                key={dayNum}
+                year={year}
+                month={monthName}
+                day={dayNum}
+                gregorianDate={new Date(gregDate)}
+                isToday={isTodayJewish}
+                isSelected={isSelected}
+                onSelect={onDateSelect}
+              />
+            );
+          })}
+        </div>
+        <GoToTodayButton onClick={() => onDateSelect(new Date())} />
       </div>
-      <GoToTodayButton onClick={() => onDateSelect(new Date())} />
-    </div>
+    </TooltipProvider>
   );
 }

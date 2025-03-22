@@ -1,6 +1,13 @@
 import clsx from "clsx";
 import { useEffect, useMemo } from "react";
 
+import { translateHolidayTitle } from "./calendar-utils";
+
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { useHolidayStore } from "@/store/use-holiday-store";
 
 interface JewishCalendarDayProps {
@@ -56,11 +63,28 @@ export default function JewishCalendarDay({
     isToday || isSelected ? "bg-white" : "bg-brown-light",
   );
 
-  return (
+  const content = (
     <div onClick={handleClick} className={classes}>
       <div className="text-center">{day}</div>
 
       {hasHoliday && <div className={dotClasses} />}
     </div>
+  );
+
+  return hasHoliday ? (
+    <Tooltip>
+      <TooltipTrigger asChild>{content}</TooltipTrigger>
+      <TooltipContent side="top" className="bg-white">
+        <ul className="space-y-1">
+          {holidayEvents.map((holiday, index) => (
+            <li key={index} className="text-sm">
+              {translateHolidayTitle(holiday.title)}
+            </li>
+          ))}
+        </ul>
+      </TooltipContent>
+    </Tooltip>
+  ) : (
+    content
   );
 }
