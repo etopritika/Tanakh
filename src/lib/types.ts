@@ -116,3 +116,25 @@ export interface HolidayItem {
   link?: string;
   memo?: string;
 }
+
+export type ShabbatData = {
+  candleLighting: string | null;
+  havdalah: string | null;
+  parsha: string | null;
+  location: string | null;
+  candleDate: string | null;
+  havdalahDate: string | null;
+};
+
+export interface HebcalItem {
+  title: string;
+  date: string;
+  category: "candles" | "havdalah" | "parashat" | string;
+}
+
+export interface HebcalResponse {
+  items: HebcalItem[];
+  location?: {
+    tzid?: string;
+  };
+}
