@@ -31,25 +31,30 @@ const ShabbatTimes: React.FC = () => {
   const [currentDate, setCurrentDate] = useState<string>("");
 
   useEffect(() => {
-    const today = new Date();
-    setCurrentDate(
-      today.toLocaleDateString("ru-RU", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      }),
-    );
+    const loadShabbatTimes = async () => {
+      const today = new Date();
+      setCurrentDate(
+        today.toLocaleDateString("ru-RU", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        }),
+      );
 
-    getUserCoordinates()
-      .then(({ latitude, longitude }) => fetchShabbatTimes(latitude, longitude))
-      .catch(() =>
-        fetchShabbatTimes(DEFAULT_COORDS.latitude, DEFAULT_COORDS.longitude),
-      )
-      .then(setData)
-      .catch(() =>
-        setError("Невозможно получить данные шаббата. Попробуйте позже."),
-      )
-      .finally(() => setLoading(false));
+      try {
+        const { latitude, longitude } = await getUserCoordinates().catch(
+          () => DEFAULT_COORDS,
+        );
+        const result = await fetchShabbatTimes(latitude, longitude);
+        setData(result);
+      } catch {
+        setError("Невозможно получить данные шаббата. Попробуйте позже.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadShabbatTimes();
   }, []);
 
   if (loading)
