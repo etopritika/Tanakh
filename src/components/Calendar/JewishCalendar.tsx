@@ -2,6 +2,9 @@ import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { JewishMonth, toGregorianDate, toJewishDate } from "jewish-date";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+import GoToTodayButton from "./GoToTodayButton";
+import HolidayCard from "./HolidayCard";
+import JewishCalendarDay from "./JewishCalendarDay";
 import {
   getJewishMonthData,
   getMonthsByLeapYear,
@@ -9,8 +12,6 @@ import {
   normalizeMonth,
 } from "./utils/calendar-utils";
 import { weekDays } from "./utils/constants";
-import GoToTodayButton from "./GoToTodayButton";
-import JewishCalendarDay from "./JewishCalendarDay";
 import { Button } from "../ui/button";
 
 /**
@@ -119,7 +120,7 @@ export default function JewishCalendar({
 
   return (
     <TooltipProvider>
-      <div className="space-y-4">
+      <div className="space-y-4 pb-4">
         {/* Navigation Header */}
         <nav
           aria-label="Month navigation"
@@ -189,6 +190,7 @@ export default function JewishCalendar({
           })}
         </div>
         <GoToTodayButton onClick={() => onDateSelect(new Date())} />
+        <HolidayCard />
       </div>
     </TooltipProvider>
   );
