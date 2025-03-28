@@ -1,10 +1,11 @@
 import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import { getGregorianMonthData } from "./utils/calendar-utils";
 import CalendarDay from "./CalendarDay";
-import { gregorianMonthNames, weekDays } from "./utils/constants";
 import GoToTodayButton from "./GoToTodayButton";
+import HolidayCard from "./HolidayCard";
+import { getGregorianMonthData } from "./utils/calendar-utils";
+import { gregorianMonthNames, weekDays } from "./utils/constants";
 import { Button } from "../ui/button";
 
 /**
@@ -53,7 +54,7 @@ export default function GregorianCalendar({
 
   return (
     <TooltipProvider>
-      <div className="space-y-4">
+      <div className="space-y-4 pb-4">
         {/* Navigation Header */}
         <nav
           aria-label="Month navigation"
@@ -108,6 +109,7 @@ export default function GregorianCalendar({
             })}
         </div>
         <GoToTodayButton onClick={() => onDateSelect(new Date())} />
+        <HolidayCard />
       </div>
     </TooltipProvider>
   );

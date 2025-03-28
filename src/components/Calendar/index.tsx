@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 import GregorianCalendar from "./GregorianCalendar";
-import HolidayCard from "./HolidayCard";
 import JewishCalendar from "./JewishCalendar";
+import ShabbatTimes from "./ShabbatTimes";
 import YearPicker from "./YearPicker";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -11,7 +11,6 @@ import { fetchAndStoreHolidays } from "@/lib/api/fetchHolidays";
 
 export default function UniversalCalendar() {
   const [selectedDate, setSelectedDate] = useState(new Date());
-
   const year = selectedDate.getFullYear();
 
   useEffect(() => {
@@ -26,17 +25,14 @@ export default function UniversalCalendar() {
   }, [year]);
 
   return (
-    <div className="space-y-4 p-4 pb-10 sm:pb-4">
-      <Tabs defaultValue="gregorian">
+    <div className="h-full space-y-4 p-4 pb-10 sm:pb-4">
+      <Tabs defaultValue="gregorian" className="flex h-full flex-col">
         <header>
           <nav aria-label="Calendar type navigation" className="space-y-2">
-            <TabsList className="grid w-full grid-cols-2 bg-brown-light text-white">
-              <TabsTrigger value="gregorian" className="">
-                Григорианский
-              </TabsTrigger>
-              <TabsTrigger value="jewish" className="">
-                Иудейский
-              </TabsTrigger>
+            <TabsList className="grid w-full grid-cols-3 bg-brown-light text-white">
+              <TabsTrigger value="gregorian">Григорианский</TabsTrigger>
+              <TabsTrigger value="jewish">Иудейский</TabsTrigger>
+              <TabsTrigger value="shabbat">Шаббат</TabsTrigger>
             </TabsList>
             <YearPicker
               selectedDate={selectedDate}
@@ -58,8 +54,10 @@ export default function UniversalCalendar() {
             onDateSelect={setSelectedDate}
           />
         </TabsContent>
+        <TabsContent value="shabbat" className="flex-1">
+          <ShabbatTimes />
+        </TabsContent>
       </Tabs>
-      <HolidayCard />
     </div>
   );
 }
