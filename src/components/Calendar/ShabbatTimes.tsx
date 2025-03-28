@@ -1,5 +1,6 @@
 import { LoaderCircle } from "lucide-react";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import {
   extractTime24h,
@@ -8,6 +9,7 @@ import {
   getUserCoordinates,
   translateHolidayTitle,
 } from "./utils/calendar-utils";
+import { parashatLinks } from "./utils/parashatLinks";
 
 import { fetchShabbatTimes } from "@/lib/api/fetchShabbatTimes";
 import { ShabbatData } from "@/lib/types";
@@ -91,9 +93,18 @@ const ShabbatTimes: React.FC = () => {
       {data.parsha && (
         <p className="pt-4 text-lg font-medium text-gray-800">
           Шаббат, недельная глава:{" "}
-          <span className="font-semibold text-text">
-            {translateHolidayTitle(data.parsha)}
-          </span>
+          {parashatLinks[data.parsha] ? (
+            <Link
+              to={parashatLinks[data.parsha]}
+              className="font-semibold text-blue-600"
+            >
+              {translateHolidayTitle(data.parsha)}
+            </Link>
+          ) : (
+            <span className="font-semibold text-text">
+              {translateHolidayTitle(data.parsha)}
+            </span>
+          )}
         </p>
       )}
 
