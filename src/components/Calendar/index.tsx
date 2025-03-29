@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 import YearPicker from "./common/YearPicker";
-import GregorianCalendar from "./GregorianCalendar/GregorianCalendar";
-import JewishCalendar from "./JewishCalendar/JewishCalendar";
+import GregorianCalendar from "./GregorianCalendar";
+import JewishCalendar from "./JewishCalendar";
 import ShabbatTimes from "./ShabbatTimes";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -79,7 +79,7 @@ export default function UniversalCalendar() {
             onDateSelect={setSelectedDate}
           />
         </TabsContent>
-        <TabsContent value="shabbat" className="flex-1">
+        <TabsContent value="shabbat" className="flex-1 pb-16">
           <ShabbatTimes />
         </TabsContent>
       </Tabs>
