@@ -11,7 +11,10 @@ export default function GoToTodayButton({ onClick }: GoToTodayButtonProps) {
   const todayJewish = toJewishDate(today);
 
   return (
-    <button onClick={onClick} className="text-lg text-blue-600 sm:text-lg">
+    <button
+      onClick={onClick}
+      className="text-md text-start text-blue-600 sm:text-lg"
+    >
       Сегодня{" "}
       <span className="whitespace-nowrap">
         {today.getDate()} {gregorianMonthNames[today.getMonth()]}{" "}
