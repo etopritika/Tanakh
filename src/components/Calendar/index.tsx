@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
+import YearPicker from "./common/YearPicker";
 import GregorianCalendar from "./GregorianCalendar/GregorianCalendar";
 import JewishCalendar from "./JewishCalendar/JewishCalendar";
 import ShabbatTimes from "./ShabbatTimes";
-import YearPicker from "./common/YearPicker";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { toast } from "@/hooks/use-toast";
