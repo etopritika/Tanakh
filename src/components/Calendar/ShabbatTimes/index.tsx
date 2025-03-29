@@ -71,7 +71,7 @@ const ShabbatTimes: React.FC = () => {
           Время шаббата
           {location ? ` для ${location}` : ""}
         </h1>
-        <div className="flex flex-col items-start justify-between space-y-2 border-b pb-2 text-sm text-gray-600 sm:flex-row sm:space-y-0">
+        <div className="flex flex-col items-start justify-between space-y-2 border-b pb-2 text-sm text-gray-600 md:flex-row md:space-y-0">
           <span>Зажигание свечей за 18 минут до заката | Местное время</span>
           <ShabbatDatePicker
             selectedDate={selectedDate}
