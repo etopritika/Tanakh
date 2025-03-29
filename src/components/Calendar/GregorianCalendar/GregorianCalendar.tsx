@@ -2,11 +2,11 @@ import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import CalendarDay from "./CalendarDay";
-import GoToTodayButton from "./GoToTodayButton";
-import HolidayCard from "./HolidayCard";
-import { getGregorianMonthData } from "./utils/calendar-utils";
-import { gregorianMonthNames, weekDays } from "./utils/constants";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
+import GoToTodayButton from "../common/GoToTodayButton";
+import HolidayCard from "../common/HolidayCard";
+import { getGregorianMonthData } from "../utils/calendar-utils";
+import { gregorianMonthNames, weekDays } from "../utils/constants";
 
 /**
  * GregorianCalendar component renders a visual representation
