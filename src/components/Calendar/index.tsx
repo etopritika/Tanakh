@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-import YearPicker from "./common/YearPicker";
 import GregorianCalendar from "./GregorianCalendar";
 import JewishCalendar from "./JewishCalendar";
 import ShabbatTimes from "./ShabbatTimes";
@@ -58,11 +57,6 @@ export default function UniversalCalendar() {
                 </span>
               </TabsTrigger>
             </TabsList>
-
-            <YearPicker
-              selectedDate={selectedDate}
-              onDateSelect={setSelectedDate}
-            />
           </nav>
         </header>
 
