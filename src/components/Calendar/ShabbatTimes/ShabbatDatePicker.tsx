@@ -46,16 +46,16 @@ export const ShabbatDatePicker: React.FC<ShabbatDatePickerProps> = ({
           title="Выбрать дату"
         >
           <CalendarDays className="mr-2" />
-          <span className="mr-1">
+          <p>
             {isToday ? "Сегодня: " : "Выбранная дата: "}
-          </span>
-          <strong>
-            {selectedDate.toLocaleDateString("ru-RU", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </strong>
+            <span>
+              {selectedDate.toLocaleDateString("ru-RU", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </span>
+          </p>
         </button>
       </PopoverTrigger>
 
