@@ -66,12 +66,12 @@ const ShabbatTimes: React.FC = () => {
       aria-label="Время шаббата"
       className="space-y-4 rounded-md border bg-white p-6 shadow"
     >
-      <header>
+      <header className="space-y-2">
         <h1 className="text-2xl font-bold text-text">
           Время шаббата
           {location ? ` для ${location}` : ""}
         </h1>
-        <div className="mt-1 flex items-center justify-between border-b pb-2 text-sm text-gray-600">
+        <div className="flex flex-col items-start justify-between space-y-2 border-b pb-2 text-sm text-gray-600 sm:flex-row sm:space-y-0">
           <span>Зажигание свечей за 18 минут до заката | Местное время</span>
           <ShabbatDatePicker
             selectedDate={selectedDate}
