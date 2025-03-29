@@ -2,17 +2,17 @@ import { TooltipProvider } from "@radix-ui/react-tooltip";
 import { JewishMonth, toGregorianDate, toJewishDate } from "jewish-date";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import GoToTodayButton from "./GoToTodayButton";
-import HolidayCard from "./HolidayCard";
 import JewishCalendarDay from "./JewishCalendarDay";
+import { Button } from "../../ui/button";
+import GoToTodayButton from "../common/GoToTodayButton";
+import HolidayCard from "../common/HolidayCard";
 import {
   getJewishMonthData,
   getMonthsByLeapYear,
   isSameMonth,
   normalizeMonth,
-} from "./utils/calendar-utils";
-import { weekDays } from "./utils/constants";
-import { Button } from "../ui/button";
+} from "../utils/calendar-utils";
+import { weekDays } from "../utils/constants";
 
 /**
  * JewishCalendar component renders a visual representation

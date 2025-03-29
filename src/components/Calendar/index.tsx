@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-import GregorianCalendar from "./GregorianCalendar";
-import JewishCalendar from "./JewishCalendar";
+import YearPicker from "./common/YearPicker";
+import GregorianCalendar from "./GregorianCalendar/GregorianCalendar";
+import JewishCalendar from "./JewishCalendar/JewishCalendar";
 import ShabbatTimes from "./ShabbatTimes";
-import YearPicker from "./YearPicker";
 
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { toast } from "@/hooks/use-toast";
@@ -30,10 +30,35 @@ export default function UniversalCalendar() {
         <header>
           <nav aria-label="Calendar type navigation" className="space-y-2">
             <TabsList className="grid w-full grid-cols-3 bg-brown-light text-white">
-              <TabsTrigger value="gregorian">Григорианский</TabsTrigger>
-              <TabsTrigger value="jewish">Иудейский</TabsTrigger>
-              <TabsTrigger value="shabbat">Шаббат</TabsTrigger>
+              <TabsTrigger
+                value="gregorian"
+                className="flex w-full items-center justify-center"
+                title="Григорианский"
+              >
+                <span className="block max-w-full truncate whitespace-nowrap">
+                  Григорианский
+                </span>
+              </TabsTrigger>
+              <TabsTrigger
+                value="jewish"
+                className="flex w-full items-center justify-center"
+                title="Иудейский"
+              >
+                <span className="block max-w-full truncate whitespace-nowrap">
+                  Иудейский
+                </span>
+              </TabsTrigger>
+              <TabsTrigger
+                value="shabbat"
+                className="flex w-full items-center justify-center"
+                title="Шаббат"
+              >
+                <span className="block max-w-full truncate whitespace-nowrap">
+                  Шаббат
+                </span>
+              </TabsTrigger>
             </TabsList>
+
             <YearPicker
               selectedDate={selectedDate}
               onDateSelect={setSelectedDate}

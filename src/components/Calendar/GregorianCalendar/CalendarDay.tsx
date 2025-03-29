@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useEffect, useMemo } from "react";
 
-import { translateHolidayTitle } from "./utils/calendar-utils";
+import { translateHolidayTitle } from "../utils/calendar-utils";
 
 import {
   Tooltip,
@@ -10,37 +10,35 @@ import {
 } from "@/components/ui/tooltip";
 import { useHolidayStore } from "@/store/use-holiday-store";
 
-interface JewishCalendarDayProps {
+interface CalendarDayProps {
   year: number;
-  month: string;
+  month: number;
   day: number;
   onSelect: (date: Date) => void;
-  gregorianDate: Date;
   isSelected: boolean;
   isToday: boolean;
 }
 
-export default function JewishCalendarDay({
+export default function CalendarDay({
   year,
   month,
   day,
-  gregorianDate,
   onSelect,
   isSelected,
   isToday,
-}: JewishCalendarDayProps) {
-  const { holidaysByJewishDate, setSelectedHoliday } = useHolidayStore();
+}: CalendarDayProps) {
+  const { holidays, setSelectedHoliday } = useHolidayStore();
 
-  const dateKey = `${day} ${month} ${year}`;
+  const dateKey = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 
   const holidayEvents = useMemo(() => {
-    return holidaysByJewishDate?.[dateKey] || [];
-  }, [holidaysByJewishDate, dateKey]);
+    return holidays[year]?.[dateKey] || [];
+  }, [holidays, year, dateKey]);
 
   const hasHoliday = holidayEvents.length > 0;
 
   const handleClick = () => {
-    onSelect(gregorianDate);
+    onSelect(new Date(year, month, day));
     if (hasHoliday) {
       setSelectedHoliday(holidayEvents);
     } else setSelectedHoliday([]);
@@ -59,7 +57,7 @@ export default function JewishCalendarDay({
   );
 
   const dotClasses = clsx(
-    "absolute bottom-1.5 h-2.5 w-2.5 rounded-full",
+    "absolute bottom-2 h-2.5 w-2.5 rounded-full",
     isToday || isSelected ? "bg-white" : "bg-brown-light",
   );
 
