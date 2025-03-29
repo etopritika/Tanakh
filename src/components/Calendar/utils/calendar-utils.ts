@@ -1,3 +1,13 @@
+import {
+  addDays,
+  format,
+  getDay,
+  getDaysInMonth,
+  getMonth,
+  getYear,
+  startOfMonth,
+} from "date-fns";
+import { ru } from "date-fns/locale";
 import { JewishMonth, toGregorianDate, toJewishDate } from "jewish-date";
 
 import {
@@ -22,18 +32,11 @@ export function translateHolidayTitle(title: string): string {
 // =================== DATE FORMAT HELPERS ===================
 
 /**
- * Formats a date as a key string in the format `YYYY-MM-DD`.
- * @param year - The year
- * @param month - The month (0-based)
- * @param day - The day of the month
+ * Formats a Date object as a string in `YYYY-MM-DD` format using date-fns.
+ * @param date - The Date object
  * @returns A formatted date string
  */
-export const formatDateKey = (
-  year: number,
-  month: number,
-  day: number,
-): string =>
-  `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+export const formatDateKey = (date: Date): string => format(date, "yyyy-MM-dd");
 
 /**
  * Converts a time string like "7:10pm" into 24-hour format (e.g., "19:10").
@@ -57,18 +60,14 @@ export const extractTime24h = (title: string): string | null => {
 };
 
 /**
- * Formats a date string into a localized Russian long format.
+ * Formats a date string into a long, localized Russian format using date-fns.
+ * Example: "суббота, 29 марта 2025 г."
  * @param dateStr - ISO date string
- * @returns Formatted date string in Russian locale
+ * @returns Formatted Russian date string
  */
 export const formatDate = (dateStr: string): string => {
   const date = new Date(dateStr);
-  return date.toLocaleDateString("ru-RU", {
-    weekday: "long",
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+  return format(date, "eeee, d MMMM yyyy", { locale: ru });
 };
 
 /**
@@ -191,10 +190,12 @@ export function normalizeJewishMonthName(month: string): JewishMonthName {
  * @returns Object containing year, month index, total days, and the starting day index of the month
  */
 export function getGregorianMonthData(selectedDate: Date) {
-  const year = selectedDate.getFullYear();
-  const month = selectedDate.getMonth();
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
-  const firstDayIndex = (new Date(year, month, 1).getDay() + 6) % 7;
+  const year = getYear(selectedDate);
+  const month = getMonth(selectedDate);
+  const daysInMonth = getDaysInMonth(selectedDate);
+
+  const firstDayIndex = (getDay(startOfMonth(selectedDate)) + 6) % 7;
+
   return { year, month, daysInMonth, firstDayIndex };
 }
 
@@ -246,6 +247,22 @@ export function getJewishMonthData(selectedDate: Date) {
     selectedDay: jewishDate.day,
   };
 }
+
+/**
+ * Returns a range of 28 days (4 weeks) starting from the given date.
+ * Uses date-fns for formatting.
+ * @param date - The start date
+ * @returns Object with `start` and `end` in `YYYY-MM-DD` format
+ */
+
+export const getMonthRangeStrings = (
+  date: Date,
+): { start: string; end: string } => {
+  const start = format(date, "yyyy-MM-dd");
+  const end = format(addDays(date, 28), "yyyy-MM-dd");
+
+  return { start, end };
+};
 
 // =================== GEO ===================
 

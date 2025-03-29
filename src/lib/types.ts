@@ -117,14 +117,19 @@ export interface HolidayItem {
   memo?: string;
 }
 
-export type ShabbatData = {
+export type ShabbatItem = {
+  location: string | null;
   candleLighting: string | null;
   havdalah: string | null;
   parsha: string | null;
-  location: string | null;
   candleDate: string | null;
   havdalahDate: string | null;
 };
+
+export interface ShabbatResponse {
+  location: string | null;
+  items: ShabbatItem[];
+}
 
 export interface HebcalItem {
   title: string;

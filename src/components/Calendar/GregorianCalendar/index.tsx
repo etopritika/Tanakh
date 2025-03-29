@@ -5,6 +5,7 @@ import CalendarDay from "./CalendarDay";
 import { Button } from "../../ui/button";
 import GoToTodayButton from "../common/GoToTodayButton";
 import HolidayCard from "../common/HolidayCard";
+import YearPicker from "../common/YearPicker";
 import { getGregorianMonthData } from "../utils/calendar-utils";
 import { gregorianMonthNames, weekDays } from "../utils/constants";
 
@@ -56,21 +57,21 @@ export default function GregorianCalendar({
     <TooltipProvider>
       <div className="space-y-4 pb-4">
         {/* Navigation Header */}
-        <nav
-          aria-label="Month navigation"
-          className="flex items-center justify-between"
-        >
-          <Button onClick={prevMonth}>
-            <ChevronLeft />
-          </Button>
+        <nav aria-label="Month navigation" className="space-y-4">
+          <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
+          <div className="flex items-center justify-between">
+            <Button onClick={prevMonth}>
+              <ChevronLeft />
+            </Button>
 
-          <div className="text-lg font-semibold">
-            {gregorianMonthNames[month]} {year}
+            <div className="text-lg font-semibold">
+              {gregorianMonthNames[month]} {year}
+            </div>
+
+            <Button onClick={nextMonth}>
+              <ChevronRight />
+            </Button>
           </div>
-
-          <Button onClick={nextMonth}>
-            <ChevronRight />
-          </Button>
         </nav>
 
         {/* Calendar Grid */}
