@@ -106,10 +106,10 @@ export default function JewishCalendar({
       <div className="space-y-4 pb-4">
         <nav
           aria-label="Month navigation"
-          className="space-y-4 md:flex md:space-y-0 md:py-2"
+          className="space-y-4 md:flex md:flex-row-reverse md:justify-end md:space-y-0 md:py-2"
         >
           <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
-          <div className="flex w-full items-center justify-between">
+          <div className="flex w-full items-center justify-between md:w-3/5">
             <Button onClick={prevMonth}>
               <ChevronLeft />
             </Button>
@@ -123,55 +123,58 @@ export default function JewishCalendar({
             </Button>
           </div>
         </nav>
-
-        <div className="grid grid-cols-7 gap-1">
-          {weekDays.map((day) => (
-            <div key={day} className="text-center font-medium">
-              {day}
-            </div>
-          ))}
-
-          {Array(firstDayOfWeek)
-            .fill(null)
-            .map((_, idx) => (
-              <div key={`empty-${idx}`} />
+        <div className="space-y-4 md:flex md:space-y-0">
+          <div className="grid grid-cols-7 gap-1 md:w-3/5">
+            {weekDays.map((day) => (
+              <div key={day} className="text-center font-medium">
+                {day}
+              </div>
             ))}
 
-          {days.map((dayNum) => {
-            const isTodayJewish =
-              dayNum === todayJewish.day &&
-              isSameMonth(monthName, todayJewish.monthName) &&
-              year === todayJewish.year;
+            {Array(firstDayOfWeek)
+              .fill(null)
+              .map((_, idx) => (
+                <div key={`empty-${idx}`} />
+              ))}
 
-            const isSelected = dayNum === selectedDay;
+            {days.map((dayNum) => {
+              const isTodayJewish =
+                dayNum === todayJewish.day &&
+                isSameMonth(monthName, todayJewish.monthName) &&
+                year === todayJewish.year;
 
-            const monthEnum =
-              JewishMonth[
-                normalizeMonth(monthName) as keyof typeof JewishMonth
-              ];
+              const isSelected = dayNum === selectedDay;
 
-            const gregDate = toGregorianDate({
-              year,
-              monthName: monthEnum,
-              day: dayNum,
-            });
+              const monthEnum =
+                JewishMonth[
+                  normalizeMonth(monthName) as keyof typeof JewishMonth
+                ];
 
-            return (
-              <JewishCalendarDay
-                key={dayNum}
-                year={year}
-                month={monthName}
-                day={dayNum}
-                gregorianDate={new Date(gregDate)}
-                isToday={isTodayJewish}
-                isSelected={isSelected}
-                onSelect={onDateSelect}
-              />
-            );
-          })}
+              const gregDate = toGregorianDate({
+                year,
+                monthName: monthEnum,
+                day: dayNum,
+              });
+
+              return (
+                <JewishCalendarDay
+                  key={dayNum}
+                  year={year}
+                  month={monthName}
+                  day={dayNum}
+                  gregorianDate={new Date(gregDate)}
+                  isToday={isTodayJewish}
+                  isSelected={isSelected}
+                  onSelect={onDateSelect}
+                />
+              );
+            })}
+          </div>
+          <div className="flex flex-col space-y-4 md:mx-auto md:w-2/5 md:px-3">
+            <GoToTodayButton onClick={() => onDateSelect(new Date())} />
+            <HolidayCard />
+          </div>
         </div>
-        <GoToTodayButton onClick={() => onDateSelect(new Date())} />
-        <HolidayCard />
       </div>
     </TooltipProvider>
   );
