@@ -104,9 +104,12 @@ export default function JewishCalendar({
   return (
     <TooltipProvider>
       <div className="space-y-4 pb-4">
-        <nav aria-label="Month navigation" className="space-y-4">
+        <nav
+          aria-label="Month navigation"
+          className="space-y-4 md:flex md:items-end md:space-y-0"
+        >
           <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
-          <div className="flex items-center justify-between">
+          <div className="flex w-full items-center justify-between md:h-10">
             <Button onClick={prevMonth}>
               <ChevronLeft />
             </Button>
