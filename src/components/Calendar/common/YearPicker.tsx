@@ -36,8 +36,8 @@ export default function YearPicker({
   };
 
   return (
-    <div className="flex flex-col space-y-2">
-      <label className="text-sm font-medium">Выбор года</label>
+    <div className="md:px-3">
+      <label className="sr-only">Выбор года</label>
 
       <Select
         value={selectedDate.getFullYear().toString()}

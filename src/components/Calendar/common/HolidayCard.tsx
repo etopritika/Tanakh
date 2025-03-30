@@ -15,7 +15,7 @@ export default function HolidayCard() {
 
   return (
     <Card className="w-full max-w-lg bg-white">
-      <CardContent className="space-y-3 pt-6">
+      <CardContent className="space-y-3 p-4">
         <ul role="list" aria-label="Список свят" className="space-y-4">
           {selectedHoliday.map((holiday) => {
             const link = parashatLinks[holiday.title];
