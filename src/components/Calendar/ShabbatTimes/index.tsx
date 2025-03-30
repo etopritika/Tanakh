@@ -43,7 +43,7 @@ const ShabbatTimes: React.FC = () => {
     selectedDate,
   );
 
-  if (!coords || isLoading)
+  if (isLoading || !data)
     return (
       <div className="flex h-full items-center justify-center py-6">
         <LoaderCircle className="animate-spin" />
@@ -59,11 +59,11 @@ const ShabbatTimes: React.FC = () => {
       </div>
     );
 
-  if (!data) {
+  if (data.items.length === 0) {
     return (
       <div className="flex h-full items-center justify-center py-6">
-        <p className="text-danger">
-          Данные не найдены. Возможно, шаббат в этот период отсутствует.
+        <p className="text-muted-foreground">
+          Нет данных для отображения шаббата на выбранную дату.
         </p>
       </div>
     );
