@@ -36,7 +36,7 @@ export default function YearPicker({
   };
 
   return (
-    <div>
+    <div className="md:px-3">
       <label className="sr-only">Выбор года</label>
 
       <Select
