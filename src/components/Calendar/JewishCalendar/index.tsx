@@ -39,35 +39,25 @@ export default function JewishCalendar({
   selectedDate: Date;
   onDateSelect: (date: Date) => void;
 }) {
-  // Get the current Jewish date (today)
   const todayJewish = toJewishDate(new Date());
 
-  // Get details for the currently displayed Jewish month based on the selected Gregorian date
   const { year, monthName, monthNameRu, days, firstDayOfWeek, selectedDay } =
     getJewishMonthData(selectedDate);
 
-  // Get the list of Jewish months depending on whether the year is a leap year
   const months = getMonthsByLeapYear(year);
 
-  // Find index of the currently displayed Jewish month
   const currentMonthIdx = months.findIndex((m) => isSameMonth(m, monthName));
 
-  /**
-   * Handles navigation to the previous Jewish month.
-   * Converts to Gregorian date at the start of the new month.
-   */
   const prevMonth = () => {
     let newMonthIdx = currentMonthIdx - 1;
     let newYear = year;
 
-    // If we go back beyond the first month, switch to previous year
     if (newMonthIdx < 0) {
       newYear--;
       const prevMonths = getMonthsByLeapYear(newYear);
       newMonthIdx = prevMonths.length - 1;
     }
 
-    // Convert the new Jewish month to Gregorian date
     const monthEnum =
       JewishMonth[
         normalizeMonth(
@@ -81,27 +71,20 @@ export default function JewishCalendar({
       day: 1,
     });
 
-    // Update the selected Gregorian date
     onDateSelect(new Date(newGregorianDate));
   };
 
-  /**
-   * Handles navigation to the next Jewish month.
-   * Converts to Gregorian date at the start of the new month.
-   */
   const nextMonth = () => {
     let newMonthIdx = currentMonthIdx + 1;
     let newYear = year;
 
     const monthCount = getMonthsByLeapYear(newYear).length;
 
-    // If we go past the last month, switch to next year
     if (newMonthIdx >= monthCount) {
       newYear++;
       newMonthIdx = 0;
     }
 
-    // Convert the new Jewish month to Gregorian date
     const monthEnum =
       JewishMonth[
         normalizeMonth(
@@ -115,14 +98,12 @@ export default function JewishCalendar({
       day: 1,
     });
 
-    // Update the selected Gregorian date
     onDateSelect(new Date(newGregorianDate));
   };
 
   return (
     <TooltipProvider>
       <div className="space-y-4 pb-4">
-        {/* Navigation Header */}
         <nav aria-label="Month navigation" className="space-y-4">
           <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
           <div className="flex items-center justify-between">
@@ -140,23 +121,19 @@ export default function JewishCalendar({
           </div>
         </nav>
 
-        {/* Calendar Grid */}
         <div className="grid grid-cols-7 gap-1">
-          {/* Weekday headers */}
           {weekDays.map((day) => (
             <div key={day} className="text-center font-medium">
               {day}
             </div>
           ))}
 
-          {/* Empty slots before the first day of the month */}
           {Array(firstDayOfWeek)
             .fill(null)
             .map((_, idx) => (
               <div key={`empty-${idx}`} />
             ))}
 
-          {/* Render days of the Jewish month */}
           {days.map((dayNum) => {
             const isTodayJewish =
               dayNum === todayJewish.day &&

@@ -30,24 +30,19 @@ export default function GregorianCalendar({
   selectedDate: Date;
   onDateSelect: (date: Date) => void;
 }) {
-  // Get today's date for comparison
   const today = new Date();
 
-  // Extract year, month, number of days, and the index of the first day of the week from the selectedDate
   const { year, month, daysInMonth, firstDayIndex } =
     getGregorianMonthData(selectedDate);
 
-  // Handlers for switching months
   const prevMonth = () => onDateSelect(new Date(year, month - 1, 1));
   const nextMonth = () => onDateSelect(new Date(year, month + 1, 1));
 
-  // Check if a given day matches today's date
   const isToday = (day: number) =>
     day === today.getDate() &&
     month === today.getMonth() &&
     year === today.getFullYear();
 
-  // Check if a given day is the selected date
   const isSelected = (day: number) =>
     day === selectedDate.getDate() &&
     month === selectedDate.getMonth() &&
@@ -56,7 +51,6 @@ export default function GregorianCalendar({
   return (
     <TooltipProvider>
       <div className="space-y-4 pb-4">
-        {/* Navigation Header */}
         <nav aria-label="Month navigation" className="space-y-4">
           <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
           <div className="flex items-center justify-between">
@@ -74,23 +68,19 @@ export default function GregorianCalendar({
           </div>
         </nav>
 
-        {/* Calendar Grid */}
         <div className="grid grid-cols-7 gap-1">
-          {/* Weekday headers */}
           {weekDays.map((day) => (
             <div key={day} className="text-center font-medium">
               {day}
             </div>
           ))}
 
-          {/* Empty slots before the first day of the month */}
           {Array(firstDayIndex)
             .fill(null)
             .map((_, idx) => (
               <div key={`empty-${idx}`} />
             ))}
 
-          {/* Render days of the month */}
           {Array(daysInMonth)
             .fill(null)
             .map((_, idx) => {
