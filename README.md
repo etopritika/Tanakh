@@ -11,6 +11,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - [Firebase Authentication Setup](#firebase-authentication-setup)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -24,6 +25,14 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - 🌐 Progressive Web App (PWA) support.
 - ⚡ Built with modern React and Vite for fast performance.
 - 🔐 **User authentication** with email/password, Google, and Facebook.
+- 🗓️ Calendar page with three tabs:
+  - Gregorian calendar
+  - Jewish calendar
+  - Shabbat overview
+- 🔁 Synchronized Gregorian and Jewish calendars
+- 🎉 Displays Jewish holidays from Hebcal API
+- 🕯️ Shabbat tab shows candle lighting and havdalah times for the selected month
+- 💾 Optimized with smart caching (SWR) to reduce redundant requests
 
 ---
 
@@ -74,6 +83,10 @@ React/Vite application for reading and exploring the Tanakh. This application is
 4. Bookmark chapters for easy navigation.
 5. Register and sign in to save your bookmarks and personal preferences.
 6. Add comments to verses.
+7. Navigate to the **Calendar** page to explore:
+   - Jewish and Gregorian calendars in sync
+   - Holidays highlighted in both systems
+   - Shabbat times with smart caching logic for optimal performance
 
 ---
 
