@@ -106,10 +106,10 @@ export default function JewishCalendar({
       <div className="space-y-4 pb-4">
         <nav
           aria-label="Month navigation"
-          className="space-y-4 md:flex md:items-end md:space-y-0"
+          className="space-y-4 md:flex md:space-y-0 md:py-2"
         >
           <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
-          <div className="flex w-full items-center justify-between md:h-10">
+          <div className="flex w-full items-center justify-between">
             <Button onClick={prevMonth}>
               <ChevronLeft />
             </Button>
