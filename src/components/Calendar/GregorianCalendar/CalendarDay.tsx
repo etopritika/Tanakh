@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useEffect, useMemo } from "react";
 
-import { translateHolidayTitle } from "../utils/calendar-utils";
+import { translateHolidayTitle } from "../utils/calendar-utils/translate";
 
 import {
   Tooltip,
