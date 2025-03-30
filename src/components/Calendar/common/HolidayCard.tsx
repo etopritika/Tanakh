@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { translateHolidayTitle } from "../utils/calendar-utils";
+import { translateHolidayTitle } from "../utils/calendar-utils/translate";
 import { parashatLinks } from "../utils/parashatLinks";
 
 import { Card, CardContent } from "@/components/ui/card";

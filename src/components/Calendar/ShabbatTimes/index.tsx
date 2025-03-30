@@ -7,13 +7,12 @@ import {
   extractTime24h,
   formatDate,
   formatJewishDateRu,
-  getUserCoordinates,
-  translateHolidayTitle,
-} from "../utils/calendar-utils";
+} from "../utils/calendar-utils/format";
+import { getUserCoordinates } from "../utils/calendar-utils/geo";
+import { translateHolidayTitle } from "../utils/calendar-utils/translate";
 import { parashatLinks } from "../utils/parashatLinks";
 
-import { fetchShabbatTimes } from "@/lib/api/fetchShabbatTimes";
-import { ShabbatItem } from "@/lib/types";
+import { useShabbatTimes } from "@/lib/api/fetchShabbatTimes";
 
 const DEFAULT_COORDS = {
   latitude: 32.0853,
@@ -21,33 +20,30 @@ const DEFAULT_COORDS = {
 };
 
 const ShabbatTimes: React.FC = () => {
-  const [data, setData] = useState<ShabbatItem[]>([]);
-  const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [location, setLocation] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<Date>(new Date());
-
-  const fetchData = async (date: Date) => {
-    setLoading(true);
-    try {
-      const { latitude, longitude } = await getUserCoordinates().catch(
-        () => DEFAULT_COORDS,
-      );
-      const result = await fetchShabbatTimes(latitude, longitude, date);
-      setData(result.items);
-      setLocation(result.location);
-    } catch {
-      setError("Невозможно получить данные шаббата. Попробуйте позже.");
-    } finally {
-      setLoading(false);
-    }
-  };
+  const [coords, setCoords] = useState<{
+    latitude: number | null;
+    longitude: number | null;
+  }>({
+    latitude: null,
+    longitude: null,
+  });
 
   useEffect(() => {
-    fetchData(selectedDate);
-  }, [selectedDate]);
+    getUserCoordinates()
+      .then((res) =>
+        setCoords({ latitude: res.latitude, longitude: res.longitude }),
+      )
+      .catch(() => setCoords(DEFAULT_COORDS));
+  }, []);
 
-  if (loading)
+  const { data, error, isLoading } = useShabbatTimes(
+    coords.latitude,
+    coords.longitude,
+    selectedDate,
+  );
+
+  if (!coords || isLoading)
     return (
       <div className="flex h-full items-center justify-center py-6">
         <LoaderCircle className="animate-spin" />
@@ -57,9 +53,21 @@ const ShabbatTimes: React.FC = () => {
   if (error)
     return (
       <div className="flex h-full items-center justify-center py-6">
-        <p className="text-danger">{error}</p>
+        <p className="text-danger">
+          Невозможно получить данные шаббата. Попробуйте позже.
+        </p>
       </div>
     );
+
+  if (!data) {
+    return (
+      <div className="flex h-full items-center justify-center py-6">
+        <p className="text-danger">
+          Данные не найдены. Возможно, шаббат в этот период отсутствует.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -69,7 +77,7 @@ const ShabbatTimes: React.FC = () => {
       <header className="space-y-2">
         <h1 className="text-2xl font-bold text-text">
           Время шаббата
-          {location ? ` для ${location}` : ""}
+          {data.location ? ` для ${data.location}` : ""}
         </h1>
         <div className="flex flex-col items-start justify-between space-y-2 border-b pb-2 text-sm text-gray-600 md:flex-row md:space-y-0">
           <span>Зажигание свечей за 18 минут до заката | Местное время</span>
@@ -81,7 +89,7 @@ const ShabbatTimes: React.FC = () => {
       </header>
 
       <div className="mt-4 space-y-10" aria-label="Список шаббатов">
-        {data.map((item, idx) => (
+        {data.items.map((item, idx) => (
           <section
             key={idx}
             className="space-y-4 border-b pb-4 last:border-none"

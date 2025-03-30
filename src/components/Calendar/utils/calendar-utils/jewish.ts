@@ -1,92 +1,10 @@
-import {
-  addDays,
-  format,
-  getDay,
-  getDaysInMonth,
-  getMonth,
-  getYear,
-  startOfMonth,
-} from "date-fns";
-import { ru } from "date-fns/locale";
 import { JewishMonth, toGregorianDate, toJewishDate } from "jewish-date";
 
 import {
   JewishMonthName,
   jewishMonthsLeapRu,
   jewishMonthsNonLeapRu,
-} from "./constants";
-import { holidayTitleMap } from "./holiday-title-map";
-
-// =================== TRANSLATIONS ===================
-
-/**
- * Translates the holiday title from English to Russian.
- * @param title - The holiday title in English.
- * @returns The translated title in Russian, or the original if no match is found.
- */
-export function translateHolidayTitle(title: string): string {
-  const rule = holidayTitleMap.find(({ pattern }) => pattern.test(title));
-  return rule ? rule.translation : title;
-}
-
-// =================== DATE FORMAT HELPERS ===================
-
-/**
- * Formats a Date object as a string in `YYYY-MM-DD` format using date-fns.
- * @param date - The Date object
- * @returns A formatted date string
- */
-export const formatDateKey = (date: Date): string => format(date, "yyyy-MM-dd");
-
-/**
- * Converts a time string like "7:10pm" into 24-hour format (e.g., "19:10").
- * @param title - Time string containing AM/PM
- * @returns Time in 24-hour format or null if parsing fails
- */
-export const extractTime24h = (title: string): string | null => {
-  const timeMatch = title.match(/(\d{1,2}):(\d{2})(am|pm)/i);
-  if (!timeMatch) return null;
-
-  const [, hours, minutes, period] = timeMatch;
-  let hrs = parseInt(hours, 10);
-
-  if (period.toLowerCase() === "pm" && hrs !== 12) {
-    hrs += 12;
-  } else if (period.toLowerCase() === "am" && hrs === 12) {
-    hrs = 0;
-  }
-
-  return `${hrs.toString().padStart(2, "0")}:${minutes}`;
-};
-
-/**
- * Formats a date string into a long, localized Russian format using date-fns.
- * Example: "суббота, 29 марта 2025 г."
- * @param dateStr - ISO date string
- * @returns Formatted Russian date string
- */
-export const formatDate = (dateStr: string): string => {
-  const date = new Date(dateStr);
-  return format(date, "eeee, d MMMM yyyy", { locale: ru });
-};
-
-/**
- * Converts an ISO date string to a formatted Jewish date in Russian.
- * @param isoDate - ISO date string
- * @returns Jewish date in Russian format: `1 Нисан 5784`
- */
-export const formatJewishDateRu = (isoDate: string): string => {
-  const jd = toJewishDate(new Date(isoDate));
-  const { day, year, month } = jd;
-
-  const monthName = isJewishLeapYear(year)
-    ? jewishMonthsLeapRu[month - 1]
-    : jewishMonthsNonLeapRu[month - 1];
-
-  return `${day} ${monthName} ${year}`;
-};
-
-// =================== JEWISH CALENDAR HELPERS ===================
+} from "../constants";
 
 /**
  * Determines if a given Jewish year is a leap year.
@@ -181,24 +99,6 @@ export function normalizeJewishMonthName(month: string): JewishMonthName {
   }
 }
 
-// =================== CALENDAR DATA FUNCTIONS ===================
-
-/**
- * Generates Gregorian calendar data for a given date.
- * Provides the year, month, number of days in the month, and the index of the first day of the week.
- * @param selectedDate - The date representing the month to get data for
- * @returns Object containing year, month index, total days, and the starting day index of the month
- */
-export function getGregorianMonthData(selectedDate: Date) {
-  const year = getYear(selectedDate);
-  const month = getMonth(selectedDate);
-  const daysInMonth = getDaysInMonth(selectedDate);
-
-  const firstDayIndex = (getDay(startOfMonth(selectedDate)) + 6) % 7;
-
-  return { year, month, daysInMonth, firstDayIndex };
-}
-
 /**
  * Generates Jewish calendar data based on a given Gregorian date.
  * Provides the Jewish year, month names (Hebrew and Russian), days in the month,
@@ -247,38 +147,3 @@ export function getJewishMonthData(selectedDate: Date) {
     selectedDay: jewishDate.day,
   };
 }
-
-/**
- * Returns a range of 28 days (4 weeks) starting from the given date.
- * Uses date-fns for formatting.
- * @param date - The start date
- * @returns Object with `start` and `end` in `YYYY-MM-DD` format
- */
-
-export const getMonthRangeStrings = (
-  date: Date,
-): { start: string; end: string } => {
-  const start = format(date, "yyyy-MM-dd");
-  const end = format(addDays(date, 28), "yyyy-MM-dd");
-
-  return { start, end };
-};
-
-// =================== GEO ===================
-
-/**
- * Returns user's coordinates via browser geolocation API.
- * Falls back to error if denied or unavailable.
- * @returns Promise with GeolocationCoordinates
- */
-export const getUserCoordinates = (): Promise<GeolocationCoordinates> =>
-  new Promise((resolve, reject) => {
-    if (!navigator.geolocation) {
-      reject(new Error("Geolocation not supported"));
-    } else {
-      navigator.geolocation.getCurrentPosition(
-        (pos) => resolve(pos.coords),
-        reject,
-      );
-    }
-  });

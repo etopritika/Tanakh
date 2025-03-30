@@ -6,7 +6,7 @@ import { Button } from "../../ui/button";
 import GoToTodayButton from "../common/GoToTodayButton";
 import HolidayCard from "../common/HolidayCard";
 import YearPicker from "../common/YearPicker";
-import { getGregorianMonthData } from "../utils/calendar-utils";
+import { getGregorianMonthData } from "../utils/calendar-utils/gregorian";
 import { gregorianMonthNames, weekDays } from "../utils/constants";
 
 /**

@@ -12,7 +12,7 @@ import {
   getMonthsByLeapYear,
   isSameMonth,
   normalizeMonth,
-} from "../utils/calendar-utils";
+} from "../utils/calendar-utils/jewish";
 import { weekDays } from "../utils/constants";
 
 /**
