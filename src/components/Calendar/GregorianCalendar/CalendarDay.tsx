@@ -51,13 +51,13 @@ export default function CalendarDay({
   }, [isSelected, hasHoliday, holidayEvents, setSelectedHoliday]);
 
   const classes = clsx(
-    "relative flex flex-col h-16 justify-center items-center rounded-md border cursor-pointer transition-all",
+    "relative flex flex-col h-12 sm:h-16 justify-center items-center rounded-md border cursor-pointer transition-all",
     isSelected && "bg-brown-dark text-white font-bold",
     isToday && "underline font-bold bg-brown-light text-white",
   );
 
   const dotClasses = clsx(
-    "absolute bottom-2 h-2.5 w-2.5 rounded-full",
+    "absolute bottom-1 w-2 h-2 sm:bottom-2 sm:h-2.5 sm:w-2.5 rounded-full",
     isToday || isSelected ? "bg-white" : "bg-brown-light",
   );
 
