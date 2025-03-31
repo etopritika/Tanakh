@@ -11,6 +11,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - [Firebase Authentication Setup](#firebase-authentication-setup)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
+- [Tests](#tests)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -137,6 +138,33 @@ src/
 - **`npm run build`**: Build the application for production.
 - **`npm run preview`**: Preview the production build.
 - **`npm run lint`**: Run ESLint to check for code issues.
+- **`npm run test`**: Run unit tests with Jest.
+
+---
+
+## Tests
+
+We use **Jest** and **ts-jest** for unit testing.
+
+### Run all tests
+
+```bash
+npm run test
+```
+
+### Run a specific test file
+
+```bash
+npm run test -- <file-name>
+# example:
+npm run test -- translate
+```
+
+All tests related to calendar logic are located in:
+
+```
+src/components/Calendar/utils/calendar-utils/__tests__/
+```
 
 ---
 
