@@ -12,6 +12,7 @@ import { getUserCoordinates } from "../utils/calendar-utils/geo";
 import { translateHolidayTitle } from "../utils/calendar-utils/translate";
 import { parashatLinks } from "../utils/parashatLinks";
 
+import { toast } from "@/hooks/use-toast";
 import { useShabbatTimes } from "@/lib/api/fetchShabbatTimes";
 
 const DEFAULT_COORDS = {
@@ -34,7 +35,15 @@ const ShabbatTimes: React.FC = () => {
       .then((res) =>
         setCoords({ latitude: res.latitude, longitude: res.longitude }),
       )
-      .catch(() => setCoords(DEFAULT_COORDS));
+      .catch(() => {
+        setCoords(DEFAULT_COORDS);
+        toast({
+          title: "Геолокация недоступна",
+          description:
+            "Не удалось получить геолокацию. Использованы координаты по умолчанию.",
+          variant: "destructive",
+        });
+      });
   }, []);
 
   const { data, error, isLoading } = useShabbatTimes(

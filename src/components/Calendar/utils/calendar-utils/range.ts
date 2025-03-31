@@ -5,7 +5,7 @@
  * @returns Object with `start` and `end` in `YYYY-MM-DD` format
  */
 
-import { addDays, format, startOfWeek, subDays } from "date-fns";
+import { addDays, endOfDay, format, isAfter, startOfWeek } from "date-fns";
 
 export const getMonthRangeStrings = (
   date: Date,
@@ -36,14 +36,10 @@ export function getShabbatKeyForSWR(
   lat: number,
   lon: number,
 ): string {
-  const thisSunday = startOfWeek(date, { weekStartsOn: 0 });
+  const lastSunday = startOfWeek(date, { weekStartsOn: 0 });
+  const fridayThisWeek = addDays(lastSunday, 5);
 
-  const lastSunday = subDays(thisSunday, 7);
-
-  const fridayThisWeek = addDays(thisSunday, 5);
-
-  const inRange = date >= lastSunday && date <= fridayThisWeek;
-  const keyDate = inRange ? lastSunday : date;
+  const keyDate = isAfter(date, endOfDay(fridayThisWeek)) ? date : lastSunday;
 
   return `shabbat:${lat}:${lon}:${format(keyDate, "yyyy-MM-dd")}`;
 }
