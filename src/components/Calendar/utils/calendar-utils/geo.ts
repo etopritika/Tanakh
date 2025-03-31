@@ -1,5 +1,3 @@
-// =================== GEO ===================
-
 /**
  * Returns user's coordinates via browser geolocation API.
  * Falls back to error if denied or unavailable.
