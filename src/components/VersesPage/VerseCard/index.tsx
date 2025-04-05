@@ -100,7 +100,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
                   lang="he"
                   dir="rtl"
                   style={{ backgroundColor: highlightColor }}
-                  className={`rounded text-right`}
+                  className="rounded text-right"
                 >
                   {verse.verse_ivrit}
                 </p>
