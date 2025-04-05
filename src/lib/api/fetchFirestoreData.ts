@@ -6,13 +6,14 @@ import {
   getDocs,
   orderBy,
   query,
+  setDoc,
   Timestamp,
   updateDoc,
   where,
 } from "firebase/firestore";
 
 import { db } from "@/lib/firebase";
-import { VersesMetadata, FirestoreComment } from "@/lib/types";
+import { VersesMetadata, FirestoreComment, Verse } from "@/lib/types";
 import { useFirestoreStore } from "@/store/use-firestore-store";
 
 /**
@@ -250,5 +251,27 @@ export const updateVerseColorInFirestore = async (
     useFirestoreStore.getState().updateVerseColor(verseId, color);
   } catch {
     throw new Error("Не удалось обновить цвет. Попробуйте позже.");
+  }
+};
+
+/**
+ * Add or update a verse in the homepage_verses collection in Firestore.
+ * Used to display selected verses on the homepage.
+ * Only accessible by admin users (based on Firestore security rules).
+ *
+ * @param {Verse} verse - The verse object to add or update.
+ * @returns {Promise<void>} - Resolves when the operation is complete.
+ */
+export const addVerseToHomepage = async (verse: Verse): Promise<void> => {
+  const uid = localStorage.getItem("uid");
+  if (!uid) throw new Error("Пользователь не авторизован");
+
+  const docId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
+  const docRef = doc(db, "homepage_verses", docId);
+
+  try {
+    await setDoc(docRef, verse);
+  } catch {
+    throw new Error("Не удалось добавить стих. Попробуйте позже.");
   }
 };
