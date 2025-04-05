@@ -5,8 +5,8 @@ import CommentsDropdown from "./actions/CommentsDropdown";
 import { Card, CardContent, CardFooter } from "../../ui/card";
 
 import { Verse } from "@/lib/types";
-import { useCopyStore } from "@/store/use-copy-store";
 import { useFirestoreStore } from "@/store/use-firestore-store";
+import { useSelectionStore } from "@/store/use-select-store";
 
 export default function VerseCard({ verse }: { verse: Verse }) {
   const [isHighlighted, setIsHighlighted] = useState(false);
@@ -25,7 +25,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
   const verseHash = `#verse-${verse.poemNumber}`;
 
-  const { isSelecting, verses, toggleVerseSelection } = useCopyStore();
+  const { isSelecting, verses, toggleVerseSelection } = useSelectionStore();
   const isCopied = !!verses[verseId];
 
   const scrollToVerse = useCallback(() => {
@@ -54,12 +54,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
   const handleVerseClick = () => {
     if (isSelecting) {
-      toggleVerseSelection(
-        verseId,
-        verse.verse,
-        verse.poemNumber,
-        verse.verse_ivrit || "",
-      );
+      toggleVerseSelection(verseId, verse);
     }
   };
 

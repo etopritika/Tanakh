@@ -9,10 +9,10 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import { Verse } from "@/lib/types";
-import { useCopyStore } from "@/store/use-copy-store";
+import { useSelectionStore } from "@/store/use-select-store";
 
 export default function CommentsDropdown({ verse }: { verse: Verse }) {
-  const { isSelecting } = useCopyStore();
+  const { isSelecting } = useSelectionStore();
 
   return (
     <Accordion

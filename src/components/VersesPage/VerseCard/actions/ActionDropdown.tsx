@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 import AddComment from "../../../Modals/Comments/AddComment";
 import ModalContainer from "../../../Modals/ModalContainer";
 
-import AddToHomepageConfirmation from "@/components/Modals/VerseActions/AddToHomepageConfirmation";
+// import AddToHomepageConfirmation from "@/components/Modals/VerseActions/AddToHomepageConfirmation";
 import { toast } from "@/hooks/use-toast";
 import {
   createVerseColorInFirestore,
@@ -13,7 +13,7 @@ import {
 } from "@/lib/api/fetchFirestoreData";
 import { bookNameMap, BookPathMap, Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
-import { useCopyStore } from "@/store/use-copy-store";
+import { useSelectionStore } from "@/store/use-select-store";
 import { useUserStore } from "@/store/use-user-store";
 
 const COLORS = [
@@ -48,7 +48,7 @@ export default function ActionDropdown({
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  const { startCopying, isSelecting } = useCopyStore();
+  const { startSelecting, isSelecting } = useSelectionStore();
 
   const isTablet =
     typeof window !== "undefined" &&
@@ -76,15 +76,15 @@ export default function ActionDropdown({
     );
   };
 
-  const handleOpenAddVerse = (event: React.MouseEvent) => {
-    event.stopPropagation();
-    closeMenu();
-    setOpen(
-      <ModalContainer>
-        <AddToHomepageConfirmation verse={verse} />
-      </ModalContainer>,
-    );
-  };
+  // const handleOpenAddVerse = (event: React.MouseEvent) => {
+  //   event.stopPropagation();
+  //   closeMenu();
+  //   setOpen(
+  //     <ModalContainer>
+  //       <AddToHomepageConfirmation verse={verse} />
+  //     </ModalContainer>,
+  //   );
+  // };
 
   const handleCopy = async (event: React.MouseEvent, content: string) => {
     event.stopPropagation();
@@ -191,13 +191,12 @@ export default function ActionDropdown({
               className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
               onClick={(event) => {
                 handleCloseMenu(event);
-                startCopying(
+                startSelecting(
+                  "copy",
                   bookName,
                   verse.id_chapter,
                   verseId,
-                  verse.verse,
-                  verse.poemNumber,
-                  verse.verse_ivrit || "",
+                  verse,
                 );
               }}
             >
@@ -239,7 +238,16 @@ export default function ActionDropdown({
                 <hr className="my-1 border-gray-300" />
                 <button
                   className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-                  onClick={handleOpenAddVerse}
+                  onClick={(event) => {
+                    handleCloseMenu(event);
+                    startSelecting(
+                      "add",
+                      bookName,
+                      verse.id_chapter,
+                      verseId,
+                      verse,
+                    );
+                  }}
                 >
                   <CirclePlus className="h-4 w-4" />
                   Добавить на главную
