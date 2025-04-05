@@ -2,9 +2,10 @@ import { CirclePlus, Copy, Link, X } from "lucide-react";
 import { useState, ReactNode, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import AddModal from "../../Modals/Comments/AddModal";
+import AddComment from "../../Modals/Comments/AddComment";
 import ModalContainer from "../../Modals/ModalContainer";
 
+import AddToHomepageConfirmation from "@/components/Modals/VerseActions/AddToHomepageConfirmation";
 import { toast } from "@/hooks/use-toast";
 import {
   createVerseColorInFirestore,
@@ -13,6 +14,7 @@ import {
 import { bookNameMap, BookPathMap, Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 import { useCopyStore } from "@/store/use-copy-store";
+import { useUserStore } from "@/store/use-user-store";
 
 const COLORS = [
   { name: "Серый", value: "#E6E6E6" },
@@ -40,6 +42,9 @@ export default function ActionDropdown({
   const { setOpen } = useModal();
   const { pathname } = useLocation();
 
+  const { role } = useUserStore();
+  const isAdmin = role === "admin";
+
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -61,12 +66,22 @@ export default function ActionDropdown({
     }
   };
 
-  const handleOpenModal = (event: React.MouseEvent) => {
+  const handleOpenAddComment = (event: React.MouseEvent) => {
     event.stopPropagation();
     closeMenu();
     setOpen(
       <ModalContainer>
-        <AddModal bookName={bookPathName} verseId={verseId} />
+        <AddComment bookName={bookPathName} verseId={verseId} />
+      </ModalContainer>,
+    );
+  };
+
+  const handleOpenAddVerse = (event: React.MouseEvent) => {
+    event.stopPropagation();
+    closeMenu();
+    setOpen(
+      <ModalContainer>
+        <AddToHomepageConfirmation verse={verse} />
       </ModalContainer>,
     );
   };
@@ -167,7 +182,7 @@ export default function ActionDropdown({
 
             <button
               className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-              onClick={handleOpenModal}
+              onClick={handleOpenAddComment}
             >
               <CirclePlus className="h-4 w-4" />
               Добавить комментарий
@@ -207,7 +222,7 @@ export default function ActionDropdown({
             <p className="px-3 py-2 text-sm font-semibold text-gray-700">
               Изменить цвет
             </p>
-            <div className="flex justify-around px-3">
+            <div className="flex justify-around px-3 pb-2">
               {COLORS.map((color) => (
                 <button
                   key={color.value}
@@ -219,6 +234,18 @@ export default function ActionDropdown({
                 />
               ))}
             </div>
+            {isAdmin && (
+              <>
+                <hr className="my-1 border-gray-300" />
+                <button
+                  className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
+                  onClick={handleOpenAddVerse}
+                >
+                  <CirclePlus className="h-4 w-4" />
+                  Добавить на главную
+                </button>
+              </>
+            )}
           </div>
         </>
       )}
