@@ -30,12 +30,12 @@ const commentSchema = z.object({
   ]),
 });
 
-type EditModalProps = {
+type EditCommentProps = {
   comment: FirestoreComment;
   bookName: string;
 };
 
-export default function EditModal({ comment, bookName }: EditModalProps) {
+export default function EditComment({ comment, bookName }: EditCommentProps) {
   const { setOpen, setClose } = useModal();
 
   const form = useForm<z.infer<typeof commentSchema>>({
