@@ -21,6 +21,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { checkIfAdmin } from "@/lib/api/checkIfAdmin";
 import { signInWithFacebook, signInWithGoogle } from "@/lib/auth-providers";
 import { app } from "@/lib/firebase";
 import { useUserStore } from "@/store/use-user-store";
@@ -60,6 +61,7 @@ export default function LoginForm() {
 
       setUserName(userCredential.user.displayName);
       navigate("/", { replace: true });
+      checkIfAdmin();
     } catch (error: unknown) {
       if (error instanceof FirebaseError) {
         form.setError("email", {

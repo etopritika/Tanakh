@@ -6,6 +6,8 @@ import {
 } from "firebase/auth";
 import { UseFormSetError } from "react-hook-form";
 
+import { checkIfAdmin } from "./api/checkIfAdmin";
+
 import { getFirebaseErrorMessage } from "@/components/Auth/firebaseError";
 import { facebookAuthProvider, googleAuthProvider, app } from "@/lib/firebase";
 import { useUserStore } from "@/store/use-user-store";
@@ -29,6 +31,7 @@ export const signInWithGoogle = async (
     setUserName(result.user.displayName || null);
 
     navigate("/", { replace: true });
+    checkIfAdmin();
   } catch (error: unknown) {
     if (error instanceof FirebaseError) {
       setError("email", { message: getFirebaseErrorMessage(error.code) });
@@ -55,6 +58,7 @@ export const signInWithFacebook = async (
     setUserName(result.user.displayName || null);
 
     navigate("/", { replace: true });
+    checkIfAdmin();
   } catch (error: unknown) {
     if (error instanceof FirebaseError) {
       setError("email", { message: getFirebaseErrorMessage(error.code) });
