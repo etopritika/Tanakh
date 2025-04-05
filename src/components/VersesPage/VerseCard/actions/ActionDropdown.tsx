@@ -132,7 +132,7 @@ export default function ActionDropdown({
     const windowHeight = window.innerHeight;
 
     const menuWidth = isTablet ? 256 : 224;
-    const menuHeight = isTablet ? 251 : 239;
+    const menuHeight = isAdmin ? (isTablet ? 308 : 292) : isTablet ? 251 : 239;
 
     let x = event.clientX;
     let y = event.clientY;
