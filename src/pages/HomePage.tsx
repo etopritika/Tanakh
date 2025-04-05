@@ -1,3 +1,4 @@
+import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import HomepageVerseCard from "@/components/Homepage/HomepageVerseCard";
@@ -8,6 +9,7 @@ import { Verse } from "@/lib/types";
 
 export default function HomePage() {
   const [verses, setVerses] = useState<Verse[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchVerses = async () => {
@@ -22,11 +24,24 @@ export default function HomePage() {
           description: errorMessage,
           variant: "destructive",
         });
+      } finally {
+        setIsLoading(false);
       }
     };
 
     fetchVerses();
   }, []);
+
+  if (isLoading) {
+    return (
+      <section className="flex h-full items-center justify-center py-6">
+        <div className="flex space-x-2">
+          <LoaderCircle className="animate-spin" />
+          <p>Загрузка стихов...</p>
+        </div>
+      </section>
+    );
+  }
 
   if (verses.length === 0) {
     return (

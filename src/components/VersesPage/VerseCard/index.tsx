@@ -12,6 +12,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   const [isHighlighted, setIsHighlighted] = useState(false);
 
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+  const selectionId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const verseMetadata = useFirestoreStore((state) => state.verses[verseId]);
   const verseComments = Object.values(
@@ -26,7 +27,8 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   const verseHash = `#verse-${verse.poemNumber}`;
 
   const { isSelecting, verses, toggleVerseSelection } = useSelectionStore();
-  const isCopied = !!verses[verseId];
+
+  const isSelected = !!verses[selectionId];
 
   const scrollToVerse = useCallback(() => {
     if (window.location.hash !== verseHash) return;
@@ -54,7 +56,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
   const handleVerseClick = () => {
     if (isSelecting) {
-      toggleVerseSelection(verseId, verse);
+      toggleVerseSelection(selectionId, verse);
     }
   };
 
@@ -62,7 +64,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
     <li id={verseHash.substring(1)}>
       <Card
         onClick={handleVerseClick}
-        className={`bg-white shadow-md ${isCopied ? "bg-muted" : ""} ${
+        className={`bg-white shadow-md ${isSelected ? "bg-muted" : ""} ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >

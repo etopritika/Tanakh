@@ -57,6 +57,7 @@ export default function ActionDropdown({
   const bookPathName = BookPathMap[verse.id_book].bookName;
   const bookName = bookNameMap[bookPathName];
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+  const selectionId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const closeMenu = () => {
     if (isOpen) {
@@ -195,7 +196,7 @@ export default function ActionDropdown({
                   "copy",
                   bookName,
                   verse.id_chapter,
-                  verseId,
+                  selectionId,
                   verse,
                 );
               }}
@@ -244,7 +245,7 @@ export default function ActionDropdown({
                       "add",
                       bookName,
                       verse.id_chapter,
-                      verseId,
+                      selectionId,
                       verse,
                     );
                   }}

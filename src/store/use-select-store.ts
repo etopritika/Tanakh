@@ -16,11 +16,11 @@ type SelectionState = {
     mode: Mode,
     bookName: string,
     chapterId: number,
-    verseId: string,
+    selectionId: string,
     verse: Verse,
   ) => void;
 
-  toggleVerseSelection: (verseId: string, verse: Verse) => void;
+  toggleVerseSelection: (selectionId: string, verse: Verse) => void;
   cancelSelection: () => void;
 
   copyToClipboard: () => void;
@@ -33,23 +33,23 @@ export const useSelectionStore = create<SelectionState>((set, get) => ({
   chapterId: null,
   verses: {},
 
-  startSelecting: (mode, bookName, chapterId, verseId, verse) =>
+  startSelecting: (mode, bookName, chapterId, selectionId, verse) =>
     set({
       isSelecting: true,
       mode,
       bookName,
       chapterId,
-      verses: { [verseId]: verse },
+      verses: { [selectionId]: verse },
     }),
 
-  toggleVerseSelection: (verseId, verse) =>
+  toggleVerseSelection: (selectionId, verse) =>
     set((state) => {
       const updatedVerses = { ...state.verses };
 
-      if (updatedVerses[verseId]) {
-        delete updatedVerses[verseId];
+      if (updatedVerses[selectionId]) {
+        delete updatedVerses[selectionId];
       } else {
-        updatedVerses[verseId] = verse;
+        updatedVerses[selectionId] = verse;
       }
 
       return { verses: updatedVerses };
