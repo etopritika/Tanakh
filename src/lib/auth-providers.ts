@@ -8,7 +8,7 @@ import { UseFormSetError } from "react-hook-form";
 
 import { checkIfAdmin } from "./api/checkIfAdmin";
 
-import { getFirebaseErrorMessage } from "@/components/Auth/firebaseError";
+import { getFirebaseErrorMessage } from "@/components/AuthPage/firebaseError";
 import { facebookAuthProvider, googleAuthProvider, app } from "@/lib/firebase";
 import { useUserStore } from "@/store/use-user-store";
 
