@@ -13,7 +13,7 @@ import { ROUTES } from "./lib/routes";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 
 const AuthPage = React.lazy(() => import("./pages/AuthPage"));
-const MainPage = React.lazy(() => import("./pages/MainPage"));
+const HomePage = React.lazy(() => import("./pages/HomePage"));
 const BooksPage = React.lazy(() => import("./pages/BooksPage"));
 const ChaptersPage = React.lazy(() => import("./pages/ChaptersPage"));
 const VersesPage = React.lazy(() => import("./pages/VersesPage"));
@@ -62,7 +62,7 @@ function App() {
               path={ROUTES.home}
               element={
                 <PrivateRoute>
-                  <MainPage />
+                  <HomePage />
                 </PrivateRoute>
               }
             />
