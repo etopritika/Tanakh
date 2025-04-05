@@ -21,7 +21,7 @@ const COLORS = [
   { name: "Фиолетовый", value: "#EBC3FF" },
   { name: "Голубой", value: "#A1D1FF" },
   { name: "Зеленый", value: "#ACFFB7" },
-  { name: "Без цвета", value: "white" },
+  { name: "Без цвета", value: "transparent" },
 ];
 
 interface ContextMenuProps {
