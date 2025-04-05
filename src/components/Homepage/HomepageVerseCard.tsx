@@ -46,7 +46,9 @@ export default function HomepageVerseCard({
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-3 pb-4">
-            <p>{verse.verse}</p>
+            <p>
+              <strong>{verse.poemNumber}</strong> {verse.verse}
+            </p>
             {verse.verse_ivrit && (
               <p lang="he" dir="rtl" className="text-right">
                 {verse.verse_ivrit}
