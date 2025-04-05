@@ -11,9 +11,9 @@ interface AddToHomepageConfirmationProps {
   verse: Verse;
 }
 
-const AddToHomepageConfirmation: React.FC<AddToHomepageConfirmationProps> = ({
+export default function AddToHomepageConfirmation({
   verse,
-}) => {
+}: AddToHomepageConfirmationProps): JSX.Element {
   const { setClose } = useModal();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -77,6 +77,4 @@ const AddToHomepageConfirmation: React.FC<AddToHomepageConfirmationProps> = ({
       </div>
     </div>
   );
-};
-
-export default AddToHomepageConfirmation;
+}
