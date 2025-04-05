@@ -1,6 +1,6 @@
 import { CopyCheck, CopyX } from "lucide-react";
 
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 import { useCopyStore } from "@/store/use-copy-store";
 
