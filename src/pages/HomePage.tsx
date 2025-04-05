@@ -28,6 +28,14 @@ export default function HomePage() {
     fetchVerses();
   }, []);
 
+  if (verses.length === 0) {
+    return (
+      <section className="flex h-full items-center justify-center py-6">
+        <strong className="text-danger">Нет добавленных стихов.</strong>
+      </section>
+    );
+  }
+
   return (
     <section className="flex h-full justify-center py-6">
       <h1 className="sr-only">Главная страница</h1>
