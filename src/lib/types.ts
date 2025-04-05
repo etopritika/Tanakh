@@ -68,6 +68,7 @@ export type Chapter = {
 };
 
 export type Verse = {
+  documentId?: string;
   name: string;
   chapter: string;
   main?: number;

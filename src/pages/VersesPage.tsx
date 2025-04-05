@@ -2,10 +2,11 @@ import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
-import AppPagination from "@/components/AppPagination";
-import CopyControls from "@/components/CopyControls";
-import { NoVerses } from "@/components/NoVerses";
-import VerseList from "@/components/VerseList";
+import AddToHomepageControls from "@/components/VersesPage/AddToHomepageControls";
+import AppPagination from "@/components/VersesPage/AppPagination";
+import CopyControls from "@/components/VersesPage/CopyControls";
+import { NoVerses } from "@/components/VersesPage/NoVerses";
+import VerseList from "@/components/VersesPage/VerseList";
 import { toast } from "@/hooks/use-toast";
 import {
   fetchCommentsByBook,
@@ -13,8 +14,8 @@ import {
 } from "@/lib/api/fetchFirestoreData";
 import { fetchVersesData } from "@/lib/api/fetchVersesData";
 import { bookNameMap, Chapter, Verse } from "@/lib/types";
-import { useCopyStore } from "@/store/use-copy-store";
 import { useReadingStore } from "@/store/use-reading-store";
+import { useSelectionStore } from "@/store/use-select-store";
 
 export default function VersesPage() {
   const { pathname } = useLocation();
@@ -30,7 +31,7 @@ export default function VersesPage() {
     subChapterId?: string;
   }>();
   const setLastRead = useReadingStore((state) => state.setLastRead);
-  const { cancelSelection } = useCopyStore();
+  const { cancelSelection } = useSelectionStore();
 
   const [state, setState] = useState<{
     verses: Verse[];
@@ -154,6 +155,7 @@ export default function VersesPage() {
         sectionName={sectionName || ""}
         bookName={bookName || ""}
       />
+      <AddToHomepageControls />
       <CopyControls />
     </section>
   );

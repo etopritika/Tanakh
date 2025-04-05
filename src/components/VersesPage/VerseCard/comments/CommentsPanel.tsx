@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import EditCommentButton from "./EditCommentButton";
-import RedirectButton from "./RedirectButton";
-import AddModal from "../Modals/Comments/AddModal";
-import EditModal from "../Modals/Comments/EditModal";
-import ModalContainer from "../Modals/ModalContainer";
+import AddComment from "../../../Modals/Comments/AddComment";
+import EditComment from "../../../Modals/Comments/EditComment";
+import ModalContainer from "../../../Modals/ModalContainer";
+import RedirectButton from "../actions/RedirectButton";
 
 import { Input } from "@/components/ui/input";
 import { BookPathMap, Verse, FirestoreComment } from "@/lib/types";
@@ -33,9 +33,9 @@ export default function CommentsPanel({
     setOpen(
       <ModalContainer>
         {type === "add" ? (
-          <AddModal bookName={bookName} verseId={verseId} />
+          <AddComment bookName={bookName} verseId={verseId} />
         ) : (
-          comment && <EditModal comment={comment} bookName={bookName} />
+          comment && <EditComment comment={comment} bookName={bookName} />
         )}
       </ModalContainer>,
     );

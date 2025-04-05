@@ -1,75 +1,75 @@
 import { create } from "zustand";
 
 import { toast } from "@/hooks/use-toast";
+import { Verse } from "@/lib/types";
 
-type CopyState = {
+type Mode = "copy" | "add" | null;
+
+type SelectionState = {
   isSelecting: boolean;
+  mode: Mode;
   bookName: string | null;
   chapterId: number | null;
-  verses: Record<
-    string,
-    { verseContent: string; poemNumber: number; verseIvrit: string }
-  >;
-  startCopying: (
+  verses: Record<string, Verse>;
+
+  startSelecting: (
+    mode: Mode,
     bookName: string,
     chapterId: number,
-    verseId: string,
-    verseContent: string,
-    poemNumber: number,
-    verseIvrit: string,
+    selectionId: string,
+    verse: Verse,
   ) => void;
-  toggleVerseSelection: (
-    verseId: string,
-    verseContent: string,
-    poemNumber: number,
-    verseIvrit: string,
-  ) => void;
+
+  toggleVerseSelection: (selectionId: string, verse: Verse) => void;
   cancelSelection: () => void;
+
   copyToClipboard: () => void;
 };
 
-export const useCopyStore = create<CopyState>((set, get) => ({
+export const useSelectionStore = create<SelectionState>((set, get) => ({
   isSelecting: false,
+  mode: null,
   bookName: null,
   chapterId: null,
   verses: {},
 
-  startCopying: (
-    bookName,
-    chapterId,
-    verseId,
-    verseContent,
-    poemNumber,
-    verseIvrit,
-  ) =>
+  startSelecting: (mode, bookName, chapterId, selectionId, verse) =>
     set({
       isSelecting: true,
+      mode,
       bookName,
       chapterId,
-      verses: { [verseId]: { verseContent, poemNumber, verseIvrit } },
+      verses: { [selectionId]: verse },
     }),
 
-  toggleVerseSelection: (verseId, verseContent, poemNumber, verseIvrit) =>
+  toggleVerseSelection: (selectionId, verse) =>
     set((state) => {
       const updatedVerses = { ...state.verses };
 
-      if (updatedVerses[verseId]) {
-        delete updatedVerses[verseId];
+      if (updatedVerses[selectionId]) {
+        delete updatedVerses[selectionId];
       } else {
-        updatedVerses[verseId] = { verseContent, poemNumber, verseIvrit };
+        updatedVerses[selectionId] = verse;
       }
 
       return { verses: updatedVerses };
     }),
 
   cancelSelection: () =>
-    set({ isSelecting: false, bookName: null, chapterId: null, verses: {} }),
+    set({
+      isSelecting: false,
+      mode: null,
+      bookName: null,
+      chapterId: null,
+      verses: {},
+    }),
 
   copyToClipboard: async () => {
     const { bookName, chapterId, verses } = get();
+
     const text = Object.values(verses)
       .sort((a, b) => a.poemNumber - b.poemNumber)
-      .map((v) => `${v.poemNumber}: ${v.verseContent}\n${v.verseIvrit}`)
+      .map((v) => `${v.poemNumber}: ${v.verse}\n${v.verse_ivrit || ""}`)
       .join("\n");
 
     const finalText =
@@ -85,6 +85,13 @@ export const useCopyStore = create<CopyState>((set, get) => ({
           "Не удалось скопировать стихи. Попробуйте снова или скопируйте вручную.",
       });
     }
-    set({ isSelecting: false, bookName: null, chapterId: null, verses: {} });
+
+    set({
+      isSelecting: false,
+      mode: null,
+      bookName: null,
+      chapterId: null,
+      verses: {},
+    });
   },
 }));

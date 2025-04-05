@@ -1,17 +1,18 @@
 import { useCallback, useEffect, useState } from "react";
 
-import ActionDropdown from "./ActionDropdown";
-import CommentsDropdown from "./CommentsDropdown";
-import { Card, CardContent, CardFooter } from "../ui/card";
+import ActionDropdown from "./actions/ActionDropdown";
+import CommentsDropdown from "./actions/CommentsDropdown";
+import { Card, CardContent, CardFooter } from "../../ui/card";
 
 import { Verse } from "@/lib/types";
-import { useCopyStore } from "@/store/use-copy-store";
 import { useFirestoreStore } from "@/store/use-firestore-store";
+import { useSelectionStore } from "@/store/use-select-store";
 
 export default function VerseCard({ verse }: { verse: Verse }) {
   const [isHighlighted, setIsHighlighted] = useState(false);
 
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+  const selectionId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const verseMetadata = useFirestoreStore((state) => state.verses[verseId]);
   const verseComments = Object.values(
@@ -25,8 +26,9 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
   const verseHash = `#verse-${verse.poemNumber}`;
 
-  const { isSelecting, verses, toggleVerseSelection } = useCopyStore();
-  const isCopied = !!verses[verseId];
+  const { isSelecting, verses, toggleVerseSelection } = useSelectionStore();
+
+  const isSelected = !!verses[selectionId];
 
   const scrollToVerse = useCallback(() => {
     if (window.location.hash !== verseHash) return;
@@ -54,12 +56,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
 
   const handleVerseClick = () => {
     if (isSelecting) {
-      toggleVerseSelection(
-        verseId,
-        verse.verse,
-        verse.poemNumber,
-        verse.verse_ivrit || "",
-      );
+      toggleVerseSelection(selectionId, verse);
     }
   };
 
@@ -67,7 +64,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
     <li id={verseHash.substring(1)}>
       <Card
         onClick={handleVerseClick}
-        className={`bg-white shadow-md ${isCopied ? "bg-muted" : ""} ${
+        className={`bg-white shadow-md ${isSelected ? "bg-muted" : ""} ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
       >
@@ -76,9 +73,9 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             hasComments ? "pb-0 sm:pb-0" : ""
           } `}
         >
-          <span className="text-xs font-bold leading-5 sm:text-sm">
+          <strong className="text-xs leading-5 sm:text-sm">
             {verse.poemNumber}
-          </span>
+          </strong>
 
           <ActionDropdown
             verse={verse}
@@ -100,7 +97,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
                   lang="he"
                   dir="rtl"
                   style={{ backgroundColor: highlightColor }}
-                  className={`rounded text-right`}
+                  className="rounded text-right"
                 >
                   {verse.verse_ivrit}
                 </p>

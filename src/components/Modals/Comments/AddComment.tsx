@@ -26,7 +26,7 @@ const commentSchema = z.object({
   ]),
 });
 
-export default function AddModal({
+export default function AddComment({
   bookName,
   verseId,
 }: {

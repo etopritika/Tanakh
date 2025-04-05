@@ -12,8 +12,11 @@ export default function Logout() {
     const auth = getAuth(app);
     try {
       await signOut(auth);
+
       localStorage.removeItem("token");
       localStorage.removeItem("uid");
+      localStorage.removeItem("user-storage");
+
       navigate("/auth", { replace: true });
     } catch {
       toast({

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
-import SearchForm from "@/components/Search/SearchForm";
-import SearchList from "@/components/Search/SearchList";
+import SearchForm from "@/components/SearchPage/SearchForm";
+import SearchList from "@/components/SearchPage/SearchList";
 import { useSearchStore } from "@/store/use-search-store";
 
 export default function SearchPage() {

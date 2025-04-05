@@ -37,7 +37,7 @@ export default function RegisterForm() {
   const navigate = useNavigate();
   const [emailSent, setEmailSent] = useState(false);
   const [user, setUser] = useState<User | null>(null);
-  const [isPending, setIsPending] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const { setUserName } = useUserStore();
 
   const form = useForm<RegisterFormValues>({
@@ -68,7 +68,7 @@ export default function RegisterForm() {
   }, [user, navigate]);
 
   const onSubmit = async (values: RegisterFormValues) => {
-    setIsPending(true);
+    setIsLoading(true);
     const auth = getAuth(app);
     try {
       const userCredential = await createUserWithEmailAndPassword(
@@ -96,7 +96,7 @@ export default function RegisterForm() {
         });
       }
     } finally {
-      setIsPending(false);
+      setIsLoading(false);
     }
   };
 
@@ -182,10 +182,10 @@ export default function RegisterForm() {
           <Button
             type="submit"
             className="w-full bg-brown-light text-white"
-            disabled={isPending}
+            disabled={isLoading}
           >
             Зарегистрироваться{" "}
-            {isPending && (
+            {isLoading && (
               <LoaderCircle className="h-5 w-5 animate-spin text-white" />
             )}
           </Button>

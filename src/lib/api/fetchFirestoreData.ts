@@ -9,10 +9,11 @@ import {
   Timestamp,
   updateDoc,
   where,
+  writeBatch,
 } from "firebase/firestore";
 
 import { db } from "@/lib/firebase";
-import { VersesMetadata, FirestoreComment } from "@/lib/types";
+import { VersesMetadata, FirestoreComment, Verse } from "@/lib/types";
 import { useFirestoreStore } from "@/store/use-firestore-store";
 
 /**
@@ -250,5 +251,64 @@ export const updateVerseColorInFirestore = async (
     useFirestoreStore.getState().updateVerseColor(verseId, color);
   } catch {
     throw new Error("Не удалось обновить цвет. Попробуйте позже.");
+  }
+};
+
+export const addVerseToHomepage = async (verses: Record<string, Verse>) => {
+  const batch = writeBatch(db);
+
+  for (const [docId, verse] of Object.entries(verses)) {
+    const docRef = doc(db, "homepage_verses", docId);
+    batch.set(docRef, verse);
+  }
+
+  try {
+    await batch.commit();
+    console.log("Успішно збережено всі вірші.");
+  } catch (error) {
+    console.error("Помилка при збереженні віршів:", error);
+    throw error;
+  }
+};
+
+/**
+ * Fetches all verses that should be displayed on the homepage, sorted by poemNumber.
+ * @returns {Promise<(Verse & { documentId: string })[]>} - Array of verses with document IDs.
+ */
+export const fetchHomepageVerses = async (): Promise<
+  (Verse & { documentId: string })[]
+> => {
+  try {
+    const versesRef = collection(db, "homepage_verses");
+    const q = query(versesRef, orderBy("poemNumber", "asc"));
+    const snapshot = await getDocs(q);
+
+    const verses = snapshot.docs.map((doc) => ({
+      ...doc.data(),
+      documentId: doc.id,
+    })) as (Verse & { documentId: string })[];
+
+    return verses;
+  } catch {
+    throw new Error("Не удалось загрузить стихи для главной страницы.");
+  }
+};
+
+/**
+ * Deletes a verse from the "homepage_verses" collection in Firestore.
+ * This function is used to remove a verse from the homepage.
+ *
+ * @param {string} verseId - The ID of the verse to delete (document ID in Firestore).
+ * @returns {Promise<void>} - Resolves when the verse is successfully deleted.
+ * @throws {Error} - Throws an error if the deletion fails.
+ */
+export const deleteVerseFromHomepage = async (
+  verseId: string,
+): Promise<void> => {
+  try {
+    const verseRef = doc(db, "homepage_verses", verseId);
+    await deleteDoc(verseRef);
+  } catch {
+    throw new Error("Не удалось удалить стих. Попробуйте позже.");
   }
 };

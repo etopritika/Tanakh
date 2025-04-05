@@ -2,9 +2,10 @@ import { CirclePlus, Copy, Link, X } from "lucide-react";
 import { useState, ReactNode, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import AddModal from "../Modals/Comments/AddModal";
-import ModalContainer from "../Modals/ModalContainer";
+import AddComment from "../../../Modals/Comments/AddComment";
+import ModalContainer from "../../../Modals/ModalContainer";
 
+// import AddToHomepageConfirmation from "@/components/Modals/VerseActions/AddToHomepageConfirmation";
 import { toast } from "@/hooks/use-toast";
 import {
   createVerseColorInFirestore,
@@ -12,14 +13,15 @@ import {
 } from "@/lib/api/fetchFirestoreData";
 import { bookNameMap, BookPathMap, Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
-import { useCopyStore } from "@/store/use-copy-store";
+import { useSelectionStore } from "@/store/use-select-store";
+import { useUserStore } from "@/store/use-user-store";
 
 const COLORS = [
   { name: "Серый", value: "#E6E6E6" },
   { name: "Фиолетовый", value: "#EBC3FF" },
   { name: "Голубой", value: "#A1D1FF" },
   { name: "Зеленый", value: "#ACFFB7" },
-  { name: "Без цвета", value: "white" },
+  { name: "Без цвета", value: "transparent" },
 ];
 
 interface ContextMenuProps {
@@ -40,10 +42,13 @@ export default function ActionDropdown({
   const { setOpen } = useModal();
   const { pathname } = useLocation();
 
+  const { role } = useUserStore();
+  const isAdmin = role === "admin";
+
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
-  const { startCopying, isSelecting } = useCopyStore();
+  const { startSelecting, isSelecting } = useSelectionStore();
 
   const isTablet =
     typeof window !== "undefined" &&
@@ -52,6 +57,7 @@ export default function ActionDropdown({
   const bookPathName = BookPathMap[verse.id_book].bookName;
   const bookName = bookNameMap[bookPathName];
   const verseId = `verse-${verse.id_chapter}-${verse?.id_chapter_two || 1}-${verse.poemNumber}`;
+  const selectionId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const closeMenu = () => {
     if (isOpen) {
@@ -61,15 +67,25 @@ export default function ActionDropdown({
     }
   };
 
-  const handleOpenModal = (event: React.MouseEvent) => {
+  const handleOpenAddComment = (event: React.MouseEvent) => {
     event.stopPropagation();
     closeMenu();
     setOpen(
       <ModalContainer>
-        <AddModal bookName={bookPathName} verseId={verseId} />
+        <AddComment bookName={bookPathName} verseId={verseId} />
       </ModalContainer>,
     );
   };
+
+  // const handleOpenAddVerse = (event: React.MouseEvent) => {
+  //   event.stopPropagation();
+  //   closeMenu();
+  //   setOpen(
+  //     <ModalContainer>
+  //       <AddToHomepageConfirmation verse={verse} />
+  //     </ModalContainer>,
+  //   );
+  // };
 
   const handleCopy = async (event: React.MouseEvent, content: string) => {
     event.stopPropagation();
@@ -117,7 +133,7 @@ export default function ActionDropdown({
     const windowHeight = window.innerHeight;
 
     const menuWidth = isTablet ? 256 : 224;
-    const menuHeight = isTablet ? 251 : 239;
+    const menuHeight = isAdmin ? (isTablet ? 308 : 292) : isTablet ? 251 : 239;
 
     let x = event.clientX;
     let y = event.clientY;
@@ -167,7 +183,7 @@ export default function ActionDropdown({
 
             <button
               className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
-              onClick={handleOpenModal}
+              onClick={handleOpenAddComment}
             >
               <CirclePlus className="h-4 w-4" />
               Добавить комментарий
@@ -176,13 +192,12 @@ export default function ActionDropdown({
               className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
               onClick={(event) => {
                 handleCloseMenu(event);
-                startCopying(
+                startSelecting(
+                  "copy",
                   bookName,
                   verse.id_chapter,
-                  verseId,
-                  verse.verse,
-                  verse.poemNumber,
-                  verse.verse_ivrit || "",
+                  selectionId,
+                  verse,
                 );
               }}
             >
@@ -207,7 +222,7 @@ export default function ActionDropdown({
             <p className="px-3 py-2 text-sm font-semibold text-gray-700">
               Изменить цвет
             </p>
-            <div className="flex justify-around px-3">
+            <div className="flex justify-around px-3 pb-2">
               {COLORS.map((color) => (
                 <button
                   key={color.value}
@@ -219,6 +234,27 @@ export default function ActionDropdown({
                 />
               ))}
             </div>
+            {isAdmin && (
+              <>
+                <hr className="my-1 border-gray-300" />
+                <button
+                  className="flex w-full items-center gap-2 rounded-md p-2 text-left hover:bg-gray-100"
+                  onClick={(event) => {
+                    handleCloseMenu(event);
+                    startSelecting(
+                      "add",
+                      bookName,
+                      verse.id_chapter,
+                      selectionId,
+                      verse,
+                    );
+                  }}
+                >
+                  <CirclePlus className="h-4 w-4" />
+                  Добавить на главную
+                </button>
+              </>
+            )}
           </div>
         </>
       )}
