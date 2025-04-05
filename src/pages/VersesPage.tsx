@@ -4,8 +4,8 @@ import { useLocation, useParams } from "react-router-dom";
 
 import AppPagination from "@/components/AppPagination";
 import CopyControls from "@/components/CopyControls";
-import { NoVerses } from "@/components/NoVerses";
-import VerseList from "@/components/VerseList";
+import { NoVerses } from "@/components/VersesPage/NoVerses";
+import VerseList from "@/components/VersesPage/VerseList";
 import { toast } from "@/hooks/use-toast";
 import {
   fetchCommentsByBook,

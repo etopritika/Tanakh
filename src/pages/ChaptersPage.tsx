@@ -2,8 +2,8 @@ import { LoaderCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import ChapterList from "@/components/ChapterList";
-import { NoChapters } from "@/components/NoChapters";
+import ChapterList from "@/components/ChaptersPage/ChapterList";
+import { NoChapters } from "@/components/ChaptersPage/NoChapters";
 import { Chapter } from "@/lib/types";
 
 export default function ChaptersPage() {

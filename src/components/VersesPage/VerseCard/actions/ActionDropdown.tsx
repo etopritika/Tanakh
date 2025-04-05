@@ -2,8 +2,8 @@ import { CirclePlus, Copy, Link, X } from "lucide-react";
 import { useState, ReactNode, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import AddComment from "../../Modals/Comments/AddComment";
-import ModalContainer from "../../Modals/ModalContainer";
+import AddComment from "../../../Modals/Comments/AddComment";
+import ModalContainer from "../../../Modals/ModalContainer";
 
 import AddToHomepageConfirmation from "@/components/Modals/VerseActions/AddToHomepageConfirmation";
 import { toast } from "@/hooks/use-toast";

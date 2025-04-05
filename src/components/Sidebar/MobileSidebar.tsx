@@ -2,9 +2,9 @@ import { BookMarked, Menu } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 import BookLinks from "./BookLinks";
-import Logout from "../Logout";
+import Logout from "./Logout";
 import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
-import UserName from "../UserName";
+import UserName from "./UserName";
 
 import {
   Sheet,

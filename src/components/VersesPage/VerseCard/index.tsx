@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 
 import ActionDropdown from "./actions/ActionDropdown";
 import CommentsDropdown from "./actions/CommentsDropdown";
-import { Card, CardContent, CardFooter } from "../ui/card";
+import { Card, CardContent, CardFooter } from "../../ui/card";
 
 import { Verse } from "@/lib/types";
 import { useCopyStore } from "@/store/use-copy-store";

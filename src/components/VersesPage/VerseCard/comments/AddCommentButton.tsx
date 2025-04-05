@@ -1,13 +1,13 @@
 import { CirclePlus } from "lucide-react";
 import { memo } from "react";
 
-import { Button } from "../../ui/button";
+import { Button } from "../../../ui/button";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "../../ui/tooltip";
+} from "../../../ui/tooltip";
 
 const AddCommentButton = memo(function AddCommentButton({
   onAdd,

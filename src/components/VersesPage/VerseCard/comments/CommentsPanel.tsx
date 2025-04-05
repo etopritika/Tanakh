@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 import EditCommentButton from "./EditCommentButton";
-import AddComment from "../../Modals/Comments/AddComment";
-import EditComment from "../../Modals/Comments/EditComment";
-import ModalContainer from "../../Modals/ModalContainer";
+import AddComment from "../../../Modals/Comments/AddComment";
+import EditComment from "../../../Modals/Comments/EditComment";
+import ModalContainer from "../../../Modals/ModalContainer";
 import RedirectButton from "../actions/RedirectButton";
 
 import { Input } from "@/components/ui/input";
