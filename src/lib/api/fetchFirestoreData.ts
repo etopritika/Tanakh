@@ -277,18 +277,22 @@ export const addVerseToHomepage = async (verse: Verse): Promise<void> => {
 };
 
 /**
- * Fetches all verses that should be displayed on the homepage, including document IDs.
+ * Fetches all verses that should be displayed on the homepage, sorted by poemNumber.
  * @returns {Promise<(Verse & { documentId: string })[]>} - Array of verses with document IDs.
  */
 export const fetchHomepageVerses = async (): Promise<
   (Verse & { documentId: string })[]
 > => {
   try {
-    const snapshot = await getDocs(collection(db, "homepage_verses"));
+    const versesRef = collection(db, "homepage_verses");
+    const q = query(versesRef, orderBy("poemNumber", "asc"));
+    const snapshot = await getDocs(q);
+
     const verses = snapshot.docs.map((doc) => ({
       ...doc.data(),
       documentId: doc.id,
     })) as (Verse & { documentId: string })[];
+
     return verses;
   } catch {
     throw new Error("Не удалось загрузить стихи для главной страницы.");
