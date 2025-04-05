@@ -275,3 +275,41 @@ export const addVerseToHomepage = async (verse: Verse): Promise<void> => {
     throw new Error("Не удалось добавить стих. Попробуйте позже.");
   }
 };
+
+/**
+ * Fetches all verses that should be displayed on the homepage, including document IDs.
+ * @returns {Promise<(Verse & { documentId: string })[]>} - Array of verses with document IDs.
+ */
+export const fetchHomepageVerses = async (): Promise<
+  (Verse & { documentId: string })[]
+> => {
+  try {
+    const snapshot = await getDocs(collection(db, "homepage_verses"));
+    const verses = snapshot.docs.map((doc) => ({
+      ...doc.data(),
+      documentId: doc.id,
+    })) as (Verse & { documentId: string })[];
+    return verses;
+  } catch {
+    throw new Error("Не удалось загрузить стихи для главной страницы.");
+  }
+};
+
+/**
+ * Deletes a verse from the "homepage_verses" collection in Firestore.
+ * This function is used to remove a verse from the homepage.
+ *
+ * @param {string} verseId - The ID of the verse to delete (document ID in Firestore).
+ * @returns {Promise<void>} - Resolves when the verse is successfully deleted.
+ * @throws {Error} - Throws an error if the deletion fails.
+ */
+export const deleteVerseFromHomepage = async (
+  verseId: string,
+): Promise<void> => {
+  try {
+    const verseRef = doc(db, "homepage_verses", verseId);
+    await deleteDoc(verseRef);
+  } catch {
+    throw new Error("Не удалось удалить стих. Попробуйте позже.");
+  }
+};
