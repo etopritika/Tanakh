@@ -9,13 +9,13 @@ import { useSelectionStore } from "@/store/use-select-store";
 
 export default function AddToHomepageControls() {
   const { isSelecting, mode, verses, cancelSelection } = useSelectionStore();
-  const [isPending, setIsPending] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const hasSelectedVerses = Object.keys(verses).length > 0;
 
   if (!isSelecting || mode !== "add") return null;
 
   const handleAddToHomepage = async () => {
-    setIsPending(true);
+    setIsLoading(true);
 
     try {
       await addVerseToHomepage(verses);
@@ -36,7 +36,7 @@ export default function AddToHomepageControls() {
         variant: "destructive",
       });
     } finally {
-      setIsPending(false);
+      setIsLoading(false);
     }
   };
 
@@ -55,11 +55,11 @@ export default function AddToHomepageControls() {
           variant="outline"
           onClick={handleAddToHomepage}
           className="bg-brown-dark text-white"
-          disabled={!hasSelectedVerses || isPending}
+          disabled={!hasSelectedVerses || isLoading}
           size="sm"
         >
           <Plus className="mr-1" />
-          {isPending
+          {isLoading
             ? "Добавление..."
             : `Добавить (${Object.keys(verses).length})`}
         </Button>

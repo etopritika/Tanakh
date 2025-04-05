@@ -34,7 +34,7 @@ export default function ForgotPasswordForm() {
     type: "success" | "error";
   } | null>(null);
 
-  const [isPending, setIsPending] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<ForgotPasswordValues>({
     resolver: zodResolver(forgotPasswordSchema),
@@ -44,7 +44,7 @@ export default function ForgotPasswordForm() {
   });
 
   const onSubmit = async (values: ForgotPasswordValues) => {
-    setIsPending(true);
+    setIsLoading(true);
     try {
       await sendResetPasswordEmail(values.email);
       setMessage({
@@ -64,7 +64,7 @@ export default function ForgotPasswordForm() {
         });
       }
     } finally {
-      setIsPending(false);
+      setIsLoading(false);
     }
   };
 
@@ -104,10 +104,10 @@ export default function ForgotPasswordForm() {
               <Button
                 type="submit"
                 className="h-auto whitespace-normal bg-brown-light text-white"
-                disabled={isPending}
+                disabled={isLoading}
               >
                 Отправить инструкции{" "}
-                {isPending && (
+                {isLoading && (
                   <LoaderCircle className="h-5 w-5 animate-spin text-white" />
                 )}
               </Button>

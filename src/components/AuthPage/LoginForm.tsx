@@ -38,11 +38,11 @@ export default function LoginForm() {
     },
   });
 
-  const [isPending, setIsPending] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const { setUserName } = useUserStore();
 
   const onSubmit = async (values: LoginFormValues) => {
-    setIsPending(true);
+    setIsLoading(true);
     const auth = getAuth(app);
     try {
       const userCredential = await signInWithEmailAndPassword(
@@ -73,7 +73,7 @@ export default function LoginForm() {
         });
       }
     } finally {
-      setIsPending(false);
+      setIsLoading(false);
     }
   };
 
@@ -127,10 +127,10 @@ export default function LoginForm() {
         <Button
           type="submit"
           className="w-full bg-brown-light text-white"
-          disabled={isPending}
+          disabled={isLoading}
         >
           Войти{" "}
-          {isPending && (
+          {isLoading && (
             <LoaderCircle className="h-5 w-5 animate-spin text-white" />
           )}
         </Button>

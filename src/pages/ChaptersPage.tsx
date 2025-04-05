@@ -10,13 +10,13 @@ export default function ChaptersPage() {
   const { sectionName, bookName } = useParams();
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [іsLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const loadChapters = async () => {
       if (!sectionName || !bookName) {
         setError("Секция или книга не найдена");
-        setLoading(false);
+        setIsLoading(false);
         return;
       }
 
@@ -30,14 +30,14 @@ export default function ChaptersPage() {
           `Не удалось загрузить главы для книги "${bookName}" в разделе "${sectionName}".`,
         );
       } finally {
-        setLoading(false);
+        setIsLoading(false);
       }
     };
 
     loadChapters();
   }, [sectionName, bookName]);
 
-  if (loading) {
+  if (іsLoading) {
     return (
       <section className="flex h-full items-center justify-center py-6">
         <div className="flex space-x-2">
