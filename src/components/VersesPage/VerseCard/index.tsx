@@ -76,9 +76,9 @@ export default function VerseCard({ verse }: { verse: Verse }) {
             hasComments ? "pb-0 sm:pb-0" : ""
           } `}
         >
-          <span className="text-xs font-bold leading-5 sm:text-sm">
+          <strong className="text-xs leading-5 sm:text-sm">
             {verse.poemNumber}
-          </span>
+          </strong>
 
           <ActionDropdown
             verse={verse}
