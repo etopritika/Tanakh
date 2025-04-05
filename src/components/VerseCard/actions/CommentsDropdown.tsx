@@ -1,6 +1,6 @@
 import { MessageSquareText } from "lucide-react";
 
-import CommentsPanel from "./Comments-Panel";
+import CommentsPanel from "../comments/CommentsPanel";
 
 import {
   Accordion,
