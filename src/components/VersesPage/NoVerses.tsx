@@ -5,7 +5,7 @@ type NoVersesProps = {
 export function NoVerses({ error }: NoVersesProps) {
   return (
     <section className="flex h-full items-center justify-center py-6">
-      <span className="text-danger">{error}</span>
+      <strong className="text-danger">{error}</strong>
     </section>
   );
 }
