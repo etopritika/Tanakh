@@ -39,6 +39,7 @@ export default function HomePage() {
     return {
       main: main.trim(),
       comment: comment ? comment.replace(")", "").trim() : "",
+      id: verses[0]?.id_chapter,
     };
   })();
 
@@ -87,6 +88,7 @@ export default function HomePage() {
       <h1 className="flex items-center space-x-2">
         <strong>{fullChapterName.main}</strong>
         {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
+        <span>{fullChapterName.id}</span>
         <Tooltip>
           <TooltipTrigger>
             <Link to={redirectPath} className="text-blue-600">
