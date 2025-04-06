@@ -24,7 +24,7 @@ export default function AddToHomepageControls() {
       toast({
         title: "Успешно",
         description: (
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2 underline">
             Стихи добавлены на главную. <ChevronsRight />
           </Link>
         ),
