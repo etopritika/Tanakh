@@ -4,6 +4,7 @@ import Header from "./Header";
 import ScrollUpButton from "./ScrollUpButton";
 import DesktopSidebar from "./Sidebar/DesktopSidebar";
 import { Toaster } from "./ui/toaster";
+import { TooltipProvider } from "./ui/tooltip";
 
 import ModalProvider from "@/providers/Modal";
 
@@ -12,18 +13,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const isExcludedPage = ["/auth", "/forgot-password"].includes(pathname);
   return (
     <div className="h-screen px-2 sm:px-4">
-      <ModalProvider>
-        {!isExcludedPage && <Header />}
-        {!isExcludedPage && <DesktopSidebar />}
+      <TooltipProvider>
+        <ModalProvider>
+          {!isExcludedPage && <Header />}
+          {!isExcludedPage && <DesktopSidebar />}
 
-        <main
-          className={`h-full ${!isExcludedPage ? "pb-2 pt-14 lg:ml-80" : ""}`}
-        >
-          {children}
-        </main>
-        {!isExcludedPage && <ScrollUpButton />}
-        <Toaster />
-      </ModalProvider>
+          <main
+            className={`h-full ${!isExcludedPage ? "pb-2 pt-14 lg:ml-80" : ""}`}
+          >
+            {children}
+          </main>
+          {!isExcludedPage && <ScrollUpButton />}
+          <Toaster />
+        </ModalProvider>
+      </TooltipProvider>
     </div>
   );
 }

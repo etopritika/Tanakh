@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 import AddComment from "../../../Modals/Comments/AddComment";
 import ModalContainer from "../../../Modals/ModalContainer";
 
-// import AddToHomepageConfirmation from "@/components/Modals/VerseActions/AddToHomepageConfirmation";
 import { toast } from "@/hooks/use-toast";
 import {
   createVerseColorInFirestore,
@@ -76,16 +75,6 @@ export default function ActionDropdown({
       </ModalContainer>,
     );
   };
-
-  // const handleOpenAddVerse = (event: React.MouseEvent) => {
-  //   event.stopPropagation();
-  //   closeMenu();
-  //   setOpen(
-  //     <ModalContainer>
-  //       <AddToHomepageConfirmation verse={verse} />
-  //     </ModalContainer>,
-  //   );
-  // };
 
   const handleCopy = async (event: React.MouseEvent, content: string) => {
     event.stopPropagation();

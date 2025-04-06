@@ -7,7 +7,6 @@ import HomepageVerseList from "@/components/Homepage/HomepageVerseList";
 import {
   Tooltip,
   TooltipContent,
-  TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { toast } from "@/hooks/use-toast";
@@ -34,7 +33,6 @@ export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
 
   const redirectPath = getRedirectPath(verses[0]);
-  console.log(redirectPath);
 
   const fullChapterName = (() => {
     const [main, comment] = (verses[0]?.chapter || "").split(" (");
@@ -85,32 +83,30 @@ export default function HomePage() {
   }
 
   return (
-    <TooltipProvider>
-      <section className="flex flex-col justify-center space-y-2 py-6">
-        <h1 className="flex items-center space-x-2">
-          <strong>{fullChapterName.main}</strong>
-          {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
-          <Tooltip>
-            <TooltipTrigger>
-              <Link to={redirectPath} className="text-blue-600">
-                <ChevronsRight />
-              </Link>
-            </TooltipTrigger>
-            <TooltipContent className="bg-white">
-              <p>Перейти</p>
-            </TooltipContent>
-          </Tooltip>
-        </h1>
-        <HomepageVerseList>
-          {verses.map((verse) => (
-            <HomepageVerseCard
-              key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
-              verse={verse}
-              setVerses={setVerses}
-            />
-          ))}
-        </HomepageVerseList>
-      </section>
-    </TooltipProvider>
+    <section className="flex flex-col justify-center space-y-2 py-6">
+      <h1 className="flex items-center space-x-2">
+        <strong>{fullChapterName.main}</strong>
+        {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
+        <Tooltip>
+          <TooltipTrigger>
+            <Link to={redirectPath} className="text-blue-600">
+              <ChevronsRight />
+            </Link>
+          </TooltipTrigger>
+          <TooltipContent className="bg-white">
+            <p>Перейти</p>
+          </TooltipContent>
+        </Tooltip>
+      </h1>
+      <HomepageVerseList>
+        {verses.map((verse) => (
+          <HomepageVerseCard
+            key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
+            verse={verse}
+            setVerses={setVerses}
+          />
+        ))}
+      </HomepageVerseList>
+    </section>
   );
 }
