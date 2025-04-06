@@ -1,5 +1,6 @@
-import { CopyX, Plus } from "lucide-react";
+import { ChevronsRight, CopyX, Plus } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { Button } from "../ui/button";
 
@@ -22,7 +23,12 @@ export default function AddToHomepageControls() {
 
       toast({
         title: "Успешно",
-        description: "Стихи добавлены на главную.",
+        description: (
+          <Link to="/" className="flex items-center gap-2">
+            Стихи добавлены на главную.{" "}
+            <ChevronsRight className="text-blue-600" />
+          </Link>
+        ),
         variant: "success",
       });
       cancelSelection();
