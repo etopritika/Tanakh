@@ -9,7 +9,6 @@ export const checkIfAdmin = async (): Promise<void> => {
   const user = auth.currentUser;
 
   if (!user) {
-    console.log("[checkIfAdmin] No authenticated user found.");
     useUserStore.getState().setUserRole("user");
     return;
   }
