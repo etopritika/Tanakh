@@ -53,25 +53,27 @@ export default function HomePage() {
   }
 
   return (
-    <section className="flex flex-col justify-center space-y-6 py-6">
+    <section className="flex flex-col justify-center py-6">
       <h1 className="sr-only">Главная страница</h1>
-      {Object.entries(groupVersesByChapterSorted(verses)).map(
-        ([chapterId, versesInGroup]) => {
-          const firstVerse = versesInGroup[0];
+      <div className="space-y-6">
+        {Object.entries(groupVersesByChapterSorted(verses)).map(
+          ([chapterId, versesInGroup]) => {
+            const firstVerse = versesInGroup[0];
 
-          return (
-            <HomepageVerseList key={chapterId} firstVerse={firstVerse}>
-              {versesInGroup.map((verse) => (
-                <HomepageVerseCard
-                  key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
-                  verse={verse}
-                  setVerses={setVerses}
-                />
-              ))}
-            </HomepageVerseList>
-          );
-        },
-      )}
+            return (
+              <HomepageVerseList key={chapterId} firstVerse={firstVerse}>
+                {versesInGroup.map((verse) => (
+                  <HomepageVerseCard
+                    key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
+                    verse={verse}
+                    setVerses={setVerses}
+                  />
+                ))}
+              </HomepageVerseList>
+            );
+          },
+        )}
+      </div>
     </section>
   );
 }
