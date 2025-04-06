@@ -41,7 +41,7 @@ export default function HolidayCard() {
                   <p
                     lang="he"
                     dir="rtl"
-                    className="text-muted-foreground text-md"
+                    className="text-muted-foreground text-md text-right"
                   >
                     {holiday.hebrew}
                   </p>
