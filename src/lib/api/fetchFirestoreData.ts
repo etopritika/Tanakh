@@ -280,7 +280,7 @@ export const addVerseToHomepage = async (verses: Record<string, Verse>) => {
 };
 
 /**
- * Fetches all verses that should be displayed on the homepage, sorted by poemNumber.
+ * Fetches all verses that should be displayed on the homepage.
  * @returns {Promise<(Verse & { documentId: string })[]>} - Array of verses with document IDs.
  */
 export const fetchHomepageVerses = async (): Promise<
@@ -288,8 +288,7 @@ export const fetchHomepageVerses = async (): Promise<
 > => {
   try {
     const versesRef = collection(db, "homepage_verses");
-    const q = query(versesRef, orderBy("poemNumber", "asc"));
-    const snapshot = await getDocs(q);
+    const snapshot = await getDocs(versesRef);
 
     const verses = snapshot.docs.map((doc) => ({
       ...doc.data(),

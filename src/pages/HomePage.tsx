@@ -1,46 +1,16 @@
-import { ChevronsRight, LoaderCircle } from "lucide-react";
+import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 import HomepageVerseCard from "@/components/Homepage/HomepageVerseCard";
 import HomepageVerseList from "@/components/Homepage/HomepageVerseList";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { groupVersesByChapterSorted } from "@/components/Homepage/utils/groupVersesByChapterSorted";
 import { toast } from "@/hooks/use-toast";
 import { fetchHomepageVerses } from "@/lib/api/fetchFirestoreData";
-import { BookPathMap, Verse } from "@/lib/types";
-
-const getRedirectPath = (verse: Verse | undefined): string => {
-  if (!verse) return "";
-
-  const { id_book, id_chapter, id_chapter_two } = verse;
-  const bookPath = BookPathMap[id_book];
-
-  if (!bookPath) {
-    console.error(`BookPathMap не содержит запись для id_book: ${id_book}`);
-    return "";
-  }
-
-  const { section, bookName } = bookPath;
-  return `books/${section}/${bookName}/${id_chapter}${id_chapter_two === 2 ? `/${id_chapter_two}` : ""}`;
-};
+import { Verse } from "@/lib/types";
 
 export default function HomePage() {
   const [verses, setVerses] = useState<Verse[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-
-  const redirectPath = getRedirectPath(verses[0]);
-
-  const fullChapterName = (() => {
-    const [main, comment] = (verses[0]?.chapter || "").split(" (");
-    return {
-      main: main.trim(),
-      comment: comment ? comment.replace(")", "").trim() : "",
-    };
-  })();
 
   useEffect(() => {
     const fetchVerses = async () => {
@@ -83,30 +53,25 @@ export default function HomePage() {
   }
 
   return (
-    <section className="flex flex-col justify-center space-y-2 py-6">
-      <h1 className="flex items-center space-x-2">
-        <strong>{fullChapterName.main}</strong>
-        {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
-        <Tooltip>
-          <TooltipTrigger>
-            <Link to={redirectPath} className="text-blue-600">
-              <ChevronsRight />
-            </Link>
-          </TooltipTrigger>
-          <TooltipContent className="bg-white">
-            <p>Перейти</p>
-          </TooltipContent>
-        </Tooltip>
-      </h1>
-      <HomepageVerseList>
-        {verses.map((verse) => (
-          <HomepageVerseCard
-            key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
-            verse={verse}
-            setVerses={setVerses}
-          />
-        ))}
-      </HomepageVerseList>
+    <section className="flex flex-col justify-center space-y-6 py-6">
+      <h1 className="sr-only">Главная страница</h1>
+      {Object.entries(groupVersesByChapterSorted(verses)).map(
+        ([chapterId, versesInGroup]) => {
+          const firstVerse = versesInGroup[0];
+
+          return (
+            <HomepageVerseList key={chapterId} firstVerse={firstVerse}>
+              {versesInGroup.map((verse) => (
+                <HomepageVerseCard
+                  key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
+                  verse={verse}
+                  setVerses={setVerses}
+                />
+              ))}
+            </HomepageVerseList>
+          );
+        },
+      )}
     </section>
   );
 }

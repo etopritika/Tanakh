@@ -32,11 +32,6 @@ export default function DeleteHomepageConfirmation({
       setVerses((prevVerses) =>
         prevVerses.filter((v) => v.documentId !== verse.documentId),
       );
-      toast({
-        title: "Успешно",
-        description: "Стих удален из главной страницы.",
-        variant: "success",
-      });
       setClose();
     } catch (error: unknown) {
       const message =
