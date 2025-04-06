@@ -33,7 +33,6 @@ export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
 
   const redirectPath = getRedirectPath(verses[0]);
-  console.log(redirectPath);
 
   const fullChapterName = (() => {
     const [main, comment] = (verses[0]?.chapter || "").split(" (");
