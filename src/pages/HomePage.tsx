@@ -3,35 +3,10 @@ import { useEffect, useState } from "react";
 
 import HomepageVerseCard from "@/components/Homepage/HomepageVerseCard";
 import HomepageVerseList from "@/components/Homepage/HomepageVerseList";
+import { groupVersesByChapterSorted } from "@/components/Homepage/utils/groupVersesByChapterSorted";
 import { toast } from "@/hooks/use-toast";
 import { fetchHomepageVerses } from "@/lib/api/fetchFirestoreData";
 import { Verse } from "@/lib/types";
-
-const groupVersesByChapterSorted = (
-  verses: Verse[],
-): Record<string, Verse[]> => {
-  const groups: Record<string, Verse[]> = {};
-
-  for (const verse of verses) {
-    const key = `${verse.id_book}-${verse.id_chapter}`;
-    if (!groups[key]) groups[key] = [];
-    groups[key].push(verse);
-  }
-
-  const sortedKeys = Object.keys(groups).sort((a, b) => {
-    const [aBook, aChapter] = a.split("-").map(Number);
-    const [bBook, bChapter] = b.split("-").map(Number);
-    if (aBook !== bBook) return aBook - bBook;
-    return aChapter - bChapter;
-  });
-
-  const sortedGroups: Record<string, Verse[]> = {};
-  for (const key of sortedKeys) {
-    sortedGroups[key] = groups[key];
-  }
-
-  return sortedGroups;
-};
 
 export default function HomePage() {
   const [verses, setVerses] = useState<Verse[]>([]);

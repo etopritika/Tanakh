@@ -2,23 +2,9 @@ import { ChevronsRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
+import { getRedirectPath } from "./utils/getRedirectPath";
 
 import { BookPathMap, SectionName, sectionNameMap, Verse } from "@/lib/types";
-
-const getRedirectPath = (verse: Verse | undefined): string => {
-  if (!verse) return "";
-
-  const { id_book, id_chapter, id_chapter_two } = verse;
-  const bookPath = BookPathMap[id_book];
-
-  if (!bookPath) {
-    console.error(`BookPathMap не содержит запись для id_book: ${id_book}`);
-    return "";
-  }
-
-  const { section, bookName } = bookPath;
-  return `books/${section}/${bookName}/${id_chapter}${id_chapter_two === 2 ? `/${id_chapter_two}` : ""}`;
-};
 
 export default function HomepageVerseList({
   children,
