@@ -94,7 +94,7 @@ export default function HomePage() {
             </Link>
           </TooltipTrigger>
           <TooltipContent className="bg-white">
-            <p>Перейти</p>
+            <p>Перейти к главе</p>
           </TooltipContent>
         </Tooltip>
       </h1>
