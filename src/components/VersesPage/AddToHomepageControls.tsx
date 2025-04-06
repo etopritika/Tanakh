@@ -25,8 +25,7 @@ export default function AddToHomepageControls() {
         title: "Успешно",
         description: (
           <Link to="/" className="flex items-center gap-2">
-            Стихи добавлены на главную.{" "}
-            <ChevronsRight className="text-blue-600" />
+            Стихи добавлены на главную. <ChevronsRight />
           </Link>
         ),
         variant: "success",
