@@ -37,7 +37,7 @@ export default function HomepageVerseList({
         {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
         <span>{fullChapterName.id}</span>
         <Tooltip>
-          <TooltipTrigger>
+          <TooltipTrigger className="px-2">
             <Link to={redirectPath} className="text-blue-600">
               <ChevronsRight />
             </Link>
