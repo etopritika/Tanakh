@@ -140,7 +140,7 @@ export default function VersesPage() {
       />
       <div className="space-y-2 pb-8">
         <h1>
-          <span className="font-bold">{fullChapterName.main}</span>
+          <strong>{fullChapterName.main}</strong>
           {fullChapterName.comment && (
             <span> ({fullChapterName.comment})</span>
           )}{" "}

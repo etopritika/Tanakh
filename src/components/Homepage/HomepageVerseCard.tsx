@@ -2,7 +2,7 @@ import { X } from "lucide-react";
 
 import ModalContainer from "../Modals/ModalContainer";
 import DeleteHomepageConfirmation from "../Modals/VerseActions/DeleteHomepageConfirmation";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Card, CardContent } from "../ui/card";
 
 import { Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
@@ -40,13 +40,8 @@ export default function HomepageVerseCard({
               <X />
             </button>
           )}
-          <CardHeader className="py-4">
-            <CardTitle className="text-lg">
-              <h2>{verse.chapter}</h2>
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-3 pb-4">
-            <p>
+          <CardContent className="space-y-3 p-4">
+            <p className="pr-8">
               <strong>{verse.poemNumber}</strong> {verse.verse}
             </p>
             {verse.verse_ivrit && (

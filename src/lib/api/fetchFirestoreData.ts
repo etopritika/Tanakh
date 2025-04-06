@@ -254,6 +254,14 @@ export const updateVerseColorInFirestore = async (
   }
 };
 
+/**
+ * Adds multiple verses to the "homepage_verses" collection in Firestore.
+ * This function is used to batch add verses to the homepage.
+ *
+ * @param {Record<string, Verse>} verses - An object where the keys are document IDs and the values are verse objects.
+ * @returns {Promise<void>} - Resolves when all verses are successfully added.
+ * @throws {Error} - Throws an error if the operation fails.
+ */
 export const addVerseToHomepage = async (verses: Record<string, Verse>) => {
   const batch = writeBatch(db);
 
@@ -264,10 +272,10 @@ export const addVerseToHomepage = async (verses: Record<string, Verse>) => {
 
   try {
     await batch.commit();
-    console.log("Успішно збережено всі вірші.");
-  } catch (error) {
-    console.error("Помилка при збереженні віршів:", error);
-    throw error;
+  } catch {
+    throw new Error(
+      "Не удалось добавить стихи на главную страницу. Попробуйте позже.",
+    );
   }
 };
 
