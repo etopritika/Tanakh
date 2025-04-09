@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { getRedirectPath } from "./utils/getRedirectPath";
 import ModalContainer from "../Modals/ModalContainer";
-import DeleteAllVersesConfirmation from "../Modals/VerseActions/DeleteAllVersesConfirmation";
+import DeleteGroupConfirmation from "../Modals/VerseActions/DeleteGroupConfirmation";
 import { Button } from "../ui/button";
 
 import { BookPathMap, SectionName, sectionNameMap, Verse } from "@/lib/types";
@@ -13,19 +13,17 @@ import { useUserStore } from "@/store/use-user-store";
 
 interface HomepageVerseListProps {
   children: React.ReactNode;
-  firstVerse: Verse;
-  isFirstGroup: boolean;
+  versesInGroup: Verse[];
 }
 
 export default function HomepageVerseList({
   children,
-  firstVerse,
-  isFirstGroup,
+  versesInGroup,
 }: HomepageVerseListProps) {
   const { setOpen } = useModal();
   const { role } = useUserStore();
   const isAdmin = role === "admin";
-
+  const firstVerse = versesInGroup[0];
   const redirectPath = getRedirectPath(firstVerse);
 
   const sectionName =
@@ -46,7 +44,7 @@ export default function HomepageVerseList({
     event.stopPropagation();
     setOpen(
       <ModalContainer>
-        <DeleteAllVersesConfirmation />
+        <DeleteGroupConfirmation versesInGroup={versesInGroup} />
       </ModalContainer>,
     );
   };
@@ -71,13 +69,13 @@ export default function HomepageVerseList({
             </TooltipContent>
           </Tooltip>
         </h2>
-        {isAdmin && isFirstGroup && (
+        {isAdmin && (
           <Button
             onClick={handleDeleteAll}
             className="ml-auto bg-danger text-white"
             size="sm"
           >
-            Удалить все стихи
+            Удалить группу
           </Button>
         )}
       </div>

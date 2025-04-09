@@ -321,14 +321,19 @@ export const deleteVerseFromHomepage = async (
 };
 
 /**
- * Delete all verses from the homepage_verses collection.
+ * Delete a group of verses from the homepage_verses collection.
  *
+ * @param {Verse[]} verses - The group of verses to delete.
  * @throws {Error} - Throws an error if the deletion process fails.
  */
-export const deleteAllHomepageVerses = async (): Promise<void> => {
+export const deleteGroupFromHomepageVerses = async (
+  verses: Verse[],
+): Promise<void> => {
   try {
-    const querySnapshot = await getDocs(collection(db, "homepage_verses"));
-    const batchDeletes = querySnapshot.docs.map((doc) => deleteDoc(doc.ref));
+    const batchDeletes = verses
+      .filter((verse) => verse.documentId)
+      .map((verse) => deleteDoc(doc(db, "homepage_verses", verse.documentId!)));
+
     await Promise.all(batchDeletes);
   } catch {
     throw new Error(

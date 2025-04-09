@@ -57,15 +57,9 @@ export default function HomePage() {
       <h1 className="sr-only">Главная страница</h1>
       <div className="space-y-6">
         {Object.entries(groupVersesByChapterSorted(verses)).map(
-          ([chapterId, versesInGroup], index) => {
-            const firstVerse = versesInGroup[0];
-
+          ([chapterId, versesInGroup]) => {
             return (
-              <HomepageVerseList
-                key={chapterId}
-                firstVerse={firstVerse}
-                isFirstGroup={index === 0}
-              >
+              <HomepageVerseList key={chapterId} versesInGroup={versesInGroup}>
                 {versesInGroup.map((verse) => (
                   <HomepageVerseCard
                     key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
