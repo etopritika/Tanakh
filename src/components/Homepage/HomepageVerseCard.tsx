@@ -1,20 +1,14 @@
 import { X } from "lucide-react";
 
 import ModalContainer from "../Modals/ModalContainer";
-import DeleteHomepageConfirmation from "../Modals/VerseActions/DeleteHomepageConfirmation";
+import DeleteSingleVerseConfirmation from "../Modals/VerseActions/DeleteSingleVerseConfirmation";
 import { Card, CardContent } from "../ui/card";
 
 import { Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 import { useUserStore } from "@/store/use-user-store";
 
-export default function HomepageVerseCard({
-  verse,
-  setVerses,
-}: {
-  verse: Verse;
-  setVerses: React.Dispatch<React.SetStateAction<Verse[]>>;
-}) {
+export default function HomepageVerseCard({ verse }: { verse: Verse }) {
   const { setOpen } = useModal();
   const { role } = useUserStore();
   const isAdmin = role === "admin";
@@ -23,7 +17,7 @@ export default function HomepageVerseCard({
     event.stopPropagation();
     setOpen(
       <ModalContainer>
-        <DeleteHomepageConfirmation verse={verse} setVerses={setVerses} />
+        <DeleteSingleVerseConfirmation verse={verse} />
       </ModalContainer>,
     );
   };

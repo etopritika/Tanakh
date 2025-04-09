@@ -6,16 +6,16 @@ import { toast } from "@/hooks/use-toast";
 import { deleteVerseFromHomepage } from "@/lib/api/fetchFirestoreData";
 import { Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
+import { useHomepageVersesStore } from "@/store/use-homepage-verses";
 
 interface DeleteHomepageConfirmationProps {
   verse: Verse;
-  setVerses: React.Dispatch<React.SetStateAction<Verse[]>>;
 }
 
-export default function DeleteHomepageConfirmation({
+export default function DeleteSingleVerseConfirmation({
   verse,
-  setVerses,
 }: DeleteHomepageConfirmationProps): JSX.Element {
+  const { removeVerseById } = useHomepageVersesStore();
   const { setClose } = useModal();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -29,19 +29,15 @@ export default function DeleteHomepageConfirmation({
       } else {
         throw new Error("Идентификатор документа не определён.");
       }
-      setVerses((prevVerses) =>
-        prevVerses.filter((v) => v.documentId !== verse.documentId),
-      );
+      removeVerseById(verse.documentId);
       setClose();
     } catch (error: unknown) {
-      const message =
-        error instanceof Error
-          ? error.message
-          : "Не удалось удалить стих из главной страницы.";
-
       toast({
         title: "Ошибка",
-        description: message,
+        description:
+          error instanceof Error
+            ? error.message
+            : "Произошла неизвестная ошибка.",
         variant: "destructive",
       });
     } finally {

@@ -319,3 +319,20 @@ export const deleteVerseFromHomepage = async (
     throw new Error("Не удалось удалить стих. Попробуйте позже.");
   }
 };
+
+/**
+ * Delete all verses from the homepage_verses collection.
+ *
+ * @throws {Error} - Throws an error if the deletion process fails.
+ */
+export const deleteAllHomepageVerses = async (): Promise<void> => {
+  try {
+    const querySnapshot = await getDocs(collection(db, "homepage_verses"));
+    const batchDeletes = querySnapshot.docs.map((doc) => deleteDoc(doc.ref));
+    await Promise.all(batchDeletes);
+  } catch {
+    throw new Error(
+      "Не удалось удалить стихи с главной страницы. Попробуйте позже.",
+    );
+  }
+};
