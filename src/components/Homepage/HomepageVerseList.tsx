@@ -56,8 +56,8 @@ export default function HomepageVerseList({
             <strong>
               {sectionName && `${sectionName}:`} {fullChapterName.main}
             </strong>
-            {fullChapterName.comment && ` (${fullChapterName.comment})`}
-            <span className="ml-1">{fullChapterName.id}</span>
+            {fullChapterName.comment && ` (${fullChapterName.comment})`}{" "}
+            <span>{fullChapterName.id}</span>
           </span>
 
           <Tooltip>
