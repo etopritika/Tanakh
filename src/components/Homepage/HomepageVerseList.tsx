@@ -5,7 +5,6 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { getRedirectPath } from "./utils/getRedirectPath";
 import ModalContainer from "../Modals/ModalContainer";
 import DeleteGroupConfirmation from "../Modals/VerseActions/DeleteGroupConfirmation";
-import { Button } from "../ui/button";
 
 import { BookPathMap, SectionName, sectionNameMap, Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
@@ -53,11 +52,14 @@ export default function HomepageVerseList({
     <article className="space-y-2">
       <div className="flex justify-between">
         <h2 className="flex items-center gap-2">
-          <strong>
-            {sectionName && <span>{sectionName}</span>} {fullChapterName.main}
-          </strong>
-          {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
-          <span>{fullChapterName.id}</span>
+          <span>
+            <strong>
+              {sectionName && `${sectionName}:`} {fullChapterName.main}
+            </strong>
+            {fullChapterName.comment && ` (${fullChapterName.comment})`}{" "}
+            <span>{fullChapterName.id}</span>
+          </span>
+
           <Tooltip>
             <TooltipTrigger className="px-2">
               <Link to={redirectPath} className="text-blue-600">
@@ -71,10 +73,8 @@ export default function HomepageVerseList({
         </h2>
         {isAdmin && (
           <Tooltip>
-            <TooltipTrigger>
-              <Button onClick={handleDeleteAll} className="ml-auto p-2">
-                <X className="text-danger" />
-              </Button>
+            <TooltipTrigger onClick={handleDeleteAll} className="ml-auto p-2">
+              <X className="text-danger" />
             </TooltipTrigger>
             <TooltipContent className="bg-white">
               <p>Удалить группу</p>
