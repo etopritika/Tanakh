@@ -3,22 +3,28 @@ import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { toast } from "@/hooks/use-toast";
-import { deleteAllHomepageVerses } from "@/lib/api/fetchFirestoreData";
+import { deleteGroupFromHomepageVerses } from "@/lib/api/fetchFirestoreData";
+import { Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
 import { useHomepageVersesStore } from "@/store/use-homepage-verses";
 
-export default function DeleteAllVersesConfirmation() {
+export default function DeleteGroupConfirmation({
+  versesInGroup,
+}: {
+  versesInGroup: Verse[];
+}) {
   const { setClose } = useModal();
-  const { clearVerses } = useHomepageVersesStore();
+  const { clearGroup } = useHomepageVersesStore();
   const [isLoading, setIsLoading] = useState(false);
+  const groupTitle = versesInGroup[0].chapter;
 
   const handleDeleteAll = async (event: React.MouseEvent) => {
     event.stopPropagation();
     setIsLoading(true);
 
     try {
-      await deleteAllHomepageVerses();
-      clearVerses();
+      await deleteGroupFromHomepageVerses(versesInGroup);
+      clearGroup(versesInGroup);
       setClose();
     } catch (error: unknown) {
       toast({
@@ -37,7 +43,9 @@ export default function DeleteAllVersesConfirmation() {
   return (
     <div className="space-y-6">
       <h2 className="text-lg font-bold">
-        Удалить все стихи с главной страницы?
+        Вы уверены, что хотите удалить группу стихов{" "}
+        <span className="font-normal italic">{groupTitle}</span> с главной
+        страницы?
       </h2>
 
       <div className="flex items-center justify-between">
@@ -55,7 +63,7 @@ export default function DeleteAllVersesConfirmation() {
               Удаление...
             </>
           ) : (
-            "Удалить все"
+            "Удалить группу"
           )}
         </Button>
       </div>
