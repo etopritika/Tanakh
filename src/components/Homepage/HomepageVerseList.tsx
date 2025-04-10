@@ -1,4 +1,4 @@
-import { ChevronsRight } from "lucide-react";
+import { ChevronsRight, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
@@ -70,13 +70,16 @@ export default function HomepageVerseList({
           </Tooltip>
         </h2>
         {isAdmin && (
-          <Button
-            onClick={handleDeleteAll}
-            className="ml-auto bg-danger text-white"
-            size="sm"
-          >
-            Удалить группу
-          </Button>
+          <Tooltip>
+            <TooltipTrigger>
+              <Button onClick={handleDeleteAll} className="ml-auto p-2">
+                <X className="text-danger" />
+              </Button>
+            </TooltipTrigger>
+            <TooltipContent className="bg-white">
+              <p>Удалить группу</p>
+            </TooltipContent>
+          </Tooltip>
         )}
       </div>
       <ul className="space-y-4">{children}</ul>

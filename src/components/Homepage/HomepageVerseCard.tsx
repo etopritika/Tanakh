@@ -28,7 +28,7 @@ export default function HomepageVerseCard({ verse }: { verse: Verse }) {
         <Card className="relative bg-white">
           {isAdmin && (
             <button
-              className="absolute right-2 top-2 text-gray-500 hover:text-gray-800"
+              className="absolute right-0 top-0 p-2 text-gray-500 hover:text-gray-800"
               onClick={handleOpenDeleteModal}
             >
               <X />
