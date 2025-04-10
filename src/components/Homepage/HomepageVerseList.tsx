@@ -38,7 +38,7 @@ export default function HomepageVerseList({
       id: firstVerse?.id_chapter,
     };
   })();
-  console.log("fullChapterName", fullChapterName);
+
   const handleDeleteAll = (event: React.MouseEvent) => {
     event.stopPropagation();
     setOpen(
@@ -52,11 +52,14 @@ export default function HomepageVerseList({
     <article className="space-y-2">
       <div className="flex justify-between">
         <h2 className="flex items-center gap-2">
-          <strong>
-            {sectionName && <span>{sectionName}</span>} {fullChapterName.main}
-          </strong>
-          {fullChapterName.comment && <span> ({fullChapterName.comment})</span>}
-          <span>{fullChapterName.id}</span>
+          <span>
+            <strong>
+              {sectionName && `${sectionName}:`} {fullChapterName.main}
+            </strong>
+            {fullChapterName.comment && ` (${fullChapterName.comment})`}
+            <span className="ml-1">{fullChapterName.id}</span>
+          </span>
+
           <Tooltip>
             <TooltipTrigger className="px-2">
               <Link to={redirectPath} className="text-blue-600">
