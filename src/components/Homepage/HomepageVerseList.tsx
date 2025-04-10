@@ -5,7 +5,6 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { getRedirectPath } from "./utils/getRedirectPath";
 import ModalContainer from "../Modals/ModalContainer";
 import DeleteGroupConfirmation from "../Modals/VerseActions/DeleteGroupConfirmation";
-import { Button } from "../ui/button";
 
 import { BookPathMap, SectionName, sectionNameMap, Verse } from "@/lib/types";
 import { useModal } from "@/providers/Modal/modal-context";
@@ -39,7 +38,7 @@ export default function HomepageVerseList({
       id: firstVerse?.id_chapter,
     };
   })();
-
+  console.log("fullChapterName", fullChapterName);
   const handleDeleteAll = (event: React.MouseEvent) => {
     event.stopPropagation();
     setOpen(
@@ -71,10 +70,8 @@ export default function HomepageVerseList({
         </h2>
         {isAdmin && (
           <Tooltip>
-            <TooltipTrigger>
-              <Button onClick={handleDeleteAll} className="ml-auto p-2">
-                <X className="text-danger" />
-              </Button>
+            <TooltipTrigger onClick={handleDeleteAll} className="ml-auto p-2">
+              <X className="text-danger" />
             </TooltipTrigger>
             <TooltipContent className="bg-white">
               <p>Удалить группу</p>
