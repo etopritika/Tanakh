@@ -43,9 +43,8 @@ export default function DeleteGroupConfirmation({
   return (
     <div className="space-y-6">
       <h2 className="text-lg font-bold">
-        Вы уверены, что хотите удалить группу стихов{" "}
-        <span className="font-normal italic">{groupTitle}</span> с главной
-        страницы?
+        Удалить <span className="font-normal italic">{groupTitle}</span> с
+        главной страницы?
       </h2>
 
       <div className="flex items-center justify-between">
@@ -63,7 +62,7 @@ export default function DeleteGroupConfirmation({
               Удаление...
             </>
           ) : (
-            "Удалить группу"
+            "Удалить"
           )}
         </Button>
       </div>
