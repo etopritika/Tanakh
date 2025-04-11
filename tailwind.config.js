@@ -21,6 +21,7 @@ export default {
         muted: "var(--muted)",
         danger: "var(--danger)",
         destructive: "var(--destructive)",
+        input: "var(--input)",
       },
       keyframes: {
         "accordion-down": {
