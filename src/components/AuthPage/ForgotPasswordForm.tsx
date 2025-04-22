@@ -71,11 +71,17 @@ export default function ForgotPasswordForm() {
   return (
     <Card className="w-full max-w-md bg-white">
       <CardHeader>
-        <CardTitle>Восстановление пароля</CardTitle>
+        <CardTitle id="forgot-password-form-title" as="h1">
+          Восстановление пароля
+        </CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent aria-labelledby="forgot-password-form-title">
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
+            className="space-y-4"
+            aria-busy={isLoading}
+          >
             <FormField
               control={form.control}
               name="email"
@@ -87,9 +93,11 @@ export default function ForgotPasswordForm() {
                       placeholder="example@mail.com"
                       {...field}
                       className="bg-white"
+                      aria-invalid={!!form.formState.errors.email}
+                      aria-describedby="email-error"
                     />
                   </FormControl>
-                  <FormMessage />
+                  <FormMessage id="email-error" role="alert" />
                 </FormItem>
               )}
             />
@@ -97,8 +105,10 @@ export default function ForgotPasswordForm() {
               <Button
                 onClick={() => navigate("/auth")}
                 className="bg-white px-0"
+                type="button"
+                aria-label="Вернуться на страницу авторизации"
               >
-                <ArrowLeft />
+                <ArrowLeft aria-hidden="true" focusable="false" />
                 Назад
               </Button>
               <Button
@@ -116,7 +126,9 @@ export default function ForgotPasswordForm() {
         </Form>
         {message && (
           <p
+            key={message.text}
             className={`mt-4 text-center ${message.type === "success" ? "text-green-600" : "text-red-600"}`}
+            role="alert"
           >
             {message.text}
           </p>
