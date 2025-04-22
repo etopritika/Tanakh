@@ -2,7 +2,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { FirebaseError } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { LoaderCircle } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
@@ -38,10 +38,22 @@ export default function LoginForm() {
     },
   });
 
+  const { errors } = form.formState;
+  const emailError = errors.email?.message;
+
   const [isLoading, setIsLoading] = useState(false);
   const { setUserName } = useUserStore();
 
+  const emailRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    if (emailError && emailRef.current) {
+      emailRef.current.focus();
+    }
+  }, [emailError]);
+
   const onSubmit = async (values: LoginFormValues) => {
+    if (isLoading) return;
     setIsLoading(true);
     const auth = getAuth(app);
     try {
@@ -79,7 +91,11 @@ export default function LoginForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="space-y-4"
+        aria-busy={isLoading}
+      >
         <FormField
           control={form.control}
           name="email"
@@ -88,12 +104,24 @@ export default function LoginForm() {
               <FormLabel>Email</FormLabel>
               <FormControl>
                 <Input
-                  placeholder="example@mail.com"
                   {...field}
+                  ref={(el) => {
+                    field.ref(el);
+                    emailRef.current = el;
+                  }}
+                  placeholder="example@mail.com"
                   className="bg-white"
+                  autoComplete="email"
+                  aria-invalid={!!emailError}
+                  aria-describedby="email-error"
                 />
               </FormControl>
-              <FormMessage className="text-danger" />
+              <FormMessage
+                id="email-error"
+                className="text-danger"
+                role="alert"
+                aria-live="assertive"
+              />
             </FormItem>
           )}
         />
@@ -110,17 +138,19 @@ export default function LoginForm() {
                     placeholder="Введите ваш пароль"
                     {...field}
                     className="bg-white"
+                    autoComplete="current-password"
                   />
                   <Button
                     variant="link"
+                    type="button"
                     onClick={() => navigate("/forgot-password")}
                     className="p-0 text-sm underline"
+                    aria-label="Перейти на страницу восстановления пароля"
                   >
                     Забыли пароль?
                   </Button>
                 </>
               </FormControl>
-              <FormMessage className="text-danger" />
             </FormItem>
           )}
         />
@@ -128,6 +158,7 @@ export default function LoginForm() {
           type="submit"
           className="w-full bg-brown-light text-white"
           disabled={isLoading}
+          aria-label="Войти в аккаунт"
         >
           Войти{" "}
           {isLoading && (
@@ -135,18 +166,22 @@ export default function LoginForm() {
           )}
         </Button>
         <Button
+          type="button"
           onClick={(event) => signInWithGoogle(event, form.setError, navigate)}
           variant="outline"
           className="mt-2 w-full bg-white"
+          aria-label="Войти через Google"
         >
           Войти через Google <GoogleIcon />
         </Button>
         <Button
+          type="button"
           onClick={(event) =>
             signInWithFacebook(event, form.setError, navigate)
           }
           variant="outline"
           className="mt-2 w-full bg-white"
+          aria-label="Войти через Facebook"
         >
           Войти через Facebook <FacebookIcon />
         </Button>
