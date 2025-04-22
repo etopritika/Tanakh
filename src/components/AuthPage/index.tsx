@@ -18,20 +18,40 @@ export default function AuthForm() {
   return (
     <Card className="w-full max-w-md bg-white">
       <CardHeader>
-        <CardTitle>{isLogin ? "Авторизация" : "Регистрация"}</CardTitle>
+        <CardTitle id="auth-form-title" as="h1">
+          {isLogin ? "Авторизация" : "Регистрация"}
+        </CardTitle>
       </CardHeader>
-      <CardContent>{isLogin ? <LoginForm /> : <RegisterForm />}</CardContent>
+
+      {/* Опис форми для screen reader */}
+      <p id="auth-form-description" className="sr-only">
+        {isLogin
+          ? "Введите email и пароль для входа в аккаунт."
+          : "Заполните данные для регистрации нового аккаунта."}
+      </p>
+
+      <CardContent
+        aria-labelledby="auth-form-title"
+        aria-describedby="auth-form-description"
+      >
+        {isLogin ? <LoginForm /> : <RegisterForm />}
+      </CardContent>
+
       <CardFooter className="justify-center">
-        <div>
-          {isLogin ? (
-            <span className="mr-2">Нет аккаунта?</span>
-          ) : (
-            <span className="mr-2">Уже есть аккаунт?</span>
-          )}{" "}
+        <div
+          aria-live="polite"
+          className="flex items-center justify-center gap-2"
+        >
+          <p>{isLogin ? "Нет аккаунта?" : "Уже есть аккаунт?"}</p>
           <Button
             variant="link"
             className="px-0 text-blue-600 underline"
             onClick={() => setIsLogin(!isLogin)}
+            aria-label={
+              isLogin
+                ? "Переключиться на регистрацию"
+                : "Переключиться на авторизацию"
+            }
           >
             {isLogin ? "Зарегистрироваться" : "Войти"}
           </Button>
