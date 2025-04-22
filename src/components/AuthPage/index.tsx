@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
@@ -15,10 +15,16 @@ import { Button } from "@/components/ui/button";
 export default function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
 
+  const headingRef = useRef<HTMLHeadingElement>(null);
+
+  useEffect(() => {
+    headingRef.current?.focus();
+  }, [isLogin]);
+
   return (
     <Card className="w-full max-w-md bg-white">
       <CardHeader>
-        <CardTitle id="auth-form-title" as="h1">
+        <CardTitle id="auth-form-title" as="h1" ref={headingRef} tabIndex={-1}>
           {isLogin ? "Авторизация" : "Регистрация"}
         </CardTitle>
       </CardHeader>
@@ -37,10 +43,7 @@ export default function AuthForm() {
       </CardContent>
 
       <CardFooter className="justify-center">
-        <div
-          aria-live="polite"
-          className="flex items-center justify-center gap-2"
-        >
+        <div className="flex items-center justify-center gap-2">
           <p>{isLogin ? "Нет аккаунта?" : "Уже есть аккаунт?"}</p>
           <Button
             variant="link"
