@@ -23,7 +23,6 @@ export default function AuthForm() {
         </CardTitle>
       </CardHeader>
 
-      {/* Опис форми для screen reader */}
       <p id="auth-form-description" className="sr-only">
         {isLogin
           ? "Введите email и пароль для входа в аккаунт."
