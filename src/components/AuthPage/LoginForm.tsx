@@ -2,7 +2,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { FirebaseError } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { LoaderCircle } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
@@ -38,19 +38,8 @@ export default function LoginForm() {
     },
   });
 
-  const { errors } = form.formState;
-  const emailError = errors.email?.message;
-
   const [isLoading, setIsLoading] = useState(false);
   const { setUserName } = useUserStore();
-
-  const emailRef = useRef<HTMLInputElement | null>(null);
-
-  useEffect(() => {
-    if (emailError && emailRef.current) {
-      emailRef.current.focus();
-    }
-  }, [emailError]);
 
   const onSubmit = async (values: LoginFormValues) => {
     if (isLoading) return;
@@ -105,14 +94,10 @@ export default function LoginForm() {
               <FormControl>
                 <Input
                   {...field}
-                  ref={(el) => {
-                    field.ref(el);
-                    emailRef.current = el;
-                  }}
                   placeholder="example@mail.com"
                   className="bg-white"
                   autoComplete="email"
-                  aria-invalid={!!emailError}
+                  aria-invalid={!!form.formState.errors.email}
                   aria-describedby="email-error"
                 />
               </FormControl>
@@ -120,7 +105,6 @@ export default function LoginForm() {
                 id="email-error"
                 className="text-danger"
                 role="alert"
-                aria-live="assertive"
               />
             </FormItem>
           )}

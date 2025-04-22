@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
@@ -15,16 +15,10 @@ import { Button } from "@/components/ui/button";
 export default function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);
 
-  const headingRef = useRef<HTMLHeadingElement>(null);
-
-  useEffect(() => {
-    headingRef.current?.focus();
-  }, [isLogin]);
-
   return (
     <Card className="w-full max-w-md bg-white">
       <CardHeader>
-        <CardTitle id="auth-form-title" as="h1" ref={headingRef} tabIndex={-1}>
+        <CardTitle id="auth-form-title" as="h1">
           {isLogin ? "Авторизация" : "Регистрация"}
         </CardTitle>
       </CardHeader>
