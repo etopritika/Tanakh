@@ -61,8 +61,12 @@ export default function HomepageVerseList({
           </span>
 
           <Tooltip>
-            <TooltipTrigger className="px-2">
-              <Link to={redirectPath} className="text-blue-600">
+            <TooltipTrigger className="px-2" asChild>
+              <Link
+                to={redirectPath}
+                className="text-blue-600"
+                aria-label="Перейти к главе"
+              >
                 <ChevronsRight />
               </Link>
             </TooltipTrigger>
@@ -73,7 +77,11 @@ export default function HomepageVerseList({
         </h2>
         {isAdmin && (
           <Tooltip>
-            <TooltipTrigger onClick={handleDeleteAll} className="ml-auto p-2">
+            <TooltipTrigger
+              onClick={handleDeleteAll}
+              className="ml-auto p-2"
+              aria-label="Удалить группу стихов"
+            >
               <X className="text-danger" />
             </TooltipTrigger>
             <TooltipContent className="bg-white">
