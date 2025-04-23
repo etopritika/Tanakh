@@ -67,7 +67,7 @@ export default function HomepageVerseList({
                 className="text-blue-600"
                 aria-label="Перейти к главе"
               >
-                <ChevronsRight />
+                <ChevronsRight aria-hidden="true" focusable="false" />
               </Link>
             </TooltipTrigger>
             <TooltipContent className="bg-white">
@@ -82,7 +82,7 @@ export default function HomepageVerseList({
               className="ml-auto p-2"
               aria-label="Удалить группу стихов"
             >
-              <X className="text-danger" />
+              <X className="text-danger" aria-hidden="true" focusable="false" />
             </TooltipTrigger>
             <TooltipContent className="bg-white">
               <p>Удалить группу</p>
