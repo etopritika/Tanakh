@@ -36,8 +36,12 @@ export default function HomePage() {
   if (isLoading) {
     return (
       <section className="flex h-full items-center justify-center py-6">
-        <div className="flex space-x-2">
-          <LoaderCircle className="animate-spin" />
+        <div className="flex space-x-2" role="status">
+          <LoaderCircle
+            className="animate-spin"
+            aria-hidden="true"
+            focusable="false"
+          />
           <p>Загрузка стихов...</p>
         </div>
       </section>
@@ -47,7 +51,9 @@ export default function HomePage() {
   if (verses.length === 0) {
     return (
       <section className="flex h-full items-center justify-center py-6">
-        <strong className="text-danger">Нет добавленных стихов.</strong>
+        <strong className="text-danger" role="status">
+          Нет добавленных стихов.
+        </strong>
       </section>
     );
   }
@@ -62,7 +68,7 @@ export default function HomePage() {
               <HomepageVerseList key={chapterId} versesInGroup={versesInGroup}>
                 {versesInGroup.map((verse) => (
                   <HomepageVerseCard
-                    key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`}
+                    key={`${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two ?? 1}-${verse.poemNumber}`}
                     verse={verse}
                   />
                 ))}
