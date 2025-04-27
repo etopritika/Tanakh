@@ -3,8 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 
 import BookLinks from "./BookLinks";
 import Logout from "./Logout";
-import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 import UserName from "./UserName";
+import { Accordion, AccordionItem, AccordionTrigger } from "../ui/accordion";
 
 import {
   Sheet,
@@ -37,8 +37,11 @@ export default function MobileSidebar() {
         <SheetDescription>Выберите нужную книгу</SheetDescription>
       </SheetHeader>
       <SheetTrigger asChild>
-        <button aria-label="Toggle Sidebar" className="h-10 w-10 p-2 lg:hidden">
-          <Menu size={24} />
+        <button
+          aria-label="Открыть боковое меню"
+          className="h-10 w-10 p-2 lg:hidden"
+        >
+          <Menu size={24} aria-hidden="true" focusable="false" />
         </button>
       </SheetTrigger>
       <SheetContent side="left" className="w-full bg-white p-4">
@@ -108,8 +111,15 @@ export default function MobileSidebar() {
                   className={`flex items-center border-b py-4 text-sm ${
                     pathname === lastPathname ? "font-bold" : ""
                   }`}
+                  aria-label={`Перейти к последней прочитанной главе: ${chapterName}`}
                 >
-                  <BookMarked className="mr-2" size={16} /> {chapterName}
+                  <BookMarked
+                    className="mr-2"
+                    size={16}
+                    aria-hidden="true"
+                    focusable="false"
+                  />{" "}
+                  {chapterName}
                 </Link>
               </SheetClose>
             )}
