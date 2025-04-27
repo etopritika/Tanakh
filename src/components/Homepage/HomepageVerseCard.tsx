@@ -31,6 +31,7 @@ export default function HomepageVerseCard({ verse }: { verse: Verse }) {
           <button
             className="absolute right-0 top-0 p-2 text-gray-500 hover:text-gray-800"
             onClick={handleOpenDeleteModal}
+            aria-label={`Удалить стих номер ${verse.poemNumber}`}
           >
             <X aria-hidden="true" focusable="false" />
           </button>
