@@ -22,8 +22,10 @@ export default function HomepageVerseCard({ verse }: { verse: Verse }) {
     );
   };
 
+  const labelId = `verse-${verse.poemNumber}`;
+
   return (
-    <li>
+    <li aria-labelledby={labelId}>
       <Card className="relative bg-white">
         {isAdmin && (
           <button
@@ -33,9 +35,12 @@ export default function HomepageVerseCard({ verse }: { verse: Verse }) {
             <X aria-hidden="true" focusable="false" />
           </button>
         )}
-        <CardContent className="space-y-3 p-4">
+        <CardContent className="space-y-3 p-4" id={labelId}>
           <p className="pr-8">
-            <strong>{verse.poemNumber}</strong> {verse.verse}
+            <strong aria-label={`Номер стиха: ${verse.poemNumber}`}>
+              {verse.poemNumber}
+            </strong>{" "}
+            {verse.verse}
           </p>
           {verse.verse_ivrit && (
             <p lang="he" dir="rtl" className="text-right">
