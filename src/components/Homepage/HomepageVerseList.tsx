@@ -48,10 +48,16 @@ export default function HomepageVerseList({
     );
   };
 
+  const safeChapterId = firstVerse?.chapter
+    .toLowerCase()
+    .replace(/[()]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
   return (
-    <article className="space-y-2">
+    <article className="space-y-2" aria-labelledby={`group-${safeChapterId}`}>
       <div className="flex justify-between">
-        <h2 className="flex items-center gap-2">
+        <h2 id={`group-${safeChapterId}`} className="flex items-center gap-2">
           <span>
             <strong>
               {sectionName && `${sectionName}:`} {fullChapterName.main}
