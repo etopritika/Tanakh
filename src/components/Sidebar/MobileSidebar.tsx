@@ -53,6 +53,7 @@ export default function MobileSidebar() {
                 className={`block border-b py-4 ${
                   currentSection === "" ? "font-bold" : ""
                 }`}
+                id="first-link"
               >
                 Танах
               </Link>
