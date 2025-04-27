@@ -8,8 +8,12 @@ export default function SearchLink() {
   if (isSearchPage) return null;
 
   return (
-    <Link to="/search" className="flex items-center px-3 py-0.5">
-      <Search />
+    <Link
+      to="/search"
+      className="flex items-center px-3 py-0.5"
+      aria-label="Перейти к поиску"
+    >
+      <Search aria-hidden="true" focusable="false" />
     </Link>
   );
 }
