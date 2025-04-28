@@ -32,8 +32,9 @@ export default function Logout() {
       onClick={handleLogout}
       variant="outline"
       className="bg-brown-light text-white"
+      aria-label="Выйти из аккаунта"
     >
-      Вийти
+      Выйти
     </Button>
   );
 }
