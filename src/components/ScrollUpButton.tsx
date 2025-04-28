@@ -28,10 +28,14 @@ export default function ScrollUpButton() {
     isVisible && (
       <Button
         onClick={handleScrollUp}
-        aria-label="Scroll to top"
+        aria-label="Прокрутить страницу наверх"
         className="fixed bottom-14 right-4 z-40 rounded-full border-none bg-brown-dark md:p-6"
       >
-        <ChevronsUp className="text-white" />
+        <ChevronsUp
+          className="text-white"
+          aria-hidden="true"
+          focusable="false"
+        />
       </Button>
     )
   );
