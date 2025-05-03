@@ -31,7 +31,7 @@ export default function UniversalCalendar() {
             aria-label="Переключение разделов календаря"
             className="space-y-2"
           >
-            <TabsList className="grid w-full grid-cols-3 bg-brown-light text-white">
+            <TabsList className="grid w-full grid-cols-3 bg-brown-dark text-white">
               <TabsTrigger
                 value="gregorian"
                 className="flex w-full items-center justify-center"

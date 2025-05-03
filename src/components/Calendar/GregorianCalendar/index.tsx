@@ -48,7 +48,7 @@ export default function GregorianCalendar({
     year === selectedDate.getFullYear();
 
   return (
-    <div className="space-y-4 pb-4">
+    <section aria-labelledby="calendar-heading" className="space-y-4 pb-4">
       <nav
         aria-label="Навигация по месяцам"
         className="space-y-4 md:flex md:flex-row-reverse md:justify-end md:space-y-0 md:py-2"
@@ -59,52 +59,62 @@ export default function GregorianCalendar({
             <ChevronLeft aria-hidden="true" focusable="false" />
           </Button>
 
-          <h2 id="calendar-heading" className="text-lg font-semibold">
+          <h3 id="calendar-heading" className="text-lg font-semibold">
             {gregorianMonthNames[month]} {year}
-          </h2>
+          </h3>
 
           <Button onClick={nextMonth} aria-label="Следующий месяц">
             <ChevronRight aria-hidden="true" focusable="false" />
           </Button>
         </div>
       </nav>
+
       <div className="space-y-4 md:flex md:space-y-0">
-        <div className="grid grid-cols-7 gap-1 md:w-3/5">
-          {weekDays.map((day) => (
-            <div key={day} className="text-center font-medium">
-              {day}
-            </div>
-          ))}
-
-          {Array(firstDayIndex)
-            .fill(null)
-            .map((_, idx) => (
-              <div key={`empty-${idx}`} />
+        <div className="md:w-3/5">
+          <ul
+            className="grid grid-cols-7 gap-1 text-center font-medium"
+            aria-hidden="true"
+          >
+            {weekDays.map((day) => (
+              <li key={day}>{day}</li>
             ))}
+          </ul>
 
-          {Array(daysInMonth)
-            .fill(null)
-            .map((_, idx) => {
-              const dayNum = idx + 1;
+          <ol
+            className="grid grid-cols-7 gap-1"
+            aria-label={`Календарь на ${gregorianMonthNames[month]} ${year}`}
+          >
+            {Array(firstDayIndex)
+              .fill(null)
+              .map((_, idx) => (
+                <li key={`empty-${idx}`} aria-hidden="true" />
+              ))}
 
-              return (
-                <CalendarDay
-                  key={dayNum}
-                  year={year}
-                  month={month}
-                  day={dayNum}
-                  onSelect={onDateSelect}
-                  isSelected={isSelected(dayNum)}
-                  isToday={isToday(dayNum)}
-                />
-              );
-            })}
+            {Array(daysInMonth)
+              .fill(null)
+              .map((_, idx) => {
+                const dayNum = idx + 1;
+                return (
+                  <li key={dayNum}>
+                    <CalendarDay
+                      year={year}
+                      month={month}
+                      day={dayNum}
+                      onSelect={onDateSelect}
+                      isSelected={isSelected(dayNum)}
+                      isToday={isToday(dayNum)}
+                    />
+                  </li>
+                );
+              })}
+          </ol>
         </div>
+
         <div className="flex flex-col space-y-4 md:mx-auto md:w-2/5 md:px-3">
           <GoToTodayButton onClick={() => onDateSelect(new Date())} />
           <HolidayCard />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
