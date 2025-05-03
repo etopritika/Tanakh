@@ -34,19 +34,15 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 8px;
 }
 
-/* ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--muted);
+  background-color: #898989;
   border-radius: 6px;
-  border: 3px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
 }
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
-} */
