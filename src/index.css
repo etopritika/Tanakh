@@ -38,8 +38,8 @@ body {
 }
 
 *:focus-visible {
-  outline: 2px solid var(--black) !important;
-  outline-offset: 2px;
+  outline: 1.5px solid var(--black) !important;
+  outline-offset: 1.5px;
 }
 
 ::-webkit-scrollbar-track {
