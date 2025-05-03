@@ -37,18 +37,15 @@ export default function YearPicker({
 
   return (
     <div className="md:px-3">
-      <span id="year-label" className="sr-only">
+      <label htmlFor="year-select" className="sr-only">
         Выбор года
-      </span>
+      </label>
 
       <Select
         value={selectedDate.getFullYear().toString()}
         onValueChange={handleYearChange}
       >
-        <SelectTrigger
-          className="w-[200px] bg-white"
-          aria-labelledby="year-label"
-        >
+        <SelectTrigger className="w-[200px] bg-white" id="year-select">
           <SelectValue placeholder="Выберите год" />
         </SelectTrigger>
 
