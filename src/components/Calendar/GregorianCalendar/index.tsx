@@ -50,21 +50,21 @@ export default function GregorianCalendar({
   return (
     <div className="space-y-4 pb-4">
       <nav
-        aria-label="Month navigation"
+        aria-label="Навигация по месяцам"
         className="space-y-4 md:flex md:flex-row-reverse md:justify-end md:space-y-0 md:py-2"
       >
         <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
         <div className="flex w-full items-center justify-between md:w-3/5">
-          <Button onClick={prevMonth}>
-            <ChevronLeft />
+          <Button onClick={prevMonth} aria-label="Предыдущий месяц">
+            <ChevronLeft aria-hidden="true" focusable="false" />
           </Button>
 
-          <div className="text-lg font-semibold">
+          <h2 id="calendar-heading" className="text-lg font-semibold">
             {gregorianMonthNames[month]} {year}
-          </div>
+          </h2>
 
-          <Button onClick={nextMonth}>
-            <ChevronRight />
+          <Button onClick={nextMonth} aria-label="Следующий месяц">
+            <ChevronRight aria-hidden="true" focusable="false" />
           </Button>
         </div>
       </nav>
