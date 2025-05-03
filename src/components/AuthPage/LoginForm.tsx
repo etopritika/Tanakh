@@ -140,7 +140,7 @@ export default function LoginForm() {
         />
         <Button
           type="submit"
-          className="w-full bg-brown-light text-white"
+          className="w-full bg-brown-dark text-white"
           disabled={isLoading}
           aria-label="Войти в аккаунт"
         >
