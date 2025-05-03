@@ -125,7 +125,7 @@ export default function MobileSidebar() {
               </SheetClose>
             )}
           </div>
-          <div className="flex flex-col space-y-2">
+          <div className="flex items-center justify-between">
             <UserName />
             <Logout />
           </div>
