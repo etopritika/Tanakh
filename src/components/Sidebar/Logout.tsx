@@ -31,9 +31,10 @@ export default function Logout() {
     <Button
       onClick={handleLogout}
       variant="outline"
-      className="bg-brown-light text-white"
+      className="border-none bg-brown-light text-white"
+      size="sm"
     >
-      Вийти
+      Выйти
     </Button>
   );
 }
