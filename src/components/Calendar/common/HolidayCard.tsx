@@ -14,9 +14,16 @@ export default function HolidayCard() {
   }
 
   return (
-    <Card className="w-full max-w-lg bg-white">
-      <CardContent className="space-y-3 p-4">
-        <ul role="list" aria-label="Список свят" className="space-y-4">
+    <Card
+      className="w-full max-w-lg bg-white"
+      role="region"
+      aria-labelledby="holiday-card-heading"
+    >
+      <CardContent className="p-4">
+        <h2 id="holiday-card-heading" className="sr-only">
+          Список праздников
+        </h2>
+        <ul aria-label="Список праздников" className="space-y-4">
           {selectedHoliday.map((holiday) => {
             const link = parashatLinks[holiday.title];
 
@@ -27,7 +34,11 @@ export default function HolidayCard() {
               >
                 {link ? (
                   <h3 className="text-lg font-bold">
-                    <Link to={link} className="text-blue-600">
+                    <Link
+                      to={link}
+                      className="text-blue-600"
+                      aria-label={`Открыть главу книги: ${translateHolidayTitle(holiday.title)}`}
+                    >
                       {translateHolidayTitle(holiday.title)}
                     </Link>
                   </h3>
