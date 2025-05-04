@@ -70,7 +70,6 @@ export default function CalendarDay({
       className={classes}
       aria-label={labelText}
       aria-pressed={isSelected}
-      tabIndex={0}
     >
       <time dateTime={isoDate} className="text-center">
         {day}
