@@ -10,16 +10,15 @@ const manifest: Partial<ManifestOptions> | false = {
   background_color: "#faf3e8",
   icons: [
     {
-      purpose: "maskable",
-      sizes: "512x512",
-      src: "icon512_maskable.png",
+      src: "icon192.png",
+      sizes: "192x192",
       type: "image/png",
     },
     {
-      purpose: "any",
+      src: "icon512.png",
       sizes: "512x512",
-      src: "icon512_rounded.png",
       type: "image/png",
+      purpose: "any",
     },
   ],
   screenshots: [
