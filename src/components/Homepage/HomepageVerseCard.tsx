@@ -38,9 +38,9 @@ export default function HomepageVerseCard({ verse }: { verse: Verse }) {
         )}
         <CardContent className="space-y-3 p-4" id={labelId}>
           <p className="pr-8">
-            <strong aria-label={`Номер стиха: ${verse.poemNumber}`}>
+            <b aria-label={`Номер стиха: ${verse.poemNumber}`}>
               {verse.poemNumber}
-            </strong>{" "}
+            </b>{" "}
             {verse.verse}
           </p>
           {verse.verse_ivrit && (

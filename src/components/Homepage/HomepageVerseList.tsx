@@ -58,13 +58,13 @@ export default function HomepageVerseList({
     <article className="space-y-2" aria-labelledby={`group-${safeChapterId}`}>
       <div className="flex justify-between">
         <h2 id={`group-${safeChapterId}`} className="flex items-center gap-2">
-          <span>
-            <strong>
+          <>
+            <b>
               {sectionName && `${sectionName}:`} {fullChapterName.main}
-            </strong>
+            </b>
             {fullChapterName.comment && ` (${fullChapterName.comment})`}{" "}
-            <span>{fullChapterName.id}</span>
-          </span>
+            <span title="Номер главы">{fullChapterName.id}</span>
+          </>
 
           <Tooltip>
             <TooltipTrigger className="px-2" asChild>

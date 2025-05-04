@@ -51,9 +51,9 @@ export default function HomePage() {
   if (verses.length === 0) {
     return (
       <section className="flex h-full items-center justify-center py-6">
-        <strong className="text-danger" role="status">
+        <p className="text-danger" role="status">
           Нет добавленных стихов.
-        </strong>
+        </p>
       </section>
     );
   }
