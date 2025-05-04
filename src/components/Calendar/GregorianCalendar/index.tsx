@@ -50,7 +50,7 @@ export default function GregorianCalendar({
   return (
     <section aria-labelledby="calendar-heading" className="space-y-4 pb-4">
       <nav
-        aria-label="Навигация по месяцам"
+        aria-label="Навигация по календарю"
         className="space-y-4 md:flex md:flex-row-reverse md:justify-end md:space-y-0 md:py-2"
       >
         <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
