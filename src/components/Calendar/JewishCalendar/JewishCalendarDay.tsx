@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { useEffect, useMemo } from "react";
 
+import { getJewishWeekDayName } from "../utils/calendar-utils/format";
 import { translateHolidayTitle } from "../utils/calendar-utils/translate";
 
 import {
@@ -32,28 +33,27 @@ export default function JewishCalendarDay({
   const { holidaysByJewishDate, setSelectedHoliday } = useHolidayStore();
 
   const dateKey = `${day} ${month} ${year}`;
+  const isoDate = gregorianDate.toISOString().split("T")[0];
 
-  const holidayEvents = useMemo(() => {
-    return holidaysByJewishDate?.[dateKey] || [];
-  }, [holidaysByJewishDate, dateKey]);
-
+  const holidayEvents = useMemo(
+    () => holidaysByJewishDate?.[dateKey] || [],
+    [holidaysByJewishDate, dateKey],
+  );
   const hasHoliday = holidayEvents.length > 0;
 
   const handleClick = () => {
     onSelect(gregorianDate);
-    if (hasHoliday) {
-      setSelectedHoliday(holidayEvents);
-    } else setSelectedHoliday([]);
+    setSelectedHoliday(hasHoliday ? holidayEvents : []);
   };
 
   useEffect(() => {
-    if (!isSelected) return;
-
-    setSelectedHoliday(hasHoliday ? holidayEvents : []);
+    if (isSelected) {
+      setSelectedHoliday(hasHoliday ? holidayEvents : []);
+    }
   }, [isSelected, hasHoliday, holidayEvents, setSelectedHoliday]);
 
   const classes = clsx(
-    "relative flex flex-col h-11 md:h-13 justify-center items-center rounded-md border cursor-pointer transition-all",
+    "w-full relative flex flex-col h-11 md:h-13 justify-center items-center rounded-md border cursor-pointer transition-all focus:outline focus:outline-2 focus:outline-black",
     isSelected && "bg-brown-dark text-white font-bold",
     isToday && "underline font-bold bg-brown-light text-white",
   );
@@ -63,12 +63,20 @@ export default function JewishCalendarDay({
     isToday || isSelected ? "bg-white" : "bg-brown-light",
   );
 
-  const content = (
-    <div onClick={handleClick} className={classes}>
-      <div className="text-center">{day}</div>
+  const labelText = `${getJewishWeekDayName(gregorianDate)} ${day}${hasHoliday ? ", есть события" : ""}`;
 
+  const content = (
+    <button
+      onClick={handleClick}
+      className={classes}
+      aria-label={labelText}
+      aria-pressed={isSelected}
+    >
+      <time dateTime={isoDate} className="text-center">
+        {day}
+      </time>
       {hasHoliday && <div className={dotClasses} />}
-    </div>
+    </button>
   );
 
   return hasHoliday ? (
