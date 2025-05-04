@@ -10,9 +10,6 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { BOOKS } from "@/lib/routes";
@@ -32,10 +29,6 @@ export default function MobileSidebar() {
 
   return (
     <Sheet>
-      <SheetHeader className="sr-only">
-        <SheetTitle>Навигация</SheetTitle>
-        <SheetDescription>Выберите нужную книгу</SheetDescription>
-      </SheetHeader>
       <SheetTrigger asChild>
         <button
           aria-label="Открыть боковое меню"
@@ -44,7 +37,11 @@ export default function MobileSidebar() {
           <Menu size={24} aria-hidden="true" focusable="false" />
         </button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-full bg-white p-4">
+      <SheetContent
+        side="left"
+        className="w-full bg-white p-4"
+        aria-label="Боковое меню навигации"
+      >
         <nav className="flex h-full flex-col justify-between rounded-lg">
           <div>
             <SheetClose asChild>
