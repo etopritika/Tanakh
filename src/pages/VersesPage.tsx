@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
 import AddToHomepageControls from "@/components/VersesPage/AddToHomepageControls";
-import AppPagination from "@/components/VersesPage/AppPagination";
 import CopyControls from "@/components/VersesPage/CopyControls";
 import { NoVerses } from "@/components/VersesPage/NoVerses";
 import VerseList from "@/components/VersesPage/VerseList";
+import VersePagination from "@/components/VersesPage/VersePagination";
 import { toast } from "@/hooks/use-toast";
 import {
   fetchCommentsByBook,
@@ -140,7 +140,7 @@ export default function VersesPage() {
       aria-live="polite"
       aria-atomic="true"
     >
-      <AppPagination
+      <VersePagination
         currentPage={page}
         subPage={subPage}
         chapters={state.chapters}
@@ -159,7 +159,7 @@ export default function VersesPage() {
         </h1>
         <VerseList verses={state.verses} />
       </div>
-      <AppPagination
+      <VersePagination
         currentPage={page}
         subPage={subPage}
         chapters={state.chapters}

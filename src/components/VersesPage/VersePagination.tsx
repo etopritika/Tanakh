@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/pagination";
 import { Chapter } from "@/lib/types";
 
-interface AppPaginationProps {
+interface VersePaginationProps {
   currentPage: number;
   subPage: number;
   chapters: Chapter[];
@@ -14,13 +14,13 @@ interface AppPaginationProps {
   bookName: string;
 }
 
-export default function AppPagination({
+export default function VersePagination({
   currentPage,
   subPage,
   chapters,
   sectionName,
   bookName,
-}: AppPaginationProps) {
+}: VersePaginationProps) {
   const currentIndex = chapters.findIndex(
     (chapter) => chapter.key === currentPage && chapter.subKey === subPage,
   );
@@ -40,21 +40,29 @@ export default function AppPagination({
       : "bg-brown-dark";
 
   return (
-    <Pagination className="text-white">
+    <Pagination className="text-white" aria-label="Навигация по главам">
       <PaginationContent className="flex w-full items-center justify-between">
-        <PaginationPrevious
-          to={!isFirstPage ? getPageHref(currentIndex - 1) : "#"}
-          className={getButtonClassName(isFirstPage)}
-        >
-          Previous
-        </PaginationPrevious>
+        <li>
+          <PaginationPrevious
+            to={!isFirstPage ? getPageHref(currentIndex - 1) : "#"}
+            className={getButtonClassName(isFirstPage)}
+            aria-label="Предыдущая глава"
+            aria-disabled={isFirstPage}
+          >
+            Previous
+          </PaginationPrevious>
+        </li>
 
-        <PaginationNext
-          to={!isLastPage ? getPageHref(currentIndex + 1) : "#"}
-          className={getButtonClassName(isLastPage)}
-        >
-          Next
-        </PaginationNext>
+        <li>
+          <PaginationNext
+            to={!isLastPage ? getPageHref(currentIndex + 1) : "#"}
+            className={getButtonClassName(isLastPage)}
+            aria-label="Следующая глава"
+            aria-disabled={isLastPage}
+          >
+            Next
+          </PaginationNext>
+        </li>
       </PaginationContent>
     </Pagination>
   );
