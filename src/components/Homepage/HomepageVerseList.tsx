@@ -63,7 +63,9 @@ export default function HomepageVerseList({
               {sectionName && `${sectionName}:`} {fullChapterName.main}
             </b>
             {fullChapterName.comment && ` (${fullChapterName.comment})`}{" "}
-            <span title="Номер главы">{fullChapterName.id}</span>
+            <span aria-label={`Номер главы: ${fullChapterName.id}`}>
+              {fullChapterName.id}
+            </span>
           </>
 
           <Tooltip>
