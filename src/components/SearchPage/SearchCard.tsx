@@ -42,7 +42,7 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
   }`;
 
   const verseLabelId = `verse-heading-${index}`;
-  const verseContentId = `verse-content-${index}`;
+  const verseTextId = `verse-text-${index}`;
 
   return (
     <li
@@ -52,8 +52,8 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
     >
       <Link
         to={to}
-        aria-labelledby={verseLabelId}
-        aria-describedby={verseContentId}
+        aria-labelledby={`${verseLabelId} ${verseTextId}`}
+        aria-describedby={verseTextId}
         aria-current={isHighlighted ? "true" : undefined}
         className="group"
       >
@@ -77,7 +77,7 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
               </span>
             </CardTitle>
           </CardHeader>
-          <CardContent id={verseContentId} className="flex space-x-2 text-sm">
+          <CardContent id={verseTextId} className="flex space-x-2 text-sm">
             <p
               className="font-bold"
               aria-label={`Номер стиха: ${verse.poemNumber}`}
