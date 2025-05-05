@@ -10,6 +10,9 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { BOOKS } from "@/lib/routes";
@@ -42,6 +45,12 @@ export default function MobileSidebar() {
         className="w-full bg-white p-4"
         aria-label="Боковое меню навигации"
       >
+        <SheetHeader className="sr-only">
+          <SheetTitle>Навигация по приложению</SheetTitle>
+          <SheetDescription className="sr-only">
+            Содержит ссылки для перемещения между основными страницами Танаха.
+          </SheetDescription>
+        </SheetHeader>
         <nav className="flex h-full flex-col justify-between rounded-lg">
           <div>
             <SheetClose asChild>
