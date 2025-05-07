@@ -44,6 +44,7 @@ export default function RedirectButton({
         className="break-all not-italic text-blue-600 underline hover:text-blue-800"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label={`Перейти на сайт ${domain}`}
       >
         {domain}
       </Link>
@@ -67,6 +68,7 @@ export default function RedirectButton({
       className="not-italic text-blue-600 underline hover:text-blue-800"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={`Перейти к ${formattedBookName}, глава ${chapter}, стих ${verse}`}
     >
       {isValidFormat
         ? `${formattedBookName} ${chapter}:${verse}`

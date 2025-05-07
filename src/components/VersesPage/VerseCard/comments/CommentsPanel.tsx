@@ -63,14 +63,12 @@ export default function CommentsPanel({
 
   return (
     <>
-      <div className="flex items-center space-x-2">
-        <Input
-          placeholder="Поиск комментариев..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="max-w-52 bg-white"
-        />
-      </div>
+      <Input
+        placeholder="Поиск комментариев..."
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        className="max-w-52 bg-white"
+      />
 
       <ul className="mt-4 italic">
         {filteredComments.map((comment, index) => {
@@ -81,10 +79,16 @@ export default function CommentsPanel({
               className={`prose flex items-center justify-between space-x-2 text-text ${lastComment ? "border-none py-0 pt-2" : "border-b py-2"}`}
             >
               <div className="flex flex-col">
-                <div
+                {/* <div
                   className="whitespace-pre-wrap"
                   dangerouslySetInnerHTML={{ __html: comment.text }}
-                />
+                /> */}
+                <p
+                  className="whitespace-pre-wrap"
+                  id={`comment-text-${comment.id}`}
+                >
+                  {comment.text}
+                </p>
                 {comment.redirectLink && (
                   <RedirectButton redirectLink={comment.redirectLink} />
                 )}
@@ -93,6 +97,7 @@ export default function CommentsPanel({
               {comment.id !== "default" && (
                 <EditCommentButton
                   onEdit={() => handleOpenModal("edit", comment)}
+                  commentId={`comment-text-${comment.id}`}
                 />
               )}
             </li>
