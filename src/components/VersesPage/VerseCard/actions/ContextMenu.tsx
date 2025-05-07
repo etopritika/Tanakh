@@ -1,10 +1,12 @@
 import { CirclePlus, Copy, Link, X } from "lucide-react";
-import { useState, ReactNode, useEffect, useRef } from "react";
+import { useState, ReactNode, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 import AddComment from "../../../Modals/Comments/AddComment";
 import ModalContainer from "../../../Modals/ModalContainer";
 
+import { useEscapeKey } from "@/hooks/use-escape-key";
+import { useFocusTrap } from "@/hooks/use-focus-trap";
 import { toast } from "@/hooks/use-toast";
 import {
   createVerseColorInFirestore,
@@ -140,60 +142,13 @@ export default function ContextMenu({
     closeMenu();
   };
 
-  useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape" && isOpen) {
-        setIsOpen(false);
-        document.body.style.overflow = "auto";
-        document.body.style.touchAction = "auto";
-      }
-    };
+  useEscapeKey(() => {
+    setIsOpen(false);
+    document.body.style.overflow = "auto";
+    document.body.style.touchAction = "auto";
+  }, isOpen);
 
-    window.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-      document.body.style.overflow = "auto";
-      document.body.style.touchAction = "auto";
-    };
-  }, [isOpen]);
-
-  useEffect(() => {
-    if (!isOpen || !menuRef.current) return;
-
-    const menu = menuRef.current;
-    const focusableElements = menu.querySelectorAll<HTMLButtonElement>(
-      "button:not([disabled])",
-    );
-    const firstEl = focusableElements[0];
-    const lastEl = focusableElements[focusableElements.length - 1];
-
-    firstEl?.focus();
-
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key !== "Tab") return;
-
-      if (focusableElements.length === 0) {
-        e.preventDefault();
-        return;
-      }
-
-      if (e.shiftKey) {
-        if (document.activeElement === firstEl) {
-          e.preventDefault();
-          lastEl.focus();
-        }
-      } else {
-        if (document.activeElement === lastEl) {
-          e.preventDefault();
-          firstEl.focus();
-        }
-      }
-    };
-
-    menu.addEventListener("keydown", handleKeyDown);
-    return () => menu.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen]);
+  useFocusTrap(menuRef, isOpen);
 
   return (
     <button
