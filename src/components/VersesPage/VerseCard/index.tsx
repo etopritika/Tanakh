@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
-import ActionDropdown from "./actions/ActionDropdown";
 import CommentsDropdown from "./actions/CommentsDropdown";
+import ContextMenu from "./actions/ContextMenu";
 import { Card, CardContent, CardFooter } from "../../ui/card";
 
 import { highlightColorNameMap, Verse } from "@/lib/types";
@@ -79,7 +79,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
           } `}
           id={verseId}
         >
-          <ActionDropdown
+          <ContextMenu
             verse={verse}
             onCopy={handleCopy}
             highlightColor={highlightColor}
@@ -121,7 +121,7 @@ export default function VerseCard({ verse }: { verse: Verse }) {
                 </span>
               )}
             </div>
-          </ActionDropdown>
+          </ContextMenu>
         </CardContent>
         {hasComments && (
           <CardFooter className="p-3 sm:p-6" id={`verse-comments-${verseId}`}>
