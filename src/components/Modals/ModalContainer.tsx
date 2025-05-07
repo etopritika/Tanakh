@@ -44,14 +44,18 @@ export default function ModalContainer({ children }: ModalProps) {
       style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
     >
       <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
         ref={modalRef}
         className="absolute left-1/2 top-1/2 w-full max-w-md translate-x-[-50%] translate-y-[-40%] transform rounded bg-white p-6 shadow-md sm:translate-y-[-50%]"
       >
         <button
           className="absolute right-2 top-2 text-gray-500 hover:text-gray-800"
           onClick={setClose}
+          aria-label="Закрыть модальное окно"
         >
-          <X />
+          <X aria-hidden="true" focusable="false" />
         </button>
         {children}
       </div>
