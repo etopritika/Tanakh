@@ -141,7 +141,7 @@ export default function EditComment({ comment, bookName }: EditCommentProps) {
           </Button>
           <Button
             type="submit"
-            className="bg-brown-light text-white"
+            className="bg-brown-dark text-white"
             disabled={form.formState.isSubmitting}
           >
             {form.formState.isSubmitting ? (

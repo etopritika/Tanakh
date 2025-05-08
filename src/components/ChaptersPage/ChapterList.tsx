@@ -42,7 +42,7 @@ export default function ChapterList({
               to={href}
               className={`flex rounded-lg px-4 py-2 text-text ${
                 isLast ? "" : "border-b"
-              } ${isActive ? "bg-brown-light text-white" : ""}`}
+              } ${isActive ? "bg-brown-dark text-white" : ""}`}
               aria-label={`Открыть главу ${chapterName} ${chapterMeta ? `(${chapterMeta}` : ""} ${chapter.key}`}
             >
               <span className="font-bold">

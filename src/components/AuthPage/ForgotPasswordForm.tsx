@@ -113,7 +113,7 @@ export default function ForgotPasswordForm() {
               </Button>
               <Button
                 type="submit"
-                className="h-auto whitespace-normal bg-brown-light text-white"
+                className="h-auto whitespace-normal bg-brown-dark text-white"
                 disabled={isLoading}
               >
                 Отправить инструкции{" "}
