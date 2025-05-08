@@ -42,6 +42,10 @@ body {
   outline-offset: 1.5px;
 }
 
+h1:focus-visible#auth-form-title {
+  outline: none !important;
+}
+
 ::-webkit-scrollbar-track {
   background: var(--background);
 }
