@@ -151,15 +151,17 @@ export default function ContextMenu({
   useFocusTrap(menuRef, isOpen);
 
   return (
-    <button
-      type="button"
-      aria-haspopup="menu"
-      aria-expanded={isOpen}
-      aria-controls={`action-menu-${verseId}`}
-      onClick={handleOpenDropdown}
-      className="relative flex w-full space-x-1 text-start sm:space-x-2"
-    >
-      {children}
+    <>
+      <button
+        type="button"
+        aria-haspopup="menu"
+        aria-expanded={isOpen}
+        aria-controls={`action-menu-${verseId}`}
+        onClick={handleOpenDropdown}
+        className="relative flex w-full space-x-1 text-start sm:space-x-2"
+      >
+        {children}
+      </button>
       {isOpen && (
         <>
           <div
@@ -300,6 +302,6 @@ export default function ContextMenu({
           </ul>
         </>
       )}
-    </button>
+    </>
   );
 }
