@@ -46,10 +46,22 @@ export default function DeleteSingleVerseConfirmation({
   };
 
   return (
-    <div className="space-y-6">
+    <div
+      className="space-y-6"
+      aria-describedby="modal-verse modal-description"
+      aria-busy={isLoading}
+    >
       <div className="space-y-2">
-        <h2 className="text-lg font-bold">Удалить стих с главной страницы?</h2>
-        <p className="font-normal italic">{verse.verse}</p>
+        <h2 id="modal-title" className="text-lg font-bold">
+          Удалить стих с главной страницы?
+        </h2>
+        <p className="font-normal italic" id="modal-verse">
+          {verse.verse}
+        </p>
+        <p id="modal-description" className="sr-only">
+          Подтвердите удаление стиха с главной страницы. Кнопка отмены закроет
+          окно.
+        </p>
       </div>
 
       <div className="flex items-center justify-between">
@@ -65,7 +77,11 @@ export default function DeleteSingleVerseConfirmation({
         >
           {isLoading ? (
             <>
-              <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+              <LoaderCircle
+                className="mr-2 h-5 w-5 animate-spin text-white"
+                aria-hidden="true"
+                focusable="false"
+              />
               Удаление...
             </>
           ) : (
