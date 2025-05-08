@@ -9,6 +9,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - [Installation](#installation)
 - [Usage](#usage)
 - [Firebase Authentication Setup](#firebase-authentication-setup)
+- [Accessibility](#accessibility)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
 - [Tests](#tests)
@@ -27,9 +28,11 @@ React/Vite application for reading and exploring the Tanakh. This application is
 - ⚡ Built with modern React and Vite for fast performance.
 - 🔐 **User authentication** with email/password, Google, and Facebook.
 - 🗓️ Calendar page with three tabs:
+
   - Gregorian calendar
   - Jewish calendar
   - Shabbat overview
+
 - 🔁 Synchronized Gregorian and Jewish calendars
 - 🎉 Displays Jewish holidays from Hebcal API
 - 🕯️ Shabbat tab shows candle lighting and havdalah times for the selected month
@@ -85,6 +88,7 @@ React/Vite application for reading and exploring the Tanakh. This application is
 5. Register and sign in to save your bookmarks and personal preferences.
 6. Add comments to verses.
 7. Navigate to the **Calendar** page to explore:
+
    - Jewish and Gregorian calendars in sync
    - Holidays highlighted in both systems
    - Shabbat times with smart caching logic for optimal performance
@@ -98,7 +102,9 @@ To enable authentication, you need to configure Firebase for your project.
 1. **Create a Firebase project** in the [Firebase Console](https://console.firebase.google.com/).
 2. **Enable authentication providers** (Email/Password, Google, Facebook, etc.) in the Authentication section of your Firebase project.
 3. **Add environment variables**:
+
    - In the root directory of your project, create a `.env` file with the following variables:
+
      ```env
      VITE_BASE_URL=your_base_url
      VITE_FIREBASE_API_KEY=your_firebase_api_key
@@ -109,9 +115,56 @@ To enable authentication, you need to configure Firebase for your project.
      VITE_FIREBASE_APP_ID=your_firebase_app_id
      VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
      ```
+
 4. **Configure OAuth providers** like Google and Facebook:
+
    - For Google, enable the **Google provider** in Firebase and configure the consent screen in the [Google Cloud Console](https://console.cloud.google.com/).
    - For Facebook, set up an app in [Facebook Developers](https://developers.facebook.com/), configure the app to use OAuth, and add your app's **App ID** and **App Secret** to Firebase.
+
+---
+
+## Accessibility
+
+This application has been carefully enhanced to support full accessibility, providing an inclusive experience for all users, including those relying on screen readers, keyboard navigation, and assistive technologies.
+
+### Key accessibility improvements:
+
+- ✅ **Modals** use proper ARIA roles and focus traps:
+
+  - `role="dialog"`, `aria-modal="true"`, `aria-labelledby`, `aria-describedby`.
+  - Focus is trapped within the modal and returns upon close.
+  - Escape key and backdrop click close the modal reliably.
+
+- ✅ **Form accessibility**:
+
+  - All input fields are properly labeled and described.
+  - Validation messages use `role="alert"` and are linked to fields via `aria-describedby`.
+  - `aria-busy` and `aria-describedby` are applied where appropriate for real-time status and instructions.
+
+- ✅ **Loading indicators**:
+
+  - Spinners are hidden from screen readers with `aria-hidden`.
+  - Submission states use `aria-busy`, and visible status messages are optionally added.
+
+- ✅ **Interactive elements**:
+
+  - All buttons and icons (including tooltips) use `aria-label` where necessary.
+  - Comment action buttons are associated with their corresponding content via `aria-labelledby`.
+
+- ✅ **Keyboard support**:
+
+  - Tab/Shift+Tab loops are managed in menus and modals for smooth navigation.
+  - Menus are fully focusable and close with Escape.
+
+- ✅ **External links**:
+
+  - Screen readers are informed when a link opens in a new tab or leads to an external site.
+
+- ✅ **Visually hidden instructions**:
+
+  - Context and guidance are provided via `sr-only` text for screen readers.
+
+This work adheres to [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/quickref/) and [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) best practices.
 
 ---
 
@@ -173,3 +226,5 @@ src/components/Calendar/utils/calendar-utils/__tests__/
 - **Radix UI** for accessible components.
 - **Lucide React** for icons.
 - **Zustand** for state management simplicity.
+- **Hebcal API** for Jewish calendar and holiday data.
+- **WCAG / ARIA** standards that guided accessibility improvements.
