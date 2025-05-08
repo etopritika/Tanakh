@@ -66,8 +66,19 @@ export default function AddComment({
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
-        <h2 className="text-lg font-bold">Добавить комментарий</h2>
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="space-y-4"
+        aria-describedby="modal-description"
+        aria-busy={form.formState.isSubmitting}
+      >
+        <h2 id="modal-title" className="text-lg font-bold">
+          Добавить комментарий
+        </h2>
+        <p id="modal-description" className="sr-only">
+          Заполните поле комментария и при необходимости добавьте ссылку.
+          Нажмите «Добавить», чтобы сохранить.
+        </p>
 
         <FormField
           control={form.control}
@@ -80,9 +91,10 @@ export default function AddComment({
                   className="bg-white"
                   rows={5}
                   {...field}
+                  aria-describedby="comment-error"
                 />
               </FormControl>
-              <FormMessage />
+              <FormMessage role="alert" id="comment-error" />
             </FormItem>
           )}
         />
@@ -99,9 +111,10 @@ export default function AddComment({
                   placeholder="Введите ссылку"
                   className="bg-white"
                   {...field}
+                  aria-describedby="link-error"
                 />
               </FormControl>
-              <FormMessage />
+              <FormMessage role="alert" id="link-error" />
             </FormItem>
           )}
         />
@@ -117,12 +130,16 @@ export default function AddComment({
           </Button>
           <Button
             type="submit"
-            className="bg-brown-light text-white"
+            className="bg-brown-dark text-white"
             disabled={form.formState.isSubmitting}
           >
             {form.formState.isSubmitting ? (
               <>
-                <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+                <LoaderCircle
+                  className="mr-2 h-5 w-5 animate-spin text-white"
+                  aria-hidden="true"
+                  focusable="false"
+                />
                 Добавление...
               </>
             ) : (
