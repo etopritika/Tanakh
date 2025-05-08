@@ -135,6 +135,7 @@ export default function EditComment({ comment, bookName }: EditCommentProps) {
             className="bg-danger text-white"
             variant="outline"
             onClick={handleConfirmDeletion}
+            aria-label="Удалить комментарий"
           >
             Удалить
           </Button>
