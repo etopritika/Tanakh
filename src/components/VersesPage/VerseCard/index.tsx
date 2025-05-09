@@ -15,9 +15,8 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   const selectionId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const verseMetadata = useFirestoreStore((state) => state.verses[verseId]);
-  const verseComments = Object.values(
-    useFirestoreStore((state) => state.comments[verseId]) ?? {},
-  );
+  const commentsMap = useFirestoreStore((state) => state.comments);
+  const verseComments = Object.values(commentsMap[verseId] ?? {});
   const isCommentsLoaded = useFirestoreStore((state) => state.isCommentsLoaded);
 
   const docId = verseMetadata?.id;
