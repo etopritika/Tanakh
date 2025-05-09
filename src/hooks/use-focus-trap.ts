@@ -1,10 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export function useFocusTrap(
   ref: React.RefObject<HTMLElement>,
   active: boolean,
 ) {
+  const previouslyFocusedElementRef = useRef<HTMLElement | null>(null);
+
   useEffect(() => {
+    if (active) {
+      previouslyFocusedElementRef.current =
+        document.activeElement as HTMLElement;
+    }
+
     if (!active || !ref.current) return;
 
     const element = ref.current;
@@ -39,6 +46,9 @@ export function useFocusTrap(
     };
 
     element.addEventListener("keydown", handleKeyDown);
-    return () => element.removeEventListener("keydown", handleKeyDown);
+    return () => {
+      element.removeEventListener("keydown", handleKeyDown);
+      previouslyFocusedElementRef.current?.focus();
+    };
   }, [ref, active]);
 }
