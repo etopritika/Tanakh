@@ -1,57 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap&subset=latin,cyrillic,hebrew");
 @tailwind base;
+@layer base {
+  :root {
+    --background: #faf3e8;
+    --brown-dark: #781d19;
+    --brown-light: #c29b77;
+    --white: #ffffff;
+    --black: #000;
+    --text: #28180a;
+    --muted: #d2d2d2;
+    --danger: #c40700;
+    --destructive: #e53e3e;
+    --input: #3a3a3a;
+  }
+
+  body {
+    @apply overflow-auto bg-[var(--background)] font-sans text-[var(--text)];
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  .font-sans {
+    font-family: "Noto Sans", Arial, sans-serif;
+  }
+
+  ::selection {
+    background: #ffdc6b;
+    color: #000;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #898989;
+    border-radius: 6px;
+    border: 2px solid #f1f1f1;
+  }
+
+  *:focus-visible {
+    outline: 1.5px solid var(--black) !important;
+    outline-offset: 1.5px;
+  }
+
+  h1:focus-visible#auth-form-title {
+    outline: none !important;
+  }
+}
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #faf3e8;
-  --brown-dark: #781d19;
-  --brown-light: #c29b77;
-  --white: #ffffff;
-  --black: #000;
-  --text: #28180a;
-  --muted: #d2d2d2;
-  --danger: #c40700;
-  --destructive: #e53e3e;
-  --input: #3a3a3a;
-}
-
-::selection {
-  background: #ffdc6b;
-  color: #000;
-}
-
-body {
-  @apply overflow-auto bg-[var(--background)] font-sans text-[var(--text)];
-}
-
-#root {
-  height: 100%;
-}
-
-.font-sans {
-  font-family: "Noto Sans", Arial, sans-serif;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-*:focus-visible {
-  outline: 1.5px solid var(--black) !important;
-  outline-offset: 1.5px;
-}
-
-h1:focus-visible#auth-form-title {
-  outline: none !important;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--background);
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #898989;
-  border-radius: 6px;
-  border: 2px solid #f1f1f1;
-}
