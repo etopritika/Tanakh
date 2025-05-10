@@ -21,7 +21,7 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
 
       const timer = setTimeout(() => {
         setIsAnimationActive(false);
-      }, 3000);
+      }, 1200);
 
       return () => clearTimeout(timer);
     }
@@ -41,12 +41,27 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
       : ""
   }`;
 
+  const verseLabelId = `verse-heading-${index}`;
+  const verseTextId = `verse-text-${index}`;
+
   return (
-    <li onClick={() => setSelectedIndex(index)} data-search-index={index}>
-      <Link to={to}>
-        <Card className={cardClasses}>
+    <li
+      role="listitem"
+      onClick={() => setSelectedIndex(index)}
+      data-search-index={index}
+    >
+      <Link
+        to={to}
+        aria-labelledby={`${verseLabelId} ${verseTextId}`}
+        aria-describedby={verseTextId}
+        aria-current={isHighlighted ? "true" : undefined}
+        className="group"
+      >
+        <Card
+          className={`${cardClasses} group-focus-visible:ring-[1.5px] group-focus-visible:ring-black`}
+        >
           <CardHeader>
-            <CardTitle className="text-sm">
+            <CardTitle id={verseLabelId} className="text-sm">
               {verse.name}{" "}
               <span className="font-bold">
                 {verse.chapter.split(" (")[0].trim()}
@@ -54,14 +69,28 @@ export default function SearchCard({ verse, index }: SearchCardProps) {
               <span className="font-normal">
                 ({verse.chapter.split(" (")[1]?.trim() || ""}
               </span>{" "}
-              <span className="font-normal">{verse.id_chapter}</span>
+              <span
+                className="font-normal"
+                aria-label={`Номер главы: ${verse.id_chapter}`}
+              >
+                {verse.id_chapter}
+              </span>
             </CardTitle>
           </CardHeader>
-          <CardContent className="flex space-x-2 text-sm">
-            <span className="font-bold">{verse.poemNumber}</span>
+          <CardContent id={verseTextId} className="flex space-x-2 text-sm">
+            <p
+              className="font-bold"
+              aria-label={`Номер стиха: ${verse.poemNumber}`}
+            >
+              {verse.poemNumber}
+            </p>
             <div className="w-full space-y-2">
               <p>{verse.verse}</p>
-              <p className="rtl text-right">{verse.verse_ivrit}</p>
+              {verse.verse_ivrit && (
+                <p className="rtl text-right" lang="he" dir="rtl">
+                  {verse.verse_ivrit}
+                </p>
+              )}
             </div>
           </CardContent>
         </Card>

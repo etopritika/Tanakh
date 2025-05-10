@@ -59,3 +59,31 @@ export const formatJewishDateRu = (isoDate: string): string => {
 
   return `${day} ${monthName} ${year}`;
 };
+
+export const getWeekDayName = (year: number, month: number, day: number) => {
+  const weekdayNames = [
+    "Воскресенье",
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+  ];
+  const date = new Date(year, month, day);
+  return weekdayNames[date.getDay()];
+};
+
+export const getJewishWeekDayName = (gregorianDate: Date) => {
+  const weekdayNames = [
+    "Воскресенье",
+    "Понедельник",
+    "Вторник",
+    "Среда",
+    "Четверг",
+    "Пятница",
+    "Суббота",
+  ];
+
+  return weekdayNames[gregorianDate.getDay()];
+};

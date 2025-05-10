@@ -10,7 +10,7 @@ export default function ChaptersPage() {
   const { sectionName, bookName } = useParams();
   const [chapters, setChapters] = useState<Chapter[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const [іsLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const loadChapters = async () => {
@@ -37,11 +37,15 @@ export default function ChaptersPage() {
     loadChapters();
   }, [sectionName, bookName]);
 
-  if (іsLoading) {
+  if (isLoading) {
     return (
       <section className="flex h-full items-center justify-center py-6">
-        <div className="flex space-x-2">
-          <LoaderCircle className="animate-spin" />
+        <div className="flex space-x-2" role="status">
+          <LoaderCircle
+            className="animate-spin"
+            aria-hidden="true"
+            focusable="false"
+          />
           <p>Загрузка глав...</p>
         </div>
       </section>
@@ -53,7 +57,10 @@ export default function ChaptersPage() {
   }
 
   return (
-    <section className="py-6">
+    <section className="py-6" aria-labelledby="chapters-title">
+      <h1 id="chapters-title" className="sr-only">
+        Список глав
+      </h1>
       <ChapterList
         chapters={chapters}
         sectionName={sectionName || ""}

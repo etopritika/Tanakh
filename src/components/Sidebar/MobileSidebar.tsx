@@ -32,16 +32,25 @@ export default function MobileSidebar() {
 
   return (
     <Sheet>
-      <SheetHeader className="sr-only">
-        <SheetTitle>Навигация</SheetTitle>
-        <SheetDescription>Выберите нужную книгу</SheetDescription>
-      </SheetHeader>
       <SheetTrigger asChild>
-        <button aria-label="Toggle Sidebar" className="h-10 w-10 p-2 lg:hidden">
-          <Menu size={24} />
+        <button
+          aria-label="Открыть боковое меню"
+          className="h-10 w-10 p-2 lg:hidden"
+        >
+          <Menu size={24} aria-hidden="true" focusable="false" />
         </button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-full bg-white p-4">
+      <SheetContent
+        side="left"
+        className="w-full bg-white p-4"
+        aria-label="Боковое меню навигации"
+      >
+        <SheetHeader className="sr-only">
+          <SheetTitle>Навигация по приложению</SheetTitle>
+          <SheetDescription className="sr-only">
+            Содержит ссылки для перемещения между основными страницами Танаха.
+          </SheetDescription>
+        </SheetHeader>
         <nav className="flex h-full flex-col justify-between rounded-lg">
           <div>
             <SheetClose asChild>
@@ -50,6 +59,7 @@ export default function MobileSidebar() {
                 className={`block border-b py-4 ${
                   currentSection === "" ? "font-bold" : ""
                 }`}
+                id="first-link"
               >
                 Танах
               </Link>
@@ -108,8 +118,15 @@ export default function MobileSidebar() {
                   className={`flex items-center border-b py-4 text-sm ${
                     pathname === lastPathname ? "font-bold" : ""
                   }`}
+                  aria-label={`Перейти к последней прочитанной главе: ${chapterName}`}
                 >
-                  <BookMarked className="mr-2" size={16} /> {chapterName}
+                  <BookMarked
+                    className="mr-2"
+                    size={16}
+                    aria-hidden="true"
+                    focusable="false"
+                  />{" "}
+                  {chapterName}
                 </Link>
               </SheetClose>
             )}

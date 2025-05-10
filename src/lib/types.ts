@@ -144,3 +144,11 @@ export interface HebcalResponse {
     tzid?: string;
   };
 }
+
+export const highlightColorNameMap: Record<string, string> = {
+  "#E6E6E6": "серым",
+  "#EBC3FF": "фиолетовым",
+  "#A1D1FF": "голубым",
+  "#ACFFB7": "зелёным",
+  transparent: "",
+};

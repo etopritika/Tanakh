@@ -22,16 +22,27 @@ export default function CommentsDropdown({ verse }: { verse: Verse }) {
     >
       <AccordionItem value="comment">
         <AccordionTrigger
-          className={`py-3 text-sm ${isSelecting ? "pointer-events-none" : ""}`}
+          className={`py-3 text-sm ${
+            isSelecting ? "pointer-events-none opacity-50" : ""
+          }`}
+          tabIndex={isSelecting ? -1 : 0}
+          aria-disabled={isSelecting}
         >
           <div className="flex items-center space-x-2">
             <span className="text-text">Комментарии</span>
-            <MessageSquareText size={15} className="text-text" />
+            <MessageSquareText
+              size={15}
+              className="text-text"
+              aria-hidden="true"
+              focusable="false"
+            />
           </div>
         </AccordionTrigger>
-        <AccordionContent className="py-3">
-          <CommentsPanel defaultVerse={verse} />
-        </AccordionContent>
+        {!isSelecting && (
+          <AccordionContent className="py-3">
+            <CommentsPanel defaultVerse={verse} />
+          </AccordionContent>
+        )}
       </AccordionItem>
     </Accordion>
   );

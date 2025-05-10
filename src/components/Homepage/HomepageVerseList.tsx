@@ -48,35 +48,53 @@ export default function HomepageVerseList({
     );
   };
 
-  return (
-    <article className="space-y-2">
-      <div className="flex justify-between">
-        <h2 className="flex items-center gap-2">
-          <span>
-            <strong>
-              {sectionName && `${sectionName}:`} {fullChapterName.main}
-            </strong>
-            {fullChapterName.comment && ` (${fullChapterName.comment})`}{" "}
-            <span>{fullChapterName.id}</span>
-          </span>
+  const safeChapterId = firstVerse?.chapter
+    .toLowerCase()
+    .replace(/[()]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
+  return (
+    <article className="space-y-2" aria-labelledby={`group-${safeChapterId}`}>
+      <div className="flex justify-between">
+        <span className="flex items-center">
+          <h2 id={`group-${safeChapterId}`} className="flex items-center gap-2">
+            <>
+              <b>
+                {sectionName && `${sectionName}:`} {fullChapterName.main}
+              </b>
+              {fullChapterName.comment && ` (${fullChapterName.comment})`}{" "}
+              <span aria-label={`Номер главы: ${fullChapterName.id}`}>
+                {fullChapterName.id}
+              </span>
+            </>
+          </h2>
           <Tooltip>
-            <TooltipTrigger className="px-2">
-              <Link to={redirectPath} className="text-blue-600">
-                <ChevronsRight />
+            <TooltipTrigger className="px-2" asChild>
+              <Link
+                to={redirectPath}
+                className="text-blue-600"
+                aria-label="Перейти к главе"
+              >
+                <ChevronsRight aria-hidden="true" focusable="false" />
               </Link>
             </TooltipTrigger>
-            <TooltipContent className="bg-white">
+            <TooltipContent aria-hidden="true" className="bg-white">
               <p>Перейти к главе</p>
             </TooltipContent>
           </Tooltip>
-        </h2>
+        </span>
+
         {isAdmin && (
           <Tooltip>
-            <TooltipTrigger onClick={handleDeleteAll} className="ml-auto p-2">
-              <X className="text-danger" />
+            <TooltipTrigger
+              onClick={handleDeleteAll}
+              className="ml-auto p-2"
+              aria-label="Удалить группу стихов"
+            >
+              <X className="text-danger" aria-hidden="true" focusable="false" />
             </TooltipTrigger>
-            <TooltipContent className="bg-white">
+            <TooltipContent className="bg-white" aria-hidden="true">
               <p>Удалить группу</p>
             </TooltipContent>
           </Tooltip>

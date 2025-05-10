@@ -24,6 +24,12 @@ export const ShabbatDatePicker: React.FC<ShabbatDatePickerProps> = ({
 
   const isToday = selectedDate.toDateString() === today.toDateString();
 
+  const formattedDate = selectedDate.toLocaleDateString("ru-RU", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   const handleSelect = (date: Date | undefined) => {
     if (date) {
       onDateChange(date);
@@ -43,36 +49,35 @@ export const ShabbatDatePicker: React.FC<ShabbatDatePickerProps> = ({
           className={cn(
             "flex items-center text-sm font-semibold text-gray-800 transition hover:underline",
           )}
-          title="Выбрать дату"
+          aria-label={`Выбрать дату. ${isToday ? "Сегодня" : "Выбранная дата"}: ${formattedDate}`}
         >
-          <CalendarDays className="mr-2" />
+          <CalendarDays className="mr-2" aria-hidden="true" focusable="false" />
           <p>
             {isToday ? "Сегодня: " : "Выбранная дата: "}
-            <span>
-              {selectedDate.toLocaleDateString("ru-RU", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </span>
+            <span>{formattedDate}</span>
           </p>
         </button>
       </PopoverTrigger>
 
-      <PopoverContent className="w-auto bg-white p-2" align="end">
-        <div className="mb-2 flex items-center justify-between">
-          <span className="text-sm font-medium text-gray-600">
+      <PopoverContent
+        className="w-auto bg-white p-2"
+        align="end"
+        aria-labelledby="calendar-label"
+      >
+        <header className="mb-2 flex items-center justify-between">
+          <h4 className="text-sm font-medium text-gray-600" id="calendar-label">
             Выберите дату
-          </span>
+          </h4>
           {!isToday && (
             <button
               onClick={handleResetToToday}
               className="text-xs text-blue-600 hover:underline"
+              aria-label="Сбросить выбранную дату и перейти к сегодняшней дате"
             >
               Сегодня
             </button>
           )}
-        </div>
+        </header>
 
         <Calendar
           className="p-1"

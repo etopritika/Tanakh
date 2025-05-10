@@ -16,7 +16,11 @@ export default function ChapterList({
   const { lastPathname } = useReadingStore((state) => state.lastRead);
 
   if (!chapters.length) {
-    return <p className="text-center text-danger">Список глав пуст.</p>;
+    return (
+      <p className="text-center text-danger" role="status">
+        Список глав пуст.
+      </p>
+    );
   }
 
   return (
@@ -29,13 +33,17 @@ export default function ChapterList({
         const isActive = lastPathname === href;
         const isLast = index === chapters.length - 1;
 
+        const chapterName = chapter.chapterName.split(" (")[0].trim();
+        const chapterMeta = chapter.chapterName.split(" (")[1]?.trim() || "";
+
         return (
           <li key={isSubChapter}>
             <Link
               to={href}
               className={`flex rounded-lg px-4 py-2 text-text ${
                 isLast ? "" : "border-b"
-              } ${isActive ? "bg-brown-light text-white" : ""}`}
+              } ${isActive ? "bg-brown-dark text-white" : ""}`}
+              aria-label={`Открыть главу ${chapterName} ${chapterMeta ? `(${chapterMeta}` : ""} ${chapter.key}`}
             >
               <span className="font-bold">
                 {chapter.chapterName.split(" (")[0].trim()}
@@ -45,7 +53,11 @@ export default function ChapterList({
                 ({chapter.chapterName.split(" (")[1]?.trim() || ""}
               </span>
               {chapter.key}
-              <ChevronRight className="ml-auto" />
+              <ChevronRight
+                className="ml-auto"
+                aria-hidden="true"
+                focusable="false"
+              />
             </Link>
           </li>
         );

@@ -38,17 +38,26 @@ export default function DeleteConfirmation({
   };
 
   return (
-    <div className="space-y-6">
+    <div
+      className="space-y-6"
+      aria-describedby="modal-comment modal-description"
+      aria-busy={isLoading}
+    >
       <div>
-        <h2 className="text-lg font-bold">
+        <h2 id="modal-title" className="text-lg font-bold">
           Вы действительно хотите удалить комментарий?
         </h2>
-        <span
+        <p
+          id="modal-comment"
           className="inline-block max-w-[300px] truncate font-normal italic"
           title={comment.text}
         >
           {comment.text}
-        </span>
+        </p>
+        <p id="modal-description" className="sr-only">
+          Подтвердите удаление комментария. Кнопка отмены закроет модальное
+          окно.
+        </p>
       </div>
 
       <div className="flex items-center justify-between">
@@ -62,7 +71,11 @@ export default function DeleteConfirmation({
         >
           {isLoading ? (
             <>
-              <LoaderCircle className="mr-2 h-5 w-5 animate-spin text-white" />
+              <LoaderCircle
+                className="mr-2 h-5 w-5 animate-spin text-white"
+                aria-hidden="true"
+                focusable="false"
+              />
               Удаление...
             </>
           ) : (

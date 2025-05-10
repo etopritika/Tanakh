@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
 import AddToHomepageControls from "@/components/VersesPage/AddToHomepageControls";
-import AppPagination from "@/components/VersesPage/AppPagination";
 import CopyControls from "@/components/VersesPage/CopyControls";
 import { NoVerses } from "@/components/VersesPage/NoVerses";
 import VerseList from "@/components/VersesPage/VerseList";
+import VersePagination from "@/components/VersesPage/VersePagination";
 import { toast } from "@/hooks/use-toast";
 import {
   fetchCommentsByBook,
@@ -117,8 +117,12 @@ export default function VersesPage() {
   if (state.isLoading) {
     return (
       <section className="flex h-full items-center justify-center py-6">
-        <div className="flex space-x-2">
-          <LoaderCircle className="animate-spin" />
+        <div className="flex space-x-2" role="status">
+          <LoaderCircle
+            className="animate-spin"
+            aria-hidden="true"
+            focusable="false"
+          />
           <p>Загрузка стихов...</p>
         </div>
       </section>
@@ -130,8 +134,13 @@ export default function VersesPage() {
   }
 
   return (
-    <section className="relative flex flex-col justify-between space-y-4 py-2">
-      <AppPagination
+    <section
+      className="relative flex flex-col justify-between space-y-4 py-2"
+      aria-labelledby="chapter-heading"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <VersePagination
         currentPage={page}
         subPage={subPage}
         chapters={state.chapters}
@@ -139,16 +148,18 @@ export default function VersesPage() {
         bookName={bookName || ""}
       />
       <div className="space-y-2 pb-8">
-        <h1>
-          <strong>{fullChapterName.main}</strong>
+        <h1 id="chapter-heading">
+          <b>{fullChapterName.main}</b>
           {fullChapterName.comment && (
             <span> ({fullChapterName.comment})</span>
           )}{" "}
-          {fullChapterName.id}
+          <span aria-label={`Номер главы: ${fullChapterName.id}`}>
+            {fullChapterName.id}
+          </span>
         </h1>
         <VerseList verses={state.verses} />
       </div>
-      <AppPagination
+      <VersePagination
         currentPage={page}
         subPage={subPage}
         chapters={state.chapters}

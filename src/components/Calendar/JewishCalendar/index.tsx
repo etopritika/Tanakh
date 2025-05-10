@@ -44,7 +44,6 @@ export default function JewishCalendar({
     getJewishMonthData(selectedDate);
 
   const months = getMonthsByLeapYear(year);
-
   const currentMonthIdx = months.findIndex((m) => isSameMonth(m, monthName));
 
   const prevMonth = () => {
@@ -101,78 +100,92 @@ export default function JewishCalendar({
   };
 
   return (
-    <div className="space-y-4 pb-4">
+    <section
+      aria-labelledby="jewish-calendar-heading"
+      className="space-y-4 pb-4"
+    >
       <nav
-        aria-label="Month navigation"
+        aria-label="Навигация по календарю"
         className="space-y-4 md:flex md:flex-row-reverse md:justify-end md:space-y-0 md:py-2"
       >
         <YearPicker selectedDate={selectedDate} onDateSelect={onDateSelect} />
         <div className="flex w-full items-center justify-between md:w-3/5">
-          <Button onClick={prevMonth}>
-            <ChevronLeft />
+          <Button onClick={prevMonth} aria-label="Предыдущий месяц">
+            <ChevronLeft aria-hidden="true" focusable="false" />
           </Button>
 
-          <div className="text-lg font-semibold">
+          <h3 id="jewish-calendar-heading" className="text-lg font-semibold">
             {monthNameRu} {year}
-          </div>
+          </h3>
 
-          <Button onClick={nextMonth}>
-            <ChevronRight />
+          <Button onClick={nextMonth} aria-label="Следующий месяц">
+            <ChevronRight aria-hidden="true" focusable="false" />
           </Button>
         </div>
       </nav>
+
       <div className="space-y-4 md:flex md:space-y-0">
-        <div className="grid grid-cols-7 gap-1 md:w-3/5">
-          {weekDays.map((day) => (
-            <div key={day} className="text-center font-medium">
-              {day}
-            </div>
-          ))}
-
-          {Array(firstDayOfWeek)
-            .fill(null)
-            .map((_, idx) => (
-              <div key={`empty-${idx}`} />
+        <div className="md:w-3/5">
+          <ul
+            className="grid grid-cols-7 gap-1 text-center font-medium"
+            aria-hidden="true"
+          >
+            {weekDays.map((day) => (
+              <li key={day}>{day}</li>
             ))}
+          </ul>
 
-          {days.map((dayNum) => {
-            const isTodayJewish =
-              dayNum === todayJewish.day &&
-              isSameMonth(monthName, todayJewish.monthName) &&
-              year === todayJewish.year;
+          <ol
+            className="grid grid-cols-7 gap-1"
+            aria-label={`Еврейский календарь на ${monthNameRu} ${year}`}
+          >
+            {Array(firstDayOfWeek)
+              .fill(null)
+              .map((_, idx) => (
+                <li key={`empty-${idx}`} aria-hidden="true" />
+              ))}
 
-            const isSelected = dayNum === selectedDay;
+            {days.map((dayNum) => {
+              const isTodayJewish =
+                dayNum === todayJewish.day &&
+                isSameMonth(monthName, todayJewish.monthName) &&
+                year === todayJewish.year;
 
-            const monthEnum =
-              JewishMonth[
-                normalizeMonth(monthName) as keyof typeof JewishMonth
-              ];
+              const isSelected = dayNum === selectedDay;
 
-            const gregDate = toGregorianDate({
-              year,
-              monthName: monthEnum,
-              day: dayNum,
-            });
+              const monthEnum =
+                JewishMonth[
+                  normalizeMonth(monthName) as keyof typeof JewishMonth
+                ];
 
-            return (
-              <JewishCalendarDay
-                key={dayNum}
-                year={year}
-                month={monthName}
-                day={dayNum}
-                gregorianDate={new Date(gregDate)}
-                isToday={isTodayJewish}
-                isSelected={isSelected}
-                onSelect={onDateSelect}
-              />
-            );
-          })}
+              const gregDate = toGregorianDate({
+                year,
+                monthName: monthEnum,
+                day: dayNum,
+              });
+
+              return (
+                <li key={dayNum}>
+                  <JewishCalendarDay
+                    year={year}
+                    month={monthName}
+                    day={dayNum}
+                    gregorianDate={new Date(gregDate)}
+                    isToday={isTodayJewish}
+                    isSelected={isSelected}
+                    onSelect={onDateSelect}
+                  />
+                </li>
+              );
+            })}
+          </ol>
         </div>
+
         <div className="flex flex-col space-y-4 md:mx-auto md:w-2/5 md:px-3">
           <GoToTodayButton onClick={() => onDateSelect(new Date())} />
           <HolidayCard />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -46,15 +46,24 @@ export default function AddToHomepageControls() {
   };
 
   return (
-    <div className="fixed bottom-4 z-50 flex w-[calc(100%-16px)] justify-center sm:w-[calc(100%-32px)] lg:left-80 lg:w-[calc(100%-320px)]">
-      <div className="flex w-full max-w-sm justify-between sm:max-w-md">
+    <div
+      role="region"
+      aria-busy={isLoading}
+      aria-label="Управление добавлением стихов на главную"
+      className="fixed bottom-4 z-50 flex w-[calc(100%-16px)] justify-center sm:w-[calc(100%-32px)] lg:left-80 lg:w-[calc(100%-320px)]"
+    >
+      <div
+        className="flex w-full max-w-sm justify-between sm:max-w-md"
+        role="group"
+      >
         <Button
           variant="outline"
           onClick={cancelSelection}
           className="bg-brown-dark text-white"
           size="sm"
+          aria-label="Отменить добавление стихов"
         >
-          <CopyX /> Отмена
+          <CopyX aria-hidden="true" focusable="false" /> Отмена
         </Button>
         <Button
           variant="outline"
@@ -62,8 +71,9 @@ export default function AddToHomepageControls() {
           className="bg-brown-dark text-white"
           disabled={!hasSelectedVerses || isLoading}
           size="sm"
+          aria-label={`Добавить выбранные стихи на главную (${Object.keys(verses).length})`}
         >
-          <Plus className="mr-1" />
+          <Plus className="mr-1" aria-hidden="true" focusable="false" />
           {isLoading
             ? "Добавление..."
             : `Добавить (${Object.keys(verses).length})`}

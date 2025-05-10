@@ -1,5 +1,7 @@
 import { ChevronLeft } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+
+import { Button } from "../ui/button";
 
 export default function SearchBackLink() {
   const location = useLocation();
@@ -8,13 +10,20 @@ export default function SearchBackLink() {
     return null;
   }
 
+  const handleGoBack = () => {
+    window.history.back();
+  };
+
   return (
-    <Link
-      to={"#"}
-      onClick={() => window.history.back()}
+    <Button
+      type="button"
+      onClick={handleGoBack}
+      variant="ghost"
       className="flex items-center px-4 py-2 text-text"
+      aria-label="Вернуться на предыдущую страницу"
     >
-      <ChevronLeft /> Назад
-    </Link>
+      <ChevronLeft aria-hidden="true" focusable="false" />
+      Назад
+    </Button>
   );
 }

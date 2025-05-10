@@ -4,8 +4,8 @@ import {
   getAuth,
   createUserWithEmailAndPassword,
   sendEmailVerification,
-  User,
   updateProfile,
+  User,
 } from "firebase/auth";
 import { LoaderCircle } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -51,25 +51,24 @@ export default function RegisterForm() {
   });
 
   useEffect(() => {
+    if (!user) return;
     const checkVerification = async () => {
-      if (user) {
-        await user.reload();
-        if (user.emailVerified) {
-          localStorage.setItem("token", await user.getIdToken());
-          localStorage.setItem("uid", user.uid);
-          navigate("/", { replace: true });
-        }
+      await user.reload();
+      if (user.emailVerified) {
+        localStorage.setItem("token", await user.getIdToken());
+        localStorage.setItem("uid", user.uid);
+        navigate("/", { replace: true });
       }
     };
-    if (user) {
-      const interval = setInterval(checkVerification, 5000);
-      return () => clearInterval(interval);
-    }
+    const interval = setInterval(checkVerification, 5000);
+    return () => clearInterval(interval);
   }, [user, navigate]);
 
   const onSubmit = async (values: RegisterFormValues) => {
+    if (isLoading) return;
     setIsLoading(true);
     const auth = getAuth(app);
+
     try {
       const userCredential = await createUserWithEmailAndPassword(
         auth,
@@ -80,8 +79,8 @@ export default function RegisterForm() {
       await updateProfile(userCredential.user, {
         displayName: values.name,
       });
-      setUserName(values.name);
 
+      setUserName(values.name);
       await sendEmailVerification(userCredential.user);
       setUser(userCredential.user);
       setEmailSent(true);
@@ -92,7 +91,7 @@ export default function RegisterForm() {
         });
       } else {
         form.setError("email", {
-          message: "Неизвестная ошибка, попробуйте еще раз позже.",
+          message: "Неизвестная ошибка, попробуйте позже.",
         });
       }
     } finally {
@@ -103,12 +102,16 @@ export default function RegisterForm() {
   return (
     <Form {...form}>
       {emailSent ? (
-        <div className="text-center text-green-600">
+        <p className="text-center text-green-600" role="alert">
           Пожалуйста, подтвердите ваш email. Проверьте почту и следуйте
           инструкциям.
-        </div>
+        </p>
       ) : (
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="space-y-4"
+          aria-busy={isLoading}
+        >
           <FormField
             control={form.control}
             name="name"
@@ -117,12 +120,19 @@ export default function RegisterForm() {
                 <FormLabel>Имя</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="Введите ваше имя"
                     {...field}
+                    placeholder="Введите ваше имя"
                     className="bg-white"
+                    autoComplete="name"
+                    aria-invalid={!!form.formState.errors.name}
+                    aria-describedby="name-error"
                   />
                 </FormControl>
-                <FormMessage className="text-danger" />
+                <FormMessage
+                  id="name-error"
+                  className="text-danger"
+                  role="alert"
+                />
               </FormItem>
             )}
           />
@@ -134,12 +144,19 @@ export default function RegisterForm() {
                 <FormLabel>Email</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="example@mail.com"
                     {...field}
+                    placeholder="example@mail.com"
                     className="bg-white"
+                    autoComplete="email"
+                    aria-invalid={!!form.formState.errors.email}
+                    aria-describedby="email-error"
                   />
                 </FormControl>
-                <FormMessage className="text-danger" />
+                <FormMessage
+                  id="email-error"
+                  className="text-danger"
+                  role="alert"
+                />
               </FormItem>
             )}
           />
@@ -152,12 +169,19 @@ export default function RegisterForm() {
                 <FormControl>
                   <Input
                     type="password"
-                    placeholder="Введите ваш пароль"
                     {...field}
+                    placeholder="Введите ваш пароль"
                     className="bg-white"
+                    autoComplete="new-password"
+                    aria-invalid={!!form.formState.errors.password}
+                    aria-describedby="password-error"
                   />
                 </FormControl>
-                <FormMessage className="text-danger" />
+                <FormMessage
+                  id="password-error"
+                  className="text-danger"
+                  role="alert"
+                />
               </FormItem>
             )}
           />
@@ -170,19 +194,27 @@ export default function RegisterForm() {
                 <FormControl>
                   <Input
                     type="password"
-                    placeholder="Повторите ваш пароль"
                     {...field}
+                    placeholder="Повторите ваш пароль"
                     className="bg-white"
+                    autoComplete="new-password"
+                    aria-invalid={!!form.formState.errors.confirmPassword}
+                    aria-describedby="confirm-password-error"
                   />
                 </FormControl>
-                <FormMessage className="text-danger" />
+                <FormMessage
+                  id="confirm-password-error"
+                  className="text-danger"
+                  role="alert"
+                />
               </FormItem>
             )}
           />
           <Button
             type="submit"
-            className="w-full bg-brown-light text-white"
+            className="w-full bg-brown-dark text-white"
             disabled={isLoading}
+            aria-label="Зарегистрироваться"
           >
             Зарегистрироваться{" "}
             {isLoading && (
@@ -190,21 +222,24 @@ export default function RegisterForm() {
             )}
           </Button>
           <Button
+            type="button"
             onClick={(event) =>
               signInWithGoogle(event, form.setError, navigate)
             }
             variant="outline"
             className="mt-2 h-auto w-full whitespace-normal bg-white"
+            aria-label="Зарегистрироваться через Google"
           >
-            Зарегистрироваться через Google
-            <GoogleIcon />
+            Зарегистрироваться через Google <GoogleIcon />
           </Button>
           <Button
+            type="button"
             onClick={(event) =>
               signInWithFacebook(event, form.setError, navigate)
             }
             variant="outline"
             className="mt-2 h-auto w-full whitespace-normal bg-white"
+            aria-label="Зарегистрироваться через Facebook"
           >
             Зарегистрироваться через Facebook <FacebookIcon />
           </Button>

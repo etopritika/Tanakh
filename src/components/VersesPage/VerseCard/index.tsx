@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useState } from "react";
 
-import ActionDropdown from "./actions/ActionDropdown";
 import CommentsDropdown from "./actions/CommentsDropdown";
+import ContextMenu from "./actions/ContextMenu";
 import { Card, CardContent, CardFooter } from "../../ui/card";
 
-import { Verse } from "@/lib/types";
+import { highlightColorNameMap, Verse } from "@/lib/types";
 import { useFirestoreStore } from "@/store/use-firestore-store";
 import { useSelectionStore } from "@/store/use-select-store";
 
@@ -15,9 +15,8 @@ export default function VerseCard({ verse }: { verse: Verse }) {
   const selectionId = `${verse.id_book}-${verse.id_chapter}-${verse.id_chapter_two || 1}-${verse.poemNumber}`;
 
   const verseMetadata = useFirestoreStore((state) => state.verses[verseId]);
-  const verseComments = Object.values(
-    useFirestoreStore((state) => state.comments[verseId]) ?? {},
-  );
+  const commentsMap = useFirestoreStore((state) => state.comments);
+  const verseComments = Object.values(commentsMap[verseId] ?? {});
   const isCommentsLoaded = useFirestoreStore((state) => state.isCommentsLoaded);
 
   const docId = verseMetadata?.id;
@@ -67,24 +66,37 @@ export default function VerseCard({ verse }: { verse: Verse }) {
         className={`bg-white shadow-md ${isSelected ? "bg-muted" : ""} ${
           isHighlighted ? "animate-pulse bg-muted text-white" : ""
         }`}
+        role={isSelecting ? "checkbox" : "group"}
+        aria-checked={isSelecting ? isSelected : undefined}
+        aria-labelledby={verseId}
+        aria-describedby={hasComments ? `verse-comments-${verseId}` : undefined}
+        aria-current={isHighlighted ? "location" : undefined}
       >
         <CardContent
-          className={`flex space-x-1 p-3 pl-1.5 text-base sm:space-x-2 sm:p-6 sm:text-lg ${
+          className={`flex p-3 pl-1.5 text-base sm:p-6 sm:text-lg ${
             hasComments ? "pb-0 sm:pb-0" : ""
           } `}
+          id={verseId}
         >
-          <strong className="text-xs leading-5 sm:text-sm">
-            {verse.poemNumber}
-          </strong>
-
-          <ActionDropdown
+          <ContextMenu
             verse={verse}
             onCopy={handleCopy}
             highlightColor={highlightColor}
             docId={docId}
           >
+            <p
+              className="text-xs font-bold leading-5 sm:text-sm"
+              aria-label={`Номер стиха: ${verse.poemNumber}`}
+            >
+              {verse.poemNumber}
+            </p>
             <div
-              className={`flex cursor-pointer flex-col space-y-3 ${isSelecting ? "pointer-events-none" : ""}`}
+              className={`flex flex-col space-y-3 ${isSelecting ? "pointer-events-none" : ""}`}
+              aria-describedby={
+                highlightColor !== "transparent"
+                  ? `highlight-color-${verseId}`
+                  : undefined
+              }
             >
               <p
                 style={{ backgroundColor: highlightColor }}
@@ -102,11 +114,16 @@ export default function VerseCard({ verse }: { verse: Verse }) {
                   {verse.verse_ivrit}
                 </p>
               )}
+              {highlightColor !== "transparent" && (
+                <span id={`highlight-color-${verseId}`} className="sr-only">
+                  Стих помечен {highlightColorNameMap[highlightColor]} цветом
+                </span>
+              )}
             </div>
-          </ActionDropdown>
+          </ContextMenu>
         </CardContent>
         {hasComments && (
-          <CardFooter className="p-3 sm:p-6">
+          <CardFooter className="p-3 sm:p-6" id={`verse-comments-${verseId}`}>
             <CommentsDropdown verse={verse} />
           </CardFooter>
         )}
