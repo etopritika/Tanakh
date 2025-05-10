@@ -53,8 +53,8 @@ export default function CalendarDay({
 
   const classes = clsx(
     "w-full relative flex flex-col h-11 md:h-13 justify-center items-center rounded-md border cursor-pointer transition-all focus:outline focus:outline-2 focus:outline-black",
-    isSelected && "bg-brown-dark text-white font-bold",
-    isToday && "underline font-bold bg-brown-light text-white",
+    isSelected && "bg-brown-light text-white font-bold",
+    isToday && "underline font-bold bg-brown-dark text-white",
   );
 
   const dotClasses = clsx(
