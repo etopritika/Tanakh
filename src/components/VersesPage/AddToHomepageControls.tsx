@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 
 import { Button } from "../ui/button";
 
-import { toast } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast";
 import { addVerseToHomepage } from "@/lib/api/fetchFirestoreData";
 import { useSelectionStore } from "@/store/use-select-store";
 
 export default function AddToHomepageControls() {
+  const { toast, dismiss } = useToast();
   const { isSelecting, mode, verses, cancelSelection } = useSelectionStore();
   const [isLoading, setIsLoading] = useState(false);
   const hasSelectedVerses = Object.keys(verses).length > 0;
@@ -21,15 +22,20 @@ export default function AddToHomepageControls() {
     try {
       await addVerseToHomepage(verses);
 
-      toast({
+      const { id } = toast({
         title: "Успешно",
         description: (
-          <Link to="/" className="flex items-center gap-2 underline">
+          <Link
+            to="/"
+            className="flex items-center gap-2 underline"
+            onClick={() => dismiss(id)}
+          >
             Стихи добавлены на главную. <ChevronsRight />
           </Link>
         ),
         variant: "success",
       });
+
       cancelSelection();
     } catch (error: unknown) {
       toast({
