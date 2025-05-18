@@ -53,17 +53,26 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       workbox: {
-        globPatterns: ["**/*.{html,css,js,ico,png,svg}"],
-        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        globPatterns: ["**/*.{html,css,js,json,ico,png,svg}", "data/*.json"],
+        runtimeCaching: [
+          {
+            urlPattern: /\/data\/.*\.json$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "book-json-cache",
+              expiration: {
+                maxEntries: 20,
+                maxAgeSeconds: 60 * 60 * 24 * 30,
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+        ],
       },
       manifest,
     }),
-    // visualizer({
-    //   open: true,
-    //   filename: "bundle-visualization.html",
-    //   gzipSize: true,
-    //   brotliSize: true,
-    // }),
   ],
   resolve: {
     alias: {

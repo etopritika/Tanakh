@@ -1,7 +1,8 @@
 import debounce from "lodash.debounce";
 import { useEffect } from "react";
 
-import { booksMap, SearchFormData, Verse } from "@/lib/types";
+import { fetchAllVerses } from "@/lib/api/fetchAllVerses";
+import { SearchFormData, Verse } from "@/lib/types";
 import { useSearchStore } from "@/store/use-search-store";
 
 export const useDebouncedSearch = () => {
@@ -10,10 +11,8 @@ export const useDebouncedSearch = () => {
   const debouncedSearch = debounce(async (data: SearchFormData) => {
     setQuery(data.query);
 
-    const sectionsToSearch = Object.values(booksMap).flat();
-
     try {
-      const allVerses = sectionsToSearch.flat();
+      const allVerses: Verse[] = await fetchAllVerses();
       const results = allVerses.filter(
         (verse: Verse) =>
           verse.verse.toLowerCase().includes(data.query.toLowerCase()) ||

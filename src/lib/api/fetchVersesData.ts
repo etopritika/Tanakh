@@ -1,7 +1,7 @@
 import { Chapter, Verse } from "../types";
 
 const errorMessages: Record<string, string> = {
-  MODULE_NOT_FOUND: "Данные для указанной книги не найдены.",
+  BOOK_NOT_FOUND: "Данные для указанной книги не найдены.",
   CHAPTER_NOT_FOUND: "Указанная глава не найдена.",
   UNKNOWN_ERROR: "Произошла неизвестная ошибка.",
 };
@@ -11,8 +11,8 @@ const getErrorMessage = (error: unknown): string => {
     return errorMessages.UNKNOWN_ERROR;
   }
 
-  if (error.message.includes("Unknown variable")) {
-    return errorMessages.MODULE_NOT_FOUND;
+  if (error.message.includes("404")) {
+    return errorMessages.BOOK_NOT_FOUND;
   }
 
   if (error.message.includes("Указанная")) {
@@ -33,9 +33,9 @@ export const fetchVersesData = async (
   error: string | null;
 }> => {
   try {
-    const { default: bookData } = await import(
-      `../../data/${section}/obj-${book}.ts`
-    );
+    const res = await fetch(`/data/${book}.json`);
+    if (!res.ok) throw new Error(`${res.status}`);
+    const bookData: Verse[] = await res.json();
 
     const { default: chapters } = await import(
       `../book-chapters/${section}/${book}-chapters.ts`
