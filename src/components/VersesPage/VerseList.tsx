@@ -4,7 +4,11 @@ import { Verse } from "@/lib/types";
 
 export default function VerseList({ verses }: { verses: Verse[] }) {
   if (!verses.length) {
-    return <p className="text-center text-danger">Список стихов пуст.</p>;
+    return (
+      <p className="text-center text-danger" role="status">
+        Список стихов пуст.
+      </p>
+    );
   }
   return (
     <ol className="space-y-4">

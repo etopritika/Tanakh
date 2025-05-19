@@ -22,8 +22,10 @@ export default function SearchPage() {
   }, [selectedIndex]);
 
   return (
-    <section className="space-y-4 py-6">
-      <h1 className="text-xl font-bold">Поиск стихов</h1>
+    <section className="space-y-4 py-6" aria-labelledby="search-page-title">
+      <h1 id="search-page-title" className="text-xl font-bold">
+        Поиск стихов
+      </h1>
       <SearchForm />
       <SearchList />
     </section>

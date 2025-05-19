@@ -22,6 +22,7 @@ export default function DesktopSidebar() {
   return (
     <aside
       className={`left-0 top-0 z-50 hidden h-screen w-80 bg-white p-4 lg:fixed lg:block`}
+      aria-label="Боковое меню навигации"
     >
       <nav className="flex h-full flex-col justify-between rounded-lg">
         <div>
@@ -69,8 +70,15 @@ export default function DesktopSidebar() {
               className={`flex items-center border-b py-4 text-sm ${
                 pathname === lastPathname ? "font-bold" : ""
               }`}
+              aria-label={`Перейти к последней прочитанной главе: ${chapterName}`}
             >
-              <BookMarked className="mr-2" size={16} /> {chapterName}
+              <BookMarked
+                className="mr-2"
+                size={16}
+                aria-hidden="true"
+                focusable="false"
+              />{" "}
+              {chapterName}
             </Link>
           )}
         </div>

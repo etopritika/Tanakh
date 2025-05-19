@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 
 import { Button } from "../ui/button";
 
-import { toast } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast";
 import { addVerseToHomepage } from "@/lib/api/fetchFirestoreData";
 import { useSelectionStore } from "@/store/use-select-store";
 
 export default function AddToHomepageControls() {
+  const { toast, dismiss } = useToast();
   const { isSelecting, mode, verses, cancelSelection } = useSelectionStore();
   const [isLoading, setIsLoading] = useState(false);
   const hasSelectedVerses = Object.keys(verses).length > 0;
@@ -21,15 +22,20 @@ export default function AddToHomepageControls() {
     try {
       await addVerseToHomepage(verses);
 
-      toast({
+      const { id } = toast({
         title: "Успешно",
         description: (
-          <Link to="/" className="flex items-center gap-2 underline">
+          <Link
+            to="/"
+            className="flex items-center gap-2 underline"
+            onClick={() => dismiss(id)}
+          >
             Стихи добавлены на главную. <ChevronsRight />
           </Link>
         ),
         variant: "success",
       });
+
       cancelSelection();
     } catch (error: unknown) {
       toast({
@@ -46,15 +52,24 @@ export default function AddToHomepageControls() {
   };
 
   return (
-    <div className="fixed bottom-4 z-50 flex w-[calc(100%-16px)] justify-center sm:w-[calc(100%-32px)] lg:left-80 lg:w-[calc(100%-320px)]">
-      <div className="flex w-full max-w-sm justify-between sm:max-w-md">
+    <div
+      role="region"
+      aria-busy={isLoading}
+      aria-label="Управление добавлением стихов на главную"
+      className="fixed bottom-4 z-50 flex w-[calc(100%-16px)] justify-center sm:w-[calc(100%-32px)] lg:left-80 lg:w-[calc(100%-320px)]"
+    >
+      <div
+        className="flex w-full max-w-sm justify-between sm:max-w-md"
+        role="group"
+      >
         <Button
           variant="outline"
           onClick={cancelSelection}
           className="bg-brown-dark text-white"
           size="sm"
+          aria-label="Отменить добавление стихов"
         >
-          <CopyX /> Отмена
+          <CopyX aria-hidden="true" focusable="false" /> Отмена
         </Button>
         <Button
           variant="outline"
@@ -62,8 +77,9 @@ export default function AddToHomepageControls() {
           className="bg-brown-dark text-white"
           disabled={!hasSelectedVerses || isLoading}
           size="sm"
+          aria-label={`Добавить выбранные стихи на главную (${Object.keys(verses).length})`}
         >
-          <Plus className="mr-1" />
+          <Plus className="mr-1" aria-hidden="true" focusable="false" />
           {isLoading
             ? "Добавление..."
             : `Добавить (${Object.keys(verses).length})`}

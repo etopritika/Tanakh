@@ -28,8 +28,12 @@ function App() {
         <Suspense
           fallback={
             <section className="flex h-full items-center justify-center py-6">
-              <div className="flex space-x-2">
-                <LoaderCircle className="animate-spin" />
+              <div className="flex space-x-2" role="status">
+                <LoaderCircle
+                  className="animate-spin"
+                  aria-hidden="true"
+                  focusable="false"
+                />
                 <p>Загрузка страницы...</p>
               </div>
             </section>
@@ -98,7 +102,7 @@ function App() {
                 </PrivateRoute>
               }
             />
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
       </Layout>

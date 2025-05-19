@@ -31,7 +31,8 @@ export default function Logout() {
     <Button
       onClick={handleLogout}
       variant="outline"
-      className="border-none bg-brown-light text-white"
+      aria-label="Выйти из аккаунта"
+      className="border-none bg-brown-dark text-white"
       size="sm"
     >
       Выйти

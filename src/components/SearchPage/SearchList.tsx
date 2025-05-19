@@ -10,22 +10,32 @@ export default function SearchList() {
   } ${storeResults.length}`;
 
   if (error) {
-    return <p className="text-danger">{error}</p>;
+    return (
+      <p role="alert" className="text-danger">
+        {error}
+      </p>
+    );
   }
 
   if (storeResults.length === 0 && isSearchComplete) {
     return (
-      <div className="flex justify-center">
-        <span>Нет результатов.</span>
+      <div className="flex justify-center" role="status">
+        <p>Нет результатов.</p>
       </div>
     );
   }
 
   return (
-    <section>
-      {isSearchComplete && (
-        <span className="text-gray-500">{resultsMessage}</span>
-      )}
+    <section
+      aria-labelledby="search-results-heading"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <h2 id="search-results-heading" className="sr-only">
+        Результаты поиска
+      </h2>
+
+      {isSearchComplete && <p className="text-gray-500">{resultsMessage}</p>}
       <ul className="mt-1 space-y-4">
         {storeResults.map((verse, index) => (
           <SearchCard

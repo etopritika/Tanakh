@@ -111,11 +111,11 @@ export const holidayTitleMap: { pattern: RegExp; translation: string }[] = [
     pattern: /^Parashat Tazria-Metzora$/,
     translation: "Парашат Тазрия-Мецора",
   },
-  { pattern: /^Parashat Achrei Mot$/, translation: "Парашат Ахрей Мот" },
+  { pattern: /^Parashat Achrei Mot$/, translation: "Парашат Ахарей Мот" },
   { pattern: /^Parashat Kedoshim$/, translation: "Парашат Кдошим" },
   {
     pattern: /^Parashat Achrei Mot-Kedoshim$/,
-    translation: "Парашат Ахрей Мот-Кдошим",
+    translation: "Парашат Ахарей Мот-Кдошим",
   },
 
   { pattern: /^Parashat Emor$/, translation: "Парашат Эмор" },

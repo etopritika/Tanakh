@@ -22,30 +22,37 @@ export default function HomepageVerseCard({ verse }: { verse: Verse }) {
     );
   };
 
+  const labelId = `verse-${verse.poemNumber}`;
+
   return (
-    <li>
-      <article>
-        <Card className="relative bg-white">
-          {isAdmin && (
-            <button
-              className="absolute right-0 top-0 p-2 text-gray-500 hover:text-gray-800"
-              onClick={handleOpenDeleteModal}
+    <li aria-labelledby={labelId}>
+      <Card className="relative bg-white">
+        {isAdmin && (
+          <button
+            className="absolute right-0 top-0 p-2 text-gray-500 hover:text-gray-800"
+            onClick={handleOpenDeleteModal}
+            aria-label={`Удалить стих номер ${verse.poemNumber}`}
+          >
+            <X aria-hidden="true" focusable="false" />
+          </button>
+        )}
+        <CardContent className="space-y-3 p-4" id={labelId}>
+          <p className="pr-8">
+            <span
+              className="font-bold"
+              aria-label={`Номер стиха: ${verse.poemNumber}`}
             >
-              <X />
-            </button>
-          )}
-          <CardContent className="space-y-3 p-4">
-            <p className="pr-8">
-              <strong>{verse.poemNumber}</strong> {verse.verse}
+              {verse.poemNumber}
+            </span>{" "}
+            {verse.verse}
+          </p>
+          {verse.verse_ivrit && (
+            <p lang="he" dir="rtl" className="text-right">
+              {verse.verse_ivrit}
             </p>
-            {verse.verse_ivrit && (
-              <p lang="he" dir="rtl" className="text-right">
-                {verse.verse_ivrit}
-              </p>
-            )}
-          </CardContent>
-        </Card>
-      </article>
+          )}
+        </CardContent>
+      </Card>
     </li>
   );
 }

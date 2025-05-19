@@ -27,12 +27,16 @@ export default function UniversalCalendar() {
     <div className="h-full space-y-4 p-4 pb-10 sm:pb-4">
       <Tabs defaultValue="gregorian" className="flex h-full flex-col">
         <header>
-          <nav aria-label="Calendar type navigation" className="space-y-2">
-            <TabsList className="grid w-full grid-cols-3 bg-brown-light text-white">
+          <nav
+            aria-label="Переключение разделов календаря"
+            className="space-y-2"
+          >
+            <TabsList className="grid w-full grid-cols-3 bg-brown-dark text-white">
               <TabsTrigger
                 value="gregorian"
                 className="flex w-full items-center justify-center"
                 title="Григорианский"
+                aria-label="Григорианский календарь"
               >
                 <span className="block max-w-full truncate whitespace-nowrap">
                   Григорианский
@@ -42,6 +46,7 @@ export default function UniversalCalendar() {
                 value="jewish"
                 className="flex w-full items-center justify-center"
                 title="Иудейский"
+                aria-label="Иудейский календарь"
               >
                 <span className="block max-w-full truncate whitespace-nowrap">
                   Иудейский
@@ -51,6 +56,7 @@ export default function UniversalCalendar() {
                 value="shabbat"
                 className="flex w-full items-center justify-center"
                 title="Шаббат"
+                aria-label="Расписание шаббата"
               >
                 <span className="block max-w-full truncate whitespace-nowrap">
                   Шаббат

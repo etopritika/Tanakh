@@ -21,8 +21,9 @@ export default function BackToChaptersLink() {
     <Link
       to={backToChaptersPath}
       className="flex items-center px-4 py-2 text-text"
+      aria-label={`Вернуться к списку глав книги: ${chapterName}`}
     >
-      <ChevronLeft className="mr-2" />
+      <ChevronLeft className="mr-2" aria-hidden="true" focusable="false" />
       {chapterName} {chapterKey}
     </Link>
   );
