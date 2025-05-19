@@ -49,20 +49,30 @@ const manifest: Partial<ManifestOptions> | false = {
 export default defineConfig({
   plugins: [
     react(),
+    // visualizer({ open: true }),
     VitePWA({
       registerType: "autoUpdate",
       workbox: {
-        globPatterns: ["**/*.{html,css,js,ico,png,svg}"],
-        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        globPatterns: ["**/*.{html,css,js,json,ico,png,svg}", "data/*.json"],
+        runtimeCaching: [
+          {
+            urlPattern: /\/data\/.*\.json$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "book-json-cache",
+              expiration: {
+                maxEntries: 20,
+                maxAgeSeconds: 60 * 60 * 24 * 30,
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+        ],
       },
       manifest,
     }),
-    // visualizer({
-    //   open: true,
-    //   filename: "bundle-visualization.html",
-    //   gzipSize: true,
-    //   brotliSize: true,
-    // }),
   ],
   resolve: {
     alias: {
@@ -75,6 +85,11 @@ export default defineConfig({
         manualChunks(id) {
           if (id.includes("node_modules")) {
             if (id.includes("firebase")) return "firebase";
+            if (id.includes("react-router-dom")) return "router";
+            if (id.includes("@radix-ui")) return "radix";
+            if (id.includes("zod")) return "zod";
+            if (id.includes("date-fns")) return "date";
+            if (id.includes("zustand")) return "zustand";
             return "vendor";
           }
         },

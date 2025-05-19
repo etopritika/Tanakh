@@ -1,8 +1,5 @@
 import { z } from "zod";
 
-import yehoshua from "@/data/neviim/obj-yehoshua";
-import { bemidbar, beresheet, dvarim, schmot, vaikra } from "@/data/tora";
-
 export enum SectionName {
   tora = "tora",
   neviim = "neviim",
@@ -15,9 +12,10 @@ export const sectionNameMap: Record<SectionName, string> = {
   [SectionName.ketuvim]: "Ктувим",
 };
 
-export const booksMap: Record<string, Verse[][]> = {
-  tora: [beresheet, schmot, vaikra, bemidbar, dvarim],
-  neviim: [yehoshua],
+export const booksMap: Record<SectionName, string[]> = {
+  tora: ["beresheet", "schmot", "vaikra", "bemidbar", "dvarim"],
+  neviim: ["yehoshua"],
+  ketuvim: [],
 };
 
 export const bookNameMap: Record<string, string> = {
