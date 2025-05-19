@@ -49,6 +49,7 @@ const manifest: Partial<ManifestOptions> | false = {
 export default defineConfig({
   plugins: [
     react(),
+    // visualizer({ open: true }),
     VitePWA({
       registerType: "autoUpdate",
       workbox: {
@@ -84,6 +85,11 @@ export default defineConfig({
         manualChunks(id) {
           if (id.includes("node_modules")) {
             if (id.includes("firebase")) return "firebase";
+            if (id.includes("react-router-dom")) return "router";
+            if (id.includes("@radix-ui")) return "radix";
+            if (id.includes("zod")) return "zod";
+            if (id.includes("date-fns")) return "date";
+            if (id.includes("zustand")) return "zustand";
             return "vendor";
           }
         },
