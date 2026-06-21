@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
 import { getFirebaseErrorMessage } from "./firebaseError";
+import { FACEBOOK_AUTH_UI_ENABLED } from "./auth-ui-flags";
 import { FacebookIcon, GoogleIcon } from "./icons";
 import { loginSchema } from "./schema";
 
@@ -158,17 +159,19 @@ export default function LoginForm() {
         >
           Войти через Google <GoogleIcon />
         </Button>
-        <Button
-          type="button"
-          onClick={(event) =>
-            signInWithFacebook(event, form.setError, navigate)
-          }
-          variant="outline"
-          className="mt-2 w-full bg-white"
-          aria-label="Войти через Facebook"
-        >
-          Войти через Facebook <FacebookIcon />
-        </Button>
+        {FACEBOOK_AUTH_UI_ENABLED && (
+          <Button
+            type="button"
+            onClick={(event) =>
+              signInWithFacebook(event, form.setError, navigate)
+            }
+            variant="outline"
+            className="mt-2 w-full bg-white"
+            aria-label="Войти через Facebook"
+          >
+            Войти через Facebook <FacebookIcon />
+          </Button>
+        )}
       </form>
     </Form>
   );
